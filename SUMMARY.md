@@ -1,13 +1,13 @@
 # Summary
 
-## Data Sources
-
-* [Introduction](README.md)
-
 ## Getting Started
 
 * Getting Started
   * Text search
+
+## Data Sources
+
+* [Introduction](README.md)
 
 ## FAQ
 
