@@ -1,0 +1,4 @@
+#### How does Open Targets distinguish variants from mutations?
+
+Variants are base differences observed in the human population \(e.g. 1000 Genomes, ExAC data\), whereas mutations are base changes that have been associated with a significant phenotypic change. Changes associated with a rare disease or cancer are referred as mutations.
+

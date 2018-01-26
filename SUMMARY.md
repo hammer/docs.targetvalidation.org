@@ -31,4 +31,5 @@
 * [Tissue specificity](faq/tissue-specificity.md)
 * [Bibliography](faq/bibliography.md)
 * [Tracking](faq/tracking.md)
+* [variants vs mutations](faq/variants-vs-mutations.md)
 
