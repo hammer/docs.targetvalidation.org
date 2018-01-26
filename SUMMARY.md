@@ -11,6 +11,7 @@
   * [Disease profile](getting-started/disease-profile.md)
   * [Filtering associations](getting-started/filtering-associations.md)
   * [API access](getting-started/api-access.md)
+* [Evidence](evidence.md)
 * [Scoring](scoring.md)
 * [How to cite](how-to-cite.md)
 * [Data Download](data-download.md)
