@@ -1,10 +1,10 @@
-# Getting started with a text search
+# Getting Started
 
-The search box is available on the[Open Targets Platform](https://www.targetvalidation.org/)homepage and at the top of every other page.
+The Open Targets Platform is a comprehensive and robust data integration for access to and visualisation of potential drug targets associated with disease. It brings together multiple data types and aims to assist users to identify and prioritise targets for further investigation.
 
-You can search for a disease name, a gene name \(or official symbol\) or a protein name \(or symbol\). You can also search for synonyms and abbreviations for both genes \(e.g. p53\) and diseases \(AD for Alzheimers disease\), provided these alternative names are listed in the original sources from which we get this data from, e.g. HGNC \(for genes\) and Experimental Factor Ontology \(for diseases and phenotypes\).
+A drug target can be a protein, protein complex or RNA molecule and it’s displayed by its gene name from the Human Gene Nomenclature Committee,[HGNC](http://www.genenames.org/). We integrate all the evidence to the target using[Ensembl stable IDs](http://www.ensembl.org/info/genome/stable_ids/index.html)and describe relationships between diseases by mapping them to[Experimental Factor Ontology](http://www.ebi.ac.uk/efo/)\(EFO\) terms.
 
-### Platform documentation {#frequently-asked-questions}
+The Platform supports workflows starting from a target or disease, and shows the available evidence for target – disease associations. Target and Disease profile pages showing specific information for both target \(e.g baseline expression\) and disease \(e.g. Disease Classification\) are also available.
 
 * [Getting started with a text search](http://www.targetvalidation.org/#getting_started)
 * [Diseases associated with a target](http://www.targetvalidation.org/#target_assoc)
@@ -18,11 +18,7 @@ You can search for a disease name, a gene name \(or official symbol\) or a prote
 * [How to cite us](http://www.targetvalidation.org/#citation)
 * [Connect with us](http://www.targetvalidation.org/#connect)
 
-The Open Targets Platform is a comprehensive and robust data integration for access to and visualisation of potential drug targets associated with disease. It brings together multiple data types and aims to assist users to identify and prioritise targets for further investigation.
 
-A drug target can be a protein, protein complex or RNA molecule and it’s displayed by its gene name from the Human Gene Nomenclature Committee,[HGNC](http://www.genenames.org/). We integrate all the evidence to the target using[Ensembl stable IDs](http://www.ensembl.org/info/genome/stable_ids/index.html)and describe relationships between diseases by mapping them to[Experimental Factor Ontology](http://www.ebi.ac.uk/efo/)\(EFO\) terms.
-
-The Platform supports workflows starting from a target or disease, and shows the available evidence for target – disease associations. Target and Disease profile pages showing specific information for both target \(e.g baseline expression\) and disease \(e.g. Disease Classification\) are also available.
 
 #### Getting started with a text search
 
