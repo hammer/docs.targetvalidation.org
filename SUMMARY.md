@@ -6,6 +6,8 @@
 * [Getting Started](getting-started.md)
   * [Text search](getting-started/text-search.md)
 * [scoring](scoring.md)
+* [How to cite](how-to-cite.md)
+* [Data Download](data-download.md)
 
 ## Data Sources
 
