@@ -1,6 +1,10 @@
 ### Scoring target-disease associations
 
-The Open Targets Platform allows you to prioritise targets based on the strength of their association with a disease. We assess the key factors that relate to the confidence in the target-disease association. We provide association scores to help you answering these questions:
+The Open Targets Platform allows you to prioritise targets based on the strength of their association with a disease.
+
+We allow for the prioritisation of targets by scoring target-disease associations based on our data sources. Our scoring system varies from 0 to 1, the latter represents the strongest association, and it’s calculated based on the confidence levels in the evidence.
+
+ We assess the key factors that relate to the confidence in the target-disease association. We provide association scores to help you answering these questions:
 
 * Which targets have the most evidence for association with a disease?
 * What is the relative weight of the evidence for different targets associated with a disease?
