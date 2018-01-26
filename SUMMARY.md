@@ -6,7 +6,7 @@
 * [Getting Started](getting-started.md)
   * [Text search](getting-started/text-search.md)
   * [Associated diseases](getting-started/associated-diseases.md)
-  * Associated targets
+  * [Associated targets](getting-started/associated-targets.md)
 * [scoring](scoring.md)
 * [How to cite](how-to-cite.md)
 * [Data Download](data-download.md)
