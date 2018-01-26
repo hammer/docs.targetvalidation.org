@@ -10,8 +10,7 @@
 ## Data Sources
 
 * [Uniprot](data-sources/uniprot.md)
+* [target disease association scoring](target-disease-association-scoring.md)
 
 ## Scoring
-
-* [target disease association scoring](target-disease-association-scoring.md)
 
