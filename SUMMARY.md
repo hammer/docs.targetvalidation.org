@@ -27,4 +27,5 @@
 * [Association score](faq/association-score.md)
 * [Clinical trials](faq/clinical-trials.md)
 * [Tissue specificity](faq/tissue-specificity.md)
+* [Bibliography](faq/bibliography.md)
 
