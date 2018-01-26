@@ -2,17 +2,18 @@
 
 Genetic associations are available for both common and rare \(Mendelian\) diseases and come from the following sources:
 
-[Genetic associations](http://www.targetvalidation.org/#genetic_association)
+Common:
 
-* * [GWAS catalog](http://www.targetvalidation.org/#gwas)
-  * [Genomics England PanelApp](http://www.targetvalidation.org/#genomics_england)
+[GWAS catalog](/data-sources/genetic-associations/gwas-catalog.md)
+
+Rare:
+
+* * [Genomics England PanelApp](http://www.targetvalidation.org/#genomics_england)
   * [PheWAS catalog](http://www.targetvalidation.org/#phewas)
   * [UniProt](http://www.targetvalidation.org/#uniprot)
   * [UniProt literature](http://www.targetvalidation.org/#uniprot_lit)
   * [European Variation Archive \(EVA\)](http://www.targetvalidation.org/#eva)
   * [Gene2Phenotype](http://www.targetvalidation.org/#gene2phenotype)
-
-
 
 ##### 
 

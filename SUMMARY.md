@@ -18,4 +18,5 @@
 ## FAQ
 
 * [what can i search for?](faq/test.md)
+* [what is a target?](faq/what-is-a-target.md)
 
