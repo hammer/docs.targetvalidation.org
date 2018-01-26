@@ -11,7 +11,7 @@
   * [Disease profile](getting-started/disease-profile.md)
   * [Filtering associations](getting-started/filtering-associations.md)
   * [API access](getting-started/api-access.md)
-* [scoring](scoring.md)
+* [Scoring](scoring.md)
 * [How to cite](how-to-cite.md)
 * [Data Download](data-download.md)
 * [Contact](contact.md)
@@ -26,10 +26,10 @@
 
 ## FAQ
 
-* [what can i search for?](faq/test.md)
-* [what is a target?](faq/what-is-a-target.md)
-* [describing diseases](faq/describing-diseases.md)
-* [direct vs indirect](faq/direct-vs-indirect.md)
+* [What can i search for?](faq/test.md)
+* [What is a target?](faq/what-is-a-target.md)
+* [Describing diseases](faq/describing-diseases.md)
+* [Direct and indirect associations](faq/direct-vs-indirect.md)
 * [Genome assembly](faq/genome-assembly.md)
 * [How variants are assigned to genes](faq/how-variants-are-assigned-to-genes.md)
 * [Missing association](faq/missing-association.md)
@@ -37,7 +37,7 @@
 * [Clinical trials](faq/clinical-trials.md)
 * [Tissue specificity](faq/tissue-specificity.md)
 * [Bibliography](faq/bibliography.md)
-* [Tracking](faq/tracking.md)
-* [variants vs mutations](faq/variants-vs-mutations.md)
+* [Privacy & Tracking](faq/tracking.md)
+* [Variants or mutations](faq/variants-vs-mutations.md)
 * [Trasgenic animal models](faq/trasgenic-animal-models.md)
 
