@@ -13,6 +13,7 @@
   * [API access](getting-started/api-access.md)
 * [Evidence](evidence.md)
 * [Scoring](scoring.md)
+* [Batch search](batch-search.md)
 * [How to cite](how-to-cite.md)
 * [Data Download](data-download.md)
 * [Contact](contact.md)
