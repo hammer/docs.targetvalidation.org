@@ -9,6 +9,8 @@
   * [Associated targets](getting-started/associated-targets.md)
   * [Target profile](getting-started/target-profile.md)
   * [Disease profile](getting-started/disease-profile.md)
+  * [Filtering associations](getting-started/filtering-associations.md)
+  * [API access](getting-started/api-access.md)
 * [scoring](scoring.md)
 * [How to cite](how-to-cite.md)
 * [Data Download](data-download.md)
