@@ -19,4 +19,11 @@
 
 * [what can i search for?](faq/test.md)
 * [what is a target?](faq/what-is-a-target.md)
+* [describing diseases](faq/describing-diseases.md)
+* [direct vs indirect](faq/direct-vs-indirect.md)
+* [Genome assembly](faq/genome-assembly.md)
+* [How variants are assigned to genes](faq/how-variants-are-assigned-to-genes.md)
+* [Missing association](faq/missing-association.md)
+* [Association score](faq/association-score.md)
+* [Clinical trials](faq/clinical-trials.md)
 
