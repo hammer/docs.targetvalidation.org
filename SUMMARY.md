@@ -8,6 +8,7 @@
 * [scoring](scoring.md)
 * [How to cite](how-to-cite.md)
 * [Data Download](data-download.md)
+* [Contact](contact.md)
 
 ## Data Sources
 
