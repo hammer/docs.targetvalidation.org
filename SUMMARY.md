@@ -3,8 +3,8 @@
 ## Getting Started
 
 * [Introduction](README.md)
-* Getting Started
-  * Text search
+* [Getting Started](getting-started.md)
+  * [Text search](getting-started/text-search.md)
 
 ## Data Sources
 
