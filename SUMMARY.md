@@ -1,5 +1,7 @@
 # Summary
 
+## Getting started
+
 * [Introduction](README.md)
 * [Getting started](chapter1.md)
   * [Text search](chapter1/text-search.md)
