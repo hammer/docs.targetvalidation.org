@@ -2,12 +2,11 @@
 
 ## Getting Started
 
+* [Introduction](README.md)
 * Getting Started
   * Text search
 
 ## Data Sources
-
-* [Introduction](README.md)
 
 ## FAQ
 
