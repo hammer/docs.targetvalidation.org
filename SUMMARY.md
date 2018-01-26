@@ -12,9 +12,7 @@
 
 * [Uniprot](data-sources/uniprot.md)
 
-## Scoring
-
 ## FAQ
 
-* test
+* [what can i search for?](faq/test.md)
 
