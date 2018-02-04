@@ -42,4 +42,5 @@
 * [Privacy & Tracking](faq/tracking.md)
 * [Variants or mutations](faq/variants-vs-mutations.md)
 * [Trasgenic animal models](faq/trasgenic-animal-models.md)
+* [Spin your own instance](faq/spin-your-own-instance.md)
 
