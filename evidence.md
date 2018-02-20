@@ -28,5 +28,5 @@ What does this expansion based on indirect evidence enable us to do?
 
 * it allows the identification of unforeseen associations by serendipity.
 
-Moreover, the different evidence types coming from our[data sources](https://www.targetvalidation.org/data_sources)often are associated with diseases at different levels of their ontology. For instance, the electronic description of diseases from drugs in clinical trials can be quite general, whereas rare genetic diseases are defined in much greater detail.
+Moreover, the different evidence types coming from our [data sources](https://www.targetvalidation.org/data_sources) often are associated with diseases at different levels of their ontology. For instance, the electronic description of diseases from drugs in clinical trials can be quite general, whereas rare genetic diseases are defined in much greater detail.
 
