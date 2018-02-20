@@ -21,9 +21,6 @@
 ## Data Sources
 
 * [Genetic Associations](data-sources/genetic-associations.md)
-  * [UniProt](data-sources/genetic-associations/uniprot.md)
-  * EVA
-  * [GWAS catalog](data-sources/genetic-associations/gwas-catalog.md)
 * [Uniprot](data-sources/uniprot.md)
 
 ## FAQ
