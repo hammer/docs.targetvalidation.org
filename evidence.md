@@ -4,15 +4,9 @@ To describe this variety, we use ontology terms from the [Evidence and Conclusio
 
 * the evidence itself, e.g. a disease linked to a SNP by genome wide association.
 * the source of the evidence, e.g. GWAS catalog.
-* the ECO code of the evidence, e.g.
-  [ECO\_0000006](http://bioportal.bioontology.org/ontologies/ECO/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FECO_0000006)
-  .
-* the target ID the evidence maps to, e.g. ENSG00000110324 \(
-  [_IL10RA_](http://www.targetvalidation.org/target/ENSG00000110324)
-  \).
-* the disease ID the evidence matches to, e.g. EFO\_0003767 \(
-  [inflammatory bowel disease](http://www.targetvalidation.org/disease/EFO_0003767)
-  \).
+* the ECO code of the evidence, e.g. [ECO\_0000006](http://bioportal.bioontology.org/ontologies/ECO/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FECO_0000006).
+* the target ID the evidence maps to, e.g. ENSG00000110324 \([_IL10RA_](http://www.targetvalidation.org/target/ENSG00000110324)\).
+* the disease ID the evidence matches to, e.g. EFO\_0003767 \([inflammatory bowel disease](http://www.targetvalidation.org/disease/EFO_0003767)\).
 
 We then validate and integrate the data in the JSON files, so that we can use the 5.1 million of evidence items to identify our target-disease associations, over 2.6 million of them.
 
