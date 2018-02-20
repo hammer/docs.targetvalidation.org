@@ -3,7 +3,7 @@
 ## Getting Started
 
 * [Introduction](README.md)
-* [Getting Started](getting-started.md)
+* [Getting started](getting-started.md)
   * [Text search](getting-started/text-search.md)
   * [Associated diseases](getting-started/associated-diseases.md)
   * [Associated targets](getting-started/associated-targets.md)
@@ -15,7 +15,7 @@
 * [Scoring](scoring.md)
 * [Batch search](batch-search.md)
 * [How to cite](how-to-cite.md)
-* [Data Download](data-download.md)
+* [Data download](data-download.md)
 * [Contact](contact.md)
 
 ## Data Sources
@@ -44,6 +44,6 @@
 * [Bibliography](faq/bibliography.md)
 * [Privacy & Tracking](faq/tracking.md)
 * [Variants or mutations](faq/variants-vs-mutations.md)
-* [Trasgenic animal models](faq/trasgenic-animal-models.md)
+* [Transgenic animal models](faq/trasgenic-animal-models.md)
 * [Spin your own instance](faq/spin-your-own-instance.md)
 
