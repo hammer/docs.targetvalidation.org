@@ -28,6 +28,7 @@
 * [Affected pathways](data-sources/affected-pathways.md)
 * [RNA expression](data-sources/rna-expression.md)
 * [Text mining](data-sources/text-mining.md)
+* [Animal models](data-sources/animal-models.md)
 
 ## FAQ
 
