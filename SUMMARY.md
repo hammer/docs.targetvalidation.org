@@ -31,7 +31,7 @@
 
 ## FAQ
 
-* [What can i search for?](faq/test.md)
+* [What can I search for?](faq/test.md)
 * [What is a target?](faq/what-is-a-target.md)
 * [Describing diseases](faq/describing-diseases.md)
 * [Direct and indirect associations](faq/direct-vs-indirect.md)

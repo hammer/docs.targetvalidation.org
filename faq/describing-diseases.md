@@ -4,7 +4,7 @@ We map diseases to ontology terms in the Experimental Factor Ontology \(EFO\). T
 
 #### What is the Experimental Factor Ontology?
 
-The[Experimental Factor Ontology](http://www.ebi.ac.uk/efo/)\(EFO\) provides a systematic, machine readable description of data elements available in public databases. It combines parts of several ontologies, such as diseases, phenotypes, anatomy, and chemical compounds. The EFO is the core ontology for Open Targets.
+The [Experimental Factor Ontology](http://www.ebi.ac.uk/efo/) \(EFO\) provides a systematic, machine readable description of data elements available in public databases. It combines parts of several ontologies, such as diseases, phenotypes, anatomy, and chemical compounds. The EFO is the core ontology for Open Targets.
 
 #### Why does Open Targets use EFO?
 
