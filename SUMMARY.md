@@ -25,6 +25,7 @@
 * [Uniprot](data-sources/uniprot.md)
   * Drugs
 * [Drugs](data-sources/drugs.md)
+* [Affected pathways](data-sources/affected-pathways.md)
 
 ## FAQ
 
