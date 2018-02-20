@@ -22,8 +22,6 @@
 
 * [Genetic Associations](data-sources/genetic-associations.md)
 * [Somatic mutations](data-sources/somatic-mutations.md)
-* [Uniprot](data-sources/uniprot.md)
-  * Drugs
 * [Drugs](data-sources/drugs.md)
 * [Affected pathways](data-sources/affected-pathways.md)
 * [RNA expression](data-sources/rna-expression.md)
