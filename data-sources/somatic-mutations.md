@@ -12,9 +12,9 @@ UniProt manually curates somatic mutations from the literature for our associati
 
 ##### European Variation Archive \(EVA\)
 
-The EMBL-EBI[European Variation Archive](http://www.ebi.ac.uk/eva/?Home)\(EVA\) provides data on somatic mutations in both cancer and other diseases.
+The EMBL-EBI [European Variation Archive](http://www.ebi.ac.uk/eva/?Home) \(EVA\) provides data on somatic mutations in both cancer and other diseases.
 
 ##### IntOGen
 
-[IntOGen](http://www.intogen.org/search)provides somatic mutations, genes and pathways involved in tumorigenesis. We have imported the latest data from 6,792 samples across 28 cancer types \([Rubio-Perez et al](http://www.ncbi.nlm.nih.gov/pubmed/25759023)\). In these new dataset, false mutation calls have been filtered out and additional expression data is available for a larger number of samples in certain tumour types. This IntOgen analysis is updated and has not yet been released on the IntOgen website; so there can be discrepancies between targetvalidation.org and the IntOgen site.
+[IntOGen](http://www.intogen.org/search) provides somatic mutations, genes and pathways involved in tumorigenesis. We have imported the latest data from 6,792 samples across 28 cancer types \([Rubio-Perez et al](http://www.ncbi.nlm.nih.gov/pubmed/25759023)\). In these new dataset, false mutation calls have been filtered out and additional expression data is available for a larger number of samples in certain tumour types. This IntOgen analysis is updated and has not yet been released on the IntOgen website; so there can be discrepancies between targetvalidation.org and the IntOgen site.
 

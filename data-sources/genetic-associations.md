@@ -4,7 +4,7 @@ Genetic associations are available for both common and rare \(Mendelian\) diseas
 
 #### Common
 
-#### GWAS catalog
+##### GWAS catalog
 
 #### ![](/assets/GWAS_Catalog_circle_178x178.png)
 
