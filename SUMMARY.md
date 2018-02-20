@@ -27,6 +27,7 @@
 * [Drugs](data-sources/drugs.md)
 * [Affected pathways](data-sources/affected-pathways.md)
 * [RNA expression](data-sources/rna-expression.md)
+* [Text mining](data-sources/text-mining.md)
 
 ## FAQ
 
