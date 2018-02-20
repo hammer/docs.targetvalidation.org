@@ -6,6 +6,9 @@ When searching for a disease, in addition to the list of targets associated with
 * Drugs: all FDA-approved and marketed drugs to treat the disease from [ChEMBL](https://www.ebi.ac.uk/chembl/)
 * Classification: based on the relationships of the disease to parents and children within the [EFO](https://www.ebi.ac.uk/efo/) hierarchy
 * Similar Diseases
+* Bibliography, [Open Targets Library](/library.opentargets.io)
+
+
 
 
 
