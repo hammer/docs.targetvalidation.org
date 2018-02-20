@@ -23,6 +23,8 @@
 * [Genetic Associations](data-sources/genetic-associations.md)
 * [Somatic mutations](data-sources/somatic-mutations.md)
 * [Uniprot](data-sources/uniprot.md)
+  * Drugs
+* [Drugs](data-sources/drugs.md)
 
 ## FAQ
 
