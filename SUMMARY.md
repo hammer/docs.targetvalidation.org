@@ -18,6 +18,11 @@
 * [Data download](data-download.md)
 * [Contact](contact.md)
 
+## Tutorials
+
+* [Disease variants](tutorials/disease-variants.md)
+* Diseases linked to a gene
+
 ## Data Sources
 
 * [Introduction](data-sources/introduction.md)
