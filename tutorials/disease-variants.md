@@ -1,6 +1,6 @@
 ## How can you download all the genetic association for a given phenotype or disease through the Open Targets API?
 
-The easiest way is to use our \[Open Targets Python client\]\([https://github.com/opentargets/opentargets-py/\](https://github.com/opentargets/opentargets-py/%29\). Let me guide you through a simple example that uses the filtering capabilities included in the client.
+The easiest way is to use our [Open Targets Python client](https://github.com/opentargets/opentargets-py/). Let me guide you through a simple example that uses the filtering capabilities included in the client.
 
 First, create a virtual environment:
 
@@ -39,10 +39,7 @@ I can now run it by typing on the command line \(notice the quotes around the di
 
 `(venv)$ python get_genetic_evidence_for_disease.py "neuropathic pain"`
 
-
-
-My folder will now contain a CSV file with the genetic evidence connected to neuropathic pain:  
-
+My folder will now contain a CSV file with the genetic evidence connected to neuropathic pain:
 
 ```
 ,gwas_panel_resolution,object,pubmed_refs,pvalue,sample_size,study_name,target,variant
@@ -60,7 +57,6 @@ http://www.ebi.ac.uk/efo/EFO_0005762,http://europepmc.org/abstract/MED/24974787,
 
 4,6494962,
 http://www.ebi.ac.uk/efo/EFO_0005762,http://europepmc.org/abstract/MED/24974787,1e-6,3063,cttv009_gwas_catalog,http://identifiers.org/ensembl/ENSG00000185652,http://identifiers.org/dbsnp/rs11615866
-
 ```
 
 
