@@ -36,9 +36,10 @@
 
 ## FAQ
 
+* [Introduction](faq/introduction.md)
+* [Describing diseases](faq/describing-diseases.md)
 * [What can I search for?](faq/test.md)
 * [What is a target?](faq/what-is-a-target.md)
-* [Describing diseases](faq/describing-diseases.md)
 * [Direct and indirect associations](faq/direct-vs-indirect.md)
 * [Genome assembly](faq/genome-assembly.md)
 * [How variants are assigned to genes](faq/how-variants-are-assigned-to-genes.md)
@@ -50,5 +51,5 @@
 * [Privacy & Tracking](faq/tracking.md)
 * [Variants or mutations](faq/variants-vs-mutations.md)
 * [Transgenic animal models](faq/trasgenic-animal-models.md)
-* [Spin your own instance](faq/spin-your-own-instance.md)
+* [Introduction](faq/introduction.md)
 
