@@ -5,16 +5,16 @@ When searching for a target, in addition to the list of diseases associated with
 * Description: [UniProt](http://www.uniprot.org/)
 * Synonyms: alternative names for the protein from [UniProt](http://www.uniprot.org/)
 * Protein information: [UniProt](http://www.uniprot.org/)
-* Protein interactions: [Ensembl annotation](http://http//omnipathdb.org/</a></li>                        <li>Variants, isoforms and genomic context, <a href=) of genes and [Ensembl Variation](http://www.ensembl.org/info/genome/variation/index.html)
+* Protein interactions: [OmniPathDB](http://omnipathdb.org)
 * Protein baseline expression: [Human Protein Atlas](http://www.proteinatlas.org/)
 * RNA baseline expression: [Expression Atlas](https://www.ebi.ac.uk/gxa/home) and [GTEx](https://www.gtexportal.org/home/documentationPage)
-* Gene ontology: [Gene Ontology Consortium](http://geneontology.org/)
+* Gene ontology: [Gene Ontology Consortium](http://geneontology.org/) via [UniProt](http://www.uniprot.org/)
 * Protein structure: [Protein Data Bank Europe](https://www.ebi.ac.uk/pdbe/)
 * Pathways: [Reactome](http://www.reactome.org/)
 * Drugs: [ChEMBL](https://www.ebi.ac.uk/chembl/)
 * Gene tree: [Ensembl Protein trees and orthologies](http://www.ensembl.org/info/genome/compara/homology_method.html)
 * Bibliography: [Open Targets Library](/library.opentargets.io)
-* Similar targets
+* Similar targets: Open Targets Platform
 * Mouse phenotypes: [MGI](http://www.informatics.jax.org)
 * Variants, isoforms and genomic context: [Ensembl](http://www.ensembl.org)
 
