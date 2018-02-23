@@ -21,7 +21,7 @@
 ## Tutorials
 
 * [Disease variants](tutorials/disease-variants.md)
-* Diseases linked to a gene
+* [Diseases linked to a gene](tutorials/diseases-linked-to-a-gene.md)
 
 ## Data Sources
 
