@@ -1,10 +1,4 @@
 # Frequently asked questions
 
-# 
-
-What is Open Targets?
-
-
-
-
+Use the links on the left to explore our FAQs
 
