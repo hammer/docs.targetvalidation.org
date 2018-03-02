@@ -51,5 +51,5 @@
 * [Privacy & Tracking](faq/tracking.md)
 * [Variants or mutations](faq/variants-vs-mutations.md)
 * [Transgenic animal models](faq/trasgenic-animal-models.md)
-* [Introduction](faq/introduction.md)
+* [Spin your own instance](faq/spin-your-own-instance.md)
 
