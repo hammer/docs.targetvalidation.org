@@ -21,6 +21,7 @@
 ## Tutorials
 
 * [Disease variants](tutorials/disease-variants.md)
+* [Find target with drugs](tutorials/chembl-drugs.md)
 
 ## Data Sources
 
