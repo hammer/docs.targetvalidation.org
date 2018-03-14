@@ -22,7 +22,11 @@ The JSON database schema is \[publicly available\] \([https://github.com/opentar
 
 * docker \(on mac osx you can install the [docker for mac](https://docs.docker.com/docker-for-mac/) app \)
 
+### Elasticsearch
+
 Assuming you are following the official instructions and use [docker to run elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/docker.html), you can trigger the snapshot restore following these steps:
+
+1\) create a docker volume as recommended:
 
 ```
 docker volume create otdata
@@ -34,9 +38,7 @@ Check that it's been created:
 docker volume inspect otdata
 ```
 
-
-
-1\) Whitelist the url of our repo when you \`docker run\` by passing an environment variable:
+2\) Whitelist the url of our repo when you \`docker run\` by passing an environment variable:
 
 ```
 docker run -d -p 9200:9200 -v otdata:/usr/share/elasticsearch/data -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' –e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.8
@@ -64,7 +66,7 @@ You can check that the docker container is running by typing `docker ps` and mak
 
 More details on why you have to do specify `repositories.url.allowed_urls`  can be found in the official [elasticsearch documentation on read only URL repositories](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_read_only_url_repository).
 
-2\) then - again [following the documentation](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_repositories) - you register the repo using the URL above:
+3\) then - again [following the documentation](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_repositories) - you register the repo using the URL above:
 
 ```
 curl -XPUT 'localhost:9200/_snapshot/ot_repo?verify=false&pretty' -H 'Content-Type: application/json' -d'
@@ -84,7 +86,7 @@ which should return:
 }
 ```
 
-3\) find out the snapshots contained in the repo we just registered:
+4\) find out the snapshots contained in the repo we just registered:
 
 ```
  curl localhost:9200/_cat/snapshots/ot_repo
@@ -98,17 +100,19 @@ curator-20180126111418 SUCCESS 1516965258 11:14:18 1516967082 11:44:42 30.3m 12 
 
 Make a note of the name, which is the first field on the left, as we are going to use it in the next command.
 
-4\) when the last step completes succesfully, you can [trigger the snapshot restore:](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_restore)
+5\) when the last step completes succesfully, you can [trigger the snapshot restore:](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_restore)
 
 `curl -XPOST 'localhost:9200/_snapshot/ot_repo/<snapshot name> /_restore?pretty'`
 
 using the name from the step above
 
-5\) Check the progress of the restore by looking at the \`\`\_cat/recovery\`\`\`
+6\) Check the progress of the restore by looking at the \`\`\_cat/recovery\`\`\`
 
 ```
 curl 'localhost:9200/_cat/recovery?v&h=index,time,type,stage,files_percent'
 ```
+
+### 
 
 ### Add your own data
 
