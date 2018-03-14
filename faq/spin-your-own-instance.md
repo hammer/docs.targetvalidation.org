@@ -1,7 +1,7 @@
 Our core stack is composed of three tiers:
 
-1. a client-side [web application](https://github.com/opentargets/webapp) \([https://github.com/opentargets/webapp\](https://github.com/opentargets/webapp\)\) that communicates with 
-2. a [Rest API](https://github.com/opentargets/rest_api) \([https://github.com/opentargets/rest\_api\](https://github.com/opentargets/rest_api\)\) which retrieves and queries the data from 
+1. a client-side [web application](https://github.com/opentargets/webapp) \([https://github.com/opentargets/webapp\](https://github.com/opentargets/webapp%29\) that communicates with 
+2. a [Rest API](https://github.com/opentargets/rest_api) \([https://github.com/opentargets/rest\_api\](https://github.com/opentargets/rest_api%29\) which retrieves and queries the data from 
 3. an ElasticSearch database; 
 
 Each data-release we produce comes with an ElasticSearch snapshot \(ie. a _database_ _dump_\) to that can be used to create your own replica, using the `restore` ElasticSearch API.
@@ -30,10 +30,16 @@ Check that it's been created:
 docker volume inspect otdata
 ```
 
+Also create a docker network that our docker containers will communicate through. 
+
+```
+docker network create otnet
+```
+
 2\) Whitelist the url of our repo when you \`docker run\` by passing an environment variable:
 
 ```
-docker run -d -p 9200:9200 -v otdata:/usr/share/elasticsearch/daata -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' -e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.8
+docker run -d --name elastic --network otnet -p 9200:9200 -v otdata:/usr/share/elasticsearch/daata -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' -e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.8
 ```
 
 If you get a "invalid reference format" error, doublecheck that the container tag has not changed by visiting the elasticsearch [docker container listings](https://www.docker.elastic.co/). It can also happen as a result of  copy/pasting the command from this documentation page. Try to re-type in your own shell.
@@ -68,18 +74,12 @@ The URL for the latest ES snapshot \(i.e. Dec 2017\) is:
 
 Again [following the elasticsearch documentation](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_repositories) - you register the repo using this URL :
 
-```bash
-curl -XPUT 'localhost:9200/_snapshot/ot_repo?verify=false&pretty' -H 'Content-Type: application/json' -d'
-{
+```
+curl -XPUT 'localhost:9200/_snapshot/ot_repo?verify=false&pretty' -H 'Content-Type: application/json' -d'{
 "type": "url",
 "settings": {
 "url": "https://storage.googleapis.com/open-targets-data-releases/17.12/17.12_snapshot/"
-}
-}'
-```
-
-```bash
-
+}}'
 ```
 
 which should return:
@@ -123,7 +123,7 @@ To spin up a docker container running the Open Targets API, follow the [instruct
 Basically:
 
 ```
-docker run -d -p 8080:80 -e "ELASTICSEARCH_URL=http://localhost:9200" -e "OPENTARGETS_DATA_VERSION=17.12" --privileged quay.io/opentargets/rest_api
+docker run -d -p 8080:80 --network otnet --name rest_api -e "ELASTICSEARCH_URL=http://elastic:9200" -e "OPENTARGETS_DATA_VERSION=17.12" --privileged quay.io/opentargets/rest_api
 ```
 
 **Check that is running: **
@@ -139,7 +139,7 @@ and readiness can be checked by calling: `curl localhost:8080/v3/platform/public
 To spin up a docker container running the Open Targets web app, follow the [instruction on the webapp README](https://github.com/opentargets/webapp#deploy-using-our-docker-container). Basically:
 
 ```
-docker run -d -p 8443:443 -p 8080:80 -e "REST_API_SCHEME=http" -e "REST_API_SERVER=localhost" -e "REST_API_PORT=8080" quay.io/opentargets/webapp
+docker run -d --name webapp --network otnet -p 8443:443 -p 8080:80 -e "REST_API_SCHEME=https" -e "REST_API_SERVER=rest_api" -e "REST_API_PORT=443" quay.io/opentargets/webapp
 ```
 
 ## Add your own data
