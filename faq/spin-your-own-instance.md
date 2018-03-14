@@ -24,10 +24,22 @@ The JSON database schema is \[publicly available\] \([https://github.com/opentar
 
 Assuming you are following the official instructions and use [docker to run elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/docker.html), you can trigger the snapshot restore following these steps:
 
+```
+docker volume create otdata
+```
+
+Check that it's been created:
+
+```
+docker volume inspect otdata
+```
+
+
+
 1\) Whitelist the url of our repo when you \`docker run\` by passing an environment variable:
 
 ```
-docker run -d -p 9200:9200 -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' –e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.8
+docker run -d -p 9200:9200 -v otdata:/usr/share/elasticsearch/data -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' –e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.8
 ```
 
 If you get a "invalid reference format" error, doublecheck that the container tag has not changed by visiting the elasticsearch [docker container listings](https://www.docker.elastic.co/). It can also happen as a result of  copy/pasting the command from this documentation page. Try to re-type in your own shell.
@@ -75,7 +87,7 @@ which should return:
 3\) find out the snapshots contained in the repo we just registered:
 
 ```
- curl localhost:9200/_cat/snapshots/ot_repo 
+ curl localhost:9200/_cat/snapshots/ot_repo
 ```
 
 which should return something similar to:
@@ -92,13 +104,11 @@ Make a note of the name, which is the first field on the left, as we are going t
 
 using the name from the step above
 
-5\) Check the progress of the restore by looking at the ``_cat/recovery```
+5\) Check the progress of the restore by looking at the \`\`\_cat/recovery\`\`\`
 
 ```
 curl 'localhost:9200/_cat/recovery?v&h=index,time,type,stage,files_percent'
 ```
-
-
 
 ### Add your own data
 
