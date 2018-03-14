@@ -27,7 +27,7 @@ Assuming you are following the official instructions and use [docker to run elas
 1\) Whitelist the url of our repo when you \`docker run\` by passing an environment variable:
 
 ```
-docker run -d -p 9200:9200 -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' –e 'repositories.url.allowed_urls=http://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.8
+docker run -d -p 9200:9200 -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' –e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.8
 ```
 
 If you get a "invalid reference format" error, doublecheck that the container tag has not changed by visiting the elasticsearch [docker container listings](https://www.docker.elastic.co/). It can also happen as a result of  copy/pasting the command from this documentation page. Try to re-type in your own shell.
