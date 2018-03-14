@@ -64,6 +64,14 @@ curl -XPUT 'localhost:9200/_snapshot/ot_repo?verify=false&pretty' -H 'Content-Ty
 }'
 ```
 
+which should return:
+
+```
+{
+  "acknowledged" : true
+}
+```
+
 3\) when the last step completes succesfully, you can [trigger the snapshot restore:](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_restore)
 
 `curl -XPOST 'localhost:9200/_snapshot/ot_repo/<snapshot name> /_restore?pretty'`
