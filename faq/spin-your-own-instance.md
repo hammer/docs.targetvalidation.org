@@ -112,7 +112,39 @@ using the name from the step above
 curl 'localhost:9200/_cat/recovery?v&h=index,time,type,stage,files_percent'
 ```
 
-### 
+### REST API
+
+To spin up a docker container running the Open Targets API, follow the [instruction on our README](https://github.com/opentargets/rest_api#run). 
+
+Basically:
+
+```
+docker run -d -p 8080:80 \
+```
+
+```
+-e 
+"
+ELASTICSEARCH_URL=http://localhost:9200
+"
+ \
+-e 
+"
+OPENTARGETS_DATA_VERSION=17.12
+"
+ \
+--privileged quay.io/opentargets/rest_api
+```
+
+For more options available when using`docker run`you can take a look at the[ansible role](https://github.com/opentargets/biogen_instance/blob/master/roles/web/tasks/main.yml)that we use to spin a single instance of our frontend stack.
+
+**Check that is running**Supposing the container runs in`localhost`and expose port`8080`, Swagger UI is available at:[http://localhost:8080/v3/platform/docs](http://localhost:8080/v3/platform/docs)
+
+You can see if the API is alive with`curl localhost:8080/v3/platform/public/utils/ping`
+
+and readiness can be checked by calling: `curl localhost:8080/v3/platform/public/utils/ping`
+
+
 
 ### Add your own data
 
