@@ -32,6 +32,24 @@ docker run -d -p 9200:9200 -e 'discovery.type=single-node' -e 'xpack.security.en
 
 If you get a "invalid reference format" error, doublecheck that the container tag has not changed by visiting the elasticsearch [docker container listings](https://www.docker.elastic.co/). It can also happen as a result of  copy/pasting the command from this documentation page. Try to re-type in your own shell.
 
+You can check that ES is up and running by typing `curl localhost:9200` and you should get something that looks like:
+
+```
+{
+    "cluster_name": "docker-cluster",
+    "cluster_uuid": "Gt2Dsxh4StyV3YvdwBjx-Q",
+    "name": "Z49nXRz",
+    "tagline": "You Know, for Search",
+    "version": {
+        "build_date": "2018-02-16T16:46:30.010Z",
+        "build_hash": "688ecce",
+        "build_snapshot": false,
+        "lucene_version": "6.6.1",
+        "number": "5.6.8"
+    }
+}
+```
+
 More details on why you have to do specify `repositories.url.allowed_urls`  can be found in the official [elasticsearch documentation on read only URL repositories](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_read_only_url_repository).
 
 2\) then - again [following the documentation](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_repositories) - you register the repo using the URL above:
