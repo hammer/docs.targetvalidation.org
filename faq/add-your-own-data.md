@@ -6,3 +6,11 @@ The JSON database schema is \[publicly available\] \([https://github.com/opentar
 
 
 
+
+
+While each data point that is included in the platform needs to conform to the JSON schema, the most basic requirement is that each data point contains a target \(in the form of an ENSGID number\) and a disease \(in the form of an ontology identifier, most often an EFO id\). 
+
+
+
+To check the data you prepared can be processed by mrTarget, you can run our [validator](https://github.com/opentargets/validator) \(https://github.com/opentargets/validator \) which will inform you of any inconsistencies in the data, which will impede its inclusion.
+
