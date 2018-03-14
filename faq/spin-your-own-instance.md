@@ -32,7 +32,7 @@ docker run -d -p 9200:9200 -e 'discovery.type=single-node' -e 'xpack.security.en
 
 If you get a "invalid reference format" error, doublecheck that the container tag has not changed by visiting the elasticsearch [docker container listings](https://www.docker.elastic.co/). It can also happen as a result of  copy/pasting the command from this documentation page. Try to re-type in your own shell.
 
-You can check that ES is up and running by typing `curl localhost:9200` and you should get something that looks like:
+You can check that the docker container is running by typing `docker ps` and make sure ES is responding on the 9200 port by typing `curl localhost:9200` which should return a 200 response similar to:
 
 ```
 {
