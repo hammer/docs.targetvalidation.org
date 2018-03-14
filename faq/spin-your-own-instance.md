@@ -94,6 +94,7 @@ which should return:
 
 ```
  curl localhost:9200/_cat/snapshots/ot_repo
+ 
 ```
 
 which should return something similar to:
@@ -106,11 +107,19 @@ Make a note of the name, which is the first field on the left, as we are going t
 
 5\) when the last step completes succesfully, you can [trigger the snapshot restore:](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_restore)
 
-`curl -XPOST 'localhost:9200/_snapshot/ot_repo/<snapshot name> /_restore?pretty'`
+```
+curl -XPOST 'localhost:9200/_snapshot/ot_repo/<snapshot name>/_restore?pretty' -H 'Content-Type: application/json' -d'
+{
+  "indices": "17.12_evidence-data-generic",
+  "ignore_unavailable": true,
+  "include_global_state": false
+}
+'
+```
 
-using the name from the step above
+using the `snapshot name` from the step above
 
-6\) Check the progress of the restore by looking at the \`\`\_cat/recovery\`\`\`
+6\) Check the progress of the restore by looking at the `_cat/recovery`
 
 ```
 curl 'localhost:9200/_cat/recovery?v&h=index,time,type,stage,files_percent'
