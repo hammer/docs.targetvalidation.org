@@ -72,11 +72,33 @@ which should return:
 }
 ```
 
-3\) when the last step completes succesfully, you can [trigger the snapshot restore:](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_restore)
+3\) find out the snapshots contained in the repo we just registered:
+
+```
+ curl localhost:9200/_cat/snapshots/ot_repo 
+```
+
+which should return something similar to:
+
+```
+curator-20180126111418 SUCCESS 1516965258 11:14:18 1516967082 11:44:42 30.3m 12 24 0 24
+```
+
+Make a note of the name, which is the first field on the left, as we are going to use it in the next command.
+
+4\) when the last step completes succesfully, you can [trigger the snapshot restore:](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_restore)
 
 `curl -XPOST 'localhost:9200/_snapshot/ot_repo/<snapshot name> /_restore?pretty'`
 
-you can find `<snapshot name>` by listing the snapshots in the repo, after step 2.
+using the name from the step above
+
+5\) Check the progress of the restore by looking at the ``_cat/recovery```
+
+```
+curl 'localhost:9200/_cat/recovery?v&h=index,time,type,stage,files_percent'
+```
+
+
 
 ### Add your own data
 
