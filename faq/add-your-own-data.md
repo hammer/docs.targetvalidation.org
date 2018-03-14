@@ -6,9 +6,11 @@ While each data point that is included in the platform needs to conform to the J
 
 #### Transform your data into an array of JSON objects
 
-Your data should be transformed in an array of JSON objects. The JSON database schema is \[publicly available\] \([https://github.com/opentargets/json\_schema](https://urldefense.proofpoint.com/v2/url?u=https-3A__github.com_opentargets_json-5Fschema&d=DwMFAw&c=n7UHtw8cUfEZZQ61ciL2BA&r=ZhzBE4adkrwWFCLwUz8sl2L08pOinkSBPT2-kXiY-Ls&m=kH1T4SDn11hFQ5Rsq4SaY01V95F6paxQ3cd3ENufcWQ&s=FoIdopSoY2bYDH5aCg3qH-ak6H3EbrikpyFf4cn05XY&e=)\). 
+Your data should be transformed in an array of JSON objects. The JSON database schema is \[publicly available\] \([https://github.com/opentargets/json\_schema](https://urldefense.proofpoint.com/v2/url?u=https-3A__github.com_opentargets_json-5Fschema&d=DwMFAw&c=n7UHtw8cUfEZZQ61ciL2BA&r=ZhzBE4adkrwWFCLwUz8sl2L08pOinkSBPT2-kXiY-Ls&m=kH1T4SDn11hFQ5Rsq4SaY01V95F6paxQ3cd3ENufcWQ&s=FoIdopSoY2bYDH5aCg3qH-ak6H3EbrikpyFf4cn05XY&e=)\).
 
-For instance, our phewas evidence look something like this:
+Each object requires mapping to an ENSGID and an EFO id \(or HP terms in case an EFO term is missing\). We have coded a light wrapper around the services provided by the SPOT team to facilitate this mapping process \(https://github.com/opentargets/OnToma\). 
+
+After the conversion is done, you should have an array, each containing a JSON object. For instance, our phewas evidence look something like this:
 
 ```
 [{"target": {..  "http://identifiers.org/ensembl/ENSG00000130204", }, "sourceID": "phewas_catalog", 
@@ -46,6 +48,7 @@ Briefly - once you have access to the pipeline - you ought to
 * add the additional evidence datasource to the list of URLs contained in [https://github.com/opentargets/data\_pipeline/blob/master/mrtarget/resources/evidences\_sources.txt](https://github.com/opentargets/data_pipeline/blob/master/mrtarget/resources/evidences_sources.txt)
 
 * Build a new docker container
+
 * Start the evidence processing with `mrtarget --evs`
 
 
