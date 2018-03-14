@@ -114,39 +114,35 @@ curl 'localhost:9200/_cat/recovery?v&h=index,time,type,stage,files_percent'
 
 ### REST API
 
-To spin up a docker container running the Open Targets API, follow the [instruction on our README](https://github.com/opentargets/rest_api#run). 
+To spin up a docker container running the Open Targets API, follow the [instruction on our README](https://github.com/opentargets/rest_api#run).
 
 Basically:
 
 ```
-docker run -d -p 8080:80 \
+docker run -d -p 8080:80 -e "ELASTICSEARCH_URL=http://localhost:9200" -e "OPENTARGETS_DATA_VERSION=17.12" --privileged quay.io/opentargets/rest_api
 ```
 
-```
--e 
-"
-ELASTICSEARCH_URL=http://localhost:9200
-"
- \
--e 
-"
-OPENTARGETS_DATA_VERSION=17.12
-"
- \
---privileged quay.io/opentargets/rest_api
-```
+**Check that is running: **
 
-For more options available when using`docker run`you can take a look at the[ansible role](https://github.com/opentargets/biogen_instance/blob/master/roles/web/tasks/main.yml)that we use to spin a single instance of our frontend stack.
+Supposing the container runs in`localhost`and expose port`8080`, you should get a 200 response from: [http://localhost:8080/v3/platform/public/utils/ping](http://localhost:8080/v3/platform/public/utils/ping)
 
-**Check that is running**Supposing the container runs in`localhost`and expose port`8080`, Swagger UI is available at:[http://localhost:8080/v3/platform/docs](http://localhost:8080/v3/platform/docs)
-
-You can see if the API is alive with`curl localhost:8080/v3/platform/public/utils/ping`
+From the command line, you can see if the API is alive with`curl localhost:8080/v3/platform/public/utils/ping`
 
 and readiness can be checked by calling: `curl localhost:8080/v3/platform/public/utils/ping`
 
+### Web application
+
+To spin up a docker container running the Open Targets web app, follow the [instruction on the webapp README](https://github.com/opentargets/webapp#deploy-using-our-docker-container). Basically:
+
+```
+docker run -d -p 8443:443 -p 8080:80 -e "REST_API_SCHEME=http" -e "REST_API_SERVER=localhost" -e "REST_API_PORT=8080" quay.io/opentargets/webapp
+```
 
 
-### Add your own data
 
-If you are interested in injecting custom/private data, we are currently not supporting it, but are working towards it. It is feasible and it is indeed what our industry partners are doing to run their own customised installations. Contact us for more information.
+## Add your own data
+
+See the [related FAQ](/faq/add-your-own-data.md). 
+
+
 
