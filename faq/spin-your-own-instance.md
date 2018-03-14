@@ -30,7 +30,7 @@ Check that it's been created:
 docker volume inspect otdata
 ```
 
-Also create a docker network that our docker containers will communicate through. 
+Also create a docker network that our docker containers will communicate through.
 
 ```
 docker network create otnet
@@ -139,7 +139,7 @@ and readiness can be checked by calling: `curl localhost:8080/v3/platform/public
 To spin up a docker container running the Open Targets web app, follow the [instruction on the webapp README](https://github.com/opentargets/webapp#deploy-using-our-docker-container). Basically:
 
 ```
-docker run -d --name webapp --network otnet -p 8443:443 -p 8080:80 -e "REST_API_SCHEME=https" -e "REST_API_SERVER=rest_api" -e "REST_API_PORT=443" quay.io/opentargets/webapp
+docker run -d --name webapp --network otnet -p 8443:443 -e "REST_API_SCHEME=https" -e "REST_API_SERVER=rest_api" -e "REST_API_PORT=443" quay.io/opentargets/webapp
 ```
 
 ## Add your own data
