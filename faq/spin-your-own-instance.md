@@ -1,7 +1,7 @@
 Our core stack is composed of three tiers:
 
-1. a client-side [web application](https://github.com/opentargets/webapp) \(https://github.com/opentargets/webapp\) that communicates with 
-2. a [Rest API](https://github.com/opentargets/rest_api) \(https://github.com/opentargets/rest\_api\) which retrieves and queries the data from 
+1. a client-side [web application](https://github.com/opentargets/webapp) \([https://github.com/opentargets/webapp\](https://github.com/opentargets/webapp\)\) that communicates with 
+2. a [Rest API](https://github.com/opentargets/rest_api) \([https://github.com/opentargets/rest\_api\](https://github.com/opentargets/rest_api\)\) which retrieves and queries the data from 
 3. an ElasticSearch database; 
 
 Each data-release we produce comes with an ElasticSearch snapshot \(ie. a _database_ _dump_\) to that can be used to create your own replica, using the `restore` ElasticSearch API.
@@ -32,13 +32,9 @@ docker volume inspect otdata
 
 2\) Whitelist the url of our repo when you \`docker run\` by passing an environment variable:
 
-
-
 ```
 docker run -d -p 9200:9200 -v otdata:/usr/share/elasticsearch/daata -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' -e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.8
 ```
-
-
 
 If you get a "invalid reference format" error, doublecheck that the container tag has not changed by visiting the elasticsearch [docker container listings](https://www.docker.elastic.co/). It can also happen as a result of  copy/pasting the command from this documentation page. Try to re-type in your own shell.
 
@@ -72,14 +68,18 @@ The URL for the latest ES snapshot \(i.e. Dec 2017\) is:
 
 Again [following the elasticsearch documentation](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_repositories) - you register the repo using this URL :
 
-```
+```bash
 curl -XPUT 'localhost:9200/_snapshot/ot_repo?verify=false&pretty' -H 'Content-Type: application/json' -d'
 {
-  "type": "url",
-  "settings": {
-    "url": "https://storage.googleapis.com/open-targets-data-releases/17.12/17.12_snapshot/"
+"type": "url",
+"settings": {
+"url": "https://storage.googleapis.com/open-targets-data-releases/17.12/17.12_snapshot/"
 }
 }'
+```
+
+```bash
+
 ```
 
 which should return:
