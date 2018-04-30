@@ -1,4 +1,4 @@
-#### How are diseases described in Open Targets?
+#### Describing diseases
 
 We map diseases to ontology terms in the Experimental Factor Ontology \(EFO\). This enables us to integrate evidence from different sources and to describe relationships between diseases.
 
