@@ -18,7 +18,7 @@
 * [Data download](data-download.md)
 * [Contact](contact.md)
 
-## Tutorials
+## Python client tutorials
 
 * [Disease variants](tutorials/disease-variants.md)
 * [Find target with drugs](tutorials/chembl-drugs.md)
