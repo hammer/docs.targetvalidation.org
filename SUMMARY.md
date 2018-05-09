@@ -14,7 +14,7 @@
 * [Evidence](evidence.md)
 * [Scoring](scoring.md)
 * [Batch search](batch-search.md)
-* [How to cite](how-to-cite.md)
+* [Citation](how-to-cite.md)
 * [Data download](data-download.md)
 * [Contact](contact.md)
 
