@@ -14,7 +14,7 @@ In the target profile page, you will see the target official symbol, its descrip
 
 * Variants, isoforms and genomic context: [Ensembl](https://legacy.gitbook.com/book/opentargets/docs/edit#)
 
-* Protein interactions: [OmniPathDB](http://omnipathdb.org)
+* Protein interactions: [OmniPath DB](http://omnipathdb.org)
 
 * RNA and protein baseline expression: [Expression Atlas](https://www.ebi.ac.uk/gxa/home), [GTEx](https://www.gtexportal.org/home/documentationPage), [Human Protein Atlas](http://www.proteinatlas.org/)
 

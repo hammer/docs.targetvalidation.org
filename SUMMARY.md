@@ -26,7 +26,7 @@
 ## Data Sources
 
 * [Introduction](data-sources/introduction.md)
-* [Genetic Associations](data-sources/genetic-associations.md)
+* [Genetic associations](data-sources/genetic-associations.md)
 * [Somatic mutations](data-sources/somatic-mutations.md)
 * [Drugs](data-sources/drugs.md)
 * [Affected pathways](data-sources/affected-pathways.md)
@@ -48,9 +48,9 @@
 * [Clinical trials](faq/clinical-trials.md)
 * [Tissue specificity](faq/tissue-specificity.md)
 * [Bibliography](faq/bibliography.md)
-* [Privacy & Tracking](faq/tracking.md)
 * [Variants or mutations](faq/variants-vs-mutations.md)
-* [Transgenic animal models](faq/trasgenic-animal-models.md)
+* [Privacy and tracking](faq/tracking.md)
+* [Transgenic mice](faq/trasgenic-animal-models.md)
 * [Spin your own instance](faq/spin-your-own-instance.md)
 * [Add your own data](faq/add-your-own-data.md)
 
