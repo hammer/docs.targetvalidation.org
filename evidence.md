@@ -1,4 +1,6 @@
-Our evidence comes in different shapes and sizes. Some of them are from experiments using nucleotide sequencing. Others are drugs from clinical trials. Some are identified through sentences mined from research articles. Evidence can be manually curated or they can come from automated annotation.
+### Evidence for target-disease associations
+
+Our evidence comes in different shapes and sizes. Some of them are from experiments using DNA sequencing. Others are drugs from clinical trials. Some are identified through sentences mined from research articles. Evidence can be manually curated or they can come from automated annotation.
 
 To describe this variety, we use ontology terms from the [Evidence and Conclusion Ontology](http://evidenceontology.org/Welcome.html), or ECO. Our data providers send the evidence to us in a JSON file, containing the following:
 

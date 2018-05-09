@@ -50,3 +50,5 @@ I can select any two targets in the network and find the details of the interact
 
 Note that the current limit on the number of targets you can upload \(or paste in\) is 200.
 
+Watch our video tutorial on "[How to search for many drug targets at once with Open Targets](https://www.youtube.com/watch?v=CPkAxnVrt_s)" using the batch search
+
