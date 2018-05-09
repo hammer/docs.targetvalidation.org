@@ -1,22 +1,36 @@
 #### The target profile
 
-When searching for a target, in addition to the list of diseases associated with it, you will also see at the top of the page the ‘View TARGET profile’ link e.g.View BRAF profile. Click on this to get information outside the context of a disease for your target of interest. This is the list of information \(not disease related\) for a target and the original resource the data is from:
+When searching for a target, in addition to the list of diseases associated with it, you will also see at the top of the page the ‘View TARGET profile’ link e.g. 'View BRAF profile'. Click on that link to get information on your target of interest, outside the context of associated diseases.
 
-* Description: [UniProt](http://www.uniprot.org/)
-* Synonyms: alternative names for the protein from [UniProt](http://www.uniprot.org/)
-* Protein information: [UniProt](http://www.uniprot.org/)
-* Protein interactions: [OmniPathDB](http://omnipathdb.org)
-* Protein baseline expression: [Human Protein Atlas](http://www.proteinatlas.org/)
-* RNA baseline expression: [Expression Atlas](https://www.ebi.ac.uk/gxa/home) and [GTEx](https://www.gtexportal.org/home/documentationPage)
-* Gene ontology: [Gene Ontology Consortium](http://geneontology.org/) via [UniProt](http://www.uniprot.org/)
-* Protein structure: [Protein Data Bank Europe](https://www.ebi.ac.uk/pdbe/)
-* Pathways: [Reactome](http://www.reactome.org/)
+In the target profile page, you will see the target official symbol, its description and synonyms, the latter two provided by UniProt. Scroll down to see detailed information on the target \(e.g. Drugs, Protein interactions\) and the original resource of the data \(e.g. ChEMBL, OmniPathDB\):
+
 * Drugs: [ChEMBL](https://www.ebi.ac.uk/chembl/)
-* Gene tree: [Ensembl Protein trees and orthologies](http://www.ensembl.org/info/genome/compara/homology_method.html)
-* Bibliography: [Open Targets Library](/library.opentargets.io)
-* Similar targets: Open Targets Platform
+
+* Protein information: [UniProt](http://www.uniprot.org/)
+
+* Pathways: [Reactome](http://www.reactome.org/)
+
+* Similar targets \(based on diseases in common\): Open Targets Platform
+
+* Variants, isoforms and genomic context: [Ensembl](https://legacy.gitbook.com/book/opentargets/docs/edit#)
+
+* Protein interactions: [OmniPathDB](http://omnipathdb.org)
+
+* RNA and protein baseline expression: [Expression Atlas](https://www.ebi.ac.uk/gxa/home), [GTEx](https://www.gtexportal.org/home/documentationPage), [Human Protein Atlas](http://www.proteinatlas.org/)
+
 * Mouse phenotypes: [MGI](http://www.informatics.jax.org)
-* Variants, isoforms and genomic context: [Ensembl](http://www.ensembl.org)
+
+* Protein structure: [PDBe](https://www.ebi.ac.uk/pdbe/)
+
+* Gene ontology: [Gene Ontology Consortium](http://geneontology.org/) via [UniProt](http://www.uniprot.org/)
+
+* Gene tree: [Ensembl Protein trees and orthologies](http://www.ensembl.org/info/genome/compara/homology_method.html)
+
+* Bibliography: [Open Targets Library](/library.opentargets.io)
+
+* Cancer hallmark: [Cancer Gene Census](https://cancer.sanger.ac.uk/census#cl_search) - COSMIC
+
+* Cancer biomarkers
 
 
 
