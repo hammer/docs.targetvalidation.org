@@ -32,5 +32,7 @@ In the target profile page, you will see the target official symbol, its descrip
 
 * Cancer biomarkers
 
+* Target Enabling Packages: [Structural Genomics Consortium](https://www.thesgc.org/tep)
+
 
 
