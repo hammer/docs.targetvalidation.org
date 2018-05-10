@@ -36,7 +36,7 @@
 
 ## FAQ
 
-* [Welcome](faq/introduction.md)
+* [Frequently asked questions ](faq/introduction.md)
 * [Describing diseases](faq/describing-diseases.md)
 * [What can I search for?](faq/test.md)
 * [What is a target?](faq/what-is-a-target.md)
