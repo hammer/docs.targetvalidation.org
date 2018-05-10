@@ -25,8 +25,8 @@
 
 ## Data Sources
 
-* [Introduction](data-sources/introduction.md)
-* [Genetic Associations](data-sources/genetic-associations.md)
+* [Data sources](data-sources/data-sources.md)
+* [Genetic associations](data-sources/genetic-associations.md)
 * [Somatic mutations](data-sources/somatic-mutations.md)
 * [Drugs](data-sources/drugs.md)
 * [Affected pathways](data-sources/affected-pathways.md)
