@@ -2,7 +2,7 @@
 
 Our core stack is composed of three tiers:
 
-1. a client-side [web application](https://github.com/opentargets/webapp) \([https://github.com/opentargets/webapp\](https://github.com/opentargets/webapp%29\) that communicates with 
+1. a client-side [web application](https://github.com/opentargets/webapp) that communicates with 
 2. a [Rest API](https://github.com/opentargets/rest_api) \([https://github.com/opentargets/rest\_api\](https://github.com/opentargets/rest_api%29\) which retrieves and queries the data from 
 3. an ElasticSearch database; 
 
