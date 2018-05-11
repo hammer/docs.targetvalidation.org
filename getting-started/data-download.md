@@ -6,7 +6,7 @@ This data is available as compressed JSON files and can also be obtained program
 
 {% tabs %}
 {% tab title="Note" %}
-Both association and evidence files cannot be used to restore the application as they are not a database dump. These files are the product of a preprocessed export through the Open Targets REST API using [opentargets-py](https://github.com/opentargets/opentargets-py), the Open Targets python client. 
+Both association and evidence files cannot be used to restore the application as they are not a database dump. These files are the product of a preprocessed export through the Open Targets REST API using [opentargets-py](https://github.com/opentargets/opentargets-py), our python client. 
 
 These dump files are meticulously formatted to serve as inputs for your in-house tools: each line represents a fully dumped \(serialised to a string\) JSON-object independent of each other.
 {% endtab %}
