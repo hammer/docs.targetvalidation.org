@@ -20,3 +20,7 @@ You can order the associations by their scores for individual data types \(e.g. 
 
 In the Tree view, you can visualise the evidence across the therapeutic areas in a tree that represents the relationships of diseases. Therapeutic areas have a square symbol \(e.g. Genetic disorders\), while the diseases \(e.g. ovarian carcinoma\) are represented as circles. The squares and circles are colour coded in blue, and the darker the blue, the stronger the association.
 
+## 
+
+Head to the Open Targets Platform to see all [targets associated with SETDB1](http://www.targetvalidation.org/target/ENSG00000143379/associations) and find which view is more useful to you.
+
