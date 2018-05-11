@@ -1,8 +1,8 @@
 # Scoring
 
-The Open Targets Platform allows you to prioritise targets based on the strength of their association with a disease.
+The [Open Targets Platform](https://www.targetvalidation.org/) allows you to prioritise drug targets based on the strength of their association with a disease.
 
-We allow for the prioritisation of targets by scoring target-disease associations based on our data sources. Our scoring system varies from 0 to 1, the latter represents the strongest association, and it’s calculated based on the confidence levels in the evidence.
+We allow for the prioritisation of targets by scoring target-disease associations based on our [data sources](https://docs.targetvalidation.org/data-sources/) such as the GWAS catalog, PheWAS catalog. Similar data sources are grouped together into data types \(e.g. Genetic associations\). Our scoring system varies from 0 to 1, the latter represents the strongest association, and it’s calculated based on the confidence in the evidence.
 
 We assess the key factors that relate to the confidence in the target-disease association. We provide association scores to help you answering these questions:
 
