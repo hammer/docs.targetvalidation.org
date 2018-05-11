@@ -2,7 +2,7 @@
 
 When searching for a target, in addition to the list of diseases associated with it, you will also see at the top of the page the ‘View TARGET profile’ link e.g. 'View BRAF profile'. Click on that link to get information on your target of interest, outside the context of associated diseases.
 
-In the target profile page, you will see the target official symbol, its description and synonyms, the latter two provided by UniProt. Scroll down to see detailed information on the target \(e.g. Drugs, Protein interactions\) and the original resource of the data \(e.g. ChEMBL, OmniPathDB\):
+In the target profile page, you will see the target official symbol, its description and synonyms, the latter two provided by UniProt. Scroll down to see detailed information on the target \(e.g. Drugs, Protein interactions\) and the original resource of the data \(e.g. ChEMBL, OmniPath DB\):
 
 * Drugs: [ChEMBL](https://www.ebi.ac.uk/chembl/)
 * Protein information: [UniProt](http://www.uniprot.org/)
@@ -16,7 +16,7 @@ In the target profile page, you will see the target official symbol, its descrip
 * Gene ontology: [Gene Ontology Consortium](http://geneontology.org/) via [UniProt](http://www.uniprot.org/)
 * Gene tree: [Ensembl Protein trees and orthologies](http://www.ensembl.org/info/genome/compara/homology_method.html)
 * Bibliography: [Open Targets Library](https://github.com/opentargets/docs.targetvalidation.org/tree/89163f4f81591e3fa4ca1b7890ee9e8f49c7e22b/library.opentargets.io)
-* Cancer hallmark: [Cancer Gene Census](https://cancer.sanger.ac.uk/census#cl_search) - COSMIC
-* Cancer biomarkers
+* Cancer hallmarks: [Cancer Gene Census](https://cancer.sanger.ac.uk/census#cl_search) - COSMIC
+* Cancer biomarkers: [Cancer Biomarkers database](https://www.cancergenomeinterpreter.org/biomarkers)
 * Target Enabling Packages: [Structural Genomics Consortium](https://www.thesgc.org/tep)
 
