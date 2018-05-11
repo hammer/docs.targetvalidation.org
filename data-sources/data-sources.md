@@ -2,9 +2,17 @@
 
 We collect evidence from various data sources \(e.g. Reactome, SLAPenrich, PROGENy\) to allow for target identification and prioritisation using the [Open Targets Platform](https://www.targetvalidation.org/). We group similar data sources into categories called Data types \(e.g. Affected pathways for Reactome, SLAPenrich and PROGENy\).
 
-We list our current data types and their data sources below. 
+These are the current data types.
 
+* [Genetic associations](https://docs.targetvalidation.org/data-sources/genetic-associations)
+* [Somatic mutations](https://docs.targetvalidation.org/data-sources/somatic-mutations)
+* [Drugs](https://docs.targetvalidation.org/data-sources/drugs)
+* [Affected pathways](https://docs.targetvalidation.org/data-sources/affected-pathways)
+* [RNA expression](https://docs.targetvalidation.org/data-sources/rna-expression)
+* [Text mining](https://docs.targetvalidation.org/data-sources/text-mining)
+* [Animal models](https://docs.targetvalidation.org/data-sources/animal-models)
 
+Click on the data types to find their corresponding data sources.
 
 {% tabs %}
 {% tab title="Note" %}
@@ -14,5 +22,5 @@ The evidence from an individual Data source can contribute to different Data typ
 
 
 
-and combine similar data sources into categories called Data types \(e.g. Affected pathways\)
+
 
