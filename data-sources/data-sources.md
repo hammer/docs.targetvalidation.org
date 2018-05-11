@@ -16,7 +16,7 @@ Click on the data types to find their corresponding data sources.
 
 {% tabs %}
 {% tab title="Note" %}
-The evidence from an individual Data source can contribute to different Data types, e.g. data from EVA is used as evidence for both Genetic associations and Somatic mutations, depending on whether the evidence is a germline variant or somatic mutation, respectively.
+The evidence from an individual data source can contribute to different data types, e.g. data from EVA is used as evidence for both Genetic associations and Somatic mutations, depending on whether the evidence is a germline variant or somatic mutation, respectively.
 {% endtab %}
 {% endtabs %}
 
