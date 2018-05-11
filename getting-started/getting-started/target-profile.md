@@ -1,6 +1,6 @@
 # Target profile
 
-When searching for a target, in addition to the list of diseases associated with it, you will also see at the top of the page the ‘View TARGET profile’ link e.g. 'View BRAF profile'. Click on that link to get information on your target of interest, outside the context of associated diseases.
+When searching for a target, in addition to the list of diseases associated with it, you will also see at the top of the page the ‘View TARGET profile’ link e.g. 'View BRAF profile'. Click on the link to get information on your target of interest, outside the context of associated diseases. 
 
 In the target profile page, you will see the target official symbol, its description and synonyms, the latter two provided by UniProt. Scroll down to see detailed information on the target \(e.g. Drugs, Protein interactions\) and the original resource of the data \(e.g. ChEMBL, OmniPath DB\):
 
@@ -22,5 +22,9 @@ In the target profile page, you will see the target official symbol, its descrip
 We also include links to the Structural Genomics Consortium when a [Target Enabling Package](http://www.thesgc.org/tep) \(or TEP\) is available, such as for the [CDK12](http://www.targetvalidation.org/target/ENSG00000167258) drug target.  
 
 
-
+{% tabs %}
+{% tab title="Tip" %}
+Explore the target profile of [BRAF](http://www.targetvalidation.org/target/ENSG00000157764).
+{% endtab %}
+{% endtabs %}
 
