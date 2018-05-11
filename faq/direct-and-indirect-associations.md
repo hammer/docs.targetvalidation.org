@@ -19,7 +19,7 @@ What does this expansion based on indirect evidence enable us to do?
 
 Moreover, the different evidence types coming from our [data sources](https://www.targetvalidation.org/data_sources) often are associated with diseases at different levels of their ontology. For instance, the electronic description of diseases from drugs in clinical trials can be quite general, whereas rare genetic diseases are defined in much greater detail.
 
-When you search for\_IL10RA\_using the web interface, you will find [97 diseases associated with IL10RA](https://www.targetvalidation.org/target/ENSG00000110324/associations).
+When you search for\_IL10RA\_using the web interface, you will find all [diseases associated with IL10RA](https://www.targetvalidation.org/target/ENSG00000110324/associations).
 
 ![](../.gitbook/assets/il10ra.png)
 
