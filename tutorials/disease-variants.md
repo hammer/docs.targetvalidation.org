@@ -1,4 +1,10 @@
-# Disease variants
+---
+description: >-
+  You can use our Python client to get a list of variants associated with a
+  disease.
+---
+
+# How to get variants associated with diseases
 
 The easiest way is to use our [Open Targets Python client](https://github.com/opentargets/opentargets-py/). Let me guide you through a simple example that uses the filtering capabilities included in the client.
 

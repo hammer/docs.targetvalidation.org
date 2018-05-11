@@ -23,7 +23,7 @@
 ## Tutorials
 
 * [How to find targets and diseases associated with drugs](tutorials/find-target-with-drugs.md)
-* [Disease variants](tutorials/disease-variants.md)
+* [How to get variants associated with diseases](tutorials/disease-variants.md)
 
 ## Data Sources
 
