@@ -1,6 +1,16 @@
 # Data download
 
-Yes, you can download our data as compressed JSON files. These [file dumps are available](http://www.targetvalidation.org/downloads/data) for the target-disease association objects and the evidence objects, the latter used to calculate each association. Both association and evidence objects are also available programmatically via our API \(check our [API documentation](http://api.opentargets.io/v3/platform/docs)\).
+You can download the target-disease associations and the evidence used for the associations from our [Data Download](https://www.targetvalidation.org/downloads/data) page. 
 
-Both files, evidence and association, cannot be used to restore the application. Although they are the result of a data dump, they are not in the sense of a proper database dump. These files are the product of a preprocessed export through our [Rest API](http://api.opentargets.io/v3/platform/docs) using our [python client](https://github.com/opentargets/opentargets-py). Nevertheless, the dump files are meticulously formatted to serve as inputs for your in-house tools; each line represents a fully dumped \(serialised to a string\) JSON-object independent of each other.
+This data is available as compressed JSON files and can also be obtained programmatically using the `/public/associations` and `/public/evidence` REST-API methods. Check [Open Targets Platform REST API](http://api.opentargets.io/v3/platform/docs)  for more details.
+
+{% tabs %}
+{% tab title="Note" %}
+Both association and evidence files cannot be used to restore the application as they are not a database dump. These files are the product of a preprocessed export through the Open Targets REST API using [opentargets-py](https://github.com/opentargets/opentargets-py), the Open Targets python client. 
+
+These dump files are meticulously formatted to serve as inputs for your in-house tools: each line represents a fully dumped \(serialised to a string\) JSON-object independent of each other.
+{% endtab %}
+{% endtabs %}
+
+
 
