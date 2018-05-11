@@ -1,8 +1,8 @@
 # Disease profile
 
-When searching for a disease, in addition to the list of targets associated with it, you will also see at the top of the page the ‘View DISEASE profile’ link e.g. 'View Asthma profile'. Click on this link to get disease specific information, outside the context of associated targets.
+When searching for a disease, in addition to the list of targets associated with it, you will also see at the top of the page the ‘View DISEASE profile'. Click on this link to get disease specific information, outside the context of any associated targets.
 
-In the disease profile page, you will see the disease name, description and synonyms, the latter two if available in EFO. Scroll down to see detailed information on the disease \(e.g. Drugs\) and the original resource of the data \(e.g. ChEMBL\):
+In this page, you will find the name, description and synonyms for the disease, the latter two if available in EFO. Scroll down to see detailed information on the disease \(e.g. Phenotypes\) and the original source of the data \(e.g. ChEMBL\):
 
 * Similar diseases \(based on targets in common\): Open Targets Platform
 * Phenotypes: [Experimental Factor Ontology](http://www.ebi.ac.uk/efo/)
@@ -12,7 +12,7 @@ In the disease profile page, you will see the disease name, description and syno
 
 {% tabs %}
 {% tab title="Tip" %}
-Explore the target profile of [BRAF](http://www.targetvalidation.org/target/ENSG00000157764).
+Head to the Open Targets Platform and start exploring the disease profile of [multiple sclerosis](http://www.targetvalidation.org/disease/EFO_0003885).
 {% endtab %}
 {% endtabs %}
 
