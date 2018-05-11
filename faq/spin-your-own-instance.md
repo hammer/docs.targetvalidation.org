@@ -1,3 +1,5 @@
+# Spin your own instance
+
 Our core stack is composed of three tiers:
 
 1. a client-side [web application](https://github.com/opentargets/webapp) \([https://github.com/opentargets/webapp\](https://github.com/opentargets/webapp%29\) that communicates with 
@@ -20,25 +22,25 @@ Assuming you are following the official instructions and use [docker to run elas
 
 1\) Create a docker volume as recommended:
 
-```
+```text
 docker volume create otdata
 ```
 
 Check that it's been created:
 
-```
+```text
 docker volume inspect otdata
 ```
 
 Also create a docker network that our docker containers will communicate through.
 
-```
+```text
 docker network create otnet
 ```
 
 2\) Whitelist the URL of our repo when you \`docker run\` by passing an environment variable:
 
-```
+```text
 docker run -d --name elastic --network otnet -p 9200:9200 -v otdata:/usr/share/elasticsearch/daata -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' -e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.8
 ```
 
@@ -46,7 +48,7 @@ If you get a "invalid reference format" error, double check that the container t
 
 You can check that the docker container is running by typing `docker ps` . Make sure ES is responding on the 9200 port by typing `curl localhost:9200` . This which should return a 200 response similar to:
 
-```
+```text
 {
     "cluster_name": "docker-cluster",
     "cluster_uuid": "Gt2Dsxh4StyV3YvdwBjx-Q",
@@ -62,7 +64,7 @@ You can check that the docker container is running by typing `docker ps` . Make 
 }
 ```
 
-More details on why you have to specify `repositories.url.allowed_urls`  can be found in the official [elasticsearch documentation on read only URL repositories](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_read_only_url_repository).
+More details on why you have to specify `repositories.url.allowed_urls` can be found in the official [elasticsearch documentation on read only URL repositories](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_read_only_url_repository).
 
 3\) You now have to register the Open Targets public snapshot as a repo.
 
@@ -74,7 +76,7 @@ The URL for the latest ES snapshot \(i.e. Dec 2017\) is:
 
 Register the repo using the URL below:
 
-```
+```text
 curl -XPUT 'localhost:9200/_snapshot/ot_repo?verify=false&pretty' -H 'Content-Type: application/json' -d'{
 "type": "url",
 "settings": {
@@ -84,7 +86,7 @@ curl -XPUT 'localhost:9200/_snapshot/ot_repo?verify=false&pretty' -H 'Content-Ty
 
 This should return:
 
-```
+```text
 {
   "acknowledged" : true
 }
@@ -92,13 +94,13 @@ This should return:
 
 4\) Find out the snapshots contained in the repo we have just registered:
 
-```
+```text
  curl localhost:9200/_cat/snapshots/ot_repo
 ```
 
 This should return something similar to:
 
-```
+```text
 curator-20180126111418 SUCCESS 1516965258 11:14:18 1516967082 11:44:42 30.3m 12 24 0 24
 ```
 
@@ -106,7 +108,7 @@ Make a note of the name above, which is the first field on the left, as we will 
 
 5\) Once the last step completes successfully, you will [trigger the snapshot restore:](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_restore)
 
-```
+```text
 curl -XPOST 'localhost:9200/_snapshot/ot_repo/<snapshot name>/_restore?pretty' -H 'Content-Type: application/json' -d'
 {
   "indices": "17.12_evidence-data-generic",
@@ -120,7 +122,7 @@ by using the `snapshot name` from the step above
 
 6\) Check the progress of the restore by looking at the `_cat/recovery`
 
-```
+```text
 curl 'localhost:9200/_cat/recovery?v&h=index,time,type,stage,files_percent'
 ```
 
@@ -128,7 +130,7 @@ curl 'localhost:9200/_cat/recovery?v&h=index,time,type,stage,files_percent'
 
 To spin up a docker container running the Open Targets API, follow the instruction on our README.
 
-```
+```text
 docker run -d -p 8080:80 --network otnet --name rest_api -e "ELASTICSEARCH_URL=http://elastic:9200" -e "OPENTARGETS_DATA_VERSION=17.12" --privileged quay.io/opentargets/rest_api
 ```
 
@@ -146,7 +148,7 @@ and readiness can be checked by calling: `curl localhost:8080/v3/platform/public
 
 To spin up a docker container running the Open Targets web app, follow the [instruction on the webapp README](https://github.com/opentargets/webapp#deploy-using-our-docker-container):
 
-```
+```text
 docker run -d --name webapp --network otnet -p 8443:443 -e "REST_API_SCHEME=https" -e "REST_API_SERVER=rest_api" -e "REST_API_PORT=443" quay.io/opentargets/webapp
 ```
 

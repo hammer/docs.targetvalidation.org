@@ -1,4 +1,4 @@
-### Evidence for target-disease associations
+# Evidence
 
 Our evidence comes in different shapes and sizes. Some of them are from experiments using nucleotide sequencing. Others are drugs from clinical trials. Some are identified through sentences mined from research articles. Evidence can be manually curated or they can come from automated annotation.
 
@@ -16,18 +16,15 @@ The ECO is not the only ontology that comes in handy in our Platform. We also us
 
 For instance, IBD is a child of autoimmune disease, and the parent term of other related diseases, such as [ulcerative colitis](http://www.targetvalidation.org/disease/EFO_0000729) and [Crohn's disease](http://www.targetvalidation.org/disease/EFO_0000384).
 
-![](/assets/ibd-efo-tree.png)
+![](../.gitbook/assets/ibd-efo-tree.png)
 
 We use these parent-child relationships to propagate direct evidence from IBD up to higher levels in its ontology tree, and to provide additional integration. We refer to this type of evidence as indirect. We use indirect evidence to expand the number of associations that we would not have identified otherwise.
 
 What does this expansion based on indirect evidence enable us to do?
 
 * it allows finding common targets across groups of related diseases \(e.g. ulcerative colitis, Crohn's disease and inflammatory bowel disease\).
-
 * it makes connections between rare and common diseases \(e.g. autosomal recessive early-onset inflammatory bowel disease and inflammatory bowel disease\).
-
 * it groups evidence for all diseases within a therapeutic area.
-
 * it allows the identification of unforeseen associations by serendipity.
 
 Moreover, the different evidence types coming from our [data sources](https://www.targetvalidation.org/data_sources) often are associated with diseases at different levels of their ontology. For instance, the electronic description of diseases from drugs in clinical trials can be quite general, whereas rare genetic diseases are defined in much greater detail.

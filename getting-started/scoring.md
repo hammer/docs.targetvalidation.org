@@ -1,4 +1,4 @@
-### Scoring target-disease associations
+# Scoring
 
 The Open Targets Platform allows you to prioritise targets based on the strength of their association with a disease.
 
@@ -11,7 +11,7 @@ We assess the key factors that relate to the confidence in the target-disease as
 
 The association score is a numerical value varying from 0 to 1, which indicates the strength of the association between a target and a disease. A score of 1 refers to the strongest association, whereas a score of 0 corresponds to no evidence supporting an association. In our Platform, we represent the different scores with varying shades of blue: the darker the blue, the stronger the association.
 
-#### Computing the Association Score {#computing-the-association-score}
+## Computing the Association Score {#computing-the-association-score}
 
 We start by generating a score for each evidence from different data sources \(e.g. GWAS catalog, European Variation Archive\) within a data type \(e.g. Genetic associations\). We define the evidence score as:
 
@@ -41,7 +41,7 @@ The evidence score summarises the strength of the evidence and depends on factor
 
 Once we have the scores for each evidence, we calculate an overall score for a data type \(e.g. Genetic associations\). In this step, we take into account that although multiple occurrences of evidence can suggest a strong association, the inclusion of further new evidence should not have a great impact on the overall score. For this reason, we calculate the sum of the [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_%28mathematics%29) of each score and adjust the contribution of each of them using a heuristic weighting. Throughout this process, the value of the score is always capped at 1, the most confident association.
 
-The current scoring framework is a modified version of the original one described in  "[Open Targets: a platform for therapeutic target identification and validation](https://academic.oup.com/nar/article/45/D1/D985/2605745)". We now compute the direct relationships between targets and diseases taking into account a sigmoid scaling on the number of expression studies \(for RNA Expression\) and PubMed IDs \(for Text mining\) to remove additional spurious relationships.
+The current scoring framework is a modified version of the original one described in "[Open Targets: a platform for therapeutic target identification and validation](https://academic.oup.com/nar/article/45/D1/D985/2605745)". We now compute the direct relationships between targets and diseases taking into account a sigmoid scaling on the number of expression studies \(for RNA Expression\) and PubMed IDs \(for Text mining\) to remove additional spurious relationships.
 
 We will continue to explore and work on alternative statistical models to keep providing robust scoring systems for target-disease associations. For further discussion, please [email](mailto:support@targetvalidation.org) our Support team.
 

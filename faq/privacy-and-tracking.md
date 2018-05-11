@@ -1,4 +1,4 @@
-#### Do you use the information I have searched for in Platform?
+# Privacy & Tracking
 
 We do not analyse the nature \(e.g disease or target names\) of any specific queries via the web interface. We use standard encryption methods \(e.g. https://\) to maintain the security of the searches. For further details check the [Terms of use for the Open Targets Platform](http://www.targetvalidation.org/terms_of_use).
 
