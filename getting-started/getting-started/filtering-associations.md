@@ -1,6 +1,6 @@
 # Filtering associations
 
-You can filter the associations based on four categories:
+You can filter the associations based on the following categories:
 
 * Data types, e.g. Genetic Associations, Somatic mutations, Drugs
 * Therapeutic area, e.g. Genetic disorder, Eye disease
