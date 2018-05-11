@@ -19,7 +19,7 @@ In the target profile page, you will see the target official symbol, its descrip
 * Cancer hallmarks: [Cancer Gene Census](https://cancer.sanger.ac.uk/census#cl_search) - COSMIC
 * Cancer biomarkers: [Cancer Biomarkers database](https://www.cancergenomeinterpreter.org/biomarkers)
 
-We also include links to the [Target Enabling Packages \(or TEPs\)](http://www.thesgc.org/tep) when a TEP is available for drug targets, such as [CDK12](http://www.targetvalidation.org/target/ENSG00000167258).  
+We also include links to Structural Genomics Consortium when a [Target Enabling Package](http://www.thesgc.org/tep) \(or TEP\) is available, such as for the [CDK12](http://www.targetvalidation.org/target/ENSG00000167258) drug target.  
 
 
 
