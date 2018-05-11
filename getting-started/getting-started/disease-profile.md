@@ -10,3 +10,9 @@ In the disease profile page, you will see the disease name, description and syno
 * Bibliography: [Open Targets Library](https://github.com/opentargets/docs.targetvalidation.org/tree/593d0069107d9cccb589f9343403b18425a9e30f/library.opentargets.io)
 * Classification: based on the relationships of the disease to parents and children within the [EFO](https://www.ebi.ac.uk/efo/) hierarchy
 
+{% tabs %}
+{% tab title="Tip" %}
+Explore the target profile of [BRAF](http://www.targetvalidation.org/target/ENSG00000157764).
+{% endtab %}
+{% endtabs %}
+
