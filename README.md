@@ -1,6 +1,6 @@
 # Introduction
 
-The [Open Targets Platform](https://www.targetvalidation.org) is a comprehensive and robust data integration for access to and visualisation of potential drug targets associated with diseases. It brings together multiple data types and aims to assist users to identify and prioritise targets for further investigation.
+The [Open Targets Platform](https://www.targetvalidation.org) is a comprehensive and robust data integration for access and visualisation of drug targets associated with diseases. It brings together multiple data types and aims to assist users to identify and prioritise drug targets for further investigation.
 
 If you have questions or feedback, [email us](mailto:support@targetvalidation.org).
 
