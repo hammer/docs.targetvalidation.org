@@ -24,10 +24,6 @@ In the Tree view, you can visualise the evidence across the therapeutic areas in
 {% tab title="Tip" %}
 Head to the Open Targets Platform to see all [targets associated with SETDB1](http://www.targetvalidation.org/target/ENSG00000143379/associations) and find out which view is more useful to you.
 {% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
 {% endtabs %}
 
 
