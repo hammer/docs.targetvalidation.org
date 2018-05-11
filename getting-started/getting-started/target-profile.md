@@ -18,5 +18,9 @@ In the target profile page, you will see the target official symbol, its descrip
 * Bibliography: [Open Targets Library](https://github.com/opentargets/docs.targetvalidation.org/tree/89163f4f81591e3fa4ca1b7890ee9e8f49c7e22b/library.opentargets.io)
 * Cancer hallmarks: [Cancer Gene Census](https://cancer.sanger.ac.uk/census#cl_search) - COSMIC
 * Cancer biomarkers: [Cancer Biomarkers database](https://www.cancergenomeinterpreter.org/biomarkers)
-* Target Enabling Packages: [Structural Genomics Consortium](https://www.thesgc.org/tep)
+
+We also include links to the [Target Enabling Packages \(or TEPs\)](http://www.thesgc.org/tep) when a TEP is available for drug targets, such as [CDK12](http://www.targetvalidation.org/target/ENSG00000167258).  
+
+
+
 
