@@ -1,4 +1,4 @@
-#### Filtering target-disease associations
+# Filtering associations
 
 You can filter the associations based on four categories:
 
@@ -8,7 +8,4 @@ You can filter the associations based on four categories:
 * Target class, e.g. Enzyme, Ion channel
 
 Each of those can be further filtered, e.g. you can select the GWAS catalog data under Genetic Associations.
-
-  
-
 

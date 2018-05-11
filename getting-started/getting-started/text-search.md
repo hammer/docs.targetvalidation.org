@@ -1,4 +1,4 @@
-#### Getting started with a text search
+# Text search
 
 The search box is available on the [Open Targets Platform](https://www.targetvalidation.org/) homepage and at the top of every other page.
 

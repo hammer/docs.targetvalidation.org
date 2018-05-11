@@ -1,6 +1,12 @@
-#### What can I search for?
+# Test
 
-You can search for disease names \(e.g. Alzheimers\), gene names \(e.g. apolipoprotein E\), official gene symbols \(e.g. APOE\), Ensembl gene IDs \(e.g. ENSG00000130203\) or protein symbols \(e.g. P02649\). You may also be able to search for synonyms and abbreviations for both genes \(e.g. apolipoprotein, p94\) and diseases \(e.g. IBD\). You can also search for drugs \(e.g. ADALIMUMAB\) and phenotypes \(hyperlordosis\), which will get matched to their associated diseases and targets.
+## Can I become who I want to be?
+
+That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
+
+## Have you had a chance to answer the previous question?
+
+Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
 
 
 
