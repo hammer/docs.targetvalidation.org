@@ -1,6 +1,10 @@
-# Find target with drugs
+---
+description: >-
+  You can use our Python client to get a list of drug compounds associated to
+  targets and diseases.
+---
 
-We'll use the python client to get a list of compounds associated to targets and diseases:
+# How to find targets and diseases associated with drugs
 
 ```python
 import pandas as pd
@@ -73,9 +77,9 @@ brafdrugs
 | 7 | BRAF | TKL protein kinase RAF family | http://identifiers.org/chembl.compound/CHEMBL1... | INHIBITOR | VEMURAFENIB | Small molecule | 4 | neoplasm |
 | 8 | BRAF | TKL protein kinase RAF family | http://identifiers.org/chembl.compound/CHEMBL2... | INHIBITOR | DABRAFENIB | Small molecule | 4 | melanoma |
 
-Now, we would like to do this for more than one gene at the time.
 
-For example, you might have a list of genes in a text file:
+
+Now, if you want to do this for a list of genes as a text file:
 
 ```python
 with open('input_genes.txt') as f:
@@ -87,9 +91,11 @@ bcgenes[:5]
 ['AARSD1', 'ABCA3', 'ABCB6', 'ABHD1', 'ABHD8']
 ```
 
-First, you will have to map your gene symbols to gene IDs.
+Firstly,  you need to map your gene symbols to Ensembl gene IDs.
 
-I am using here [https://mygene.info](https://mygene.info) which is a quick lookup and annotation service. You can read more at [http://nbviewer.jupyter.org/gist/newgene/6771106](http://nbviewer.jupyter.org/gist/newgene/6771106)
+Here we use [MyGene.info](https://mygene.info/) as a quick lookup and annotation service. 
+
+Head to their [ID mapping using mygene module in Python](http://nbviewer.jupyter.org/gist/newgene/6771106/id_mapping_mygene.ipynb) page to learn more about MyGene.
 
 ```python
 import mygene
