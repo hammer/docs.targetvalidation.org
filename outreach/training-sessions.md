@@ -13,6 +13,8 @@ If you can't attend any of the above, [email us](mailto:support@targetvalidation
 
 **Past sessions:**
 
+{% tabs %}
+{% tab title="2018" %}
 * Wednesday, March 21, 2018. Biogen - Boston, US
 * Tuesday, March 20, 2018. EMBL-EBI, UK
 * Monday, March 19, 2018. Takeda - Boston, US
@@ -20,6 +22,9 @@ If you can't attend any of the above, [email us](mailto:support@targetvalidation
 * Monday, March 12, 2018. BioData West - San Francisco, US
 * Tuesday, March 6, 2018. Biogen, Webinar
 * Thursday, February 22, 2018. EMBL-EBI, UK
+{% endtab %}
+
+{% tab title="2017" %}
 * Tuesday, December 5, 2017. University College London, Webinar
 * Tuesday, December 5, 2017. EMBL-EBI, Webinar \( [Take a REST with the Open Targets API ](https://www.youtube.com/watch?v=KQbfhwpeEvc)\)
 * Thursday, November 30, 2017. Biogen, Webinar
@@ -47,8 +52,13 @@ If you can't attend any of the above, [email us](mailto:support@targetvalidation
 * Thursday, February 23, 2017. Yale School of Medicine & friends Webinar \( [slides ](https://github.com/deniseOme/training/blob/master/slides.pdf)\)
 * Thursday, February 9, 2017. Yale School of Medicine New Haven, US \( [cancelled due to winter storm Niko ](https://twitter.com/Yale/status/829738909663895553)\)
 * Monday, February 6, 2017. Washington DC, US \( [recorded talk ](https://www.youtube.com/watch?v=Fc3li7Z_Bdg)\)
+{% endtab %}
+
+{% tab title="2016" %}
 * Friday, December 16, 2016. Cancer Research UK Cambridge Institute, UK \( [slides \| ](https://github.com/deniseOme/training/blob/master/CRUK_cambridge_slides.pdf)[exercises \| ](https://github.com/deniseOme/training/blob/master/CRUK_cambridge_exercises.pdf)[answers ](https://github.com/deniseOme/training/blob/master/CRUK_cambridge_answers.pdf)\)
 * Tuesday, November 22, 2016. Cancer Research UK Manchester Institute, UK \( [slides \| ](https://github.com/deniseOme/training/blob/master/CRUK_manchester_slides.pdf)[exercises \| ](https://github.com/deniseOme/training/blob/master/CRUK_manchester_exercises.pdf)[answers ](https://github.com/deniseOme/training/blob/master/CRUK_manchester_answers.pdf)\)
 * Monday, October 17, 2016. University of Cambridge, UK \( [slides \| ](https://github.com/deniseOme/training/blob/master/University_Cambridge_slides.pdf)[exercises \| ](https://github.com/deniseOme/training/blob/master/University_Cambridge_exercises.pdf)[answers ](https://github.com/deniseOme/training/blob/master/University_Cambridge_answers.pdf)\)
 * Thursday, October 13, 2016. Open Day EMBL-EBI, UK
+{% endtab %}
+{% endtabs %}
 
