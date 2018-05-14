@@ -56,3 +56,7 @@
 * [Spin your own instance](faq/spin-your-own-instance.md)
 * [Add your own data](faq/add-your-own-data.md)
 
+## Outreach
+
+* [Training sessions](outreach/training-sessions.md)
+
