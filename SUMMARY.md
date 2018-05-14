@@ -55,6 +55,6 @@
 * [Transgenic animal models](faq/transgenic-animal-models.md)
 * [Spin your own instance](faq/spin-your-own-instance.md)
 * [Add your own data](faq/add-your-own-data.md)
-* Test
+* [more faqs](faq/test.md)
 * Untitled
 
