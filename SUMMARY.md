@@ -56,5 +56,5 @@
 * [Spin your own instance](faq/spin-your-own-instance.md)
 * [Add your own data](faq/add-your-own-data.md)
 * [more faqs](faq/test.md)
-* Untitled
+* [Untitled](faq/untitled.md)
 
