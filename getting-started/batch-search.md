@@ -1,9 +1,3 @@
----
-description: >-
-  The Open Targets batch search tool is an online interface for searching
-  several drug targets at once.
----
-
 # Batch search
 
 Go to our [homepage](https://www.targetvalidation.org/) and click on the link [new batch search](https://www.targetvalidation.org/batch-search), which is below the search box.

@@ -14,7 +14,7 @@
   * [Filtering associations](getting-started/getting-started/filtering-associations.md)
   * [API access](getting-started/getting-started/api-access.md)
 * [Evidence](getting-started/evidence.md)
-* [Scoring](getting-started/scoring.md)
+* [Association score](getting-started/scoring.md)
 * [Batch search](getting-started/batch-search.md)
 * [Citation](getting-started/citation.md)
 * [Data download](getting-started/data-download.md)
@@ -22,12 +22,12 @@
 
 ## Tutorials
 
-* [How to find targets and diseases associated with drugs](tutorials/find-target-with-drugs.md)
-* [How to get variants associated with diseases](tutorials/disease-variants.md)
+* [How to find targets and diseases associated with drugs](tutorials/how-to-find-targets-and-diseases-associated-with-drugs.md)
+* [How to get variants associated with diseases](tutorials/how-to-get-variants-associated-with-diseases.md)
 
 ## Data Sources
 
-* [Data sources](data-sources/intro.md)
+* [Data sources](data-sources/data-sources.md)
 * [Genetic associations](data-sources/genetic-associations.md)
 * [Somatic mutations](data-sources/somatic-mutations.md)
 * [Drugs](data-sources/drugs.md)

@@ -1,9 +1,3 @@
----
-description: >-
-  You can use our Python client to get a list of drug compounds associated to
-  targets and diseases.
----
-
 # How to find targets and diseases associated with drugs
 
 ```python
