@@ -24,7 +24,7 @@ You will get the associated diseases, which are classified either by Therapeutic
 
 ![](http://blog.opentargets.org/content/images/2017/04/Slide1-3.jpg)
 
-We rank the associated diseases according to the probability of finding a disease associated with **your **set of targets. We use the [hypergeometric distribution](https://en.wikipedia.org/wiki/Hypergeometric_distribution) as an attempt to order the most relevant diseases associated with your list of targets. Look out for the relevance \_p\_value in the results table.
+We rank the associated diseases according to the probability of finding a disease associated with **your** set of targets. We use the [hypergeometric distribution](https://en.wikipedia.org/wiki/Hypergeometric_distribution) as an attempt to order the most relevant diseases associated with your list of targets. Look out for the relevance \_p\_value in the results table.
 
 ### 2\) Pathways {#2pathways}
 

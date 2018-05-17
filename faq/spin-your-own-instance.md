@@ -134,7 +134,7 @@ To spin up a docker container running the Open Targets API, follow the instructi
 docker run -d -p 8080:80 --network otnet --name rest_api -e "ELASTICSEARCH_URL=http://elastic:9200" -e "OPENTARGETS_DATA_VERSION=17.12" --privileged quay.io/opentargets/rest_api
 ```
 
-**Check if the container is running: **
+**Check if the container is running:** 
 
 If the container runs in`localhost`and expose port`8080`, you should get a 200 response from:
 

@@ -20,7 +20,7 @@ The [Genomics England PanelApp](https://panelapp.extge.co.uk/crowdsourcing/Panel
 
 ### PheWAS catalog
 
-The [PheWAS](https://phewascatalog.org/) \(phenome-wide association studies\) resources provide associations between a genetic variant and multiple phenotypes. It contains clinical phenotypes derived from the electronic medical record \(EMR\)-linked DNA biobank BioVU by the Center for Precision Medicine at the Vanderbilt University Medical Center. The EMR-based PheWAS uses ICD9 \(International Classification of Disease, 9th edition\), which were mapped to EFO usingOLS andZooma. The catalog contains all associations with p &lt; 0.05 \(uncorrected\).
+The [PheWAS](https://phewascatalog.org/) \(phenome-wide association studies\) resources provide associations between a genetic variant and multiple phenotypes. It contains clinical phenotypes derived from the electronic medical record \(EMR\)-linked DNA biobank BioVU by the Center for Precision Medicine at the Vanderbilt University Medical Centre. The EMR-based PheWAS uses ICD9 \(International Classification of Disease, 9th edition\), which were mapped to EFO using OLS and Zooma. The catalog contains all associations with p &lt; 0.05 \(uncorrected\).
 
 ### UniProt literature
 
