@@ -46,7 +46,7 @@
 * [Genome assembly](faq/genome-assembly.md)
 * [How variants are assigned to genes](faq/how-variants-are-assigned-to-genes.md)
 * [Missing association](faq/missing-association.md)
-* [Association score](faq/association-score.md)
+* [Scoring the associations](faq/association-score.md)
 * [Clinical trials](faq/clinical-trials.md)
 * [Tissue specificity](faq/tissue-specificity.md)
 * [Bibliography](faq/bibliography.md)

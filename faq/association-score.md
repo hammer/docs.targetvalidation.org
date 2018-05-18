@@ -1,4 +1,4 @@
-# Association score
+# Scoring the associations
 
 [Scoring target-disease associations](https://docs.targetvalidation.org/getting-started/scoring) is done at four levels. Firstly, we summarise the strength of the evidence. This score depends on factors that affect the relative strength of the evidence \(e.g. \*p\* values and sample size for SNPs from GWAS Catalog; or phase of the clinical trials for drugs from ChEBML\).
 
