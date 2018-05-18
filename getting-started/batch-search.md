@@ -30,7 +30,7 @@ I will get a summary page for my targets divided into four sections:
 
 I can view the diseases classified either by Therapeutic areas \(e.g. Immune system disease, Digestive system disease\), or divided by the data types \(e.g Genetic associations, Somatic mutations\) used for the association.
 
-Open Targets rank the diseases according to the probability of finding a disease associated with **my **set of targets. So I need to look out for the\_p\_value.
+Open Targets rank the diseases according to the probability of finding a disease associated with **my** set of targets. So I need to look out for the\_p\_value.
 
 ![alt](http://blog.opentargets.org/content/images/2017/04/Slide1-3.jpg)
 
