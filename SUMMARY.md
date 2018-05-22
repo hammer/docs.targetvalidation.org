@@ -18,7 +18,7 @@
 * [Batch search](getting-started/batch-search.md)
 * [Citation](getting-started/citation.md)
 * [Data download](getting-started/data-download.md)
-* [Contact](getting-started/contact.md)
+* [Contact us](getting-started/contact.md)
 
 ## Tutorials
 

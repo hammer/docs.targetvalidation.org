@@ -1,4 +1,4 @@
-# Contact
+# Contact us
 
 If you have questions or feedback, [email us](mailto:support@targetvalidation.org). 
 
