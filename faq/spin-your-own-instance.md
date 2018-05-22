@@ -1,4 +1,4 @@
-# Spin your own instance
+# How can I spin my own instance of the Platform?
 
 Our core stack is composed of three tiers:
 

@@ -1,4 +1,4 @@
-# Describing diseases
+# How do you describe diseases?
 
 We use a slimmed version of the Experimental Factor Ontology \(EFO\) to describe diseases available in the Open Targets Platform. This modified ontology consists of a subset of EFO terms in addition to terms from other ontologies \(e.g. Human Phenotype Ontology - HPO\) for which an EFO term is not available.
 

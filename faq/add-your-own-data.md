@@ -1,4 +1,4 @@
-# Add your own data
+# Can I add private data?
 
 > **Note**: If you are interested in injecting custom/private data, we currently support this to our industry partners only. We are working towards supporting this for users outside the Open Targets Partnership. At any rate, the local installation process is summarised below:
 

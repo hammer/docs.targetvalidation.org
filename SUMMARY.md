@@ -22,8 +22,8 @@
 
 ## Tutorials
 
-* [How to find targets and diseases associated with drugs](tutorials/how-to-find-targets-and-diseases-associated-with-drugs.md)
-* [How to get variants associated with diseases](tutorials/how-to-get-variants-associated-with-diseases.md)
+* [Diseases, targets and drugs](tutorials/how-to-find-targets-and-diseases-associated-with-drugs.md)
+* [Diseases and variants](tutorials/how-to-get-variants-associated-with-diseases.md)
 
 ## Data Sources
 
@@ -39,22 +39,22 @@
 ## FAQ
 
 * [Frequently asked questions](faq/frequently-asked-questions.md)
-* [Describing diseases](faq/describing-diseases.md)
+* [How do you describe diseases?](faq/describing-diseases.md)
 * [What can I search for?](faq/what-can-i-search-for.md)
 * [What is a target?](faq/what-is-a-target.md)
-* [Direct and indirect associations](faq/direct-and-indirect-associations.md)
-* [Genome assembly](faq/genome-assembly.md)
-* [How variants are assigned to genes](faq/how-variants-are-assigned-to-genes.md)
-* [Missing association](faq/missing-association.md)
-* [Scoring the associations](faq/association-score.md)
-* [Clinical trials](faq/clinical-trials.md)
-* [Tissue specificity](faq/tissue-specificity.md)
-* [Bibliography](faq/bibliography.md)
-* [Privacy & Tracking](faq/privacy-and-tracking.md)
-* [Variants or mutations](faq/variants-or-mutations.md)
-* [Transgenic animal models](faq/transgenic-animal-models.md)
-* [Spin your own instance](faq/spin-your-own-instance.md)
-* [Add your own data](faq/add-your-own-data.md)
+* [What is an indirect association?](faq/direct-and-indirect-associations.md)
+* [Which human assembly do you use?](faq/genome-assembly.md)
+* [How do you assign variants to genes?](faq/how-variants-are-assigned-to-genes.md)
+* [Why can't I find a known association?](faq/missing-association.md)
+* [How do you score the associations?](faq/association-score.md)
+* [What are clinical trials?](faq/clinical-trials.md)
+* [What is the tissue specificity in your Platform?](faq/tissue-specificity.md)
+* [What does the bibliography come from?](faq/bibliography.md)
+* [What is your policy on privacy and tracking?](faq/privacy-and-tracking.md)
+* [How do you distinguish variants from mutations?](faq/variants-or-mutations.md)
+* [Do you have data on transgenic mice?](faq/transgenic-animal-models.md)
+* [How can I spin my own instance of the Platform?](faq/spin-your-own-instance.md)
+* [Can I add private data?](faq/add-your-own-data.md)
 
 ## Outreach
 

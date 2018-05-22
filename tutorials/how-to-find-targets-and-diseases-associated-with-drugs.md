@@ -1,4 +1,4 @@
-# How to find targets and diseases associated with drugs
+# Diseases, targets and drugs
 
 ```python
 import pandas as pd

@@ -1,4 +1,4 @@
-# Clinical trials
+# What are clinical trials?
 
 Clinical trials are studies carried out in human volunteers over a period of 10-15 years to investigate the safety and/or efficacy of a medicine. The Food and Drug Administration \(FDA\) describes the following phases:
 

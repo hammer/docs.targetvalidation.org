@@ -1,4 +1,4 @@
-# Scoring the associations
+# How do you score the associations?
 
 We score our target-disease associations across four different tiers.
 
