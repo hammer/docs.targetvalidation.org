@@ -16,7 +16,7 @@
 * [Evidence](getting-started/evidence.md)
 * [Association score](getting-started/scoring.md)
 * [Batch search](getting-started/batch-search.md)
-* [Citation](getting-started/citation.md)
+* [Cite us](getting-started/citation.md)
 * [Data download](getting-started/data-download.md)
 * [Contact us](getting-started/contact.md)
 
