@@ -2,6 +2,10 @@
 
 We collect evidence from various data sources \(e.g. Reactome, SLAPenrich, PROGENy\) to allow for target identification and prioritisation using the [Open Targets Platform](https://www.targetvalidation.org/). We group similar data sources into categories called Data types \(e.g. Affected pathways for Reactome, SLAPenrich and PROGENy\).
 
+![](../.gitbook/assets/data_sources_may18.jpg)
+
+
+
 These are the current data types.
 
 * [Genetic associations](https://docs.targetvalidation.org/data-sources/genetic-associations)
