@@ -1,10 +1,13 @@
 # Training sessions
 
-We offer hands-on workshop on the Open Targets initiative and on our Open Targets Platform. Check our [blog post](https://blog.opentargets.org/outreach-in-open-targets-supercharge-your-target-id-skills/) for more details.
+We offer hands-on workshop on the Open Targets initiative and on our Open Targets Platform. We deliver free, live webinars or face-to-face training. Check our [blog post](https://blog.opentargets.org/outreach-in-open-targets-supercharge-your-target-id-skills/) for more details. 
 
 **Upcoming sessions:**
 
-* Tuesday, June 12, 2018. University of Cambridge - Cambridge, UK
+* Tuesday, May 29, 2018. EMBL Webinar 
+* Thursday, May 31, 2018. AstraZeneca Webinar 
+* Thursday, June  7th, 2018. EMBL-EBI Webinar with Europe PMC
+* Tuesday, June 12, 2018. [Open Targets: Integrating genetics and genomics for disease biology and translational medicine](https://training.csx.cam.ac.uk/bioinformatics/event/2487585). University of Cambridge - Cambridge, UK. Reg
 * Thursday, October 18, 2018. ASHG 2018 - San Diego, US \(Interactive Invited Workshop\)
 
 {% hint style="info" %}
