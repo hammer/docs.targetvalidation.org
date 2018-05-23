@@ -37,7 +37,7 @@ If you can't attend any of the above, [email us](mailto:support@targetvalidation
 * Tuesday, October 10, 2017. EU project C-COMEND, Webinar
 * Monday, July 24, 2017. Abbvie, Webinar
 * Wednesday, July 19, 2017. Alzheimer's Research UK, DDI London \( [slides ](https://github.com/deniseOme/training/blob/master/ARUK_UCL_presentation.pdf)\)
-* Tuesday, July 18, 2017. Perdana University, Malaysia \( [\| ](http://www.targetvalidation.org/)\)
+* Tuesday, July 18, 2017. Perdana University, Malaysia
 * Friday, July 7, 2017. LEO Pharma, Webinar
 * Tuesday, June 27, 2017. Summer School in Bioinformatics, EMBL-EBI \( [slides ](https://github.com/deniseOme/presentations/blob/master/Bioinf_Summer_School_17.pdf)\)
 * Thursday, June 15, 2017. Biogen, Webinar
