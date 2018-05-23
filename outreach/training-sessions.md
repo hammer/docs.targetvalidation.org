@@ -1,6 +1,6 @@
 # Training sessions
 
-We offer hands-on workshop on the Open Targets initiative and on our Open Targets Platform. We deliver free, live webinars or face-to-face training. Check our [blog post](https://blog.opentargets.org/outreach-in-open-targets-supercharge-your-target-id-skills/) for more details. 
+We offer hands-on workshop on our Open Targets Platform as live webinars or face-to-face training. Check our [blog post](https://blog.opentargets.org/outreach-in-open-targets-supercharge-your-target-id-skills/) for more details. 
 
 **Upcoming sessions:**
 
