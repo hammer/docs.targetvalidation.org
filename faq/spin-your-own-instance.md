@@ -12,7 +12,7 @@ N**ote:** our snapshot is different from the files available on our [Downloads](
 
 ## How to restore using the public snapshot
 
-### Pre-requisites:
+#### Pre-requisites:
 
 * Docker \(for Mac OS X, please install [docker for mac](https://docs.docker.com/docker-for-mac/)\)
 
@@ -68,9 +68,9 @@ More details on why you have to specify `repositories.url.allowed_urls` can be f
 
 3\) You now have to register the Open Targets public snapshot as a repo.
 
-The URL for the latest ES snapshot \(i.e. Dec 2017\) is:
+The URL for the latest ES snapshot \(i.e. Apr 2018\) is:
 
-`https://storage.googleapis.com/open-targets-data-releases/17.12/17.12_snapshot/`
+`https://storage.googleapis.com/open-targets-data-releases/18.04/18.04_snapshot/`
 
 \(please be aware of the size of the snapshot, which is roughly 100GB\).
 
@@ -111,7 +111,7 @@ Make a note of the name above, which is the first field on the left, as we will 
 ```text
 curl -XPOST 'localhost:9200/_snapshot/ot_repo/<snapshot name>/_restore?pretty' -H 'Content-Type: application/json' -d'
 {
-  "indices": "17.12_evidence-data-generic",
+  "indices": "*",
   "ignore_unavailable": true,
   "include_global_state": false
 }
