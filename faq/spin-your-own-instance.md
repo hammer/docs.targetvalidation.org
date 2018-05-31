@@ -109,7 +109,7 @@ Make a note of the name above, which is the first field on the left, as we will 
 5\) Once the last step completes successfully, you will [trigger the snapshot restore:](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_restore)
 
 ```text
-curl -XPOST 'localhost:9200/_snapshot/ot_repo/<snapshot name>/_restore?pretty' -H 'Content-Type: application/json' -d'
+curl -XPOST 'localhost:9200/_snapshot/ot_repo/curator-20180508094844/_restore?pretty' -H 'Content-Type: application/json' -d'
 {
   "indices": "*",
   "ignore_unavailable": true,
