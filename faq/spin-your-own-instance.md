@@ -108,6 +108,8 @@ Make a note of the name above, which is the first field on the left, as we will 
 
 5\) Once the last step completes successfully, you will [trigger the snapshot restore:](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_restore)
 
+{% code-tabs %}
+{% code-tabs-item title="start\_restore" %}
 ```text
 curl -XPOST 'localhost:9200/_snapshot/ot_repo/curator-20180508094844/_restore?pretty' -H 'Content-Type: application/json' -d'
 {
@@ -116,7 +118,10 @@ curl -XPOST 'localhost:9200/_snapshot/ot_repo/curator-20180508094844/_restore?pr
   "include_global_state": false
 }
 '
+
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 by using the `snapshot name` from the step above
 
@@ -125,6 +130,18 @@ by using the `snapshot name` from the step above
 ```text
 curl 'localhost:9200/_cat/recovery?v&h=index,time,type,stage,files_percent'
 ```
+
+{% hint style="info" %}
+If your restore operation fails for any reason halfway through, you can launch another restore operation after closing all indices with 
+
+`curl -X POST "localhost:9200/_all/_close"`
+
+and then reusing the `start_restore` command above.
+{% endhint %}
+
+
+
+
 
 ### REST API
 
