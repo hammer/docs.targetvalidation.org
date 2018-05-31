@@ -131,7 +131,7 @@ curl 'localhost:9200/_cat/recovery?v&h=index,time,type,stage,files_percent'
 To spin up a docker container running the Open Targets API, follow the instruction on our README.
 
 ```text
-docker run -d -p 8080:80 --network otnet --name rest_api -e "ELASTICSEARCH_URL=http://elastic:9200" -e "OPENTARGETS_DATA_VERSION=17.12" --privileged quay.io/opentargets/rest_api
+docker run -d -p 8080:80 --network otnet --name rest_api -e "ELASTICSEARCH_URL=http://elastic:9200" -e "OPENTARGETS_DATA_VERSION=18.04" --privileged quay.io/opentargets/rest_api
 ```
 
 **Check if the container is running:** 
