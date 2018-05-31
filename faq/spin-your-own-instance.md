@@ -80,7 +80,7 @@ Register the repo using the URL below:
 curl -XPUT 'localhost:9200/_snapshot/ot_repo?verify=false&pretty' -H 'Content-Type: application/json' -d'{
 "type": "url",
 "settings": {
-"url": "https://storage.googleapis.com/open-targets-data-releases/17.12/17.12_snapshot/"
+"url": "https://storage.googleapis.com/open-targets-data-releases/18.04/18.04_snapshot/"
 }}'
 ```
 
