@@ -49,7 +49,7 @@
 * [How do you score the associations?](faq/association-score.md)
 * [What are clinical trials?](faq/clinical-trials.md)
 * [What is the tissue specificity in your Platform?](faq/tissue-specificity.md)
-* [What does the bibliography come from?](faq/bibliography.md)
+* [Where does the bibliography come from?](faq/bibliography.md)
 * [What is your policy on privacy and tracking?](faq/privacy-and-tracking.md)
 * [How do you distinguish variants from mutations?](faq/variants-or-mutations.md)
 * [Do you have data on transgenic mice?](faq/transgenic-animal-models.md)
