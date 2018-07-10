@@ -1,4 +1,14 @@
+---
+description: >-
+  We allow programmatic retrieval of our data via a set of REST services using
+  the Open Targets Platform REST API.
+---
+
 # Diseases, targets and drugs
+
+This is an example on how you can get the diseases associated with your targets of interest and their drug information using Python.
+
+Check the [Open Targets Platform REST API](https://api.opentargets.io/v3/platform/docs/swagger-ui) documentation for more details.
 
 ```python
 import pandas as pd
@@ -166,4 +176,10 @@ drugtable.head()
 ```python
 drugtable.to_excel('drug_table.xls')
 ```
+
+{% hint style="info" %}
+Check our "How to take a REST from manual searches with the Open Targets API" webinar below.
+{% endhint %}
+
+{% embed data="{\"url\":\"https://www.youtube.com/watch?v=KQbfhwpeEvc&list=PLncWVtwSXtqb8PyL6-ENSCuqP7\_4Aj5BE&index=2\",\"type\":\"video\",\"title\":\"EMBL-EBI programmatically: Open Targets\",\"description\":\"Open Targets is a partnership between academia and industry for systematic identification and prioritisation of new drug targets.\\nWe’ve developed a unique resource for free access to integrated biological data to enable drug target discovery, the Open Targets Platform. Our Platform provides gene and disease associations and detailed information on both genes and human diseases.\\n\\nIn this webinar, Denise Carvalho-Silva:\\n\\nIntroduces the Open Targets Platform \(0:46\)\\nGives an overview of modes of data access \(10:15\)\\nShows you where you can find the Open Targets API documentation \(13:57\)\\nProvide examples of REST API calls \(16:16\)\\nShows you how to query the REST server \(22:15\)\\n\\nDocumentation for the API can be found on the Open Targets website along with information about the Python client for the API.\\n\\nhttp://api.opentargets.io/v3/platform/docs\\n\\nYou can download the slides from the webinar in Train online.\\n\\nhttps://www.ebi.ac.uk/training/online/course/embl-ebi-programmatically-take-rest-manual-searches/open-targets-programmatically\\n\\nWant to know more about accessing EMBL-EBI resources programmatically? Have a look at the other webinars in this series:\\n\\nhttps://www.ebi.ac.uk/training/online/course/embl-ebi-programmatically-take-rest-manual-searches\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/KQbfhwpeEvc/mqdefault.jpg\",\"width\":320,\"height\":180,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/KQbfhwpeEvc?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\\"><iframe src=\\\"https://www.youtube.com/embed/KQbfhwpeEvc?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
 

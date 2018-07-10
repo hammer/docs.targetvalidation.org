@@ -1,19 +1,27 @@
+---
+description: >-
+  The Open Targets Platform REST API can also be accessed with our Python
+  client.
+---
+
 # Diseases and variants
 
-The easiest way is to use our [Open Targets Python client](https://github.com/opentargets/opentargets-py/). Let me guide you through a simple example that uses the filtering capabilities included in the client.
+This is an example on how you can get the genetic variants \(evidence\) associated with a disease of interest using the [Open Targets Python client](https://opentargets.readthedocs.io/en/stable/). This example highlights the filtering capabilities included in the client.
 
-First, create a virtual environment:
+Check the [Open Targets Platform REST API](https://api.opentargets.io/v3/platform/docs/swagger-ui) documentation for more details.
+
+Firstly, create a virtual environment:
 
 ```text
 virtualenv venv
 source venv/bin/activate
 ```
 
-Then, you should install our Python client:
+Then, install our Python client:
 
 `pip install opentargets`
 
-Now, I will choose my favourite editor and create a `get_genetic_evidence_for_disease.py` file that contains the code below:
+Now, choose your favourite editor and create a `get_genetic_evidence_for_disease.py` file that contains the code below:
 
 ```text
 from opentargets import OpenTargetsClient
@@ -35,11 +43,11 @@ outfilepath = 'genetic_evidence_associated_with_' + args.disease + '.csv'
 pd.DataFrame([x['unique_association_fields'] for x in e_for_disease]).to_csv(outfilepath)
 ```
 
-I can now run it by typing on the command line \(notice the quotes around the disease name\):
+You can now run it by typing the following on the command line \(notice the quotes around the disease name\):
 
 `(venv)$ python get_genetic_evidence_for_disease.py "neuropathic pain"`
 
-My folder will now contain a CSV file with the genetic evidence connected to neuropathic pain:
+Your folder will now contain a CSV file with the genetic evidence connected to neuropathic pain:
 
 ```text
 ,gwas_panel_resolution,object,pubmed_refs,pvalue,sample_size,study_name,target,variant
@@ -58,4 +66,6 @@ http://www.ebi.ac.uk/efo/EFO_0005762,http://europepmc.org/abstract/MED/24974787,
 4,6494962,
 http://www.ebi.ac.uk/efo/EFO_0005762,http://europepmc.org/abstract/MED/24974787,1e-6,3063,cttv009_gwas_catalog,http://identifiers.org/ensembl/ENSG00000185652,http://identifiers.org/dbsnp/rs11615866
 ```
+
+
 
