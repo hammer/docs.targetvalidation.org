@@ -6,3 +6,9 @@ A drug target can be a protein, protein complex or RNA molecule. It’s displaye
 
 The Open Targets Platform supports workflows starting from a target or disease, and shows the available evidence for target – disease associations. Target and disease profile pages showing specific information for both target \(e.g. RNA and protein baseline expression\) and disease \(e.g. Disease Classification\) are also available.
 
+
+
+{% hint style="info" %}
+Check our [YouTube](https://www.youtube.com/channel/UCLMrondxbT0DIGx5nGOSYOQ/featured) channel for a series of quick demos, webinars, tutorials to get you started with our Open Targets Platform.
+{% endhint %}
+
