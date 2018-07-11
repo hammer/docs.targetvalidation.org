@@ -10,7 +10,5 @@ Try exploring the different filtering options and ranking the table for the [tar
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
-Check our tutorial video [How to find diseases associated with BRCA2 using Open Targets](https://www.youtube.com/watch?v=TdTI_biupFA&list=PLncWVtwSXtqa02Q6qjc3XRZkqdsbP9-M7) for an example of exploring the targets associated with a disease. 
-{% endhint %}
+
 
