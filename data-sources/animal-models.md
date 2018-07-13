@@ -4,7 +4,7 @@ Model organisms are a valuable source for the characterisation and identificatio
 
 ## PhenoDigm
 
-The Wellcome Sanger Institute [PhenoDigm](http://www.sanger.ac.uk/science/tools/phenodigm) database provides evidence on associations of targets and disease. It uses a semantic approach to map between clinical features observed in humans and mouse phenotype annotations. The phenotypic effects in mice are then mapped to phenotypes associated with human diseases. The matches are identified and a similarity score between a mouse model and a human disease is computed. Details on the scoring are described elsewhere \([Smedley et al 2013](https://europepmc.org/abstract/MED/23660285)\). Note that PhenoDigm is no longer maintained; therefore target-disease associations may be missing from the Open Targets Platform as the mouse phenotypes had not been captured by PhenoDigm. However, we list mouse models associated with any human target under the Mouse phenotypes tab in the target profile page, such as [_SCN1A_](https://www.targetvalidation.org/target/ENSG00000144285). 
+The Wellcome Sanger Institute [PhenoDigm](http://www.sanger.ac.uk/science/tools/phenodigm) database provides evidence on associations of targets and disease. It uses a semantic approach to map between clinical features observed in humans and mouse phenotype annotations. The phenotypic effects in mice are then mapped to phenotypes associated with human diseases. The matches are identified and a similarity score between a mouse model and a human disease is computed. Details on the scoring are described elsewhere \([Smedley et al 2013](https://europepmc.org/abstract/MED/23660285)\). 
 
 ## MGI
 
