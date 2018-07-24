@@ -6,7 +6,7 @@ We allow for the prioritisation of targets by scoring target-disease association
 
 We assess the key factors that relate to the confidence in the target-disease association. We provide association scores to help you answer these questions:
 
-* Which targets have the most evidence for association with a disease?
+* Which targets have the most evidence for association with a disease ?
 * What is the relative weight of the evidence for different targets associated with a disease?
 
 The association score is a numerical value varying from 0 to 1, which indicates the strength of the association between a target and a disease. A score of 1 refers to the strongest association, whereas a score of 0 corresponds to no evidence supporting an association. In our Platform, we represent the different scores with varying shades of blue: the darker the blue, the stronger the association.
