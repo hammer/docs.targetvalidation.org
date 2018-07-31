@@ -6,14 +6,16 @@ description: >-
 
 # Diseases, targets and drugs
 
-This is an example on how you can get the diseases associated with your targets of interest and their drug information using Python.
+This is an example on how you can get the diseases associated with your targets of interest and their drug information using Python. We are going to query the Open Targets Platform REST API \([documentation](https://api.opentargets.io/docs)\) to retrieve a list of drugs associated to a given list of targets.
 
-Check the [Open Targets Platform REST API](https://api.opentargets.io/v3/platform/docs/swagger-ui) documentation for more details.
+You might want to use the [jupyter notebook](http://jupyter.org/install) environment to run this example.
 
 ```python
 import pandas as pd
-import request
+import requests
 ```
+
+After importing, we create a function to retrieve drugs from the API for any given list of ENSGIDs:
 
 ```python
 def drug_table(genelist):
@@ -41,35 +43,25 @@ def drug_table(genelist):
               )
 ```
 
-Test that you can build a dataframe for one target
+Test that you can build a dataframe for one target:
+
+```python
+pd.DataFrame(drug_table(['ENSG00000157764'])
+```
+
+Now assign labels to the column headers and drop the duplicate entries:
 
 ```python
 cols = ['target','target_class','chembl_uri','moa','mol_name','mol_type','phase','indication']
+
 brafdrugs = pd.DataFrame(drug_table(['ENSG00000157764']), columns=cols)
+
 # drop duplicate evidence for each target-drug-indication combination
-print(brafdrugs.shape)
 brafdrugs.drop_duplicates(subset=['target','chembl_uri','indication'],inplace=True)
-print(brafdrugs.shape)
+
 brafdrugs
 ```
 
-```text
-(10, 8)
-(6, 8)
-```
-
-  
-    .dataframe tbody tr th:only-of-type {  
-        vertical-align: middle;  
-    }  
-  
-    .dataframe tbody tr th {  
-        vertical-align: top;  
-    }  
-  
-    .dataframe thead th {  
-        text-align: right;  
-    }  
 
 
 |  | target | target\_class | chembl\_uri | moa | mol\_name | mol\_type | phase | indication |
@@ -84,6 +76,13 @@ brafdrugs
 
 
 Now, if you want to do this for a list of genes as a text file:
+
+`AARSD1  
+ABCA3  
+ABCB6  
+ABHD1  
+ABHD8  
+...`
 
 ```python
 with open('input_genes.txt') as f:
@@ -135,7 +134,7 @@ bcgenes_ensg[:3]
 ['ENSG00000266967', 'ENSG00000167972', 'ENSG00000115657']
 ```
 
-It is better to chunk this list not to overload the API:
+It is better to chunk this list not to overload the Open Targets API:
 
 ```python
 genes_chunked = [bcgenes_ensg[i:i + 50] for i in range(0, len(bcgenes_ensg), 50)]
@@ -151,18 +150,6 @@ drugtable = pd.concat([pd.DataFrame(drug_table(g), columns=cols) for g in genes_
 drugtable.head()
 ```
 
-  
-    .dataframe tbody tr th:only-of-type {  
-        vertical-align: middle;  
-    }  
-  
-    .dataframe tbody tr th {  
-        vertical-align: top;  
-    }  
-  
-    .dataframe thead th {  
-        text-align: right;  
-    }  
 
 
 |  | target | target\_class | chembl\_uri | moa | mol\_name | mol\_type | phase | indication |
