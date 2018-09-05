@@ -10,7 +10,7 @@ In the target profile page, you will see the target official symbol, its descrip
 * Similar targets \(based on diseases in common\): Open Targets Platform
 * Variants, isoforms and genomic context: [Ensembl](https://legacy.gitbook.com/book/opentargets/docs/edit#)
 * Protein interactions: [OmniPathDB](http://omnipathdb.org)
-* RNA and protein baseline expression: [Expression Atlas](https://www.ebi.ac.uk/gxa/home), [GTEx](https://www.gtexportal.org/home/documentationPage), [Human Protein Atlas](http://www.proteinatlas.org/)
+* RNA and protein baseline expression: [Expression Atlas](https://www.ebi.ac.uk/gxa/home), [Human Protein Atlas](http://www.proteinatlas.org/), [GTEx](https://www.gtexportal.org/home/documentationPage) 
 * Mouse phenotypes: [MGI](http://www.informatics.jax.org)
 * Protein structure: [PDBe](https://www.ebi.ac.uk/pdbe/)
 * Gene ontology: [Gene Ontology Consortium](http://geneontology.org/) via [UniProt](http://www.uniprot.org/)
@@ -19,14 +19,14 @@ In the target profile page, you will see the target official symbol, its descrip
 * Cancer hallmarks: [Cancer Gene Census](https://cancer.sanger.ac.uk/census#cl_search) - COSMIC
 * Cancer biomarkers: [Cancer Biomarkers database](https://www.cancergenomeinterpreter.org/biomarkers)
 
-We also include links to the Structural Genomics Consortium when a [Target Enabling Package](http://www.thesgc.org/tep) \(or TEP\) is available, such as for the [CDK12](http://www.targetvalidation.org/target/ENSG00000167258) drug target.
+We also include links to the Structural Genomics Consortium when a [Target Enabling Package](http://www.thesgc.org/tep) \(or TEP\) is available, such as for the [CDK12](http://www.targetvalidation.org/target/ENSG00000167258) drug target; and details of 182 unique high-quality chemical probes for 187 different targets from the [Structural Genomics Consortium](https://www.thesgc.org/chemical-probes) \(SGC\), the [Chemical Probes Portal](http://www.chemicalprobes.org/) and [Open Science Probes](http://www.sgc-ffm.uni-frankfurt.de/), in addition to links to [Probe Miner](https://probeminer.icr.ac.uk/) if potential chemical probes are available for a given target. 
 
-Finally, we incorporate details of 182 unique high-quality chemical probes for 187 different targets from the [Structural Genomics Consortium](https://www.thesgc.org/chemical-probes) \(SGC\), the [Chemical Probes Portal](http://www.chemicalprobes.org/) and [Open Science Probes](http://www.sgc-ffm.uni-frankfurt.de/). Check the target profile page for [BRPF1](https://www.targetvalidation.org/target/ENSG00000156983) and learn which chemical probes have been developed for this target.   
+Check the target profile page for [BRPF1](https://www.targetvalidation.org/target/ENSG00000156983) to find both curated, high-quality probes, and potential probes developed for this target, from Chemical Probes Portal and Probe Miner, respectively.    
 
 
 {% tabs %}
 {% tab title="Top tip" %}
-Explore the target profile of [BRAF](http://www.targetvalidation.org/target/ENSG00000157764).
+Explore our target profile pages with annotations to enable target prioritisation. Check [BRAF](http://www.targetvalidation.org/target/ENSG00000157764) for an example.
 {% endtab %}
 {% endtabs %}
 

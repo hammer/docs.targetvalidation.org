@@ -1,6 +1,6 @@
 ---
 description: >-
-  The Open Targets Platform REST API can also be accessed with our Python
+  In this tutorial, we will show you how to retrieve our data with our Python
   client.
 ---
 

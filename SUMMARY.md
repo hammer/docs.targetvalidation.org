@@ -15,7 +15,7 @@
   * [API access](getting-started/getting-started/api-access.md)
 * [Evidence](getting-started/evidence.md)
 * [Association score](getting-started/scoring.md)
-* [Batch search](getting-started/batch-search.md)
+* [Batch search tool](getting-started/batch-search.md)
 * [Cite us](getting-started/citation.md)
 * [Data download](getting-started/data-download.md)
 * [Contact us](getting-started/contact.md)
@@ -24,6 +24,7 @@
 
 * [Diseases, targets and drugs](tutorials/how-to-find-targets-and-diseases-associated-with-drugs.md)
 * [Diseases and variants](tutorials/how-to-get-variants-associated-with-diseases.md)
+* [One disease and over 10K target associations](tutorials/one-disease-and-its-greater-than-10k-associations.md)
 
 ## Data Sources
 
