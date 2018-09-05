@@ -65,7 +65,7 @@ brafdrugs
 
 
 |  | target | target\_class | chembl\_uri | moa | mol\_name | mol\_type | phase | indication |
-| --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0 | BRAF | TKL protein kinase RAF family | http://identifiers.org/chembl.compound/CHEMBL2... | INHIBITOR | DABRAFENIB | Small molecule | 4 | neoplasm |
 | 1 | BRAF | TKL protein kinase RAF family | http://identifiers.org/chembl.compound/CHEMBL1... | INHIBITOR | VEMURAFENIB | Small molecule | 4 | melanoma |
 | 2 | BRAF | TKL protein kinase RAF family | http://identifiers.org/chembl.compound/CHEMBL1336 | INHIBITOR | SORAFENIB | Small molecule | 4 | hepatocellular carcinoma |
@@ -156,7 +156,7 @@ drugtable.head()
 
 
 |  | target | target\_class | chembl\_uri | moa | mol\_name | mol\_type | phase | indication |
-| --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0 | ADORA1 | Adenosine receptor | http://identifiers.org/chembl.compound/CHEMBL190 | ANTAGONIST | THEOPHYLLINE | Small molecule | 4 | chronic obstructive pulmonary disease |
 | 1 | ADORA1 | Adenosine receptor | http://identifiers.org/chembl.compound/CHEMBL113 | ANTAGONIST | CAFFEINE | Small molecule | 4 | ulcerative colitis |
 | 2 | ADORA1 | Adenosine receptor | http://identifiers.org/chembl.compound/CHEMBL190 | ANTAGONIST | THEOPHYLLINE | Small molecule | 4 | asthma |
