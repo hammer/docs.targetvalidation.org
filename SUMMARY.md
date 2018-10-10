@@ -57,6 +57,7 @@
 * [Do you have data on transgenic mice?](faq/transgenic-animal-models.md)
 * [How can I spin my own instance of the Platform?](faq/spin-your-own-instance.md)
 * [Can I add private data?](faq/add-your-own-data.md)
+* [How can I export the search results as a table?](faq/how-can-i-export-the-search-results-as-a-table.md)
 
 ## Outreach
 
