@@ -42,6 +42,7 @@
 * [Frequently asked questions](faq/frequently-asked-questions.md)
 * [How do you describe diseases?](faq/describing-diseases.md)
 * [What can I search for?](faq/what-can-i-search-for.md)
+* [Why does my search term return so many results?](faq/why-does-my-search-term-return-so-many-results.md)
 * [What is a target?](faq/what-is-a-target.md)
 * [What is an indirect association?](faq/direct-and-indirect-associations.md)
 * [Which human assembly do you use?](faq/genome-assembly.md)
