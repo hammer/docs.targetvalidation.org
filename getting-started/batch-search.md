@@ -19,11 +19,11 @@ Scroll down the page to revise the mappings. If your targets can't be mapped as 
 
 ![](../.gitbook/assets/revisemappings.png)
 
-## What results will I get from the batch search tool? {#whatresultswilligetfromthebatchsearchtool}
+## What results will I get from the batch search tool? <a id="whatresultswilligetfromthebatchsearchtool"></a>
 
 You will get a summary page with the results divided into five sections:
 
-### 1\) Diseases associated {#1diseasesassociated}
+### 1\) Diseases associated <a id="1diseasesassociated"></a>
 
 You will get the associated diseases, which are classified either by Therapeutic areas, the default view \(e.g. Immune system disease\), or by Data types \(e.g Genetic associations\).
 
@@ -33,23 +33,23 @@ You will get the associated diseases, which are classified either by Therapeutic
 
 We rank the associated diseases according to the probability of finding a disease associated with **your** set of targets. We use the [hypergeometric distribution](https://en.wikipedia.org/wiki/Hypergeometric_distribution) as an attempt to order the most relevant diseases associated with your list of targets. Look out for the relevance _p_ value in the results table.
 
-### 2\) Pathways {#2pathways}
+### 2\) Pathways <a id="2pathways"></a>
 
 You will get the pathways associated with your targets and ranked by the _p_ value \(as outlined above\).
 
 Click on the pathway names, e.g. [NOD1/2 Signaling Pathway](https://www.targetvalidation.org/summary?pathway=R-HSA-168638&pathway-target=NOD2&pathway-target=CARD9) to get to its pathway diagram from Reactome.
 
-### 3\) Gene Ontology {#3drugs}
+### 3\) Gene Ontology <a id="3drugs"></a>
 
 You will get the gene ontology terms enriched in your list of targets, ranked by the relevance _p_ value \(as outlined above\).
 
-### 4\) Drugs {#3drugs}
+### 4\) Drugs <a id="3drugs"></a>
 
 You will get the drugs from ChEMBL matching your list of targets, the target name, the most advanced stage in clinical trials, and the molecule type of the drug compound.
 
 Click on the drug name, e.g. [NATALIZUMAB](https://www.targetvalidation.org/summary?drug=CHEMBL1201607) to get general properties of that drug and links to DailyMed and ChEMBL.
 
-### 5\) Interactions between targets {#4interactionsbetweentargets}
+### 5\) Interactions between targets <a id="4interactionsbetweentargets"></a>
 
 You will get a summary of protein interactions based on the data from [OmniPath DB](http://omnipathdb.org/) for any two targets from your list.
 
