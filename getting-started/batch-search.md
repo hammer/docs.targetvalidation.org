@@ -22,11 +22,11 @@ button.
 
 ![](../.gitbook/assets/revisemappings.png)
 
-## What results will I get from the batch search tool? {#whatresultswilligetfromthebatchsearchtool}
+## What results will I get from the batch search tool? <a id="whatresultswilligetfromthebatchsearchtool"></a>
 
 I will get a summary page for my targets divided into four sections:
 
-### 1\) Diseases associated {#1diseasesassociated}
+### 1\) Diseases associated <a id="1diseasesassociated"></a>
 
 I can view the diseases classified either by Therapeutic areas \(e.g. Immune system disease, Digestive system disease\), or divided by the data types \(e.g Genetic associations, Somatic mutations\) used for the association.
 
@@ -34,19 +34,19 @@ Open Targets rank the diseases according to the probability of finding a disease
 
 ![alt](http://blog.opentargets.org/content/images/2017/04/Slide1-3.jpg)
 
-### 2\) Pathways {#2pathways}
+### 2\) Pathways <a id="2pathways"></a>
 
 I will find the pathways associated with my targets with a\_p\_value available for the ranking.
 
 When I click on the pathway names, e.g. [NOD1/2 Signaling Pathway](https://www.targetvalidation.org/summary?pathway=R-HSA-168638&pathway-target=NOD2&pathway-target=CARD9), I will get the pathway diagram and links to Reactome.
 
-### 3\) Drugs {#3drugs}
+### 3\) Drugs <a id="3drugs"></a>
 
 I will get the drugs from ChEMBL that match my list of genes, the target name, the most advanced stage in clinical trials, and the molecule type.
 
 When I click on a drug name, e.g. [NATALIZUMAB](https://www.targetvalidation.org/summary?drug=CHEMBL1201607), I will get general properties of that drug and links to DailyMed and ChEMBL.
 
-### 4\) Interactions between targets {#4interactionsbetweentargets}
+### 4\) Interactions between targets <a id="4interactionsbetweentargets"></a>
 
 I will get a summary of interactions for my set of targets based on the data from [OmniPath DB](http://omnipathdb.org/).
 

@@ -11,7 +11,7 @@ We assess the key factors that relate to the confidence in the target-disease as
 
 The association score is a numerical value varying from 0 to 1, which indicates the strength of the association between a target and a disease. A score of 1 refers to the strongest association, whereas a score of 0 corresponds to no evidence supporting an association. In our Platform, we represent the different scores with varying shades of blue: the darker the blue, the stronger the association.
 
-## Computing the Association Score {#computing-the-association-score}
+## Computing the Association Score <a id="computing-the-association-score"></a>
 
 We start by generating a score for each evidence from different data sources \(e.g. GWAS catalog, European Variation Archive\) within a data type \(e.g. Genetic associations\). We define the evidence score as:
 
