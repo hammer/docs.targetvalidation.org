@@ -4,19 +4,15 @@ We offer hands-on workshop on our Open Targets Platform as live webinars or face
 
 **Upcoming sessions:**
 
-* Thursday, October 18, 2018. ASHG 2018 - San Diego, US \(Interactive Invited Workshop\)
-
-{% hint style="info" %}
-If you can't attend any of the above, [email us](mailto:support@targetvalidation.org) now to arrange training sessions at your institution.
-{% endhint %}
+Check our [Outreach and tutorial page](https://www.targetvalidation.org/outreach) for the upcoming training sessions and [email us](mailto:support@targevalidation.org) if you want to arrange your own training session either as a workshop or a webinar.
 
 **Past sessions:**
 
 {% tabs %}
 {% tab title="2018" %}
-* Tuesday, May 29, 2018. EMBL Webinar 
+* Tuesday, June 12, 2018. [Open Targets: Integrating genetics and genomics for disease biology and translational medicine](https://training.csx.cam.ac.uk/bioinformatics/event/2487585). University of Cambridge - Cambridge, UK.
 * Thursday, June  7th, 2018. EMBL-EBI Webinar with Europe PMC
-* Tuesday, June 12, 2018. [Open Targets: Integrating genetics and genomics for disease biology and translational medicine](https://training.csx.cam.ac.uk/bioinformatics/event/2487585). University of Cambridge - Cambridge, UK. 
+* Tuesday, May 29, 2018. EMBL Webinar 
 * Wednesday, March 21, 2018. Biogen - Boston, US
 * Tuesday, March 20, 2018. EMBL-EBI, UK
 * Monday, March 19, 2018. Takeda - Boston, US
