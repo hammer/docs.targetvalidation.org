@@ -13,6 +13,7 @@
   * [Disease profile](getting-started/getting-started/disease-profile.md)
   * [Filtering associations](getting-started/getting-started/filtering-associations.md)
   * [API access](getting-started/getting-started/api-access.md)
+* [Untitled](getting-started/untitled.md)
 * [Evidence](getting-started/evidence.md)
 * [Association score](getting-started/scoring.md)
 * [Batch search tool](getting-started/batch-search.md)
@@ -49,15 +50,16 @@
 * [How do you assign variants to genes?](faq/how-variants-are-assigned-to-genes.md)
 * [Why can't I find a known association?](faq/missing-association.md)
 * [How do you score the associations?](faq/association-score.md)
-* [What are clinical trials?](faq/clinical-trials.md)
 * [What is the tissue specificity in your Platform?](faq/tissue-specificity.md)
+* [What is target tractability?](faq/what-is-target-tractability.md)
 * [Where does the bibliography come from?](faq/bibliography.md)
-* [What is your policy on privacy and tracking?](faq/privacy-and-tracking.md)
 * [How do you distinguish variants from mutations?](faq/variants-or-mutations.md)
+* [What are clinical trials?](faq/clinical-trials.md)
 * [Do you have data on transgenic mice?](faq/transgenic-animal-models.md)
+* [How can I export the search results?](faq/how-can-i-export-the-search-results-as-a-table.md)
 * [How can I spin my own instance of the Platform?](faq/spin-your-own-instance.md)
 * [Can I add private data?](faq/add-your-own-data.md)
-* [How can I export the search results?](faq/how-can-i-export-the-search-results-as-a-table.md)
+* [What is your policy on privacy and tracking?](faq/privacy-and-tracking.md)
 
 ## Outreach
 

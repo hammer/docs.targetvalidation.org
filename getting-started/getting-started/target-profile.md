@@ -5,6 +5,7 @@ When searching for a target, in addition to the list of diseases associated with
 In the target profile page, you will see the target official symbol, its description and synonyms, the latter two provided by UniProt. Scroll down to see detailed information on the target \(e.g. Drugs, Protein interactions\) and the original resource of the data \(e.g. ChEMBL, OmniPath DB\):
 
 * Drugs: [ChEMBL](https://www.ebi.ac.uk/chembl/)
+* Target Tractability: [ChEMBL](https://www.ebi.ac.uk/chembl/)
 * Protein information: [UniProt](http://www.uniprot.org/)
 * Pathways: [Reactome](http://www.reactome.org/)
 * Similar targets \(based on diseases in common\): Open Targets Platform
