@@ -1,9 +1,3 @@
----
-description: >-
-  In this tutorial, we will show you how to retrieve our data via a set of REST
-  services using the Open Targets Platform REST API.
----
-
 # Diseases, targets and drugs
 
 This is an example on how you can get the diseases associated with your targets of interest and their drug information using Python. We are going to query the Open Targets Platform REST API \([documentation](https://api.opentargets.io/docs)\) to retrieve a list of drugs associated to a given list of targets.

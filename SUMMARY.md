@@ -13,7 +13,6 @@
   * [Disease profile](getting-started/getting-started/disease-profile.md)
   * [Filtering associations](getting-started/getting-started/filtering-associations.md)
   * [API access](getting-started/getting-started/api-access.md)
-* [Untitled](getting-started/untitled.md)
 * [Evidence](getting-started/evidence.md)
 * [Association score](getting-started/scoring.md)
 * [Batch search tool](getting-started/batch-search.md)

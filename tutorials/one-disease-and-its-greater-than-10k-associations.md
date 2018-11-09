@@ -1,10 +1,3 @@
----
-description: >-
-  In this tutorial, we will show you how to retrieve thousands of targets
-  associated with one single disease and their association scores using the Open
-  Targets REST API.
----
-
 # One disease and over 10K target associations
 
 The maximum amount of results that our [Open Targets Platform REST API](https://api.opentargets.io/v3/platform/docs/swagger-ui) returns in each call is 10,000, but for some diseases such as [brain disease](https://www.targetvalidation.org/disease/EFO_0005774/associations) \(EFO\_0005774\), the number of associated targets is beyond this limit.

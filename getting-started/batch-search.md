@@ -1,10 +1,3 @@
----
-description: >-
-  Easy-to-use tool to retrieve disease associations, pathways, GO terms, drug
-  information and protein interactions for a list of targets with no
-  programmatic skills required.
----
-
 # Batch search tool
 
 Go to our [homepage](https://www.targetvalidation.org/) and click on the link [new batch search](https://www.targetvalidation.org/batch-search), which is below the search box.

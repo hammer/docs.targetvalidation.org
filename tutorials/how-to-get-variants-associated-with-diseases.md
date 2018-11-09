@@ -1,9 +1,3 @@
----
-description: >-
-  In this tutorial, we will show you how to retrieve our data with our Python
-  client.
----
-
 # Diseases and variants
 
 This is an example on how you can get the genetic variants \(evidence\) associated with a disease of interest using the [Open Targets Python client](https://opentargets.readthedocs.io/en/stable/). This example highlights the filtering capabilities included in the client.
