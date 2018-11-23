@@ -1,4 +1,4 @@
-# Batch search tool
+# Batch search
 
 Go to our [homepage](https://www.targetvalidation.org/) and click on the link [new batch search](https://www.targetvalidation.org/batch-search), which is below the search box.
 
