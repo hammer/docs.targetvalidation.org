@@ -34,7 +34,11 @@ This is available under Target tractability in the target profile page of any ta
 curl -X GET https://api.opentargets.io/v3/platform/private/target/ENSG00000000938
 ```
 
+In addition to the target profile pages, you can find which modalities, if any, are available to tract your target of interest. When you search for a disease such as Alzheimer's, you will get to the associations page showing all [targets associated with Alzheimer's](https://www.targetvalidation.org/disease/EFO_0000249/associations). Click on the "Prioritisation view" next to the "Associations view" to get the key target attributes based on the therapeutic modality predicted for the target, either small molecule, antibody or both.
 
+![](../../.gitbook/assets/screen-shot-2018-11-23-at-17.09.13.png)
 
+Click on any of the cells coloured in light purple to get redirected to the target profile page and explore the buckets available for small molecules or antibody tractability data.
 
+![](../../.gitbook/assets/screencapture-targetvalidation-org-target-ensg00000080815-2018-11-23-17_14_27.png)
 
