@@ -17,7 +17,7 @@ Each of these targets is described following a hierarchical qualitative buckets 
 | 3 | Pre-clinical targets | Preclinical targets |
 | 4 | Targets with crystal structures with ligands  | Targets located in the plasma membrane  |
 | 5 | Targets with a drugEBIlity score equal or greater than 0.7 | Targets with GO cell component terms plasma membrane or secreted |
-| 6 | Targets with drugEBIlity between zero and 0.7 | Targets with GO cell component terms plasma membrane or secreted w low or unknown confidence |
+| 6 | Targets with drugEBIlity between zero and 0.7 | Targets with GO cell component terms plasma membrane or secreted with low or unknown confidence |
 | 7 | Targets with ligands | Targets with predicted signal peptide and transmembrane domains |
 | 8 | Targets with a predicted Ro5 druggable domain \(druggable genome\) | GO cell component - medium confidence |
 | 9 | N.A. | Human Protein Atlas - high confidence |
