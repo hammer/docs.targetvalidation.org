@@ -22,13 +22,20 @@ Each of these targets is described following a hierarchical qualitative buckets 
 | 8 | Targets with a predicted Ro5 druggable domain \(druggable genome\) | GO cell component - medium confidence |
 | 9 | N.A. | Human Protein Atlas - high confidence |
 
-Some of these buckets have be combined into the following categories: available in the target profile page for any target such as FGR: 
+We have combined the buckets into the following broader categories:
 
-* Clinical precedence: buckets 1, 2 and 3
-* Discovery precedence: buckets 4 and 7
-* Predictable tractable: buckets 5, 6 and 8
+* small molecule: 
+  * clinical precedence: buckets 1, 2 and 3
+  * discovery precedence: buckets 4 and 7
+  * predictable tractable: buckets 5, 6 and 8
+* antibody
+  * clinical precedence
+  * predictable tractable - high confidence
+  * predictable tractable - medium to low confidence
 
-This is available under Target tractability in the target profile page of any target, such as [FGR](https://www.targetvalidation.org/target/ENSG00000000938?view=sec:tractability). If you want  to retrieve this information with the REST API, you should use the `private/target` endpoint:
+These categories are available under `Target tractability` in the target profile page of any target, such as [FGR](https://www.targetvalidation.org/target/ENSG00000000938?view=sec:tractability). 
+
+If you want  to retrieve this information with the REST API, you should use the `private/target` endpoint:
 
 ```
 curl -X GET https://api.opentargets.io/v3/platform/private/target/ENSG00000000938
