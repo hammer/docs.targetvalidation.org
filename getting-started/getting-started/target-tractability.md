@@ -22,30 +22,28 @@ Each of these targets is described following a hierarchical qualitative buckets 
 | 8 | Targets with a predicted Ro5 druggable domain \(druggable genome\) | GO cell component - medium confidence |
 | 9 | N.A. | Human Protein Atlas - high confidence |
 
+When you search for a disease, you will find the list of target associated with that disease. By default, the table shows the `Associations view`. We now provide an additional view called `Prioritisation view`, where you will see some key target attributes, such as tractability information, in addition to target to disease association evidence. This is what you will find when searching for the [targets associated with Alzheimer's](https://www.targetvalidation.org/disease/EFO_0000249/associations) and click on the "Prioritisation view":
+
+![](../../.gitbook/assets/screen-shot-2018-11-23-at-17.09.13.png)
+
+For any of those targets, we will highlight whether small molecule or antibody have been predicted to tract the target. Click on any of the cells coloured in light purple to get redirected to the target profile page. You will then be able explore the buckets \(see above\) available for small molecules or antibody tractability data.
+
+![](../../.gitbook/assets/screencapture-targetvalidation-org-target-ensg00000080815-2018-11-23-17_14_27.png)
+
 We have combined the buckets into the following broader categories:
 
-* small molecule: 
+* For small molecule: 
   * clinical precedence: buckets 1, 2 and 3
   * discovery precedence: buckets 4 and 7
   * predictable tractable: buckets 5, 6 and 8
-* antibody
+* For antibody:
   * clinical precedence
   * predictable tractable - high confidence
   * predictable tractable - medium to low confidence
 
-These categories are available under `Target tractability` in the target profile page of any target, such as [FGR](https://www.targetvalidation.org/target/ENSG00000000938?view=sec:tractability). 
-
-If you want  to retrieve this information with the REST API, you should use the `private/target` endpoint:
+In addition to the associations page and target profile pages, under `Target tractability` for [FGR](https://www.targetvalidation.org/target/ENSG00000000938?view=sec:tractability), for example, you can also retrieve target tractability data with our REST API by using the `private/target` endpoint:
 
 ```
 curl -X GET https://api.opentargets.io/v3/platform/private/target/ENSG00000000938
 ```
-
-In addition to the target profile pages, you can find which modalities, if any, are available to tract your target of interest. When you search for a disease such as Alzheimer's, you will get to the associations page showing all [targets associated with Alzheimer's](https://www.targetvalidation.org/disease/EFO_0000249/associations). Click on the "Prioritisation view" next to the "Associations view" to get the key target attributes based on the therapeutic modality predicted for the target, either small molecule, antibody or both.
-
-![](../../.gitbook/assets/screen-shot-2018-11-23-at-17.09.13.png)
-
-Click on any of the cells coloured in light purple to get redirected to the target profile page and explore the buckets available for small molecules or antibody tractability data.
-
-![](../../.gitbook/assets/screencapture-targetvalidation-org-target-ensg00000080815-2018-11-23-17_14_27.png)
 
