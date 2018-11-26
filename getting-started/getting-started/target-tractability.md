@@ -26,22 +26,26 @@ When you search for a disease, you will find the list of target associated with 
 
 ![](../../.gitbook/assets/screen-shot-2018-11-23-at-17.09.13.png)
 
-For any of those targets, we will highlight whether small molecule or antibody have been predicted to tract the target. Click on any of the cells coloured in light purple to get redirected to the target profile page. You will then be able explore the buckets \(see above\) available for small molecules or antibody tractability data.
+For any of those targets, we will highlight whether small molecule or antibody have been predicted to tract the target. Click on any of the cells coloured in light purple to get redirected to the target profile page. 
+
+In the profile page of a target, such as [PSEN1](https://www.targetvalidation.org/target/ENSG00000080815?view=sec:tractability), you will see the following:
 
 ![](../../.gitbook/assets/screencapture-targetvalidation-org-target-ensg00000080815-2018-11-23-17_14_27.png)
 
-We have combined the buckets into the following broader categories:
+Under `Target tractability`, you will see three different categories corresponding to the buckets 1-8 listed above, which depends on the drug modality available i.e. either small molecule \(A\) or antibody \(B\):
 
-* For small molecule: 
+* A\) small molecule: 
+
   * clinical precedence: buckets 1, 2 and 3
   * discovery precedence: buckets 4 and 7
   * predictable tractable: buckets 5, 6 and 8
-* For antibody:
+
+* B\) antibody:
   * clinical precedence
   * predictable tractable - high confidence
   * predictable tractable - medium to low confidence
 
-In addition to the associations page and target profile pages, under `Target tractability` for [FGR](https://www.targetvalidation.org/target/ENSG00000000938?view=sec:tractability), for example, you can also retrieve target tractability data with our REST API by using the `private/target` endpoint:
+In addition to the association page for a disease and the target profile page, you can also retrieve target tractability data with our REST API by using the `private/target` endpoint:
 
 ```
 curl -X GET https://api.opentargets.io/v3/platform/private/target/ENSG00000000938
