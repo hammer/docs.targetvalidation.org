@@ -24,13 +24,13 @@ Each of these targets is described following a hierarchical qualitative buckets 
 
 When you search for a disease, you will find the list of target associated with that disease. By default, the table shows the `Associations view`. We now provide an additional view called `Prioritisation view`, where you will see some key target attributes, such as tractability information, in addition to target to disease association evidence. This is what you will find when searching for the [targets associated with Alzheimer's](https://www.targetvalidation.org/disease/EFO_0000249/associations) and click on the "Prioritisation view":
 
-![](../../.gitbook/assets/screen-shot-2018-11-23-at-17.09.13.png)
+![](../.gitbook/assets/screen-shot-2018-11-23-at-17.09.13.png)
 
 For any of those targets, we will highlight whether small molecule or antibody have been predicted to tract the target. Click on any of the cells coloured in light purple to get redirected to the target profile page. 
 
 In the profile page of a target, such as [PSEN1](https://www.targetvalidation.org/target/ENSG00000080815?view=sec:tractability), you will see the following:
 
-![](../../.gitbook/assets/screencapture-targetvalidation-org-target-ensg00000080815-2018-11-23-17_14_27.png)
+![](../.gitbook/assets/screencapture-targetvalidation-org-target-ensg00000080815-2018-11-23-17_14_27.png)
 
 Under `Target tractability`, you will see three different categories corresponding to the buckets 1-8 listed above, which depends on the drug modality available i.e. either small molecule \(A\) or antibody \(B\):
 
