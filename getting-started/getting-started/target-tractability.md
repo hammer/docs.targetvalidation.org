@@ -41,13 +41,21 @@ Under `Target tractability`, you will see three different categories correspondi
   * predictable tractable: buckets 5, 6 and 8
 
 * B\) antibody:
-  * clinical precedence
-  * predictable tractable - high confidence
-  * predictable tractable - medium to low confidence
+  * clinical precedence: buckets 1, 2 and 3
+  * predictable tractable - high confidence: buckets 4 and 5
+  * predictable tractable - medium to low confidence: buckets 6, 7, 8 and 9
 
-In addition to the association page for a disease and the target profile page, you can also retrieve target tractability data with our REST API by using the `private/target` endpoint:
+
+
+{% hint style="info" %}
+Want to retrieve target tractability data with the [Open Targets REST API](https://api.opentargets.io/v3/platform/docs/swagger-ui)? 
+
+Use our`private/target` endpoint:
 
 ```
 curl -X GET https://api.opentargets.io/v3/platform/private/target/ENSG00000000938
 ```
+{% endhint %}
+
+
 
