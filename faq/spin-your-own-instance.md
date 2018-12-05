@@ -2,9 +2,11 @@
 
 Our core stack is composed of three tiers:
 
-1. a client-side [web application](https://github.com/opentargets/webapp) that communicates with 
-2. a [Rest API](https://github.com/opentargets/rest_api) \([https://github.com/opentargets/rest\_api\](https://github.com/opentargets/rest_api%29\) which retrieves and queries the data from 
-3. an ElasticSearch database; 
+1. a client-side [web application](https://github.com/opentargets/webapp)
+2. a [REST API](https://github.com/opentargets/rest_api)
+3. an ElasticSearch database
+
+The web application communicates with the REST API, which in turn retrieves and queries the data from the ElasticSearch database.
 
 For each release of our Platform, you will have ElasticSearch snapshot \(i.e. a _database_ _dump_\) so that it can be used to create your own instance if you use the `restore` ElasticSearch API.
 
@@ -70,7 +72,13 @@ More details on why you have to specify `repositories.url.allowed_urls` can be f
 
 The URL for the latest ES snapshot \(i.e. Apr 2018\) is:
 
-`https://storage.googleapis.com/open-targets-data-releases/18.04/18.04_snapshot/`
+```text
+https://storage.googleapis.com/open-targets-data-releases/18.10/18.10_snapshot/
+```
+
+{% hint style="danger" %}
+Our snapshots have moved from the above location to elsewhere. Check the new [location](https://console.cloud.google.com/storage/browser/open-targets-data-releases) of our Open Targets Platform releases and [email us](mailto:support@targetvalidation.org) if you want additional information.
+{% endhint %}
 
 \(please be aware of the size of the snapshot, which is roughly 100GB\).
 
