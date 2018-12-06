@@ -19,5 +19,5 @@ Clinical trials are studies carried out in human volunteers over a period of 10-
 
   Some phase IV drugs \(e.g. from [ClinicalTrials.gov](https://clinicaltrials.gov/)\) may also be in postmarketing surveillance, and might be used for conditions different from the ones for which the drug has been originally approved for. Several thousands volunteers who have the disease/condition are studied.
 
-This [FDA infographic](https://www.fda.gov/downloads/Drugs/ResourcesForYou/Consumers/UCM284393.pdf) gives a summary of the different phases in a clinical trial:
+This [FDA infographic](https://www.fda.gov/downloads/Drugs/ResourcesForYou/Consumers/UCM284393.pdf) gives a summary of the different phases in a clinical trial.
 
