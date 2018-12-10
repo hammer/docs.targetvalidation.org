@@ -43,7 +43,7 @@ docker network create otnet
 2\) Whitelist the URL of our repo when you \`docker run\` by passing an environment variable:
 
 ```text
-docker run -d --name elastic --network otnet -p 9200:9200 -v otdata:/usr/share/elasticsearch/daata -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' -e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.8
+docker run -d --name elastic --network otnet -p 9200:9200 -v otdata:/usr/share/elasticsearch/data -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' -e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.8
 ```
 
 If you get a "invalid reference format" error, double check that the container tag has not changed. You can do so by visiting the elasticsearch [docker container listings](https://www.docker.elastic.co/). It can also happen as a result of copying/pasting the command from this documentation page. Try to re-type it in your own shell.
@@ -77,7 +77,9 @@ https://storage.googleapis.com/open-targets-data-releases/18.10/18.10_snapshot/
 ```
 
 {% hint style="danger" %}
-Our snapshots have moved from the above location to elsewhere. Check the new [location](https://console.cloud.google.com/storage/browser/open-targets-data-releases) of our Open Targets Platform releases and [email us](mailto:support@targetvalidation.org) if you want additional information.
+Our snapshots have moved from the above to a new [location](https://console.cloud.google.com/storage/browser/open-targets-data-releases).  
+
+[Email us](mailto:support@targetvalidation.org) if you are not sure which files to use.
 {% endhint %}
 
 \(please be aware of the size of the snapshot, which is roughly 100GB\).
