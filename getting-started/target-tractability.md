@@ -32,7 +32,7 @@ In the profile page of a target, such as [PSEN1](https://www.targetvalidation.or
 
 ![](../.gitbook/assets/screencapture-targetvalidation-org-target-ensg00000080815-2018-11-23-17_14_27.png)
 
-Under `Target tractability`, you will see three different categories corresponding to the buckets 1-8 listed above, which depends on the drug modality available i.e. either small molecule \(A\) or antibody \(B\):
+In `Target tractability`, you will see three different categories corresponding to the buckets 1-9 listed above. The correspondence between the bucket numbers and the precedence/tractable categories are listed below:
 
 * A\) small molecule: 
 
