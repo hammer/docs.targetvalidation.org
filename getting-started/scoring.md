@@ -11,7 +11,10 @@ What are the factors that affect the confidence we have in the evidence used for
 
 Our scoring framework is a four-tier process: we first score the individual evidence, then we aggregate the evidence scores into data sources scores, followed by the aggregation of data source scores to give rise to the data types scores. Our overall association score is the result of the aggregation of all data source scores together. 
 
-![The four-tier scoring framework: from evidence scores to the overall score.](../.gitbook/assets/score.jpg)
+![Four-tier scoring framework: aggregating evidence and data source scores into an overall score.](../.gitbook/assets/score_cocos.jpg)
+
+  
+
 
 ## Computing the Association Score  <a id="computing-the-association-score"></a>
 
