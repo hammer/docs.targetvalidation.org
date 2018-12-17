@@ -33,7 +33,7 @@
 * [Genetic associations](data-sources/genetic-associations.md)
 * [Somatic mutations](data-sources/somatic-mutations.md)
 * [Drugs](data-sources/drugs.md)
-* [Affected pathways](data-sources/affected-pathways.md)
+* [Pathways & systems biology](data-sources/affected-pathways.md)
 * [RNA expression](data-sources/rna-expression.md)
 * [Text mining](data-sources/text-mining.md)
 * [Animal models](data-sources/animal-models.md)
