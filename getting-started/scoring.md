@@ -2,14 +2,14 @@
 
 The [Open Targets Platform](https://www.targetvalidation.org/) allows prioritisation of drug targets based on the strength of their association with a disease.
 
-We allow for the prioritisation of targets by scoring target-disease associations based on evidence from our [data sources](https://docs.targetvalidation.org/data-sources/). Similar data sources \(e.g. GWAS Catalog and PheWAS\) are grouped together into data types \(e.g. Genetic associations\). The score for the associations ranges from 0 to 1; the stronger the evidence for an association, the stronger the association score \(closer to 1\), . A score of 0 corresponds to no evidence supporting an association. In the Open Targets Platform, we represent the different scores with varying shades of blue: the darker the blue, the stronger the association.
+We allow for the prioritisation of targets by scoring target-disease associations based on evidence from our [data sources](https://docs.targetvalidation.org/data-sources/). Similar data sources \(e.g. GWAS Catalog and PheWAS\) are grouped together into data types \(e.g. Genetic associations\). The score for the associations ranges from 0 to 1; the stronger the evidence for an association, the stronger the association score \(closer to 1\). A score of 0 corresponds to no evidence supporting an association. In the Open Targets Platform, we represent the different scores with varying shades of blue: the darker the blue, the stronger the association.
 
 What are the factors that affect the confidence we have in the evidence used for our associations? We assess key factors such as frequency, severity and significance of the evidence to provide association scores to help you answer these questions:
 
 * Which targets have the most evidence for being associated with a disease?
 * What is the relative weight of the evidence for different targets associated with a disease?
 
-Our scoring framework is a four-tier process: we first score the individual evidence, then we aggregate the evidence scores into data sources scores, followed by the aggregation of data source scores to give rise to the data types scores. Our overall association score is the result of the aggregation of all data source scores together.
+Our scoring framework is a four-tier process: we first score the individual evidence, then we aggregate the evidence scores into data sources scores, followed by the aggregation of data source scores to give rise to the data types scores. Our overall association score is the result of the aggregation of all data source scores together. 
 
 ![The four-tier scoring framework: from evidence scores to the overall score.](../.gitbook/assets/score.jpg)
 
@@ -43,7 +43,11 @@ The evidence score summarises the strength of the evidence and depends on factor
 
 Once we have the scores for each evidence, we calculate an overall score for a data type \(e.g. Genetic associations\). In this step, we take into account that although multiple occurrences of evidence can suggest a strong association, the inclusion of further new evidence should not have a great impact on the overall score. For this reason, we calculate the sum of the [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_%28mathematics%29) of each score and adjust the contribution of each of them using a heuristic weight. Throughout this process, the value of the score is always capped at 1, the highest association score.
 
-The current scoring framework is a modified version of the original one described in "[Open Targets: a platform for therapeutic target identification and validation](https://academic.oup.com/nar/article/45/D1/D985/2605745)" and it is available on [GitHub](https://github.com/opentargets/data_pipeline/blob/master/mrtarget/modules/EvidenceString.py). We now compute the direct relationships between targets and diseases taking into account a sigmoid scaling on the number of expression studies \(for RNA Expression\) and PubMed IDs \(for Text mining\) to remove additional spurious relationships.
+The current scoring framework is a modified version of the original one described in "[Open Targets: a platform for therapeutic target identification and validation](https://academic.oup.com/nar/article/45/D1/D985/2605745)" and it is available on [GitHub](https://github.com/opentargets/data_pipeline/blob/master/mrtarget/modules/EvidenceString.py) where we compute the direct relationships between targets and diseases taking into account a sigmoid scaling on the number of PubMed IDs \(for Text mining\) to remove additional spurious relationships
+
+{% hint style="info" %}
+From release 18.12 onwards we no longer compute the direct relationships between targets and diseases taking into account a sigmoid scaling on the number of expression studies \(for RNA Expression\)
+{% endhint %}
 
 We will continue to explore and work on alternative statistical models to keep providing robust scoring systems for target-disease associations. For further discussion, please [email](mailto:support@targetvalidation.org) our Support team.
 
