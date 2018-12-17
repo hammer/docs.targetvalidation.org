@@ -14,7 +14,7 @@ Our scoring framework is a four-tier process: we first score the individual evid
 ![Four-tier scoring framework: aggregating evidence and data source scores into an overall score.](../.gitbook/assets/score_cocos.jpg)
 
 {% hint style="info" %}
-`Pathways & systems biology` is the new name for what used to be called`Affected pathways` . Affected pathways was the name up to release 18.10 of the Open Targets Platform.
+`Pathways & systems biology` is the new name for what we used to call`Affected pathways`. We have used  `Affected pathways` as a data type from our first release up to release 18.10 of the Open Targets Platform.
 {% endhint %}
 
 ## Computing the Association Score  <a id="computing-the-association-score"></a>
@@ -51,7 +51,7 @@ Once we have the scores for each evidence, we calculate an overall score for a d
 From release 18.12 onwards we no longer compute the direct relationships between targets and diseases taking into account a sigmoid scaling on the number of expression studies \(for RNA Expression\) and on the number of PubMed IDs \(for Text mining\) to remove additional spurious relationships.
 {% endhint %}
 
-Our scoring framework is described "[Open Targets: a platform for therapeutic target identification and validation](https://academic.oup.com/nar/article/45/D1/D985/2605745)" and it is available on [GitHub](https://github.com/opentargets/data_pipeline/blob/master/mrtarget/modules/EvidenceString.py). 
+Our current scoring framework is a modified version of the original one described "[Open Targets: a platform for therapeutic target identification and validation](https://academic.oup.com/nar/article/45/D1/D985/2605745)" and it is available on [GitHub](https://github.com/opentargets/data_pipeline/blob/master/mrtarget/modules/EvidenceString.py). 
 
-We will continue to explore and work on alternative statistical models to keep providing robust scoring systems for target-disease associations. For further discussion, please [email](mailto:support@targetvalidation.org) our Support team.
+We will continue to explore and work on alternative statistical models to keep providing robust scoring systems for our target-disease associations. If you have questions or want to discuss this further, please [email](mailto:support@targetvalidation.org) our Support team.
 
