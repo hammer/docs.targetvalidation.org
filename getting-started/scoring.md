@@ -43,11 +43,11 @@ The evidence score summarises the strength of the evidence and depends on factor
 
 Once we have the scores for each evidence, we calculate an overall score for a data type \(e.g. Genetic associations\). In this step, we take into account that although multiple occurrences of evidence can suggest a strong association, the inclusion of further new evidence should not have a great impact on the overall score. For this reason, we calculate the sum of the [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_%28mathematics%29) of each score and adjust the contribution of each of them using a heuristic weight. Throughout this process, the value of the score is always capped at 1, the highest association score.
 
-The current scoring framework is a modified version of the original one described in "[Open Targets: a platform for therapeutic target identification and validation](https://academic.oup.com/nar/article/45/D1/D985/2605745)" and it is available on [GitHub](https://github.com/opentargets/data_pipeline/blob/master/mrtarget/modules/EvidenceString.py) where we compute the direct relationships between targets and diseases taking into account a sigmoid scaling on the number of PubMed IDs \(for Text mining\) to remove additional spurious relationships
-
 {% hint style="info" %}
-From release 18.12 onwards we no longer compute the direct relationships between targets and diseases taking into account a sigmoid scaling on the number of expression studies \(for RNA Expression\)
+From release 18.12 onwards we no longer compute the direct relationships between targets and diseases taking into account a sigmoid scaling on the number of expression studies \(for RNA Expression\) and on the number of PubMed IDs \(for Text mining\) to remove additional spurious relationships.
 {% endhint %}
+
+Our scoring framework is described "[Open Targets: a platform for therapeutic target identification and validation](https://academic.oup.com/nar/article/45/D1/D985/2605745)" and it is available on [GitHub](https://github.com/opentargets/data_pipeline/blob/master/mrtarget/modules/EvidenceString.py). 
 
 We will continue to explore and work on alternative statistical models to keep providing robust scoring systems for target-disease associations. For further discussion, please [email](mailto:support@targetvalidation.org) our Support team.
 
