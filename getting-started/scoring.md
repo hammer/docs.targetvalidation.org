@@ -13,8 +13,9 @@ Our scoring framework is a four-tier process: we first score the individual evid
 
 ![Four-tier scoring framework: aggregating evidence and data source scores into an overall score.](../.gitbook/assets/score_cocos.jpg)
 
-  
-
+{% hint style="info" %}
+`Pathways & systems biology` is the new name for what used to be called`Affected pathways` . Affected pathways was the name up to release 18.10 of the Open Targets Platform.
+{% endhint %}
 
 ## Computing the Association Score  <a id="computing-the-association-score"></a>
 
