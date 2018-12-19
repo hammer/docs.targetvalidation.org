@@ -48,7 +48,7 @@ The evidence score summarises the strength of the evidence and depends on factor
 Once we have the scores for each evidence, we calculate an overall score for a data source \(e.g. Genomics England PanelAPP\) followed by a score for a data type \(e.g. Genetic associations\). In this step, we take into account that although multiple occurrences of evidence can suggest a strong association, the inclusion of further new evidence should not have a great impact on the overall score. For this reason, we calculate the sum of the [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_%28mathematics%29) of each score and adjust the contribution of each of them using a heuristic weight. Throughout this process, the value of the score is always capped at 1, the highest association score. Note that some data sources will be down weighted, namely `PROGENy`, `SLAPenrich`, `Sysbio`, `Expression Atlas`, `PhenoDigm`, and `Europe PMC` \(see the image above for more details\).
 
 {% hint style="warning" %}
-From release 18.12 onwards we no longer compute the direct relationships between targets and diseases taking into account a sigmoid scaling on the number of hits per expression study \(for RNA Expression\) and on the number of PubMed IDs \(for Text mining\) to remove additional spurious relationships.
+From release 18.12 onwards we no longer compute the direct relationships between targets and diseases by taking into account a sigmoid scaling on the number of hits per expression study \(for RNA Expression\) and on the number of PubMed IDs \(for Text mining\).
 
 If you are concerned about these changes or would like to discuss this further, please [email us](mailto:support@targetvalidation.org).
 {% endhint %}
