@@ -1,6 +1,6 @@
 # Data sources
 
-We collect evidence from various data sources \(e.g. Reactome, SLAPenrich, PROGENy\) to allow for target identification and prioritisation using the [Open Targets Platform](https://www.targetvalidation.org/). We group similar data sources into categories called Data types \(e.g. Pathways & systems biology, previously known as Affected pathways, for Reactome, SLAPenrich, PROGENy, and Sysbio\) to associate targets \(T\) with diseases \(D\).
+We collect evidence from various data sources \(e.g. Reactome, SLAPenrich, PROGENy, and SysBio\) to allow for target identification and prioritisation using the [Open Targets Platform](https://www.targetvalidation.org/). We group similar data sources into categories called Data types \(e.g. Pathways & systems biology, previously known as Affected pathways, for Reactome, SLAPenrich, PROGENy, and Sysbio\) to associate targets \(T\) with diseases \(D\).
 
 ![](../.gitbook/assets/data_sources_may18%20%281%29.jpg)
 
