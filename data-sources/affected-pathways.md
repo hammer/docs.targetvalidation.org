@@ -22,10 +22,12 @@ The [Reactome](http://www.reactome.org/) database manually curates and identifie
 
 Sysbio includes six gene lists curated from four systems biology analysis papers. These publications integrate different types of data to identify key drivers \(or regulators\) in the following diseases \(or phenotypes\):
 
-* Inflammatory bowel disease
-* Alzheimer's disease
-* Coronary heart disease
-* Cognitive decline
+* Inflammatory bowel disease \([PMID:28892060](https://europepmc.org/abstract/MED/28892060)\)
+* Coronary heart disease \([PMID:23539213](https://europepmc.org/abstract/MED/23539213)\)
+* Late-onset Alzheimer's disease \([PMID:23622250](https://europepmc.org/abstract/MED/23622250)\)
+* Cognitive decline of Alzheimer's disease \([PMID:29802388](https://europepmc.org/abstract/MED/29802388)\)
+
+
 
 
 
