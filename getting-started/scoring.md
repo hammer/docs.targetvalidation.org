@@ -11,7 +11,7 @@ What are the factors that affect the confidence we have in the evidence used for
 
 Our scoring framework is a four-tier process: we first score the individual evidence, then we aggregate the evidence scores into data sources scores, followed by the aggregation of data source scores to give rise to the data types scores. Our overall association score is the result of the aggregation of all data source scores together. 
 
-![The four-tier scoring framework for target-disease associations.](../.gitbook/assets/score_cocos.jpg)
+![From scoring one single evidence to computing the overall association score ](../.gitbook/assets/score_cocos%20%281%29.jpg)
 
 {% hint style="info" %}
 `Pathways & systems biology` is the new name for what we used to call`Affected pathways`. We have used  `Affected pathways` as a data type name up to release 18.10 of the Open Targets Platform.
