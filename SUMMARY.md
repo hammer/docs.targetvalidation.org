@@ -35,6 +35,7 @@
 
 ## API Tutorials
 
+* [Find the ID of a target or disease](tutorials/find-the-id-of-a-target-or-disease.md)
 * [Diseases, targets and drugs](tutorials/how-to-find-targets-and-diseases-associated-with-drugs.md)
 * [Diseases and variants](tutorials/how-to-get-variants-associated-with-diseases.md)
 * [One disease and over 10K target associations](tutorials/one-disease-and-its-greater-than-10k-associations.md)

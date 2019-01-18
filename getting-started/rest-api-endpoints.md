@@ -39,9 +39,9 @@ We do provide a Python client but you can also access our REST-API with scripts 
 * Add a JSON plug-in to your internet browser for a human readable view of the results returned by the REST-API endpoint.
 {% endhint %}
 
+Check our blog for a series of [API posts](http://blog.opentargets.org/tag/api/) and our webinar [Take a rest of manual searches with the Open Targets API](https://www.youtube.com/watch?v=KQbfhwpeEvc&index=2&list=PLncWVtwSXtqb8PyL6-ENSCuqP7_4Aj5BE).
 
-
-
+If you have questions on our REST-API, please [email us](mailto:support@targetvalidation.org) and will be happy to help.
 
 
 
