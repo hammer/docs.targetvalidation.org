@@ -21,12 +21,6 @@
 * [Data download](getting-started/data-download.md)
 * [Contact us](getting-started/contact.md)
 
-## Tutorials
-
-* [Diseases, targets and drugs](tutorials/how-to-find-targets-and-diseases-associated-with-drugs.md)
-* [Diseases and variants](tutorials/how-to-get-variants-associated-with-diseases.md)
-* [One disease and over 10K target associations](tutorials/one-disease-and-its-greater-than-10k-associations.md)
-
 ## Data Sources
 
 * [Data sources](data-sources/data-sources.md)
@@ -37,6 +31,13 @@
 * [RNA expression](data-sources/rna-expression.md)
 * [Text mining](data-sources/text-mining.md)
 * [Animal models](data-sources/animal-models.md)
+
+## API Tutorials
+
+* [REST-API endpoints](tutorials/rest-api-endpoints.md)
+* [Diseases, targets and drugs](tutorials/how-to-find-targets-and-diseases-associated-with-drugs.md)
+* [Diseases and variants](tutorials/how-to-get-variants-associated-with-diseases.md)
+* [One disease and over 10K target associations](tutorials/one-disease-and-its-greater-than-10k-associations.md)
 
 ## FAQ
 
