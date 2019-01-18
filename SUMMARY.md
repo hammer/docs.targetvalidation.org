@@ -17,8 +17,9 @@
 * [Association score](getting-started/scoring.md)
 * [Target tractability](getting-started/target-tractability.md)
 * [Batch search](getting-started/batch-search.md)
-* [Cite us](getting-started/citation.md)
+* [REST-API](getting-started/rest-api-endpoints.md)
 * [Data download](getting-started/data-download.md)
+* [Cite us](getting-started/citation.md)
 * [Contact us](getting-started/contact.md)
 
 ## Data Sources
@@ -34,7 +35,6 @@
 
 ## API Tutorials
 
-* [REST-API endpoints](tutorials/rest-api-endpoints.md)
 * [Diseases, targets and drugs](tutorials/how-to-find-targets-and-diseases-associated-with-drugs.md)
 * [Diseases and variants](tutorials/how-to-get-variants-associated-with-diseases.md)
 * [One disease and over 10K target associations](tutorials/one-disease-and-its-greater-than-10k-associations.md)
