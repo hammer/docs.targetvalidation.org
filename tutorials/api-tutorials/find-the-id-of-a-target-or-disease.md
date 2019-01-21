@@ -10,21 +10,21 @@ The `/search` endpoint should be used to identify the best match for a disease o
 
 You can obtain the same result in Python by parsing the JSON as a dictionary and finding the correct index:
 
-```text
->>> import requests
->>> from pprint import pprint
->>> r = requests.get('https://api.opentargets.io/v3/platform/public/search',
-params={"q":"NOD2","size":1})
->>> pprint(r.json())
-
-{'data': [{'data': {'approved_name': 'nucleotide binding oligomerization '
-                                     'domain containing 2',
-                    'approved_symbol': 'NOD2',
-                    'association_counts': {'direct': 221, 'total': 380},
-                    'biotype': 'protein_coding',
-                    'description': 'Involved in ...',
-                    'ensembl_gene_id': 'ENSG00000167207',
-```
+> ```text
+> >>> import requests
+> >>> from pprint import pprint
+> >>> r = requests.get('https://api.opentargets.io/v3/platform/public/search',
+> params={"q":"NOD2","size":1})
+> >>> pprint(r.json())
+>
+> {'data': [{'data': {'approved_name': 'nucleotide binding oligomerization '
+>                                      'domain containing 2',
+>                     'approved_symbol': 'NOD2',
+>                     'association_counts': {'direct': 221, 'total': 380},
+>                     'biotype': 'protein_coding',
+>                     'description': 'Involved in ...',
+>                     'ensembl_gene_id': 'ENSG00000167207',
+> ```
 
 which should return the expected JSON object. To select specific keys, you needs to traverse the resulting dictionary.
 
