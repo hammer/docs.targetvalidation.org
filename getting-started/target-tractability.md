@@ -59,5 +59,7 @@ curl -X GET https://api.opentargets.io/v3/platform/private/target/ENSG0000000093
 ```
 {% endhint %}
 
-
+{% hint style="danger" %}
+Please be aware that the above endpoint is part of our`private` methods. `Private` methods are subject to change without prior notice, therefore they are not stable and you should use them at your own risk.
+{% endhint %}
 
