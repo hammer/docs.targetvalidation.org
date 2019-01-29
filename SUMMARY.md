@@ -17,7 +17,6 @@
 * [Association score](getting-started/scoring.md)
 * [Target tractability](getting-started/target-tractability.md)
 * [Batch search](getting-started/batch-search.md)
-* [REST-API](getting-started/rest-api-endpoints.md)
 * [Data download](getting-started/data-download.md)
 * [Cite us](getting-started/citation.md)
 * [Contact us](getting-started/contact.md)
@@ -35,6 +34,7 @@
 
 ## Programmatic access
 
+* [REST-API documentation](tutorials/rest-api-endpoints.md)
 * [API Tutorials](tutorials/api-tutorials/README.md)
   * [Find the ID of a target or disease](tutorials/api-tutorials/find-the-id-of-a-target-or-disease.md)
 * [Diseases, targets and drugs](tutorials/how-to-find-targets-and-diseases-associated-with-drugs.md)

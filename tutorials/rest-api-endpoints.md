@@ -1,4 +1,4 @@
-# REST-API
+# REST-API documentation
 
 The [Open Targets REST-API](https://api.opentargets.io/v3/platform/docs/swagger-ui) is the alternative mode of access to the data available on the [Open Targets Platform](https://www.targetvalidation.org). It is language agnostic and it can be accessed from `https://api.opentargets.io/v3/platform`. 
 
