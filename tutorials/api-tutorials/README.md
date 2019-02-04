@@ -1,4 +1,4 @@
-# Tutorials
+# API Tutorials
 
 Here we include a list of tutorials for programmatic access of the Open Targets Platform data.
 
