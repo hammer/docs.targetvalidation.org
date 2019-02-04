@@ -39,8 +39,8 @@
 * [API Tutorials](tutorials/api-tutorials/README.md)
   * [Find the ID of a target or disease](tutorials/api-tutorials/find-the-id-of-a-target-or-disease.md)
   * [How to get more than 10K targets associated with one disease](tutorials/api-tutorials/how-to-get-more-than-10k-targets-associated-with-one-disease.md)
-  * [Get diseases and drug information with Python](tutorials/api-tutorials/get-diseases-and-drug-information-with-python.md)
-  * [Get genetic variants associated with a disease with Python](tutorials/api-tutorials/get-genetic-variants-associated-with-a-disease.md)
+  * [Get diseases and drug information with the Python client](tutorials/api-tutorials/get-diseases-and-drug-information-with-python.md)
+  * [Get genetic variants associated with a disease with the Python client](tutorials/api-tutorials/get-genetic-variants-associated-with-a-disease.md)
 
 ## FAQ
 

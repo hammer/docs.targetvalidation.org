@@ -1,4 +1,4 @@
-# Get genetic variants associated with a disease with Python
+# Get genetic variants associated with a disease with the Python client
 
 This is an example on how you can get the genetic variants \(evidence\) associated with a disease of interest using the [Open Targets Python client](https://opentargets.readthedocs.io/en/stable/). This example highlights the filtering capabilities included in the client.
 
