@@ -1,8 +1,8 @@
-# Diseases, targets and drugs
+# Get diseases and drug information with Python
 
-This is an example on how you can get the diseases associated with your targets of interest and their drug information using Python. We are going to query the Open Targets Platform REST API \([documentation](https://api.opentargets.io/docs)\) to retrieve a list of drugs associated to a given list of targets.
+This is an example on how you can get the diseases associated with your targets of interest and their drug information using Python. We are going to query the Open Targets Platform REST API to retrieve a list of drugs associated to a given list of targets.
 
-You might want to use the [jupyter notebook](http://jupyter.org/install) environment to run this example.
+You might want to use the [jupyter notebook](http://jupyter.org/install) environment to run this example:
 
 ```python
 import pandas as pd

@@ -34,10 +34,11 @@
 
 ## Programmatic access
 
-* [REST-API documentation](tutorials/rest-api-endpoints.md)
-* [API Tutorials](tutorials/api-tutorials/README.md)
+* [REST-API](tutorials/rest-api.md)
+* [Python client](tutorials/python-client.md)
+* [Tutorials](tutorials/api-tutorials/README.md)
   * [Find the ID of a target or disease](tutorials/api-tutorials/find-the-id-of-a-target-or-disease.md)
-* [Diseases, targets and drugs](tutorials/how-to-find-targets-and-diseases-associated-with-drugs.md)
+  * [Get diseases and drug information with Python](tutorials/api-tutorials/get-diseases-and-drug-information-with-python.md)
 * [Diseases and variants](tutorials/how-to-get-variants-associated-with-diseases.md)
 * [One disease and over 10K target associations](tutorials/one-disease-and-its-greater-than-10k-associations.md)
 
