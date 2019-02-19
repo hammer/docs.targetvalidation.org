@@ -10,7 +10,7 @@ The web application communicates with the REST API, which in turn retrieves and 
 
 For each release of our Platform, you will have ElasticSearch snapshot \(i.e. a _database_ _dump_\) so that it can be used to create your own instance if you use the `restore` ElasticSearch API.
 
-N**ote:** our snapshot is different from the files available on our [Downloads](http://www.targetvalidation.org/downloads/data) page. Those evidence and association files are the product of a pre-processed export through our [REST API](http://api.opentargets.io/v3/platform/docs) using our [Python](https://github.com/opentargets/opentargets-py) client. These files cannot be used to restore our application. Although these files are not a database dump _per se_, they have been formatted and can serve as inputs for your in-house tools. In these files, each line represents a fully dumped and serialised to a string JSON-object, which is independent of each other.
+N**ote:** our snapshot is different from the files available on our [Downloads](http://www.targetvalidation.org/downloads/data) page. Those evidence and association files are the product of a pre-processed export through our [REST API](https://docs.targetvalidation.org/tutorials/rest-api) using our [Python](https://github.com/opentargets/opentargets-py) client. These files cannot be used to restore our application. Although these files are not a database dump _per se_, they have been formatted and can serve as inputs for your in-house tools. In these files, each line represents a fully dumped and serialised to a string JSON-object, which is independent of each other.
 
 ## How to restore using the public snapshot
 
