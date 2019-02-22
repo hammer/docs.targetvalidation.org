@@ -70,19 +70,11 @@ More details on why you have to specify `repositories.url.allowed_urls` can be f
 
 3\) You now have to register the Open Targets public snapshot as a repo.
 
-The URL for the latest ES snapshot \(i.e. Apr 2018\) is:
-
-```text
-https://storage.googleapis.com/open-targets-data-releases/18.10/18.10_snapshot/
-```
+The URL for the latest ES snapshot \(i.e. Feb 2019\) is our [Google cloud storage bucket](https://storage.googleapis.com/open-targets-data-releases/19.02/output/es_snapshot/). 
 
 {% hint style="danger" %}
-Our snapshots have moved to a new [location](https://console.cloud.google.com/storage/browser/open-targets-data-releases) and are available for the current release [19.02](https://storage.googleapis.com/open-targets-data-releases/19.02/output/es_snapshot/) as well as previous ones.
-
-[Email us](mailto:support@targetvalidation.org) if you are not sure which files to use.
+Please be aware of the size of the ES snapshot, which is roughly 100GB\)!
 {% endhint %}
-
-\(please be aware of the size of the snapshot, which is roughly 100GB\).
 
 Register the repo using the URL below:
 
