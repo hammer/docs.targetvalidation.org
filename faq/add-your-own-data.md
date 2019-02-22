@@ -1,14 +1,24 @@
 # Can I add private data?
 
-> **Note**: If you are interested in injecting custom/private data, we currently support this to our industry partners only. We are working towards supporting this for users outside the Open Targets Partnership. At any rate, the local installation process is summarised below:
 
-While each data point that is included in the Platform needs to conform to our JSON schema, the most basic requirement is that each data point contains a target \(in the form of an Ensembl gene ID\) and a disease \(in the form of an ontology identifier, most often an EFO ID\).
+
+The Open Targets Platform integrates multiomics and chemical information from public available data sources.
+
+You can inject your own custom or private data following the summary below. The  pre-requisites are as follows:
+
+* data contains a target identified by Ensembl gene ID
+* data contains a disease or phenotype identified by an ontology term e.g. EFO, HP, Orphanet
+* data should conform to our JSON schema
+
+{% hint style="warning" %}
+We currently support private data injection to our industry partners only. If you want to discuss this further, please [email us](mailto:support@targetvalidation.org).
+{% endhint %}
 
 ## Transform your data into an array of JSON objects
 
 You need to transform your data in an array of JSON objects. The JSON database schema is publicly available on our [GitHub](https://github.com/opentargets/json_schema).
 
-Each object requires mapping to an ENS gene ID and an EFO ID \(or HP terms, in case the EFO term is missing\). We have a light wrapper called [OnToma](https://github.com/opentargets/OnToma\) to facilitate this mapping process.
+Each object requires mapping to an Ensembl gene ID and an EFO ID \(or HP terms, in case the EFO term is missing\). We have a light wrapper called [OnToma](https://github.com/opentargets/OnToma\) to facilitate this mapping process.
 
 Once the conversion is done, you will have an array containing a JSON object. For instance, our PheWAS evidence will look something like this:
 
@@ -35,13 +45,15 @@ After installation, the validator can be run as it follows:
 cat file.json | opentargets_validator --schema https://raw.githubusercontent.com/opentargets/json_schema/master/src/literature_curated.json
 ```
 
-## Run the pipeline \(mrTarget\)
+## Run the Open Targets Platform data pipeline \(mrTarget\)
 
 Our pipeline parses and integrates multiple files containing _evidence_, discrete pieces of data linking target to diseases. It then aggregates them into _associations_ and ranks each target-disease connection according to the quality and quantity of each evidence. To inject your own data \(i.e. a set of _evidence_\) to the Open Targets Platform, you need to add it to the pipeline processing.
 
-> Note: We are currently making our mrTarget pipeline open source. In the meantime if you want to access it, please [contact us](mailto:support@targetvalidation.org).
+{% hint style="success" %}
+The data pipeline for the Open Targets Platform is open source. The code for its processing can be found on [GitHub. ](https://github.com/opentargets/data_pipeline)
+{% endhint %}
 
-Briefly - once you have access to the pipeline - you ought to
+Briefly - once you have access to the pipeline - you ought to:
 
 * Fork it from GitHub
 * Add the additional evidence to the list of Open Targets data sources
