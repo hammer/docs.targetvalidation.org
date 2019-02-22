@@ -1,6 +1,6 @@
 # Python client
 
-The python client for the Open Targets Platform REST API, \`opentargets-py\`, allows you to query the API automatically taking care of handling all the calls and returning data in a pythonic way.
+The python client for the Open Targets Platform REST API, `opentargets-py`, allows you to query the API automatically taking care of handling all the calls and returning data in a pythonic way.
 
 The main advantages of using the client instead of querying the REST API directly are several fold. The python client:
 
