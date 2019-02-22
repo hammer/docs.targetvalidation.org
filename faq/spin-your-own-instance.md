@@ -77,7 +77,7 @@ https://storage.googleapis.com/open-targets-data-releases/18.10/18.10_snapshot/
 ```
 
 {% hint style="danger" %}
-Our snapshots have moved to a new [location](https://console.cloud.google.com/storage/browser/open-targets-data-releases) and are available for the current release [18.12](https://storage.googleapis.com/open-targets-data-releases/18.12/output/es_snapshot) as well as previous ones.
+Our snapshots have moved to a new [location](https://console.cloud.google.com/storage/browser/open-targets-data-releases) and are available for the current release [19.02](https://storage.googleapis.com/open-targets-data-releases/19.02/output/es_snapshot/) as well as previous ones.
 
 [Email us](mailto:support@targetvalidation.org) if you are not sure which files to use.
 {% endhint %}
