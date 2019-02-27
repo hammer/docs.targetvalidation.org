@@ -40,6 +40,11 @@ You will get the gene ontology \(GO\) terms enriched in your list of targets, ra
 
 ### 4\) Tractability information <a id="3drugs"></a>
 
+You will get a summary of the [target tractability](https://docs.targetvalidation.org/getting-started/target-tractability) data available for your list of targets, whether they can be targeted by a small molecule or antibody. Each of these two drug modalities is further divided into three groups of confidence: 
+
+* clinical precedence, discovery precedence and predicted tractable: antibody
+* clinical precedence, predicted tractable \(high confidence\), predicted tractable \(mid-low confidence\): small molecule
+
 ### 5\) Drugs <a id="3drugs"></a>
 
 You will get the drugs from ChEMBL matching your list of targets, the target name, the most advanced stage in clinical trials, and the molecule type of the drug compound.
