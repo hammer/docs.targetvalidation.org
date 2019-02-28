@@ -13,7 +13,7 @@ You can obtain the same result in Python by parsing the JSON as a dictionary and
 > ```text
 > >>> import requests
 > >>> from pprint import pprint
-> >>> r = requests.get('https://api.opentargets.io/v3/platform/public/search',
+> >>> r = requests.get('https://platform-api.opentargets.io/v3/platform/public/search',
 > params={"q":"NOD2","size":1})
 > >>> pprint(r.json())
 >

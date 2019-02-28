@@ -2,7 +2,7 @@
 
 The Open Targets Platform REST-API allows language agnostic access to data available on the [Open Targets Platform](https://www.targetvalidation.org). The REST-API can be accessed from:
 
-`https://api.opentargets.io/v3/platform`
+`https://platform-api.opentargets.io/v3/platform`
 
 Our current set of REST-API [endpoints](https://en.wikipedia.org/wiki/Web_API#Endpoints) can be divided in three groups:
 
@@ -17,7 +17,7 @@ Head to our [Swagger](https://api.opentargets.io/v3/platform/docs/swagger-ui) in
 To get the summary statistics of our latest release, for example, you will use the following URL:
 
 ```text
-https://api.opentargets.io/v3/platform/public/utils/stats
+https://platform-api.opentargets.io/v3/platform/public/utils/stats
 ```
 
 This `utils/stats` endpoint will return the total number of targets and diseases, and the total numbers of associations and evidence strings per [data source](https://docs.targetvalidation.org/data-sources/data-sources) and data type.
