@@ -43,7 +43,7 @@ docker network create otnet
 2\) Whitelist the URL of our repo when you \`docker run\` by passing an environment variable:
 
 ```text
-docker run -d --name elastic --network otnet -p 9200:9200 -v otdata:/usr/share/elasticsearch/data -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' -e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.8
+docker run -d --name elastic --network otnet -p 9200:9200 -v otdata:/usr/share/elasticsearch/data -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' -e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.13
 ```
 
 If you get a "invalid reference format" error, double check that the container tag has not changed. You can do so by visiting the elasticsearch [docker container listings](https://www.docker.elastic.co/). It can also happen as a result of copying/pasting the command from this documentation page. Try to re-type it in your own shell.
@@ -52,17 +52,17 @@ You can check that the docker container is running by typing `docker ps` . Make 
 
 ```text
 {
-    "cluster_name": "docker-cluster",
-    "cluster_uuid": "Gt2Dsxh4StyV3YvdwBjx-Q",
-    "name": "Z49nXRz",
-    "tagline": "You Know, for Search",
-    "version": {
-        "build_date": "2018-02-16T16:46:30.010Z",
-        "build_hash": "688ecce",
-        "build_snapshot": false,
-        "lucene_version": "6.6.1",
-        "number": "5.6.8"
-    }
+  "name" : "hRP5RWQ",
+  "cluster_name" : "docker-cluster",
+  "cluster_uuid" : "c9ufVDIzTgmBf6VAazvvng",
+  "version" : {
+    "number" : "5.6.13",
+    "build_hash" : "4d5320b",
+    "build_date" : "2018-10-30T19:05:08.237Z",
+    "build_snapshot" : false,
+    "lucene_version" : "6.6.1"
+  },
+  "tagline" : "You Know, for Search"
 }
 ```
 
@@ -70,7 +70,7 @@ More details on why you have to specify `repositories.url.allowed_urls` can be f
 
 3\) You now have to register the Open Targets public snapshot as a repo.
 
-The URL for the latest ES snapshot \(i.e. Feb 2019\) is our [Google cloud storage bucket](https://storage.googleapis.com/open-targets-data-releases/19.02/output/es_snapshot/). 
+The URL for the latest ES snapshot \(i.e. Feb 2019\) is https://storage.googleapis.com/open-targets-data-releases/19.02/output/es\_snapshot/ 
 
 {% hint style="danger" %}
 Please be aware of the size of the ES snapshot, which is roughly 100GB\)!
@@ -82,7 +82,7 @@ Register the repo using the URL below:
 curl -XPUT 'localhost:9200/_snapshot/ot_repo?verify=false&pretty' -H 'Content-Type: application/json' -d'{
 "type": "url",
 "settings": {
-"url": "https://storage.googleapis.com/open-targets-data-releases/18.04/18.04_snapshot/"
+"url": "https://storage.googleapis.com/open-targets-data-releases/19.02/output/es_snapshot/"
 }}'
 ```
 
@@ -103,7 +103,7 @@ This should return:
 This should return something similar to:
 
 ```text
-curator-20180126111418 SUCCESS 1516965258 11:14:18 1516967082 11:44:42 30.3m 12 24 0 24
+19021 SUCCESS 1550602953 19:02:33 1550605705 19:48:25 45.8m 12 92 0 92
 ```
 
 Make a note of the name above, which is the first field on the left, as we will use it in the next command.
@@ -113,7 +113,7 @@ Make a note of the name above, which is the first field on the left, as we will 
 {% code-tabs %}
 {% code-tabs-item title="start\_restore" %}
 ```text
-curl -XPOST 'localhost:9200/_snapshot/ot_repo/curator-20180508094844/_restore?pretty' -H 'Content-Type: application/json' -d'
+curl -XPOST 'localhost:9200/_snapshot/ot_repo/19021/_restore?pretty' -H 'Content-Type: application/json' -d'
 {
   "indices": "*",
   "ignore_unavailable": true,
@@ -146,7 +146,7 @@ and then reusing the `start_restore` command above.
 To spin up a docker container running the Open Targets API, follow the instruction on our README.
 
 ```text
-docker run -d -p 8080:80 --network otnet --name rest_api -e "ELASTICSEARCH_URL=http://elastic:9200" -e "OPENTARGETS_DATA_VERSION=18.04" --privileged quay.io/opentargets/rest_api
+docker run -d -p 8080:80 --network otnet --name rest_api -e "ELASTICSEARCH_URL=http://elastic:9200" -e "OPENTARGETS_DATA_VERSION=19.02" --privileged quay.io/opentargets/rest_api:19.02.1
 ```
 
 **Check if the container is running:** 
@@ -164,7 +164,7 @@ and readiness can be checked by calling: `curl localhost:8080/v3/platform/public
 To spin up a docker container running the Open Targets web app, follow the [instruction on the webapp README](https://github.com/opentargets/webapp#deploy-using-our-docker-container):
 
 ```text
-docker run -d --name webapp --network otnet -p 8443:443 -e "REST_API_SCHEME=https" -e "REST_API_SERVER=rest_api" -e "REST_API_PORT=443" quay.io/opentargets/webapp
+docker run -d --name webapp --network otnet -p 8443:443 -e "REST_API_SCHEME=https" -e "REST_API_SERVER=rest_api" -e "REST_API_PORT=443" quay.io/opentargets/webapp:19.02.1
 ```
 
 ## Add your own data
