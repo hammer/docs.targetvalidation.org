@@ -34,7 +34,7 @@
 
 ## Programmatic access
 
-* [REST-API](tutorials/rest-api.md)
+* [REST API](tutorials/rest-api.md)
 * [Python client](tutorials/python-client.md)
 * [API Tutorials](tutorials/api-tutorials/README.md)
   * [Find the ID of a target or disease](tutorials/api-tutorials/find-the-id-of-a-target-or-disease.md)
