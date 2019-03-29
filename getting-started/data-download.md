@@ -2,7 +2,7 @@
 
 You can download the target-disease associations and the evidence used for the associations from our [Data Download](https://www.targetvalidation.org/downloads/data) page. 
 
-This data is available as compressed JSON files and can also be obtained programmatically using the `/public/associations` and `/public/evidence` REST-API methods. Check [Open Targets Platform REST API](http://api.opentargets.io/v3/platform/docs)  for more details.
+This data is available as compressed JSON files and can also be obtained programmatically using the `/public/associations` and `/public/evidence` REST API methods. Check [Open Targets Platform REST API](https://api.opentargets.io/v3/platform/docs/swagger-ui)   for more details.
 
 {% tabs %}
 {% tab title="Note" %}
