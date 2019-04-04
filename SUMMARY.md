@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Release notes](release-notes.md)
 
 ## Getting Started
 
@@ -20,7 +21,6 @@
 * [Data download](getting-started/data-download.md)
 * [Cite us](getting-started/citation.md)
 * [Contact us](getting-started/contact.md)
-* [Release notes](getting-started/release-notes.md)
 
 ## Data Sources
 
