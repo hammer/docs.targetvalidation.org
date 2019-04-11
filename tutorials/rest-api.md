@@ -44,6 +44,12 @@ Check our blog our webinar [Take a rest of manual searches with the Open Targets
 
 {% embed url="https://www.youtube.com/watch?v=KQbfhwpeEvc&list=PLncWVtwSXtqb8PyL6-ENSCuqP7\_4Aj5BE&index=2" %}
 
+{% hint style="danger" %}
+Please note that at the time of the recording \(Dec 5th 2017\), the Open Targets REST API had a different URL. You should now use:
+
+`https://platform-api.opentargets.io/v3/platform`
+{% endhint %}
+
 If you have questions on our REST API, please [email us](mailto:support@targetvalidation.org) and will be happy to help.
 
 

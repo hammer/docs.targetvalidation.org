@@ -1,8 +1,8 @@
 # How to get more than 10K targets associated with one disease
 
-The maximum amount of results that our [Open Targets Platform REST API](https://api.opentargets.io/v3/platform/docs/swagger-ui) returns in each call is 10,000, but for some diseases such as [brain disease](https://www.targetvalidation.org/disease/EFO_0005774/associations) \(EFO\_0005774\), the number of associated targets is beyond this limit.
+The maximum amount of results that our [Open Targets Platform REST API ](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui)returns in each call is 10,000, but for some diseases such as [brain disease](https://www.targetvalidation.org/disease/EFO_0005774/associations) \(EFO\_0005774\), the number of associated targets is beyond this limit.
 
-How can you retrieve all the associations for a disease that contains more than 10,000 targets? Use `next`, a root-level field that contains a vector of elements to act as a token. If you add `next` when calling our API endpoints, such as the [`getAssociationFilter`](https://api.opentargets.io/v3/platform/docs/swagger-ui#/filter/getAssociationFilter),  you will implement pagination and retrieve the next chunk of results.
+How can you retrieve all the associations for a disease that contains more than 10,000 targets? Use `next`, a root-level field that contains a vector of elements to act as a token. If you add `next` when calling our API endpoints, such as the [`getAssociationFilter`](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui#/filter/getAssociationFilter),  you will implement pagination and retrieve the next chunk of results.
 
 You can use `next` in either **GET** or **POST** methods:
 
@@ -16,11 +16,11 @@ Please note, that although you can use `next`, we would still recommend not retr
 Let's look at one example with the **GET** method first:
 
 ```text
-http GET 'https://api.opentargets.io/v3/platform/public/association/filter?size=10000&disease=EFO_0005774'| jq '.next'
+http GET 'https://platform-api.opentargets.io/v3/platform/public/association/filter?size=10000&disease=EFO_0005774'| jq '.next'
 ```
 
 {% hint style="info" %}
-Make sure you have jq installed for backtracking and managing JSON data.
+Make sure you have `jq` installed for backtracking and managing JSON data.
 {% endhint %}
 
 You will get these elements:
@@ -32,7 +32,7 @@ You will get these elements:
 To retrieve the following set of results, you will use the elements returned in the first array \(see above\) to make the next call:
 
 ```text
-http GET 'https://api.opentargets.io/v3/platform/public/association/filter?size=100&disease=EFO_0005774&next=0.015444&next=ENSG00000103089-EFO_0005774' | jq '.next'
+http GET 'https://platform-api.opentargets.io/v3/platform/public/association/filter?size=100&disease=EFO_0005774&next=0.015444&next=ENSG00000103089-EFO_0005774' | jq '.next'
 ```
 
 You will get these elements:
@@ -46,7 +46,7 @@ To fetch the next set of results, you will append the elements from your previou
 Let's now try the **POST** method to retrieve the targets for cancer \(EFO\_0000311\):
 
 ```text
- http POST 'https://api.opentargets.io/v3/platform/public/association/filter?disease=EFO_0000311
+ http POST 'https://platform-api.opentargets.io/v3/platform/public/association/filter?disease=EFO_0000311
 ' @payload.json
 ```
 

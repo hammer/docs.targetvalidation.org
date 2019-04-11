@@ -1,6 +1,6 @@
 # Get diseases and drug information with the Python client
 
-This is an example on how you can get the diseases associated with your targets of interest and their drug information using Python. We are going to query the Open Targets Platform REST API to retrieve a list of drugs associated to a given list of targets.
+This is an example on how you can get the diseases associated with your targets of interest and their drug information using Python. We will query the [Open Targets Platform REST API](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui) to retrieve a list of drugs associated to a given list of targets.
 
 You might want to use the [jupyter notebook](http://jupyter.org/install) environment to run this example:
 
@@ -22,7 +22,7 @@ def drug_table(genelist):
                   'unique_association_fields.chembl_molecules',
                   'drug']
     payload = {"target":genelist, 'datatype':['known_drug'],'fields':drugfields}
-    r = requests.post('https://api.opentargets.io/v3/platform/public/evidence/filter',
+    r = requests.post('https://platform-api.opentargets.io/v3/platform/public/evidence/filter',
                       json=payload)
 
     for e in r.json()['data']:
@@ -163,4 +163,18 @@ Check our "How to take a REST from manual searches with the Open Targets API" we
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=KQbfhwpeEvc&list=PLncWVtwSXtqb8PyL6-ENSCuqP7\_4Aj5BE&index=2" %}
+
+{% hint style="danger" %}
+Please note that at the time of the recording \(Dec 5th 2017\), the Open Targets REST API had a different URL. You should now use:
+
+`https://platform-api.opentargets.io/v3/platform`
+{% endhint %}
+
+If you have questions on our REST API, please [email us](mailto:support@targetvalidation.org) and will be happy to help.
+
+{% hint style="danger" %}
+If you have questions on our REST API, please [email us](mailto:support@targetvalidation.org) and will be happy to help.
+{% endhint %}
+
+
 

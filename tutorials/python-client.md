@@ -22,7 +22,7 @@ Head to our [Read the docs](%20https://opentargets.readthedocs.io/en/stable/) pa
 This client is supported for Python 3.5.0 and more recent versions. It can also work on earlier versions such as python 2.7 on a best effort basis. 
 {% endhint %}
 
-If you have questions on our python client, please [email us](mailto:support@targetvalidation.org) and will be happy to help.
+If you have questions on the Open Targets python client, please [email us](mailto:support@targetvalidation.org) and will be happy to help.
 
 
 
