@@ -1,7 +1,7 @@
 # Pathways & systems biology
 
 {% hint style="info" %}
-This data type used to be called `Affected pathways` up to release 18.10 of the Open Targets Platform.
+This data type used to be displayed as `Affected pathways` in the user interface up to release 18.10 of the Open Targets Platform. It is now shown as "Pathways & systems biology".
 {% endhint %}
 
 This data type contains pathway information on biochemical reactions sourced from the following sources:
@@ -26,6 +26,14 @@ Sysbio includes six gene lists curated from four systems biology analysis papers
 * Coronary heart disease \([PMID:23539213](https://europepmc.org/abstract/MED/23539213)\)
 * Late-onset Alzheimer's disease \([PMID:23622250](https://europepmc.org/abstract/MED/23622250)\)
 * Cognitive decline of Alzheimer's disease \([PMID:29802388](https://europepmc.org/abstract/MED/29802388)\)
+
+### CRISPR
+
+This data source will be available in the forthcoming release of the Open Targets Platform, release 19.04, due at the end of April 2019 following our publication entitled [Prioritization of cancer therapeutic targets using CRISPR-Cas9 screens](https://europepmc.org/abstract/MED/30971826).
+
+In this paper, Fiona et al. have integrated of gene fitness effects with tractability data and genomic biomarkers \(i.e. cancer driver events\) for a systematic prioritisation in defined tissues and genotypes. 
+
+In the next release of the Open Targets Platform, the data source CRISPR will be available as evidence for 624 unique genes, prioritised in 19 different cancer types, resulting in 1,846 target-disease associations. 
 
 
 
