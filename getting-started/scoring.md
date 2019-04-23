@@ -17,6 +17,12 @@ Our scoring framework is a four-tier process: we first score the individual evid
 `Pathways & systems biology` is the new name for what we used to call`Affected pathways`in the user interface of Open Targets Platform. 
 {% endhint %}
 
+At each aggregation step, denoted by sum symbol above, we apply the [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_%28mathematics%29) using the following formula as follows:
+
+```text
+S1 + S2/22 + S3/32 + S4/42 + Si/i2
+```
+
 ## Computing the Association Score  <a id="computing-the-association-score"></a>
 
 We start by generating a score for each evidence from different data sources \(e.g. GWAS catalog, European Variation Archive\) within a data type \(e.g. Genetic associations\). We define the evidence score as:
@@ -45,7 +51,7 @@ The evidence score summarises the strength of the evidence and depends on factor
 | Text mining | Europe PMC \(weighted document sections, sentence locations and title for full text articles and abstracts \([Kafkas et al 2016](https://europepmc.org/abstract/MED/28587637)\)\) |
 | Animal models | [PhenoDigm](https://www.sanger.ac.uk/science/tools/phenodigm) \(similarity score between a mouse model and a human disease described by [Smedley et al 2013](https://europepmc.org/abstract/MED/23660285)\) |
 
-Once we have the scores for each evidence, we calculate an overall score for a data source \(e.g. Genomics England PanelAPP\) followed by a score for a data type \(e.g. Genetic associations\). In this step, we take into account that although multiple occurrences of evidence can suggest a strong association, the inclusion of further new evidence should not have a great impact on the overall score. For this reason, we calculate the sum of the [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_%28mathematics%29) of each score and adjust the contribution of each of them using a heuristic weight. 
+Once we have the scores for each evidence, we calculate an overall score for a data source \(e.g. Genomics England PanelAPP\) followed by a score for a data type \(e.g. Genetic associations\). In this step, we take into account that although multiple occurrences of evidence can suggest a strong association, the inclusion of further new evidence should not have a great impact on the overall score. For this reason, we calculate the sum of the harmonic progression of each score and adjust the contribution of each of them using a heuristic weight. 
 
 {% hint style="info" %}
  We down weight`PROGENy, SLAPenrich and Sysbio`  by a factor of 2, and`Expression Atlas, PhenoDigm and Europe PMC,` by a factor of 5.
