@@ -29,11 +29,11 @@ Sysbio includes six gene lists curated from four systems biology analysis papers
 
 ### CRISPR
 
-This data source will be available in the forthcoming release of the Open Targets Platform, release 19.04, due at the end of April 2019 following our publication entitled [Prioritization of cancer therapeutic targets using CRISPR-Cas9 screens](https://europepmc.org/abstract/MED/30971826).
+This data source will be available in the forthcoming release of the Open Targets Platform, release 19.04, due at the end of April 2019 following our recent publication entitled [Prioritization of cancer therapeutic targets using CRISPR-Cas9 screens](https://europepmc.org/abstract/MED/30971826).
 
-In this paper, Fiona et al. have integrated of gene fitness effects with tractability data and genomic biomarkers \(i.e. cancer driver events\) for a systematic prioritisation in defined tissues and genotypes. 
+In this paper, Fiona et al. have integrated of gene fitness effects with tractability data and genomic biomarkers \(i.e. cancer driver events\) for a systematic prioritisation of targets in defined tissues and genotypes. 
 
-In the next release of the Open Targets Platform, the data source CRISPR will be available as evidence for 624 unique genes, prioritised in 19 different cancer types, resulting in 1,846 target-disease associations. 
+In the upcoming 19.04 release of the Open Targets Platform, CRISPR will be available as evidence for the associations of 624 genes. These have been prioritised in 19 different cancer types, resulting in 1,846 target-disease associations. Genes with priority scores greater than 41.5 in Table 6, [supplementary information](https://www.nature.com/articles/s41586-019-1103-9#Sec44) section in the Nature paper are included in the Platform \(Final score column in the table\). 
 
 
 
