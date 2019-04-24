@@ -1,5 +1,41 @@
 # Release notes
 
+## Release 3.12 \(2019-04-25\)
+
+### Status
+
+In this release of the Open Targets Platform we integrate over 6.5 million target-disease associations covering 12,435 diseases and 28,501 targets from the following public resources:
+
+* 33,310 genetic evidence from [UniProt](http://www.uniprot.org/)
+* 89,679 genetic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
+* 157,421 genetic evidence from [GWAS Catalog](https://www.ebi.ac.uk/gwas/)
+* 1,589 genetic evidence from [Gene2Phenotype](https://www.ebi.ac.uk/gene2phenotype)
+* 10,533 genetic evidence from the [Genomics England PanelApp](https://bioinfo.extge.co.uk/crowdsourcing/PanelApp/)
+* 56,014 genetic evidence from the [PheWAS catalog](https://phewascatalog.org/)
+* 7,064 somatic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
+* 2,371 somatic evidence from [intOGen](https://www.intogen.org/)
+* 59,992 somatic evidence from the [Cancer Gene Census](http://cancer.sanger.ac.uk/census/)
+* 284 somatic evidence from [UniProt](http://www.uniprot.org/)
+* 384,782 drug evidence from [ChEMBL](https://www.ebi.ac.uk/chembl/)
+* 381,141 expression evidence from [Expression Atlas](https://www.ebi.ac.uk/gxa/home)
+* 10,083 affected pathway evidence from [Reactome](https://reactome.org/)
+* 74,575 affected pathway evidence from [SLAPenrich](https://saezlab.github.io/SLAPenrich/)
+* 308 affected pathway evidence from [PROGENy](https://saezlab.github.io/progeny/)
+* 408 systems biology evidence from [SysBio](https://saezlab.github.io/progeny/)
+* 1826 CRISPR-Cas9 (Cancer Cell Lines) evidence from [CRISPR](https://score.depmap.sanger.ac.uk/)
+* 500,462 mouse model evidence from [PhenoDigm](https://www.sanger.ac.uk/resources/databases/phenodigm)
+* 5,438,280 scientific literature evidence from co-occurence mining in [EuropePMC](https://europepmc.org/)
+
+New Open Targets Platform features include:
+
+* CRISPR data on evidence page
+* Safety data on target profile page
+* New EFO3 disease ontology
+* New TEP data
+* Bug fixes throughout the platform
+
+For more details on the Open Targets Platform releases, check our [blog](http://blog.opentargets.org/2019/02/20/open-targets-platform-release-19-02-is-out/).
+
 ## Release 3.11 \(2019-02-25\)
 
 ### Status
