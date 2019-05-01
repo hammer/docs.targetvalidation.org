@@ -16,5 +16,5 @@ The EMBL-EBI [European Variation Archive](http://www.ebi.ac.uk/eva/?Home) \(EVA\
 
 ## IntOGen
 
-[IntOGen](http://www.intogen.org/search) provides somatic mutations, genes and pathways involved in tumorigenesis. We have imported the latest data from 6,792 samples across 28 cancer types described by [Rubio-Perez et al \(2015\)](https://europepmc.org/abstract/MED/25759023). In these new dataset, false mutation calls have been filtered out and additional expression data is available for a larger number of samples in certain tumour types. This analysis has now been updated but not yet released on the IntOGen website; so there can be discrepancies between the two resources.
+[IntOGen](http://www.intogen.org/search) provides somatic mutations, genes and pathways involved in tumorigenesis. We have imported the latest data from 6,792 samples across 28 cancer types described by [Rubio-Perez et al \(2015\)](https://europepmc.org/abstract/MED/25759023), including tumours of The Cancer Genome Atlas \(TCGA\) studies. In these new dataset, false mutation calls have been filtered out and additional expression data is available for a larger number of samples in certain tumour types. This analysis has now been updated but not yet released on the IntOGen website; so there can be discrepancies between the two resources.
 
