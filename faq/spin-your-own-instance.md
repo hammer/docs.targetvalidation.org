@@ -24,25 +24,25 @@ Assuming you are following the official instructions and use [docker to run elas
 
 1\) Create a docker volume as recommended:
 
-```text
+```bash
 docker volume create otdata
 ```
 
 Check that it's been created:
 
-```text
+```bash
 docker volume inspect otdata
 ```
 
 Also create a docker network that our docker containers will communicate through.
 
-```text
+```bash
 docker network create otnet
 ```
 
 2\) Whitelist the URL of our repo when you \`docker run\` by passing an environment variable:
 
-```text
+```bash
 docker run -d --name elastic --network otnet -p 9200:9200 -v otdata:/usr/share/elasticsearch/data -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' -e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:5.6.13
 ```
 
@@ -70,7 +70,7 @@ More details on why you have to specify `repositories.url.allowed_urls` can be f
 
 3\) You now have to register the Open Targets public snapshot as a repo.
 
-The URL for the latest ES snapshot \(i.e. Feb 2019\) is https://storage.googleapis.com/open-targets-data-releases/19.02/output/es\_snapshot/ 
+The URL for the latest ES snapshot \(i.e. April 2019\) is https://storage.googleapis.com/open-targets-data-releases/19.04/output/es\_snapshot/ 
 
 {% hint style="danger" %}
 Please be aware of the size of the ES snapshot, which is roughly 100GB\)!
@@ -78,11 +78,11 @@ Please be aware of the size of the ES snapshot, which is roughly 100GB\)!
 
 Register the repo using the URL below:
 
-```text
+```bash
 curl -XPUT 'localhost:9200/_snapshot/ot_repo?verify=false&pretty' -H 'Content-Type: application/json' -d'{
 "type": "url",
 "settings": {
-"url": "https://storage.googleapis.com/open-targets-data-releases/19.02/output/es_snapshot/"
+"url": "https://storage.googleapis.com/open-targets-data-releases/19.04/output/es_snapshot/"
 }}'
 ```
 
@@ -96,14 +96,14 @@ This should return:
 
 4\) Find out the snapshots contained in the repo we have just registered:
 
-```text
+```bash
  curl localhost:9200/_cat/snapshots/ot_repo
 ```
 
 This should return something similar to:
 
 ```text
-19021 SUCCESS 1550602953 19:02:33 1550605705 19:48:25 45.8m 12 92 0 92
+19.04 SUCCESS 1550602953 19:02:33 1550605705 19:48:25 45.8m 12 92 0 92
 ```
 
 Make a note of the name above, which is the first field on the left, as we will use it in the next command.
@@ -112,8 +112,8 @@ Make a note of the name above, which is the first field on the left, as we will 
 
 {% code-tabs %}
 {% code-tabs-item title="start\_restore" %}
-```text
-curl -XPOST 'localhost:9200/_snapshot/ot_repo/19021/_restore?pretty' -H 'Content-Type: application/json' -d'
+```bash
+curl -XPOST 'localhost:9200/_snapshot/ot_repo/19.04/_restore?pretty' -H 'Content-Type: application/json' -d'
 {
   "indices": "*",
   "ignore_unavailable": true,
@@ -129,7 +129,7 @@ by using the `snapshot name` from the step above
 
 6\) Check the progress of the restore by looking at the `_cat/recovery`
 
-```text
+```bash
 curl 'localhost:9200/_cat/recovery?v&h=index,time,type,stage,files_percent'
 ```
 
@@ -146,7 +146,7 @@ and then reusing the `start_restore` command above.
 To spin up a docker container running the Open Targets API, follow the instruction on our README.
 
 ```text
-docker run -d -p 8080:80 --network otnet --name rest_api -e "ELASTICSEARCH_URL=http://elastic:9200" -e "OPENTARGETS_DATA_VERSION=19.02" --privileged quay.io/opentargets/rest_api:19.02.1
+docker run -d -p 8080:80 --network otnet --name rest_api -e "ELASTICSEARCH_URL=http://elastic:9200" -e "OPENTARGETS_DATA_VERSION=19.04" --privileged quay.io/opentargets/rest_api:19.04.5
 ```
 
 **Check if the container is running:** 
@@ -164,7 +164,7 @@ and readiness can be checked by calling: `curl localhost:8080/v3/platform/public
 To spin up a docker container running the Open Targets web app, follow the [instruction on the webapp README](https://github.com/opentargets/webapp#deploy-using-our-docker-container):
 
 ```text
-docker run -d --name webapp --network otnet -p 8443:443 -e "REST_API_SCHEME=https" -e "REST_API_SERVER=rest_api" -e "REST_API_PORT=443" quay.io/opentargets/webapp:19.02.1
+docker run -d --name webapp --network otnet -p 8443:443 -e "REST_API_SCHEME=https" -e "REST_API_SERVER=rest_api" -e "REST_API_PORT=443" quay.io/opentargets/webapp:19.04.5
 ```
 
 ## Add your own data

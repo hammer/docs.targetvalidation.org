@@ -12,24 +12,18 @@ In this release of the Open Targets Platform we integrate over 3.3 million targe
 * 1,589 genetic evidence from [Gene2Phenotype](https://www.ebi.ac.uk/gene2phenotype)
 * 10,533 genetic evidence from the [Genomics England PanelApp](https://bioinfo.extge.co.uk/crowdsourcing/PanelApp/)
 * 56,014 genetic evidence from the [PheWAS catalog](https://phewascatalog.org/)
-
 * 7,057 somatic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
 * 2,371 somatic evidence from [intOGen](https://www.intogen.org/)
 * 59,992 somatic evidence from the [Cancer Gene Census](http://cancer.sanger.ac.uk/census/)
 * 284 somatic evidence from [UniProt](http://www.uniprot.org/)
-
 * 384,783 drug evidence from [ChEMBL](https://www.ebi.ac.uk/chembl/)
-
 * 381,141 expression evidence from [Expression Atlas](https://www.ebi.ac.uk/gxa/home)
-
 * 10,083 affected pathway evidence from [Reactome](https://reactome.org/)
 * 74,575 affected pathway evidence from [SLAPenrich](https://saezlab.github.io/SLAPenrich/)
 * 308 affected pathway evidence from [PROGENy](https://saezlab.github.io/progeny/)
 * 408 systems biology evidence from [SysBio](https://saezlab.github.io/progeny/)
-* 1641 CRISPR-Cas9 (Cancer Cell Lines) evidence from [CRISPR](https://score.depmap.sanger.ac.uk/)
-
+* 1641 CRISPR-Cas9 \(Cancer Cell Lines\) evidence from [CRISPR](https://score.depmap.sanger.ac.uk/)
 * 500,462 mouse model evidence from [PhenoDigm](https://www.sanger.ac.uk/resources/databases/phenodigm)
-
 * 5,438,280 scientific literature evidence from co-occurence mining in [EuropePMC](https://europepmc.org/)
 
 New Open Targets Platform features include:
