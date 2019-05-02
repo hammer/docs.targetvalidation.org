@@ -11,7 +11,7 @@ Our current set of REST API [endpoints](https://en.wikipedia.org/wiki/Web_API#En
 * **Utils** - Methods to get statistics on our data and to check if the server is alive.
 
 {% hint style="success" %}
-Head to our [Swagger](https://api.opentargets.io/v3/platform/docs/swagger-ui) interface for a list of all available endpoints. You will also be able to test your queries in an interactive and easy manner.
+Head to our [Swagger](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui) interface for a list of all available endpoints. You will also be able to test your queries in an interactive and easy manner.
 {% endhint %}
 
 To get the summary statistics of our latest release, for example, you will use the following URL:
