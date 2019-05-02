@@ -1,6 +1,6 @@
 # API access
 
-You can access all this data programmatically via our REST API services. We list the methods available, the supported formats and the endpoints in our [API documentation](https://api.opentargets.io/v3/platform/docs/swagger-ui), available as an interactive interface, Swagger UI.
+You can access all this data programmatically via our REST API services. We list the methods available, the supported formats and the endpoints in our [Swagger API documentation](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui), available as an interactive interface.
 
 Watch our webinar [Take a REST of manual searches with the Open Targets API](https://www.youtube.com/watch?v=KQbfhwpeEvc&list=PLncWVtwSXtqb8PyL6-ENSCuqP7_4Aj5BE&index=2), recorded in December 2017.
 
