@@ -31,7 +31,7 @@ We also include the following data to assist prioritisation of drug targets, whe
 * [Target Enabling Package](http://www.thesgc.org/tep) \(or TEP\) for 19 targets e.g. [CDK12](http://www.targetvalidation.org/target/ENSG00000167258), from the Structural Genomics Consortium 
 * High-quality chemical probes \(n=182\) for 187 targets e.g. [BRD4](https://www.targetvalidation.org/target/ENSG00000141867), from the [Structural Genomics Consortium](https://www.thesgc.org/chemical-probes) \(SGC\), the [Chemical Probes Portal](http://www.chemicalprobes.org/) and [Open Science Probes](http://www.sgc-ffm.uni-frankfurt.de/)
 * Potential chemical probes for several targets e.g. [SCN5A](https://www.targetvalidation.org/target/ENSG00000183873), from [Probe Miner](https://probeminer.icr.ac.uk/)
-* _Upcoming: CRISPR-Cas9 cancer cell line dependency data for several targets e.g._ [_RHBDF1_](https://www.targetvalidation.org/target/ENSG00000007384)_, from_ [_Project Score_](https://score.depmap.sanger.ac.uk/) 
+* CRISPR-Cas9 cancer cell line dependency data for several targets e.g. [RHBDF1](https://www.targetvalidation.org/target/ENSG00000007384), from [Project Score](https://score.depmap.sanger.ac.uk/) 
 
 {% hint style="info" %}
 Check our [Everything you wanted to know about a drug target](https://www.youtube.com/playlist?list=PLncWVtwSXtqb2kA4gGVJUrbY4baD3iFDx) series of quick tutorials on our YouTube channel to learn how to explore the target profile page.
