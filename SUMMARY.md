@@ -32,6 +32,16 @@
 * [Text mining](data-sources/text-mining.md)
 * [Animal models](data-sources/animal-models.md)
 
+## Programmatic access
+
+* [REST API](programmatic-access/rest-api.md)
+* [Python client](programmatic-access/python-client.md)
+* [API Tutorials](programmatic-access/api-tutorials/README.md)
+  * [Find the ID of a target or disease](programmatic-access/api-tutorials/find-the-id-of-a-target-or-disease.md)
+  * [How to get more than 10K targets associated with one disease](programmatic-access/api-tutorials/how-to-get-more-than-10k-targets-associated-with-one-disease.md)
+  * [Get diseases and drug information with the Python client](programmatic-access/api-tutorials/get-diseases-and-drug-information-with-python.md)
+  * [Get genetic variants associated with a disease with the Python client](programmatic-access/api-tutorials/get-genetic-variants-associated-with-a-disease.md)
+
 ## FAQ
 
 * [Frequently asked questions](faq/frequently-asked-questions.md)
@@ -54,16 +64,6 @@
 * [How can I spin my own instance of the Platform?](faq/spin-your-own-instance.md)
 * [Can I add private data?](faq/add-your-own-data.md)
 * [What is your policy on privacy and tracking?](faq/privacy-and-tracking.md)
-
-## Programmatic access
-
-* [REST API](programmatic-access/rest-api.md)
-* [Python client](programmatic-access/python-client.md)
-* [API Tutorials](programmatic-access/api-tutorials/README.md)
-  * [Find the ID of a target or disease](programmatic-access/api-tutorials/find-the-id-of-a-target-or-disease.md)
-  * [How to get more than 10K targets associated with one disease](programmatic-access/api-tutorials/how-to-get-more-than-10k-targets-associated-with-one-disease.md)
-  * [Get diseases and drug information with the Python client](programmatic-access/api-tutorials/get-diseases-and-drug-information-with-python.md)
-  * [Get genetic variants associated with a disease with the Python client](programmatic-access/api-tutorials/get-genetic-variants-associated-with-a-disease.md)
 
 ## Outreach
 

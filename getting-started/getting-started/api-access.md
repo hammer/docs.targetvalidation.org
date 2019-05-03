@@ -8,9 +8,13 @@ Watch our webinar [Take a REST of manual searches with the Open Targets API](htt
 
 {% embed url="https://youtu.be/KQbfhwpeEvc" %}
 
-Check our [Open Targets API Tutorial: Getting Started](http://blog.opentargets.org/2016/09/13/get-an-association-table-for-your-list-of-genes/) and how to [Get an association table for your list of genes](http://blog.opentargets.org/2016/09/13/get-an-association-table-for-your-list-of-genes/) in our [Blog](http://blog.opentargets.org/). 
+{% hint style="warning" %}
+The URL of the Open Targets Platform REST API in the tutorials available on the [Open Targets Blog](http://blog.opentargets.org/) has been deprecated. You should use **https://platform-api.opentargets.io/v3/platform/** instead of the URL available on [Open Targets API Tutorial: Getting Started](http://blog.opentargets.org/2016/09/13/get-an-association-table-for-your-list-of-genes/) and [Get an association table for your list of genes](http://blog.opentargets.org/2016/09/13/get-an-association-table-for-your-list-of-genes/) tutorials.
+{% endhint %}
 
-Additional tutorials on [How to find targets and diseases associated with drugs](https://docs.targetvalidation.org/tutorials/how-to-find-targets-and-diseases-associated-with-drugs) and [How to get variants associated with diseases](https://docs.targetvalidation.org/tutorials/how-to-get-variants-associated-with-diseases) are available elsewhere in our documentation.
+
+
+
 
 
 
