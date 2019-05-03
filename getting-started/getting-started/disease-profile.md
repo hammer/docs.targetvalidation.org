@@ -4,7 +4,7 @@ When searching for a disease, in addition to the list of targets associated with
 
 In this page, you will find the name, description and synonyms for the disease, the latter two if available in EFO. Scroll down to see detailed information on the disease \(e.g. Phenotypes\) and the original source of the data \(e.g. ChEMBL\):
 
-* Similar diseases \(based on targets in common\): Open Targets Platform
+* Similar diseases \(based on targets in common\)
 * Phenotypes: [Experimental Factor Ontology](http://www.ebi.ac.uk/efo/)
 * Drugs: all FDA-approved and marketed drugs to treat the disease from [ChEMBL](https://www.ebi.ac.uk/chembl/)
 * Bibliography: [Open Targets Library](https://github.com/opentargets/docs.targetvalidation.org/tree/593d0069107d9cccb589f9343403b18425a9e30f/library.opentargets.io)

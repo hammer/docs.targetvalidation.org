@@ -1,14 +1,14 @@
 # Associated diseases
 
-When you search for a **target**, you will get an overview of all potential diseases associated with it. You can filter the results of associations by Data types \(e.g. Genetic associations, Somatic mutations\) and Therapeutic area \(e.g. Genetic disorder, Skin disease\).
+When you search for a **target**, you will get an overview of all diseases associated with it. You can filter the results of associations by Data types \(e.g. Genetic associations, Somatic mutations\) and Therapeutic area \(e.g. Genetic disorder, Skin disease\).
 
-The associations are provided in three different views, Table, Bubbles and Tree.
+The associations are provided in three different views as summarised below.
 
 ## Table View <a id="table-view"></a>
 
-In this view, we list all diseases associated with target, ordered by the association score, which is colour coded. The darker the blue, the stronger the association. When there is no to support the association, the cells in this table are coloured in white. Evidence from highly specific terms of the disease ontology is aggregated to broader, parent terms. So, if you search for BRAF, you will see evidence for disease associations for higher terms such as neoplasm, or cancer.
+In this view, we list all diseases associated with target, ordered by the association score, which is colour coded. The darker the blue, the stronger the association. When there is no evidence to support the association, the cells in this table are coloured in white. Evidence from highly specific terms \(child terms\) of the disease ontology is aggregated to broader, parent terms. If you search for [BRAF](https://www.targetvalidation.org/target/ENSG00000157764/associations), you will see evidence for associations with both broader disease terms, such as neoplasm, as well as more specific child terms such as ovarian teratoma.
 
-You can order the associations by their scores for individual data types \(e.g. Genetic associations, Somatic mutations\). Use the search box to restrict the diseases displayed in the Table view. In our BRAF example above, if you type "lung", you will restrict the table to show diseases with the word 'lung' in their names.
+You can sort the associations by the scores for individual data types \(e.g. Genetic associations, Somatic mutations\). Use the search box to restrict the diseases displayed in the Table view. In our BRAF example above, if you type "lung", you will restrict the table to show diseases with the word 'lung' in their names only.
 
 ## Bubbles View <a id="bubbles-view"></a>
 
@@ -20,11 +20,11 @@ The strength of the association between the target and a disease is represented 
 
 In the Tree view, you can visualise the evidence across the therapeutic areas in a tree that represents the relationships of diseases. Therapeutic areas have a square symbol \(e.g. Genetic disorders\), while the diseases \(e.g. ovarian carcinoma\) are represented as circles. The squares and circles are colour coded in blue, and the darker the blue, the stronger the association.
 
+{% embed url="https://youtu.be/TdTI\_biupFA?t=1m15s" caption="Navigating the Open Targets Platform to find diseases associated with BRCA2." %}
+
 {% tabs %}
 {% tab title="Tip" %}
 Head to the Open Targets Platform to see all [targets associated with SETDB1](http://www.targetvalidation.org/target/ENSG00000143379/associations) and find out which view is more useful to you.
 {% endtab %}
 {% endtabs %}
-
-{% embed url="https://youtu.be/TdTI\_biupFA?t=1m15s" %}
 

@@ -14,7 +14,7 @@ The target safety data summarises toxic effects if/when modulating a given targe
 * Target Tractability: [ChEMBL](https://www.ebi.ac.uk/chembl/)
 * Protein information: [UniProt](http://www.uniprot.org/)
 * Pathways: [Reactome](http://www.reactome.org/)
-* Similar targets \(based on diseases in common\): Open Targets Platform
+* Similar targets \(based on diseases in common\)
 * Variants, isoforms and genomic context: [Ensembl](https://legacy.gitbook.com/book/opentargets/docs/edit#)
 * Protein interactions: [OmniPathDB](http://omnipathdb.org)
 * RNA and protein baseline expression: [Expression Atlas](https://www.ebi.ac.uk/gxa/home), [Human Protein Atlas](http://www.proteinatlas.org/), [GTEx](https://www.gtexportal.org/home/documentationPage) 
