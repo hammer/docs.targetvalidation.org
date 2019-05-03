@@ -1,6 +1,6 @@
 # Somatic mutations
 
-Somatic mutation data refers to mutations that may have clinical or treatment implications in cancer and possibly other diseases. This data type is obtained from the four data sources as highlighted below.
+Somatic mutation data refers to mutations that may have clinical or treatment implications in cancer and possibly other diseases. This data type is obtained from the four data sources highlighted below.
 
 ## Cancer Gene Census
 

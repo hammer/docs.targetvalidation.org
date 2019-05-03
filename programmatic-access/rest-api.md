@@ -1,6 +1,6 @@
 # REST API
 
-The Open Targets Platform REST API allows language agnostic access to data available on the [Open Targets Platform](https://www.targetvalidation.org). The REST API can be accessed from:
+The Open Targets Platform REST API allows language agnostic access to data available on the Open Targets Platform. The REST API can be accessed from the following URL
 
 `https://platform-api.opentargets.io/v3/platform`
 

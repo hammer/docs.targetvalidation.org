@@ -2,7 +2,7 @@
 
 To use our Open Targets API, you need to use the Ensembl gene ID for a given target  and the EFO \(or Orphanet, Human Phenotype Ontology\) ID for a disease of interest.
 
-Use the [/search](https://api.opentargets.io/v3/platform/docs/swagger-ui#/search) endpoint to look for the identifier \(ID\) of the target or diseases of interest using a free text search such as NOD2 \(target\) or Crohn's disease. 
+Use the [/search](https://api.opentargets.io/v3/platform/docs/swagger-ui#/search) endpoint to look for the identifier \(ID\) of the target or diseases of interest using a free text search such as NOD2 \(target\) or Crohn's disease \(disease\). 
 
 {% hint style="info" %}
 The `/search` endpoint should be used to identify the best match for a disease or target of interest. It will not give you details on the associations or evidence available for the target or disease of interest.

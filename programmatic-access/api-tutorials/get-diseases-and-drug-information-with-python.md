@@ -9,7 +9,7 @@ import pandas as pd
 import requests
 ```
 
-After importing, we create a function to retrieve drugs from the API for any given list of ENSGIDs:
+We will create a function to retrieve drugs from the REST API for any given list of Ensembl gene IDs:
 
 ```python
 def drug_table(genelist):
@@ -37,13 +37,13 @@ def drug_table(genelist):
               )
 ```
 
-Test that you can build a dataframe for one target:
+We will test that we can build a data frame for a target, such as ENSG00000157764:
 
 ```python
 pd.DataFrame(drug_table(['ENSG00000157764'])
 ```
 
-Now assign labels to the column headers and drop the duplicate entries:
+Then we will assign labels to column headers and drop any duplicates:
 
 ```python
 cols = ['target','target_class','chembl_uri','moa','mol_name','mol_type','phase','indication']
@@ -56,8 +56,6 @@ brafdrugs.drop_duplicates(subset=['target','chembl_uri','indication'],inplace=Tr
 brafdrugs
 ```
 
-
-
 |  | target | target\_class | chembl\_uri | moa | mol\_name | mol\_type | phase | indication |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0 | BRAF | TKL protein kinase RAF family | http://identifiers.org/chembl.compound/CHEMBL2... | INHIBITOR | DABRAFENIB | Small molecule | 4 | neoplasm |
@@ -67,9 +65,9 @@ brafdrugs
 | 7 | BRAF | TKL protein kinase RAF family | http://identifiers.org/chembl.compound/CHEMBL1... | INHIBITOR | VEMURAFENIB | Small molecule | 4 | neoplasm |
 | 8 | BRAF | TKL protein kinase RAF family | http://identifiers.org/chembl.compound/CHEMBL2... | INHIBITOR | DABRAFENIB | Small molecule | 4 | melanoma |
 
+If you rather want to do this for a list of genes as a text file, please follow the instructions below.
 
-
-Now, if you want to do this for a list of genes as a text file:
+For a list of genes:
 
 `AARSD1  
 ABCA3  
@@ -88,9 +86,7 @@ bcgenes[:5]
 ['AARSD1', 'ABCA3', 'ABCB6', 'ABHD1', 'ABHD8']
 ```
 
-Firstly,  you need to map your gene symbols to Ensembl gene IDs.
-
-Here we use [MyGene.info](https://mygene.info/) as a quick lookup and annotation service. 
+Map your gene symbols to Ensembl gene IDs. You can use [MyGene.info](https://mygene.info/) as a quick lookup and annotation service. 
 
 Head to their [ID mapping using mygene module in Python](http://nbviewer.jupyter.org/gist/newgene/6771106/id_mapping_mygene.ipynb) page to learn more about MyGene.
 
@@ -128,13 +124,13 @@ bcgenes_ensg[:3]
 ['ENSG00000266967', 'ENSG00000167972', 'ENSG00000115657']
 ```
 
-It is better to chunk this list not to overload the Open Targets API:
+It is better to chunk this list not to overload the Open Targets Platform REST API:
 
 ```python
 genes_chunked = [bcgenes_ensg[i:i + 50] for i in range(0, len(bcgenes_ensg), 50)]
 ```
 
-Now we can make the dataframe of gene, drug, indication triples:
+We can now make the dataframe of gene, drug and indication triples:
 
 ```python
 drugtable = pd.concat([pd.DataFrame(drug_table(g), columns=cols) for g in genes_chunked])
@@ -143,8 +139,6 @@ drugtable = pd.concat([pd.DataFrame(drug_table(g), columns=cols) for g in genes_
 ```python
 drugtable.head()
 ```
-
-
 
 |  | target | target\_class | chembl\_uri | moa | mol\_name | mol\_type | phase | indication |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -158,9 +152,7 @@ drugtable.head()
 drugtable.to_excel('drug_table.xls')
 ```
 
-{% hint style="info" %}
-Check our "How to take a REST from manual searches with the Open Targets API" webinar below.
-{% endhint %}
+
 
 {% embed url="https://www.youtube.com/watch?v=KQbfhwpeEvc&list=PLncWVtwSXtqb8PyL6-ENSCuqP7\_4Aj5BE&index=2" %}
 
@@ -171,10 +163,4 @@ Please note that at the time of the recording \(Dec 5th 2017\), the Open Targets
 {% endhint %}
 
 If you have questions on our REST API, please [email us](mailto:support@targetvalidation.org) and will be happy to help.
-
-{% hint style="danger" %}
-If you have questions on our REST API, please [email us](mailto:support@targetvalidation.org) and will be happy to help.
-{% endhint %}
-
-
 
