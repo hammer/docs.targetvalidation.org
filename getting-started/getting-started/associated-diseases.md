@@ -1,8 +1,8 @@
 # Associated diseases
 
-When you search for a target, you will get an overview of all potential diseases associated with it. You can filter the results of associations by Data types \(e.g. Genetic associations, Somatic mutations\) and Therapeutic area \(e.g. Genetic disorder, Skin disease\).
+When you search for a **target**, you will get an overview of all potential diseases associated with it. You can filter the results of associations by Data types \(e.g. Genetic associations, Somatic mutations\) and Therapeutic area \(e.g. Genetic disorder, Skin disease\).
 
-The associations are provided in three different views, Table, Bubbles and Tree, which are organised by tabs:
+The associations are provided in three different views, Table, Bubbles and Tree.
 
 ## Table View <a id="table-view"></a>
 

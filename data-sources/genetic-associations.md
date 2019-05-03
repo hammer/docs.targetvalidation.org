@@ -1,6 +1,6 @@
 # Genetic associations
 
-Genetic associations are available for both common and rare \(Mendelian\) diseases and come from the following sources:
+Genetic associations are available for both common and rare \(Mendelian\) diseases and come from six data sources summarised below.
 
 ## Common diseases
 

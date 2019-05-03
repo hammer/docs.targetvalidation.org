@@ -1,8 +1,10 @@
 # API access
 
-You can access all this data programmatically via our REST API services. We list the methods available, the supported formats and the endpoints in our [Swagger API documentation](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui), available as an interactive interface.
+You can access all this data programmatically with the [REST API](https://docs.targetvalidation.org/programmatic-access/rest-api) or the Open Targets [Python client](https://docs.targetvalidation.org/programmatic-access/python-client).
 
-Watch our webinar [Take a REST of manual searches with the Open Targets API](https://www.youtube.com/watch?v=KQbfhwpeEvc&list=PLncWVtwSXtqb8PyL6-ENSCuqP7_4Aj5BE&index=2), recorded in December 2017.
+The methods, supported formats and endpoints are available as an interactive interface, [swagger](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui). 
+
+Watch our webinar [Take a REST of manual searches with the Open Targets API](https://www.youtube.com/watch?v=KQbfhwpeEvc&list=PLncWVtwSXtqb8PyL6-ENSCuqP7_4Aj5BE&index=2), recorded in December 2017 or check [API tutorials](https://docs.targetvalidation.org/programmatic-access/api-tutorials) for some use case examples. 
 
 {% embed url="https://youtu.be/KQbfhwpeEvc" %}
 

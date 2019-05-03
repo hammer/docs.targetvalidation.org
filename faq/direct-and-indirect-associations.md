@@ -6,14 +6,14 @@ If you search for a **target** using the web interface of the [Open Targets Plat
 
 When retrieving our data via the [Open Targets REST-API](https://api.opentargets.io/v3/platform/docs/swagger-ui), you will get two types of association counts:
 
-![Association counts when searching for Alzheirmer&apos;s using the REST-API search endpoint](../.gitbook/assets/screen-shot-2018-10-26-at-10.17.43.png)
+![Association counts when searching for Alzheirmer&apos;s using the REST API search endpoint](../.gitbook/assets/screen-shot-2018-10-26-at-10.17.43.png)
 
 The difference between`total`and`direct`is the number of associations based on indirect evidence. 
 
 To get direct associations only, you should include the parameter `direct = true` when using our REST-API endpoints, such as the `association/filter` below:
 
 ```text
-https://api.opentargets.io/v3/platform/public/association/filter?disease=EFO_0000400&direct=true
+https://platform-api.opentargets.io/v3/platform/public/association/filter?disease=EFO_0000400&direct=true
 ```
 
 We propagate the indirect evidence from a child term up to its parent term in the disease ontology for all diseases in our Platform. By computing new target-disease associations when there is no direct \(known and observed\) evidence for them, we allow:

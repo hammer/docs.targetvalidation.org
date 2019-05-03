@@ -5,7 +5,6 @@
 
 ## Getting Started
 
-* [Introduction](getting-started/introduction.md)
 * [Getting started](getting-started/getting-started/README.md)
   * [Text search](getting-started/getting-started/text-search.md)
   * [Associated diseases](getting-started/getting-started/associated-diseases.md)

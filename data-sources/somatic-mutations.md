@@ -1,14 +1,14 @@
 # Somatic mutations
 
-Somatic mutation data refers to mutations that may have clinical or treatment implications in cancer and possibly other diseases. This data type is obtained from the following sources:
+Somatic mutation data refers to mutations that may have clinical or treatment implications in cancer and possibly other diseases. This data type is obtained from the four data sources as highlighted below.
 
 ## Cancer Gene Census
 
-Cancer Gene Census is a catalogue of genes for which mutations have been causally implicated in cancer. The Catalogue of Somatic Mutations in Cancer \([COSMIC](http://cancer.sanger.ac.uk/cosmic)\) at the Wellcome Sanger Institute provides us with the set of genes associated with specific cancers in the Cancer Gene Census, in addition to other cancers associated with that gene in the COSMIC database.
+[Cancer Gene Census](https://cancer.sanger.ac.uk/census) is a collection of genes for which mutations have been causally implicated in cancer. The Catalogue of Somatic Mutations in Cancer \([COSMIC](http://cancer.sanger.ac.uk/cosmic)\) at the Wellcome Sanger Institute provides us with the set of genes associated with specific cancers in the Cancer Gene Census, in addition to other cancers associated with that gene in the COSMIC database. The exhaustive curation of the Cancer Gene Census genes is merged with genome-wide annotations from whole genome and large-scale systematic screens publications as well as open-access data from The Cancer Genome Atlas \(TCGA\) and the International Cancer Genome Consortium \(ICGC\).
 
 ## UniProt somatic
 
-UniProt manually curates somatic mutations from the literature for our associations between genes and cancers.
+[UniProt](https://www.uniprot.org/) manually curates somatic mutations from the literature for our associations between genes and cancers.
 
 ## European Variation Archive \(EVA\)
 

@@ -4,7 +4,7 @@
 
 ### Status
 
-In this release of the Open Targets Platform we integrate over 3.3 million target-disease associations covering 10,419 diseases and 28,501 targets from the following public resources:
+In this release, we integrate over 3.3 million target-disease associations covering 10,419 diseases and 28,501 targets from the following public resources:
 
 * 33,310 genetic evidence from [UniProt](http://www.uniprot.org/)
 * 89,636 genetic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
@@ -26,20 +26,20 @@ In this release of the Open Targets Platform we integrate over 3.3 million targe
 * 500,462 mouse model evidence from [PhenoDigm](https://www.sanger.ac.uk/resources/databases/phenodigm)
 * 5,438,280 scientific literature evidence from co-occurence mining in [EuropePMC](https://europepmc.org/)
 
-New Open Targets Platform features include:
+New features include:
 
 * CRISPR data on evidence page
 * Safety data on target profile page
 * New TEP data
 * Bug fixes throughout the platform
 
-For more details on the Open Targets Platform releases, check our [blog](http://blog.opentargets.org/2019/02/20/open-targets-platform-release-19-02-is-out/).
+For more details, check our [blog](http://blog.opentargets.org/2019/02/20/open-targets-platform-release-19-02-is-out/).
 
 ## Release 3.11 \(2019-02-25\)
 
 ### Status
 
-In this release of the Open Targets Platform we integrate over 3.1 million target-disease associations covering 10,183 diseases and 28,426 targets from the following public resources:
+In this release, we integrate over 3.1 million target-disease associations covering 10,183 diseases and 28,426 targets from the following public resources:
 
 * 33,215 genetic evidence from [UniProt](http://www.uniprot.org/)
 * 87,170 genetic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
