@@ -1,6 +1,6 @@
 # How can I spin my own instance of the Platform?
 
-Our core stack is composed of three tiers:
+The Open Targets Platform core stack is composed of three tiers:
 
 1. a client-side [web application](https://github.com/opentargets/webapp)
 2. a [REST API](https://github.com/opentargets/rest_api)

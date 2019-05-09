@@ -16,7 +16,7 @@ We currently support private data injection to our industry partners only. If yo
 
 ## Transform your data into an array of JSON objects
 
-You need to transform your data in an array of JSON objects. The JSON database schema is publicly available on our [GitHub](https://github.com/opentargets/json_schema).
+You need to transform your data in an array of JSON objects. The JSON database schema is publicly available on [GitHub](https://github.com/opentargets/json_schema).
 
 Each object requires mapping to an Ensembl gene ID and an EFO ID \(or HP terms, in case the EFO term is missing\). We have a light wrapper called [OnToma](https://github.com/opentargets/OnToma\) to facilitate this mapping process.
 
@@ -37,7 +37,7 @@ Once the conversion is done, you will have an array containing a JSON object. Fo
 
 ## Validate the data
 
-Before processing your data, you should run our [validator](https://github.com/opentargets/validator) to check for any inconsistencies in your data.
+Before processing your data, you should run Open Targets [validator](https://github.com/opentargets/validator) to check for any inconsistencies in your data.
 
 After installation, the validator can be run as it follows:
 
@@ -47,7 +47,7 @@ cat file.json | opentargets_validator --schema https://raw.githubusercontent.com
 
 ## Run the Open Targets Platform data pipeline \(mrTarget\)
 
-Our pipeline parses and integrates multiple files containing _evidence_, discrete pieces of data linking target to diseases. It then aggregates them into _associations_ and ranks each target-disease connection according to the quality and quantity of each evidence. To inject your own data \(i.e. a set of _evidence_\) to the Open Targets Platform, you need to add it to the pipeline processing.
+The Open Targets Platform pipeline parses and integrates multiple files containing **evidence**, discrete pieces of data linking targets to diseases. It then aggregates them into **associations** and ranks each target-disease connections according to the quality and quantity of each evidence. To inject your own data \(i.e. a set of **evidence**\) to the Open Targets Platform, you need to add it to the pipeline processing.
 
 {% hint style="success" %}
 The data pipeline for the Open Targets Platform is open source. The code for its processing can be found on [GitHub. ](https://github.com/opentargets/data_pipeline)
