@@ -8,7 +8,7 @@ Somatic mutation data refers to mutations that may have clinical or treatment im
 
 ## UniProt somatic
 
-[UniProt](https://www.uniprot.org/) manually curates somatic mutations from the literature for our associations between genes and cancers.
+[UniProt](https://www.uniprot.org/) manually curates somatic mutations from the literature for the associations between genes and cancers.
 
 ## European Variation Archive \(EVA\)
 

@@ -1,6 +1,6 @@
 # Frequently asked questions
 
-Welcome to our FAQs.
+Welcome to the Open Targets Platform FAQs.
 
-If you don't find the answer you were looking for, [email](mailto:support@targetvalidation.org) our Support team[.](mailto:support@targetvalidation.org)
+If you don't find the answer you were looking for, please [email](mailto:support@targetvalidation.org) our Support team[.](mailto:support@targetvalidation.org)
 

@@ -1,6 +1,6 @@
 # Batch search
 
-Go to our [homepage](https://www.targetvalidation.org/) and click on the link [new batch search](https://www.targetvalidation.org/batch-search), which is below the search box.
+Go to the [homepage](https://www.targetvalidation.org/) and click on the link [batch search](https://www.targetvalidation.org/batch-search), which is below the search box.
 
 ![](http://blog.opentargets.org/content/images/2017/04/Slide1-7.jpg)
 

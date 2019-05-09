@@ -1,6 +1,6 @@
 # Find the ID of a target or disease
 
-To use our Open Targets API, you need to use the Ensembl gene ID for a given target  and the EFO \(or Orphanet, Human Phenotype Ontology\) ID for a disease of interest.
+To use the Open Targets Platform REST API, you need to enter the Ensembl gene ID for a given target and the disease ID \(EFO, Orphanet, Human Phenotype Ontology\) for a disease of interest.
 
 Use the [/search](https://api.opentargets.io/v3/platform/docs/swagger-ui#/search) endpoint to look for the identifier \(ID\) of the target or diseases of interest using a free text search such as NOD2 \(target\) or Crohn's disease \(disease\). 
 

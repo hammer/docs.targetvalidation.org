@@ -1,6 +1,6 @@
 # How to get more than 10K targets associated with one disease
 
-The maximum amount of results that our [Open Targets Platform REST API ](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui)returns in each call is 10,000, but for some diseases such as [brain disease](https://www.targetvalidation.org/disease/EFO_0005774/associations) \(EFO\_0005774\), the number of associated targets is beyond this limit.
+The maximum amount of results that the [Open Targets Platform REST API ](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui)can return in each call is 10,000, but for some diseases such as [brain disease](https://www.targetvalidation.org/disease/EFO_0005774/associations) \(EFO\_0005774\), the number of associated targets is beyond this limit.
 
 How can you retrieve all the associations for a disease that contains more than 10,000 targets? Use `next`, a root-level field that contains a vector of elements to act as a token. If you add `next` when calling our API endpoints, such as the [`association/filter`](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui#/filter/getAssociationFilter),  you will implement pagination and retrieve the next chunk of results.
 

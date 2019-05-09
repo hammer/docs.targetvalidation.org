@@ -8,9 +8,9 @@ The Open Targets Platform core stack is composed of three tiers:
 
 The web application communicates with the REST API, which in turn retrieves and queries the data from the ElasticSearch database.
 
-For each release of our Platform, you will have ElasticSearch snapshot \(i.e. a _database_ _dump_\) so that it can be used to create your own instance if you use the `restore` ElasticSearch API.
+For each release of the Open Targets Platform, you will have ElasticSearch snapshot \(i.e. a database dump\) so that it can be used to create your own instance if you use the `restore` ElasticSearch API.
 
-N**ote:** our snapshot is different from the files available on our [Downloads](http://www.targetvalidation.org/downloads/data) page. Those evidence and association files are the product of a pre-processed export through our [REST API](https://docs.targetvalidation.org/tutorials/rest-api) using our [Python](https://github.com/opentargets/opentargets-py) client. These files cannot be used to restore our application. Although these files are not a database dump _per se_, they have been formatted and can serve as inputs for your in-house tools. In these files, each line represents a fully dumped and serialised to a string JSON-object, which is independent of each other.
+N**ote:** our snapshot is different from the files available on the [Downloads](http://www.targetvalidation.org/downloads/data) page. The evidence and association files are the product of a pre-processed export through the Open Targets Platform [REST API](https://docs.targetvalidation.org/tutorials/rest-api) using the Open Targets Platform [Python client](https://docs.targetvalidation.org/programmatic-access/python-client). These files cannot be used to restore our application. Although these files are not a database dump _per se_, they have been formatted and can serve as inputs for your in-house tools. In these files, each line represents a fully dumped and serialised to a string JSON-object, which is independent of each other.
 
 ## How to restore using the public snapshot
 
@@ -166,8 +166,4 @@ To spin up a docker container running the Open Targets web app, follow the [inst
 ```text
 docker run -d --name webapp --network otnet -p 8443:443 -e "REST_API_SCHEME=https" -e "REST_API_SERVER=rest_api" -e "REST_API_PORT=443" quay.io/opentargets/webapp:19.04.5
 ```
-
-## Add your own data
-
-See Open Targets Platform [FAQ](https://legacy.gitbook.com/book/opentargets/docs/edit#/edit/master/faq/add-your-own-data.md?_k=3rnm61)s.
 

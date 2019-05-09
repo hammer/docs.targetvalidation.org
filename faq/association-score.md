@@ -1,6 +1,6 @@
 # How do you score the associations?
 
-We score our target-disease associations across four different tiers.
+We score target-disease associations across four different tiers.
 
 Firstly, we summarise the strength of the evidence. This score depends on factors that affect the relative strength of the evidence \(e.g. \*p\* values, sample size and consequence terms for SNPs from GWAS and PheWAS resources; or the phase of clinical trials for drugs from ChEBML\).
 
