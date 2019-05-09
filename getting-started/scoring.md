@@ -2,7 +2,7 @@
 
 The [Open Targets Platform](https://www.targetvalidation.org/) allows prioritisation of drug targets based on the strength of their association with a disease.
 
-We allow for the prioritisation of targets by scoring target-disease associations based on evidence from our [data sources](https://docs.targetvalidation.org/data-sources/). Similar data sources \(e.g. GWAS Catalog and PheWAS\) are grouped together into data types \(e.g. Genetic associations\). The score for the associations ranges from 0 to 1; the stronger the evidence for an association, the stronger the association score \(closer to 1\). A score of 0 corresponds to no evidence supporting an association. In the Open Targets Platform, we represent the different scores with varying shades of blue: the darker the blue, the stronger the association.
+We allow for the prioritisation of targets by scoring target-disease associations based on evidence from 20 [data sources](https://docs.targetvalidation.org/data-sources/). Similar data sources \(e.g. GWAS Catalog and PheWAS\) are grouped together into data types \(e.g. Genetic associations\). The score for the associations ranges from 0 to 1; the stronger the evidence for an association, the stronger the association score \(closer to 1\). A score of 0 corresponds to no evidence supporting an association. In the Open Targets Platform, we represent the different scores with varying shades of blue: the darker the blue, the stronger the association.
 
 What are the factors that affect the confidence we have in the evidence used for our associations? We assess key factors such as frequency, severity and significance of the evidence to provide association scores to help you answer these questions:
 

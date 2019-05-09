@@ -4,7 +4,7 @@ The Open Targets Platform REST API allows language agnostic access to data avail
 
 **`https://platform-api.opentargets.io/v3/platform`**
 
-Our current set of REST API [endpoints](https://en.wikipedia.org/wiki/Web_API#Endpoints) can be divided in three groups:
+The current set of REST API [endpoints](https://en.wikipedia.org/wiki/Web_API#Endpoints) can be divided in three groups:
 
 * **Public** - Methods that serve the core set of our data e.g. associations and evidence. These methods are stable and unlikely to change.
 * **Private** - Methods that serve other data in the Open Targets Platform, such as the [target profile page](https://docs.targetvalidation.org/getting-started/getting-started/target-profile) and [batch search](https://docs.targetvalidation.org/getting-started/batch-search). These methods may not be stable from one release to the next. You should use these at your own risk.

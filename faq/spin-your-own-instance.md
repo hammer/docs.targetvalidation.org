@@ -169,5 +169,5 @@ docker run -d --name webapp --network otnet -p 8443:443 -e "REST_API_SCHEME=http
 
 ## Add your own data
 
-See our [FAQ](https://legacy.gitbook.com/book/opentargets/docs/edit#/edit/master/faq/add-your-own-data.md?_k=3rnm61).
+See Open Targets Platform [FAQ](https://legacy.gitbook.com/book/opentargets/docs/edit#/edit/master/faq/add-your-own-data.md?_k=3rnm61)s.
 
