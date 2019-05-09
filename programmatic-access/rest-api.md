@@ -2,7 +2,7 @@
 
 The Open Targets Platform REST API allows language agnostic access to data available on the Open Targets Platform. The REST API can be accessed from the following URL
 
-`https://platform-api.opentargets.io/v3/platform`
+**`https://platform-api.opentargets.io/v3/platform`**
 
 Our current set of REST API [endpoints](https://en.wikipedia.org/wiki/Web_API#Endpoints) can be divided in three groups:
 
@@ -37,24 +37,26 @@ You can use the following tools with the Open Targets Platform REST API endpoint
 * Open Targets Python client
 
 {% hint style="success" %}
-You can also access our REST-API with scripts in R or any other language.
+You can also access the Open Targets Platform REST-API with scripts in R. 
 {% endhint %}
 
-Check our blog our webinar [Take a rest of manual searches with the Open Targets API](https://www.youtube.com/watch?v=KQbfhwpeEvc&index=2&list=PLncWVtwSXtqb8PyL6-ENSCuqP7_4Aj5BE) for an overview of the REST API and examples on some of API queries that serve the Open Targets Platform user interface.
+Check our webinar [Take a rest of manual searches with the Open Targets API](https://www.youtube.com/watch?v=KQbfhwpeEvc&index=2&list=PLncWVtwSXtqb8PyL6-ENSCuqP7_4Aj5BE) for an overview of the REST API and examples on some of the API queries that serve the Open Targets Platform user interface.
 
 {% embed url="https://www.youtube.com/watch?v=KQbfhwpeEvc&list=PLncWVtwSXtqb8PyL6-ENSCuqP7\_4Aj5BE&index=2" %}
 
 {% hint style="danger" %}
-Please note that at the time of the recording \(Dec 5th 2017\), the Open Targets REST API had a different URL. You should now use:
+Please note that at the time of the recording \(Dec 5th 2017\), the Open Targets REST API had a different URL, no longer in use. You should now use:
 
-`https://platform-api.opentargets.io/v3/platform`
+**`https://platform-api.opentargets.io/v3/platform`**
 {% endhint %}
 
-If you have questions on our REST API, please [email us](mailto:support@targetvalidation.org) and will be happy to help.
+Check the [API tutorials](https://app.gitbook.com/@opentargets/s/docs/~/edit/drafts/-LeTHkA8HTdP8dQFx9Ig/programmatic-access/api-tutorials) page for the most up-to-date use case examples or head to the [Open Targets Blog](https://blog.opentargets.org) for [Open Targets API Tutorial: Getting Started](http://blog.opentargets.org/2016/09/13/get-an-association-table-for-your-list-of-genes/) and [Get an association table for your list of genes](http://blog.opentargets.org/2016/09/13/get-an-association-table-for-your-list-of-genes/) tutorials.
 
+{% hint style="warning" %}
+Please note if you want to try out the tutorials available in the blog, you should amend the URL listed in there to the following:
 
+**`https://platform-api.opentargets.io/v3/platform/`**
+{% endhint %}
 
-
-
-
+If you have questions on the Open Targets Platform REST API or need further help, please [email us](mailto:support@targetvalidation.org).
 
