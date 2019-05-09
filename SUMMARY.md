@@ -12,7 +12,6 @@
   * [Target profile](getting-started/getting-started/target-profile.md)
   * [Disease profile](getting-started/getting-started/disease-profile.md)
   * [Filtering associations](getting-started/getting-started/filtering-associations.md)
-  * [API access](getting-started/getting-started/api-access.md)
 * [Evidence](getting-started/evidence.md)
 * [Association score](getting-started/scoring.md)
 * [Target tractability](getting-started/target-tractability.md)
