@@ -16,11 +16,11 @@ Please note, that although you can use `next`, we would still recommend not retr
 Let's look at one example with the **GET** method first:
 
 ```text
-http GET 'https://platform-api.opentargets.io/v3/platform/public/association/filter?size=10000&disease=EFO_0005774'| jq '.next'
+http GET 'https://platform-api.opentargets.io/v3/platform/public/association/filter?size=100&disease=EFO_0005774'| jq '.next'
 ```
 
 {% hint style="info" %}
-Make sure you have `jq` installed for backtracking and managing JSON data.
+Make sure you have `httpie` and `jq` installed. Note that for example purposes we are only getting 100 results at a time.
 {% endhint %}
 
 You will get these elements:
