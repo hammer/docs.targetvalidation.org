@@ -11,7 +11,7 @@ You data should:
 * conform to our JSON schema
 
 {% hint style="success" %}
-Looking for step-by-step instructions on how to add a new data source to the  Open Targets Platform? Head to Open Targets Blog for a series of posts by [Glenn Proctor](http://blog.opentargets.org/author/glennproctor/).
+Looking for step-by-step instructions on how to add a new data source to the Open Targets Platform? Head to Open Targets Blog for a series of posts by [Glenn Proctor](http://blog.opentargets.org/author/glennproctor/).
 {% endhint %}
 
 ## Transform your data into an array of JSON objects
