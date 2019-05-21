@@ -1,17 +1,17 @@
 # Can I add private data?
 
+The Open Targets Platform integrates omics and chemical information from publicly available data sources, but you can also add your own private data if [you spin your own instance of the Platform](https://docs.targetvalidation.org/faq/spin-your-own-instance).
 
+The  pre-requisites when considering adding your private data are as follows. 
 
-The Open Targets Platform integrates multiomics and chemical information from public available data sources.
+You data should:
 
-You can inject your own custom or private data following the summary below. The  pre-requisites are as follows:
+* contain a target identified by Ensembl gene ID
+* contain a disease or phenotype identified by an ontology term e.g. EFO, HP, Orphanet, MONDO.
+* conform to our JSON schema
 
-* data contains a target identified by Ensembl gene ID
-* data contains a disease or phenotype identified by an ontology term e.g. EFO, HP, Orphanet
-* data should conform to our JSON schema
-
-{% hint style="warning" %}
-We currently support private data injection to our industry partners only. If you want to discuss this further, please [email us](mailto:support@targetvalidation.org).
+{% hint style="success" %}
+Looking for step-by-step instructions on how to add a new data source to the  Open Targets Platform? Head to Open Targets Blog for a series of posts by [Glenn Proctor](http://blog.opentargets.org/author/glennproctor/).
 {% endhint %}
 
 ## Transform your data into an array of JSON objects
@@ -42,7 +42,7 @@ Before processing your data, you should run Open Targets [validator](https://git
 After installation, the validator can be run as it follows:
 
 ```text
-cat file.json | opentargets_validator --schema https://raw.githubusercontent.com/opentargets/json_schema/master/src/literature_curated.json
+cat file.json | opentargets_validator --schema https://raw.githubusercontent.com/opentargets/json_schema/1.6.0/opentargets.json
 ```
 
 ## Run the Open Targets Platform data pipeline \(mrTarget\)
@@ -59,4 +59,10 @@ Briefly - once you have access to the pipeline - you ought to:
 * Add the additional evidence to the list of Open Targets data sources
 * Build a new docker container
 * Start the evidence processing with `mrtarget --evs`
+
+{% hint style="warning" %}
+We currently support private data injection to our industry partners only. If you want to discuss this further, please [email us](mailto:support@targetvalidation.org).
+{% endhint %}
+
+## 
 
