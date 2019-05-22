@@ -4,6 +4,12 @@ The Open Targets Platform REST API allows language agnostic access to data avail
 
 **`https://platform-api.opentargets.io/v3/platform`**
 
+|  |  |
+| :--- | :--- |
+| Server | https://platform-api.opentargets.io/v3/platform/ |
+| Endpoint | e.g. public/association/filter |
+| Parameters | e.g. ?target=ENSG00000163914&size=10000&fields=target.id&fields=disease.id |
+
 The current set of REST API [endpoints](https://en.wikipedia.org/wiki/Web_API#Endpoints) can be divided in three groups:
 
 * **Public** - Methods that serve the core set of our data e.g. associations and evidence. These methods are stable and unlikely to change.
@@ -45,9 +51,9 @@ Check our webinar [Take a rest of manual searches with the Open Targets API](htt
 {% embed url="https://www.youtube.com/watch?v=KQbfhwpeEvc&list=PLncWVtwSXtqb8PyL6-ENSCuqP7\_4Aj5BE&index=2" %}
 
 {% hint style="danger" %}
-Please note that at the time of the recording \(Dec 5th 2017\), the Open Targets REST API had a different URL, no longer in use. You should now use:
+Please note that at the time of the recording \(Dec 5th 2017\), the Open Targets REST API had a different URL than the currently one in use. 
 
-**`https://platform-api.opentargets.io/v3/platform`**
+You should use:**`https://platform-api.opentargets.io/v3/platform`**
 {% endhint %}
 
 Check the [API tutorials](https://app.gitbook.com/@opentargets/s/docs/~/edit/drafts/-LeTHkA8HTdP8dQFx9Ig/programmatic-access/api-tutorials) page for the most up-to-date use case examples or head to the [Open Targets Blog](https://blog.opentargets.org) for [Open Targets API Tutorial: Getting Started](http://blog.opentargets.org/2016/09/13/get-an-association-table-for-your-list-of-genes/) and [Get an association table for your list of genes](http://blog.opentargets.org/2016/09/13/get-an-association-table-for-your-list-of-genes/) tutorials.
