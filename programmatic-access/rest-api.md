@@ -1,6 +1,6 @@
 # REST API
 
-The Open Targets Platform REST API allows language agnostic access to data available on the Open Targets Platform. The REST API can be accessed from the following URL
+The Open Targets Platform REST API allows language agnostic access to data available on the Open Targets Platform. The REST API can be accessed from the following URL:
 
 {% embed url="https://platform-api.opentargets.io/v3/platform" %}
 
@@ -21,7 +21,7 @@ Some of the [parameters](https://idratherbewriting.com/learnapidoc/docapis_doc_p
    ****
 
 {% hint style="info" %}
-Not sure how to apply the `direct` parameter. Head to the blog post [Direct versus indirect evidence: should you care?](http://blog.opentargets.org/2017/04/25/direct-versus-indirect-evidence-should-you-care/)
+Not sure how to apply the `direct` parameter in the REST API call? Head to the blog post [Direct versus indirect evidence: should you care?](http://blog.opentargets.org/2017/04/25/direct-versus-indirect-evidence-should-you-care/)
 {% endhint %}
 
 We can break down a typical Open Targets Platform REST API call as follows:
