@@ -29,8 +29,9 @@ The Pipeline reads ingest data, and then stores a JSON representation of the dat
 In production the data pipeline is executed on a Google Cloud Platform VM with 32 CPU cores and 128GB RAM, and takes approximately 24-48 hours to complete the processing.  
 
 
-## Storage backend 
+## Storage backend
 
+  
 Elasticsearch is used as the main datastore. The key features are:
 
 * Ingest and store a large amount of JSON in a distributed resilient architecture
