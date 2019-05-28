@@ -68,3 +68,9 @@
 
 * [Training sessions](outreach/training-sessions.md)
 
+## Technical pipeline
+
+* [Infrastructure](technical-pipeline/infrastructure.md)
+* [Technical updates](technical-pipeline/technical-updates.md)
+* [Data model](technical-pipeline/data-model.md)
+
