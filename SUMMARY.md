@@ -71,7 +71,7 @@
 ## Technical pipeline
 
 * [Infrastructure](technical-pipeline/infrastructure.md)
-* [Change log](technical-pipeline/technical-updates.md)
+* [Change log](technical-pipeline/change-log.md)
 * [Data model](technical-pipeline/data-model.md)
-* [Technical notes](technical-pipeline/19.04-technical-notes.md)
+* [Technical notes](technical-pipeline/technical-notes.md)
 
