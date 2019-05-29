@@ -19,6 +19,7 @@
 * [Data download](getting-started/data-download.md)
 * [Cite us](getting-started/citation.md)
 * [Contact us](getting-started/contact.md)
+* [Untitled](getting-started/untitled.md)
 
 ## Data Sources
 
@@ -57,6 +58,7 @@
 * [What is target tractability?](faq/what-is-target-tractability.md)
 * [Where does the bibliography come from?](faq/bibliography.md)
 * [How do you distinguish variants from mutations?](faq/variants-or-mutations.md)
+* [How do you compute target and disease similarity?](faq/how-do-you-compute-target-and-disease-similarity.md)
 * [What are clinical trials?](faq/clinical-trials.md)
 * [Do you have data on transgenic mice?](faq/transgenic-animal-models.md)
 * [How can I export the search results?](faq/how-can-i-export-the-search-results-as-a-table.md)
@@ -64,14 +66,14 @@
 * [Can I add private data?](faq/add-your-own-data.md)
 * [What is your policy on privacy and tracking?](faq/privacy-and-tracking.md)
 
-## Outreach
-
-* [Training sessions](outreach/training-sessions.md)
-
 ## Technical pipeline
 
 * [Infrastructure](technical-pipeline/infrastructure.md)
 * [Change log](technical-pipeline/change-log.md)
 * [Data model](technical-pipeline/data-model.md)
 * [Technical notes](technical-pipeline/technical-notes.md)
+
+## Outreach
+
+* [Training sessions](outreach/training-sessions.md)
 
