@@ -9,8 +9,8 @@ description: >-
 
 | Date | Category | Highlights | Input data files | Pipeline | API | Web App | Quay |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 11-Jun-2019 | Minor | Front end change only Resolved ticket 626 | NA | NA | NA | 3.12.3 | 19.04.7 |
-| 17-May-2019 | Minor | Front end change only Resolved ticket 601 | NA | NA | NA | 3.12.2 | 19.04.6 |
+| 11-Jun-2019 | Minor | Front end change only.  Resolved ticket 626 | NA | NA | NA | 3.12.3 | 19.04.7 |
+| 17-May-2019 | Minor | Front end change only.  Resolved ticket 601 | NA | NA | NA | 3.12.2 | 19.04.6 |
 | 02-May-2019 | Minor | Posted data dumps | NA | NA | NA | 3.12.1 | 19.04.5 |
 | 01-May-2019 | Major | 19.04 Data release | 19.04 | 19.04.5 | 19.04.5 | 3.12.0 | 19.04.5 |
 | 11-Apr-2019 | Minor | Added link-out to CRISPR Project Score website | NA | NA | NA | 3.11.4 | 19.02.1 |
