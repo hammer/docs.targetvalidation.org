@@ -14,7 +14,7 @@ Our similarity computation pipeline places an emphasis on associations with high
 
 After clicking on a bubble with a similar target computed by our pipeline, the visualisation will display a list of up to 15 diseases used to compute the similarity score and the underlying association scores between each target and disease.
 
-To access all data for this similar targets analysis for any given target, please use the Open Targets [REST API](https://docs.targetvalidation.org/programmatic-access/rest-api) private endpoint [relation/target/](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui#/private/getRelationByENSGID) followed by the Ensembl gene ID e.g. [ENSG00000145335](https://platform-api.opentargets.io/v3/platform/private/relation/target/ENSG00000145335).
+To access all of the data from the `similar targets` analysis, you can use the private endpoint [relation/target/](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui#/private/getRelationByENSGID) from the Open Targets [REST API](https://docs.targetvalidation.org/programmatic-access/rest-api), followed by the Ensembl gene ID for your target e.g. [ENSG00000145335](https://platform-api.opentargets.io/v3/platform/private/relation/target/ENSG00000145335) for SNCA.
 
 {% hint style="info" %}
 Note that a similar visualisation is available in the disease profile page, under `Similar diseases (based on targets in common).` 
