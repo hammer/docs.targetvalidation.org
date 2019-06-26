@@ -52,6 +52,7 @@
 * [What is an indirect association?](faq/direct-and-indirect-associations.md)
 * [Which human assembly do you use?](faq/genome-assembly.md)
 * [How do you assign variants to genes?](faq/how-variants-are-assigned-to-genes.md)
+* [How do you compute target and disease similarities?](faq/how-do-you-compute-target-and-disease-similarities.md)
 * [Why can't I find a known association?](faq/missing-association.md)
 * [How do you score the associations?](faq/association-score.md)
 * [What is the tissue specificity in your Platform?](faq/tissue-specificity.md)
