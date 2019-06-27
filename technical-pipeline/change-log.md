@@ -9,7 +9,7 @@ description: >-
 
 | Date | Category | Highlights | Input data files | Pipeline | API | Web App | Quay |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 27-Jun-2019 | Major | 19.06 Data release | 19.06 | 19.06.5 | 19.06.5 | 3.13.0 | 19.06.4 |
+| 27-Jun-2019 | Major | 19.06 Data release | 19.06 | 19.06.4 | 19.06.4 | 3.13.0 | 19.06.4 |
 | 11-Jun-2019 | Minor | Front end change only.  Resolved ticket 626 | NA | NA | NA | 3.12.3 | 19.04.7 |
 | 17-May-2019 | Minor | Front end change only.  Resolved ticket 601 | NA | NA | NA | 3.12.2 | 19.04.6 |
 | 02-May-2019 | Minor | Posted data dumps | NA | NA | NA | 3.12.1 | 19.04.5 |
