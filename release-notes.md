@@ -1,6 +1,6 @@
 # Release notes
 
-## Release 3.13 \(2019-06-28\)
+## Release 3.13 \(2019-06-27\)
 
 ### Status
 
@@ -30,7 +30,7 @@ New features include:
 
 * More Target Enabling Packages \(TEPs\) and chemical probes
 * More target safety information
-* Increased display of drug entries in the drug information table
+* More download options for the drug information table 
 
 For more details, check our [blog](http://blog.opentargets.org/2019/02/20/open-targets-platform-release-19-02-is-out/).
 
