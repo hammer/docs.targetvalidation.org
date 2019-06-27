@@ -11,7 +11,7 @@ In the target profile page, you will see the target official symbol, its descrip
 {% hint style="success" %}
 The target safety data summarises toxic effects if/when modulating a given target. It includes `known safety effects` and `safety risk information.`
 
-As per release 19.06, target safety data is available for 193 targets.
+This data is currently available for 193 targets, such as [PTGS2](https://www.targetvalidation.org/target/ENSG00000073756) and [BRAF](https://www.targetvalidation.org/target/ENSG00000157764).
 {% endhint %}
 
 * Drugs: [ChEMBL](https://www.ebi.ac.uk/chembl/)
