@@ -7,6 +7,40 @@ description: >-
 
 # Technical notes
 
+## **19.06**
+
+### Updated docker images:
+
+* [quay.io/opentargets/mrtarget:19.06.4](https://quay.io/repository/opentargets/mrtarget?tag=19.06.4&tab=tags)
+* \*\*\*\*[quay.io/opentargets/rest\_api:19.06.4](https://quay.io/repository/opentargets/rest_api?tag=19.06.4&tab=tags)
+* [quay.io/opentargets/webapp:19.06.4](https://quay.io/repository/opentargets/webapp?tag=19.06.4&tab=tags)
+
+### Pipeline configuration file:
+
+* \*\*\*\*[https://storage.googleapis.com/open-targets-data-releases/19.06/input/mrtarget.data.19.06.yml](https://storage.googleapis.com/open-targets-data-releases/19.06/input/mrtarget.data.19.06.yml%20) 
+
+### Release highlights:
+
+Blog: [http://blog.opentargets.org/2019/06/28/open-targets-platform-release-19-06-is-out ](http://blog.opentargets.org/2019/06/28/open-targets-platform-release-19-06-is-out%20)
+
+Release notes: [https://docs.targetvalidation.org/release-notes](https://docs.targetvalidation.org/release-notes)
+
+### Technical release information:
+
+* Drug index implementation Phase I: [https://github.com/opentargets/platform/issues/451](https://github.com/opentargets/platform/issues/451)
+* Pipeline
+  * Customisable elasticsearch configuration  [https://github.com/opentargets/platform/issues/532](https://github.com/opentargets/platform/issues/532)
+* REST API
+  * Remove GProfiler from proxy [https://github.com/opentargets/platform/issues/437](https://github.com/opentargets/platform/issues/437)
+* Webapp
+  * Redesign drug profile page using new API endpoints created as part of drug index project Phase I [https://github.com/opentargets/platform/issues/564](https://github.com/opentargets/platform/issues/564)
+  * Increase limit of API call for drugs evidence to 10,000 and adjustments made to layout if more than 10,000 evidence strings available [https://github.com/opentargets/platform/issues/589](https://github.com/opentargets/platform/issues/589)
+  * Improvements to data download content and format for drugs tables
+    * [https://github.com/opentargets/platform/issues/605](https://github.com/opentargets/platform/issues/605)
+    * [https://github.com/opentargets/platform/issues/618](https://github.com/opentargets/platform/issues/618)
+  * Supplementary explanations for Similar Targets and Similar Diseases tabs [https://github.com/opentargets/platform/issues/590](https://github.com/opentargets/platform/issues/590)
+  * Inclusion of additional data table for inclusion of target safety data [https://github.com/opentargets/platform/issues/609](https://github.com/opentargets/platform/issues/609)
+
 ## **19.04**
 
 ### Updated docker images:
@@ -26,25 +60,25 @@ Blog: [http://blog.opentargets.org/2019/05/01/open-targets-platform-release-19-0
 Release notes: [https://docs.targetvalidation.org/release-notes](https://docs.targetvalidation.org/release-notes)  
 
 
-### Technical release information: 
+### Technical release information:
 
-* Pipeline:
+* Pipeline
   * Updated documentation \([https://github.com/opentargets/data\_pipeline/blob/19.04.5/README.md](https://github.com/opentargets/data_pipeline/blob/19.04.5/README.md)\) improvements to clarify essential gene plugins and evidence json schema versioning
   * Replace external API with frozen files to improve reproducibility [https://github.com/opentargets/platform/issues/325](https://github.com/opentargets/platform/issues/325)
   * Use pypeln \([https://cgarciae.github.io/pypeln/](https://cgarciae.github.io/pypeln/)\) for multiprocessing instead of Redis [https://github.com/opentargets/platform/issues/361](https://github.com/opentargets/platform/issues/361) for improved reliability
   * many other improvements to improve reliability and performance of using multiple threads & processes
-  * externalize url source to separate python package [https://github.com/opentargets/platform/issues/416](https://github.com/opentargets/platform/issues/416)
+  * externalise url source to separate python package [https://github.com/opentargets/platform/issues/416](https://github.com/opentargets/platform/issues/416)
   * reduce default logging to info, and various minor logging improvements
   * remove delay between stages in Makefile which is a very minor performance improvement
   * new gene plugin to handle safety data
-* Rest API
+* REST API
   * Updated documentation \([https://github.com/opentargets/rest\_api/blob/19.04.5/README.md](https://github.com/opentargets/rest_api/blob/19.04.5/README.md)\) particularly using docker and SSL, and proxy
   * update swagger documentation to new platform API URL \([https://platform-api.opentargets.io/v3/platform/docs/swagger-ui](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui)\). Note, configuring the API URL used by swagger is still open
   * minor configuration change to support crispr evidence
 * Webapp
   * Option to auto expand certain data types e.g. for private data [https://github.com/opentargets/platform/issues/566](https://github.com/opentargets/platform/issues/566)
-  * Customization of "new" icon on panels [https://github.com/opentargets/platform/issues/511](https://github.com/opentargets/platform/issues/511)
-  * Customization of CSS styling and updated documentation on custom styling \([https://github.com/opentargets/webapp/blob/3.12.0/README.md](https://github.com/opentargets/webapp/blob/3.12.0/README.md)\)
+  * Customisation of "new" icon on panels [https://github.com/opentargets/platform/issues/511](https://github.com/opentargets/platform/issues/511)
+  * Customisation of CSS styling and updated documentation on custom styling \([https://github.com/opentargets/webapp/blob/3.12.0/README.md](https://github.com/opentargets/webapp/blob/3.12.0/README.md)\)
   * Target safety data on the target profile page [https://github.com/opentargets/platform/issues/460](https://github.com/opentargets/platform/issues/460) - this is implemented directly on the page and not as a plugin \(like all the other sections\) as it is displayed only when there is relevant data.
   * New CRISPR cancer cell line data table on evidence page [https://github.com/opentargets/platform/issues/466](https://github.com/opentargets/platform/issues/466) - tables under “Pathways & systems biology” show when relevant.
   * Release notes now live in docs \(so those in the app are now deprecated\)
@@ -59,7 +93,7 @@ Release notes: [https://docs.targetvalidation.org/release-notes](https://docs.ta
 
 ### **Technical release information:** 
 
-* JSON schema
+* JSON schema 
   * now separate schema all in one at: [https://raw.githubusercontent.com/opentargets/json\_schema/1.5.0/opentargets.json](https://raw.githubusercontent.com/opentargets/json_schema/1.5.0/opentargets.json) - \*should\* be backwards compatible, no evidence string changes needed
 * API proxy
   * now baked into the REST API docker image
