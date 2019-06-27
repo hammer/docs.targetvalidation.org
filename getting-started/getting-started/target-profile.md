@@ -4,12 +4,14 @@ When searching for a target, in addition to the list of diseases associated with
 
 In the target profile page, you will see the target official symbol, its description and synonyms, the latter two provided by UniProt. Scroll down to see detailed information on the target \(e.g. Drugs, Protein interactions\) and the original resource of the data \(e.g. ChEMBL, OmniPath DB\):
 
-* Target safety \(manual curation of three publications - [PMID:28216264](http://europepmc.org/abstract/MED/28216264), [PMID:23197038](http://europepmc.org/abstract/MED/23197038), [PMID:28453775](http://europepmc.org/abstract/MED/28453775) -, one book chapter by [Urban et al. 2012](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118098141.ch2), and the 
+* Target safety \(manual curation of three publications - [PMID:28216264](http://europepmc.org/abstract/MED/28216264), [PMID:23197038](http://europepmc.org/abstract/MED/23197038), [PMID:28453775](http://europepmc.org/abstract/MED/28453775), a book chapter by [Urban et al. 2012](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118098141.ch2), and the 
 
   Hepatic and Cardiac Toxicity Systems modelling project - [HeCaToS](https://www.hecatos.eu/)\) 
 
-{% hint style="info" %}
-The target safety data summarises toxic effects if/when modulating a given target and it is currently available for 144 targets.
+{% hint style="success" %}
+The target safety data summarises toxic effects if/when modulating a given target. It includes `known safety effects` and `safety risk information.`
+
+As per release 19.06, target safety data is available for 193 targets.
 {% endhint %}
 
 * Drugs: [ChEMBL](https://www.ebi.ac.uk/chembl/)
