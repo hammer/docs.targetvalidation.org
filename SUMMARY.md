@@ -77,4 +77,5 @@
 ## Outreach
 
 * [Training sessions](outreach/training-sessions.md)
+* [Latest training materials](outreach/latest-training-materials.md)
 

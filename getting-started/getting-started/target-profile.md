@@ -9,9 +9,9 @@ In the target profile page, you will see the target official symbol, its descrip
   Hepatic and Cardiac Toxicity Systems modelling project - [HeCaToS](https://www.hecatos.eu/)\) 
 
 {% hint style="success" %}
-The target safety data summarises toxic effects if/when modulating a given target. It includes `known safety effects` and `safety risk information.`
+The target safety data includes both `known safety effects` and `safety risk information` and summarises toxic effects if/when modulating a given target.  
 
-This data is currently available for 193 targets, such as [PTGS2](https://www.targetvalidation.org/target/ENSG00000073756) and [BRAF](https://www.targetvalidation.org/target/ENSG00000157764).
+The affected organs \(or systems\), reported in the curated sources listed above, are mapped to the [Uber-anatomy ontology](https://www.ebi.ac.uk/ols/ontologies/uberon) and this data is currently available for 193 targets, such as [PTGS2](https://www.targetvalidation.org/target/ENSG00000073756) and [BRAF](https://www.targetvalidation.org/target/ENSG00000157764).
 {% endhint %}
 
 * Drugs: [ChEMBL](https://www.ebi.ac.uk/chembl/)
