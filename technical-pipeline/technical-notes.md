@@ -1,8 +1,8 @@
 ---
 description: >-
   This page summarises the key technical revisions made to platform code to
-  improve and streamline the full stack code in line with releases scheduled to
-  incorporate new data and features.
+  improve and streamline the full stack code in line with major releases
+  scheduled to incorporate new data and features.
 ---
 
 # Technical notes

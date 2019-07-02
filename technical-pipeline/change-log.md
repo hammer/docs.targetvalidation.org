@@ -1,14 +1,15 @@
 ---
 description: >-
-  This page summarises specific iterative changes made to streamline the
-  processes required to reproduce and maintain data pipelines and code across
-  the Open Targets full stack.
+  This page summarises all iterative changes (major and minor releases) across
+  the Open Targets full stack and details the latest tagged versions for
+  reference.
 ---
 
 # Change log
 
 | Date | Category | Highlights | Input data files | Pipeline | API | Web App | Quay |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 02-Jul-2019 | Minor | IE11 compatibility fix | NA | NA | NA | 13.13.1 | 19.06.5 |
 | 27-Jun-2019 | Major | 19.06 Data release | 19.06 | 19.06.4 | 19.06.4 | 3.13.0 | 19.06.4 |
 | 11-Jun-2019 | Minor | Front end change only.  Resolved ticket 626 | NA | NA | NA | 3.12.3 | 19.04.7 |
 | 17-May-2019 | Minor | Front end change only.  Resolved ticket 601 | NA | NA | NA | 3.12.2 | 19.04.6 |
