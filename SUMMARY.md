@@ -19,7 +19,6 @@
 * [Data download](getting-started/data-download.md)
 * [Cite us](getting-started/citation.md)
 * [Contact us](getting-started/contact.md)
-* [Untitled](getting-started/untitled.md)
 
 ## Data Sources
 
