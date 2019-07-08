@@ -9,6 +9,7 @@ description: >-
 
 | Date | Category | Highlights | Input data files | Pipeline | API | Web App | Quay |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 04-Jul-2019 | Minor | Ticket 653: Update to table labels for target safety data based upon user feedback.                                          Ticket 564: Addition of private compound icon/message.                       | NA | NA | NA | 3.13.2 | 19.06.6 |
 | 02-Jul-2019 | Minor | IE11 compatibility fix | NA | NA | NA | 3.13.1 | 19.06.5 |
 | 27-Jun-2019 | Major | 19.06 Data release | 19.06 | 19.06.4 | 19.06.4 | 3.13.0 | 19.06.4 |
 | 11-Jun-2019 | Minor | Front end change only.  Resolved ticket 626 | NA | NA | NA | 3.12.3 | 19.04.7 |
