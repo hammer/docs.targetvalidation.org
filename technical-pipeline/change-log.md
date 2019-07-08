@@ -27,7 +27,7 @@ description: >-
       <td style="text-align:left">
         <p>Ticket 653: Update to table labels for target safety data based upon user
           feedback. Ticket 564: Addition of private compound icon/message.</p>
-        <p>Front end changes only.</p>
+        <p>Fixing minor bugs - Front end changes only.</p>
       </td>
       <td style="text-align:left">NA</td>
       <td style="text-align:left">NA</td>
