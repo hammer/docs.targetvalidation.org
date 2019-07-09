@@ -22,11 +22,25 @@ description: >-
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">08-Jul-2019</td>
+      <td style="text-align:left">Minor</td>
+      <td style="text-align:left">Ticket <a href="https://github.com/opentargets/platform/issues/645">645</a>:
+        Enabled therapeutic area filter in batch search. Front end change only.</td>
+      <td
+      style="text-align:left">NA</td>
+        <td style="text-align:left">NA</td>
+        <td style="text-align:left">NA</td>
+        <td style="text-align:left">3.13.3</td>
+        <td style="text-align:left">19.06.7</td>
+    </tr>
+    <tr>
       <td style="text-align:left">04-Jul-2019</td>
       <td style="text-align:left">Minor</td>
       <td style="text-align:left">
-        <p>Ticket 653: Update to table labels for target safety data based upon user
-          feedback. Ticket 564: Addition of private compound icon/message.</p>
+        <p>Ticket <a href="https://github.com/opentargets/platform/issues/653">653</a>:
+          Update to table labels for target safety data based upon user feedback.
+          Ticket <a href="https://github.com/opentargets/platform/issues/564">564</a>:
+          Addition of private compound icon/message.</p>
         <p>Fixing minor bugs - Front end changes only.</p>
       </td>
       <td style="text-align:left">NA</td>
@@ -58,7 +72,11 @@ description: >-
     <tr>
       <td style="text-align:left">11-Jun-2019</td>
       <td style="text-align:left">Minor</td>
-      <td style="text-align:left">Front end change only. Resolved ticket 626</td>
+      <td style="text-align:left">
+        <p>Front end change only.</p>
+        <p>Resolved ticket <a href="https://github.com/opentargets/platform/issues/626">626</a>
+        </p>
+      </td>
       <td style="text-align:left">NA</td>
       <td style="text-align:left">NA</td>
       <td style="text-align:left">NA</td>
@@ -68,7 +86,11 @@ description: >-
     <tr>
       <td style="text-align:left">17-May-2019</td>
       <td style="text-align:left">Minor</td>
-      <td style="text-align:left">Front end change only. Resolved ticket 601</td>
+      <td style="text-align:left">
+        <p>Front end change only.</p>
+        <p>Resolved ticket <a href="https://github.com/opentargets/platform/issues/601">601</a>
+        </p>
+      </td>
       <td style="text-align:left">NA</td>
       <td style="text-align:left">NA</td>
       <td style="text-align:left">NA</td>
