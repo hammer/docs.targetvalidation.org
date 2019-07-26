@@ -9,6 +9,12 @@ description: >-
 
 ## **19.06**
 
+### **Release synchronised with:**
+
+EFO 2.106 \(March 2019 - final release of Version 2\)
+
+Ensembl 96 \(Apr 2019\)
+
 ### Updated docker images:
 
 * [quay.io/opentargets/mrtarget:19.06.4](https://quay.io/repository/opentargets/mrtarget?tag=19.06.4&tab=tags)
