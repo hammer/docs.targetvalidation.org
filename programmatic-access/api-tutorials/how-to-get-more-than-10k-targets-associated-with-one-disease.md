@@ -6,47 +6,55 @@ How can you retrieve all the associations for a disease that contains more than 
 
 You can use `next` in either **GET** or **POST** methods:
 
-* GET - you will need to append the elements from the previous array to the next one
-* POST - you will need to add  `next` as a JSON by inserting it as it is in the JSON payload structure
+* **GET** - you will need to append the elements from the previous array to the next one
+* **POST** - you will need to add  `next` as a JSON by inserting it as it is in the JSON payload structure
 
 {% hint style="info" %}
-Please note, that although you can use `next`, we would still recommend not retrieving more than 10K results in each call. If you would like to access the all targets in our Open Targets Platform \(over 20,000\), please go to our [Data Download](https://www.targetvalidation.org/downloads/data) page to download the entire dataset.
+Please note, that although you can use `next`, we would still recommend not retrieving more than 10K results in each call. If you would like to access all targets in the Open Targets Platform \(over 20,000\), please go to our [Data Download](https://www.targetvalidation.org/downloads/data) page to download the entire dataset.
 {% endhint %}
 
-Let's look at one example with the **GET** method first:
+Firstly, let's look at one example with the **GET** method using the command line.
+
+In a terminal window, you can use CURL and the following line to retrieve the first 100 associations in JSON format
 
 ```text
-http GET 'https://platform-api.opentargets.io/v3/platform/public/association/filter?size=100&disease=EFO_0000305'| jq '.next'
+curl -X GET 'https://platform-api.opentargets.io/v3/platform/public/association/filter?size=100&disease=EFO_0000305'
 ```
 
 {% hint style="info" %}
-Make sure you have `httpie` and `jq` installed. Note that for example purposes we are only getting 100 results at a time.
+Note that we are only retrieving **100** results at a time, not **10,000,** for a quicker response in this tutorial. 
 {% endhint %}
 
-You will get these elements:
+To get the elements for the next 100 associations, install [jq](https://stedolan.github.io/jq/) and use `| jq 'next'`  as below:
 
-> 1.1290116**,**
+```text
+curl -X GET 'https://platform-api.opentargets.io/v3/platform/public/association/filter?size=100&disease=EFO_0000305'| jq '.next'
+```
+
+This is the response you will get:
+
+> 1.128754**,**
 >
 >  **** "ENSG00000108840-EFO\_0000305"
 
-To retrieve the following set of results, you will use the elements returned in the first array \(see above\) to make the next call:
+To retrieve the next set of 100 results, you will use the elements returned in the first array above \(i.e. `1.128754`and `ENSG00000108840-EFO_0000305`\)  in addition to `&next=` for each of these elements to make the following call:
 
 ```text
-http GET 'https://platform-api.opentargets.io/v3/platform/public/association/filter?size=100&disease=EFO_0000305&next=1.1290116&next=ENSG00000103089-EFO_0000305' | jq '.next'
+curl -X GET 'https://platform-api.opentargets.io/v3/platform/public/association/filter?size=100&disease=EFO_0000305&next=1.128754&next=ENSG00000103089-EFO_0000305' | jq '.next'
 ```
 
 You will get these elements:
 
-> 0.98741496**,**
+> 0.988788**,**
 >
->  **** "ENSG00000118046-EFO\_0000305"
+>  **** "ENSG00000212993-EFO\_0000305"
 
-To fetch the next set of results, you will append the elements from your previous call to the next one, and so on so forth.
+To fetch the next set of results, you will append the elements from the call above to the next one, and so on so forth.
 
-Let's now try the **POST** method to retrieve the targets for breast carcinoma \(EFO\_0000305\):
+We can now look at using the **POST** method to retrieve the targets for breast carcinoma \(EFO\_0000305\). You will need to add  `next` in the JSON payload structure as shown below:
 
 ```text
-http POST 'https://platform-api.opentargets.io/v3/platform/public/association/filter?disease=EFO_0000305' @payload.json
+curl -X POST 'https://platform-api.opentargets.io/v3/platform/public/association/filter?disease=EFO_0000305' @payload.json
 ```
 
 > \# payload.json content  
@@ -57,7 +65,7 @@ http POST 'https://platform-api.opentargets.io/v3/platform/public/association/fi
 >
 > \`\`\`
 
-​[Email us](mailto:support@targetvalidation.org) if you want to discuss this in more details or request additional tutorials using our REST API. Looking forward to hearing your suggestions.
+​If you want to discuss this in more detail or request additional REST API tutorials, [email us](mailto:support@targetvalidation.org) and we will be happy to help.
 
   
   

@@ -24,7 +24,7 @@ import pandas as pd
 
 parser = argparse.ArgumentParser(description='Retrieve SNPs and other genetic associations which are linked to a given disease')
 parser.add_argument('disease',
-                help='the disease of interest'\)
+                help='the disease of interest')
 args = parser.parse_args()
 
 ot = OpenTargetsClient()
