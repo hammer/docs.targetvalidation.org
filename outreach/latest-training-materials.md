@@ -1,8 +1,8 @@
 # Latest training materials
 
-{% file src="../.gitbook/assets/msc\_pharmacology\_coursebook.pdf" caption="MSc in Pharmacology \| University of Oxford" %}
+These are the presentation slides and exercise sheet for the latest Open Targets training at University of Copenhagem, as part of the BRIDGE Translational Excellence Programme.
 
-{% file src="../.gitbook/assets/presentation \(1\).pptx" caption="Presentation slides" %}
+{% file src="../.gitbook/assets/open-targets-genetics-aug-2019-1.pdf" caption="Open Targets Genetics: presentation slides" %}
 
-{% file src="../.gitbook/assets/open\_targets\_platform\_coursebook \(1\).docx" caption="Course booklet with tutorials and exercises" %}
+{% file src="../.gitbook/assets/exercises.pdf" caption="Exercise sheet on Open Targets Platform and Open Targets Genetics" %}
 
