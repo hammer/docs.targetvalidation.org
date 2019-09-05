@@ -22,6 +22,21 @@ description: >-
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">03-Sep-2019</td>
+      <td style="text-align:left">Minor</td>
+      <td style="text-align:left">
+        <p>Ticket <a href="https://github.com/opentargets/platform/issues/725">725</a>:
+          <br
+          />Fix for GTEx plot</p>
+        <p></p>
+      </td>
+      <td style="text-align:left">NA</td>
+      <td style="text-align:left">NA</td>
+      <td style="text-align:left">NA</td>
+      <td style="text-align:left">3.13.4</td>
+      <td style="text-align:left">19.06.8</td>
+    </tr>
+    <tr>
       <td style="text-align:left">08-Jul-2019</td>
       <td style="text-align:left">Minor</td>
       <td style="text-align:left">Ticket <a href="https://github.com/opentargets/platform/issues/645">645</a>:
@@ -149,4 +164,6 @@ description: >-
     </tr>
   </tbody>
 </table>
+
+
 
