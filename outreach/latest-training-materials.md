@@ -1,14 +1,10 @@
 # Latest training materials
 
-These are the presentation slides and exercise sheet for the latest Open Targets training at University of Copenhagem, as part of the BRIDGE Translational Excellence Programme.
+These are the presentation slides and exercise sheet for the latest Open Targets training at EMBL in Heidelberg \(Corporate Winter School for PhD students\).
 
-Get in touch if you want to discuss any of these. You can reach us by [email](mailto:support@targetvalidation.org).
+Get in touch if you want to discuss any of these materials. You can reach us by [email](mailto:support@targetvalidation.org).
 
-{% file src="../.gitbook/assets/presentation.pptx" caption="Open Targets Platform: presentation slides" %}
-
-{% file src="../.gitbook/assets/open-targets-genetics-aug-2019-1.pdf" caption="Open Targets Genetics: presentation slides" %}
-
-{% file src="../.gitbook/assets/exercises.pdf" caption="Exercise sheet on Open Targets Platform and Open Targets Genetics" %}
+{% file src="../.gitbook/assets/winter\_school\_presentation.pptx" caption="Slides - Corporate Winter School EMBL PhD students" %}
 
 {% file src="../.gitbook/assets/winter\_school\_coursebook \(1\).docx" caption="Exercises - Corporate Winter School for EMBL PhD students" %}
 
