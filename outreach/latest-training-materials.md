@@ -10,3 +10,5 @@ Get in touch if you want to discuss any of these. You can reach us by [email](ma
 
 {% file src="../.gitbook/assets/exercises.pdf" caption="Exercise sheet on Open Targets Platform and Open Targets Genetics" %}
 
+{% file src="../.gitbook/assets/winter\_school\_coursebook \(1\).docx" caption="Exercises - Corporate Winter School for EMBL PhD students" %}
+
