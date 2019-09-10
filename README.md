@@ -6,7 +6,7 @@ The Platform brings together multiple [data sources](https://docs.targetvalidati
 
 For questions or feedback, please [email us](mailto:support@targetvalidation.org).
 
-Join the Open Targets community on [Twitter](https://twitter.com/targetvalidate), [Facebook](https://www.facebook.com/OpenTargets) and [LinkedIn](https://www.facebook.com/OpenTargets).
+Join the Open Targets community on [Twitter](https://twitter.com/targetvalidate), [Facebook](https://www.facebook.com/OpenTargets) and [LinkedIn](https://www.linkedin.com/company/open-targets).
 
 Subscribe to our [YouTube](https://www.youtube.com/channel/UCLMrondxbT0DIGx5nGOSYOQ), [Open Targets Blog](http://blog.opentargets.org/#subscribe) and monthly [newsletter](http://eepurl.com/c-NsBb).
 
