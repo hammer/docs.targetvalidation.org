@@ -2,7 +2,7 @@
 
 These are the presentation slides and exercises for the latest Open Targets training sessions at EMBL, Heidelberg:
 
-* EMBL staff:
+* EMBL staff \(12/09/19\):
 
 {% file src="../.gitbook/assets/120919\_slides.pptx" caption="EMBL slides" %}
 
