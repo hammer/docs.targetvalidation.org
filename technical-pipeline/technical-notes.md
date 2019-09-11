@@ -7,6 +7,16 @@ description: >-
 
 # Technical notes
 
+## 19.09 - September release pending
+
+### Release synchronised with:
+
+EFO 2.106 \(March 2019 - final release of Version 2\)
+
+Ensembl 97 \(July 2019\)
+
+
+
 ## **19.06**
 
 ### **Release synchronised with:**
