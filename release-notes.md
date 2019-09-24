@@ -1,5 +1,39 @@
 # Release notes
 
+## Release 3.14 \(2019-09-24\)
+
+### Status
+
+In this release, we integrate 3,336,588 target-disease associations covering 10,474 diseases and 27,024 targets from the following public resources:
+
+* 35,034 genetic evidence from [UniProt](http://www.uniprot.org/)
+* 96,734 genetic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
+* 180,984 genetic evidence from [GWAS Catalog](https://www.ebi.ac.uk/gwas/)
+* 1,586 genetic evidence from [Gene2Phenotype](https://www.ebi.ac.uk/gene2phenotype)
+* 10,528 genetic evidence from the [Genomics England PanelApp](https://bioinfo.extge.co.uk/crowdsourcing/PanelApp/)
+* 55,987 genetic evidence from the [PheWAS catalog](https://phewascatalog.org/)
+* 7,581 somatic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
+* 2,375 somatic evidence from [intOGen](https://www.intogen.org/)
+* 60,310 somatic evidence from the [Cancer Gene Census](http://cancer.sanger.ac.uk/census/)
+* 284 somatic evidence from [UniProt](http://www.uniprot.org/)
+* 384,173 drug evidence from [ChEMBL](https://www.ebi.ac.uk/chembl/)
+* 204,229 expression evidence from [Expression Atlas](https://www.ebi.ac.uk/gxa/home)
+* 10,159 affected pathway evidence from [Reactome](https://reactome.org/)
+* 74,570 affected pathway evidence from [SLAPenrich](https://saezlab.github.io/SLAPenrich/)
+* 308 affected pathway evidence from [PROGENy](https://saezlab.github.io/progeny/)
+* 408 systems biology evidence from [SysBio](https://saezlab.github.io/progeny/)
+* 1,659 CRISPR-Cas9 \(Cancer Cell Lines\) evidence from [Behan et al. 2019](https://europepmc.org/abstract/MED/30971826)
+* 500,683 mouse model evidence from [PhenoDigm](https://www.sanger.ac.uk/resources/databases/phenodigm)
+* 5,772,706 scientific literature evidence from co-occurence mining in [EuropePMC](https://europepmc.org/)
+
+New features include:
+
+* More Target Enabling Packages \(TEPs\)
+* More data download options
+* Minor bug fixes throughout the platform
+
+For more details, check our [blog](http://blog.opentargets.org/2019/02/20/open-targets-platform-release-19-02-is-out/).
+
 ## Release 3.13 \(2019-06-27\)
 
 ### Status
@@ -33,8 +67,6 @@ New features include:
 * More download options for the drug information table 
 
 For more details, check our [blog](http://blog.opentargets.org/2019/02/20/open-targets-platform-release-19-02-is-out/).
-
-## 
 
 ## Release 3.12 \(2019-05-02\)
 
