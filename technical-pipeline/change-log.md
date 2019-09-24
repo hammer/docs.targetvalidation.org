@@ -22,14 +22,24 @@ description: >-
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">XX-Sep-2019</td>
-      <td style="text-align:left">Planned</td>
+      <td style="text-align:left">XX-Nov-2019</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">19.11 Data Release</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">24-Sep-2019</td>
+      <td style="text-align:left">Major</td>
       <td style="text-align:left">19.09 Data Release</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">19.09</td>
+      <td style="text-align:left">19.09.5</td>
+      <td style="text-align:left">19.09.5</td>
+      <td style="text-align:left">3.14.0</td>
+      <td style="text-align:left">19.09.5</td>
     </tr>
     <tr>
       <td style="text-align:left">03-Sep-2019</td>
