@@ -15,7 +15,53 @@ EFO 2.106 \(March 2019 - final release of Version 2\)
 
 Ensembl 97 \(July 2019\)
 
+### Updated docker images:
 
+* [quay.io/opentargets/mrtarget:19.09.5](https://quay.io/repository/opentargets/mrtarget?tag=19.09.5&tab=tags)
+* [quay.io/opentargets/rest\_api:19.09.5](https://quay.io/repository/opentargets/rest_api?tag=19.09.5&tab=tags)
+* [quay.io/opentargets/webapp:19.09.5](https://quay.io/repository/opentargets/webapp?tag=19.09.5&tab=tags)
+
+### Pipeline configuration file:
+
+* [https://storage.googleapis.com/open-targets-data-releases/19.09/input/mrtarget.data.19.09.yml](https://storage.googleapis.com/open-targets-data-releases/19.09/input/mrtarget.data.19.09.yml)
+
+### Release highlights:
+
+Blog: 
+
+Release notes: [https://docs.targetvalidation.org/release-notes](https://docs.targetvalidation.org/release-notes)
+
+### Technical release information:
+
+* Infrastructure:
+  * upgrade to elasticsearch 7.2 [https://github.com/opentargets/platform/issues/551](https://github.com/opentargets/platform/issues/551) in order to enable
+    * removal of document types
+    * handle changes to document total counts
+    * add process-local caching
+    * _**Note:  Update to ES V7.2 specifically, no further support for v5.6.**_
+  * Platform input support improvements for QC of input files
+* Pipeline:
+  * remove redis [https://github.com/opentargets/data\_pipeline/pull/504](https://github.com/opentargets/data_pipeline/pull/504)
+    * remove associated configuration and command line options
+    * better parallelism
+    * more maintainable code
+    * potential small performance degradation
+  * initiate work on python 3 migration [https://github.com/opentargets/platform/issues/459](https://github.com/opentargets/platform/issues/459)
+  * remove ensembl stage [https://github.com/opentargets/platform/issues/321](https://github.com/opentargets/platform/issues/321)
+  * remove uniprot stage [https://github.com/opentargets/platform/issues/322](https://github.com/opentargets/platform/issues/322)
+  *  enable load of additional evidence to existing index [https://github.com/opentargets/platform/issues/632](https://github.com/opentargets/platform/issues/632)
+* REST API:
+  * Ensure compatibility with ES 7.2
+  * Drug index improvements
+  * Fix cache headers
+* Webapp:
+  * Drug summary page updates [https://github.com/opentargets/platform/issues/727](https://github.com/opentargets/platform/issues/727)
+  * Minor updates to link-outs and downloads: 
+    * [https://github.com/opentargets/platform/issues/662](https://github.com/opentargets/platform/issues/662)
+    * [https://github.com/opentargets/platform/issues/220](https://github.com/opentargets/platform/issues/220)
+    * [https://github.com/opentargets/platform/issues/657](https://github.com/opentargets/platform/issues/657)
+  * Addition of new Target Enabling Packages
+    * [https://github.com/opentargets/platform/issues/458](https://github.com/opentargets/platform/issues/458)
 
 ## **19.06**
 
