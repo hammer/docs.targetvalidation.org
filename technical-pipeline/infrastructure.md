@@ -37,10 +37,7 @@ Elasticsearch is used as the main datastore. The key features are:
 * Ingest and store a large amount of JSON in a distributed resilient architecture
 * Our Workflow does not need support for transactions
 * Index and search by any part of the JSON field. This is key for the facet search data exploration workflow implemented in the web app
-* Quickly return a small subset of JSON documents, supporting well our most frequent queries.
-
-Currently, Elasticsearch 5.6 is supported, but not 6 or later. This is because we make use of features that have been removed, and the pipeline needs to be updated to accommodate this change.  This is deployed on a 8 CPU / 50GB single machine Elasticsearch server, which is replicated in three global locations \(EU, US, JP\) for redundancy and performance.  
-
+* Quickly return a small subset of JSON documents, supporting well our most frequent queries. 
 
 ## **REST API**
 
