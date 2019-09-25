@@ -16,7 +16,7 @@ The [Reactome](http://www.reactome.org/) database manually curates and identifie
 
 ### SLAPenrich
 
-[SLAPenrich](https://saezlab.github.io/SLAPenrich/) \(Sample-population Level Analysis of Pathway enrichments\) is a novel statistical framework for the identification of significantly mutated pathways, at the sample population level, in large cohorts of cancer patients. It is based on a Poisson binomial model that takes into account the length of blocks of exons in genes within each pathway, and the background mutation rate of the analysed cohort of patients. We include in our Open Targets Platform the data obtained using SLAPenrich on somatic mutations from the The Cancer Genome Atlas \(TCGA\) across 25 different cancer types and a collection of pathway gene sets from Reactome. These 374 pathways are curated and mapped to cancer hallmarks.
+[SLAPenrich](https://saezlab.github.io/SLAPenrich/) \(Sample-population Level Analysis of Pathway enrichments\) is a novel statistical framework for the identification of significantly mutated pathways, at the sample population level, in large cohorts of cancer patients. It is based on a Poisson binomial model that takes into account the length of blocks of exons in genes within each pathway, and the background mutation rate of the analysed cohort of patients. We include in the Open Targets Platform the data obtained using SLAPenrich on somatic mutations from the The Cancer Genome Atlas \(TCGA\) across 25 different cancer types and a collection of pathway gene sets from Reactome. These 374 pathways are curated and mapped to cancer hallmarks.
 
 See[ Iorio et al \(2018\)](https://europepmc.org/abstract/MED/29713020) for more details.
 
@@ -37,7 +37,7 @@ Sysbio includes six gene lists curated from four systems biology analysis papers
 
 ### CRISPR
 
-This datatype has been available since release 19.04, following our Nature publication [Prioritization of cancer therapeutic targets using CRISPR-Cas9 screens](https://europepmc.org/abstract/MED/30971826), where we have integrated gene fitness effects with tractability data and genomic biomarkers \(i.e. cancer driver events\) for a systematic prioritisation of targets in defined tissues and genotypes. 
+This datatype has been available since release 19.04, following the Nature publication [Prioritization of cancer therapeutic targets using CRISPR-Cas9 screens](https://europepmc.org/abstract/MED/30971826), where we have integrated gene fitness effects with tractability data and genomic biomarkers \(i.e. cancer driver events\) for a systematic prioritisation of targets in defined tissues and genotypes. 
 
 In the Open Targets Platform, CRISPR data is used as evidence for the associations of 624 genes \(targets\) prioritised in 19 different cancer types, resulting in 1,846 target-disease associations. Genes with priority scores greater than 41.5 in [supplementary information](https://www.nature.com/articles/s41586-019-1103-9#Sec44) section in the Nature paper \("final score" column in the table 6\) are included in the Platform.
 
