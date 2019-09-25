@@ -1,8 +1,6 @@
 # REST API
 
-
-
-The Open Targets Platform REST API allows language agnostic access to data available on the Open Targets Platform. The REST API can be accessed from the following URL:
+The Open Targets Platform REST API allows language agnostic access to data available on the Open Targets Platform. It can be accessed from the following URL:
 
 {% embed url="https://platform-api.opentargets.io/v3/platform" %}
 
@@ -12,7 +10,7 @@ The current set of REST API [endpoints](https://en.wikipedia.org/wiki/Web_API#En
 * **Private** - Methods that serve other data in the Open Targets Platform, such as the [target profile page](https://docs.targetvalidation.org/getting-started/getting-started/target-profile) and [batch search](https://docs.targetvalidation.org/getting-started/batch-search). These methods may not be stable from one release to the next. You should use these at your own risk.
 * **Utils** - Methods to get statistics on our data and to check if the server is alive.
 
-By default these methods will return the outputs in `JSON`.
+By default these methods will return the output in `JSON`but alternative formats are available for some of the endpoints.
 
 These are some of the [parameters](https://idratherbewriting.com/learnapidoc/docapis_doc_parameters.html) for the Open Targets Platform REST API :
 
@@ -25,7 +23,7 @@ These are some of the [parameters](https://idratherbewriting.com/learnapidoc/doc
    ****
 
 {% hint style="info" %}
-Not sure how to apply the `direct` parameter in the REST API call? Head to the blog post [Direct versus indirect evidence: should you care?](http://blog.opentargets.org/2017/04/25/direct-versus-indirect-evidence-should-you-care/)
+Not sure how to apply the `direct` parameter in the REST API call? Head to the blog post [Direct versus indirect evidence: should you care?](http://blog.opentargets.org/2017/04/25/direct-versus-indirect-evidence-should-you-care/) and find out.
 {% endhint %}
 
 We can break down a typical Open Targets Platform REST API call as follows:
@@ -37,7 +35,7 @@ We can break down a typical Open Targets Platform REST API call as follows:
 | Parameters | e.g. ?target=ENSG00000163914&size=10000&fields=target.id&fields=disease.id |
 
 {% hint style="success" %}
-Head to our [Swagger](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui) interface for a list of all available endpoints and parameters. You will also be able to test your queries in an interactive and easy manner before running your application/workflow.
+Head to the [Swagger](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui) interface for a list of all available endpoints and parameters. You will also be able to test your queries in an interactive and easy manner before running your application/workflow.
 {% endhint %}
 
 Let's have a look at two examples below: `public/evidence/filter` and `public/search`. 
