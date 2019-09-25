@@ -146,7 +146,7 @@ and then reusing the `start_restore` command above.
 {% endhint %}
 
 {% hint style="danger" %}
-If you are spinning versions of the Open Targets Platform snapshots from any release up and including 19.06, you should use ElasticSearch 5.6.13
+If you are spinning versions of the Open Targets Platform snapshots from any release up and including 19.06, you should use Elasticsearch 5.6.13
 {% endhint %}
 
 ### REST API

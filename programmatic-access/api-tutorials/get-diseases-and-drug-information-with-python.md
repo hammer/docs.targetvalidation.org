@@ -1,8 +1,10 @@
 # Get diseases and drug information with the Python client
 
-This is an example on how you can get the diseases associated with your targets of interest and their drug information using Python. We will query the [Open Targets Platform REST API](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui) to retrieve a list of drugs associated to a given list of targets.
+This is an example on how you can get the diseases associated with your targets of interest and their drug information using Python. We will query the Open Targets Platform [REST API](https://docs.targetvalidation.org/programmatic-access/rest-api) to retrieve a list of drugs associated to a given set of targets.
 
-You might want to use the [jupyter notebook](http://jupyter.org/install) environment to run this example:
+{% hint style="info" %}
+You might want to use the [jupyter notebook](http://jupyter.org/install) environment to run this example:You might want to use the [jupyter notebook](http://jupyter.org/install) environment to run this example.
+{% endhint %}
 
 ```python
 import pandas as pd
