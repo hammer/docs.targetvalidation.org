@@ -7,7 +7,7 @@ description: >-
 
 # Technical notes
 
-## 19.09 - September release pending
+## 19.09
 
 ### Release synchronised with:
 
@@ -27,7 +27,7 @@ Ensembl 97 \(July 2019\)
 
 ### Release highlights:
 
-Blog: 
+Blog: [http://blog.opentargets.org/2019/09/24/open-targets-platform-release-19-09-is-out/](http://blog.opentargets.org/2019/09/24/open-targets-platform-release-19-09-is-out/)
 
 Release notes: [https://docs.targetvalidation.org/release-notes](https://docs.targetvalidation.org/release-notes)
 
