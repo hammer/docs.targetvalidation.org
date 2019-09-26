@@ -1,18 +1,10 @@
 # Latest training materials
 
-These are the presentation slides and exercises for the latest Open Targets training sessions at EMBL, Heidelberg:
+These are the presentation slides and exercises for the latest Open Targets training sessions at Kymab \(Cambridge\):
 
-* EMBL staff:
+{% file src="../.gitbook/assets/coursebook.pdf" %}
 
-{% file src="../.gitbook/assets/120919\_slides.pptx" caption="EMBL slides" %}
-
-{% file src="../.gitbook/assets/120919\_exercises.pdf" caption="EMBL exercises" %}
-
-* Corporate Winter School for PhD students:
-
-{% file src="../.gitbook/assets/winter\_school\_presentation.pptx" caption="Presentation slides" %}
-
-{% file src="../.gitbook/assets/winter\_school\_coursebook \(1\).docx" caption="Coursebook with exercises" %}
+{% file src="../.gitbook/assets/presentation.pdf" %}
 
 Get in touch if you want to discuss any of these materials or re-use them. You can reach us by [email](mailto:support@targetvalidation.org).
 
