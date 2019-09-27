@@ -32,6 +32,17 @@ description: >-
       <td style="text-align:left"></td>
     </tr>
     <tr>
+      <td style="text-align:left">27-Sep-2019</td>
+      <td style="text-align:left">Minor</td>
+      <td style="text-align:left">Mini release (front-end only) to refresh XML sitemaps and canonical page
+        links</td>
+      <td style="text-align:left">NA</td>
+      <td style="text-align:left">NA</td>
+      <td style="text-align:left">NA</td>
+      <td style="text-align:left">3.14.2</td>
+      <td style="text-align:left">19.09.7</td>
+    </tr>
+    <tr>
       <td style="text-align:left">26-Sep-2019</td>
       <td style="text-align:left">Minor</td>
       <td style="text-align:left">Mini release (front-end only) to resolve tickets <a href="https://github.com/opentargets/platform/issues/19">19</a>,
