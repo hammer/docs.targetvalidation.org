@@ -1,6 +1,6 @@
 # Latest training materials
 
-These are the presentation slides and exercises for the latest Open Targets training sessions at Kymab \(Cambridge\):
+These are the presentation slides and exercises for the latest Open Targets training session at Kymab in Cambridge.
 
 {% file src="../.gitbook/assets/coursebook.pdf" %}
 

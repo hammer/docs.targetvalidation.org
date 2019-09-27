@@ -70,8 +70,8 @@
 
 * [Infrastructure](technical-pipeline/infrastructure.md)
 * [Change log](technical-pipeline/change-log.md)
-* [Data model](technical-pipeline/data-model.md)
 * [Technical notes](technical-pipeline/technical-notes.md)
+* [Data model](technical-pipeline/data-model.md)
 
 ## Outreach
 
