@@ -1,8 +1,7 @@
 ---
 description: >-
   This document describes the architecture of the software that processes data
-  and runs the Open Targets Validation Platform accessible at
-  www.targetvalidation.org.
+  and runs the Open Targets Platform.
 ---
 
 # Infrastructure
