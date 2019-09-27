@@ -32,6 +32,20 @@ description: >-
       <td style="text-align:left"></td>
     </tr>
     <tr>
+      <td style="text-align:left">26-Sep-2019</td>
+      <td style="text-align:left">Minor</td>
+      <td style="text-align:left">Mini release (front-end only) to resolve tickets <a href="https://github.com/opentargets/platform/issues/19">19</a>,
+        <a
+        href="https://github.com/opentargets/platform/issues/656">656</a>, <a href="https://github.com/opentargets/platform/issues/657">657</a>,
+          and <a href="https://github.com/opentargets/platform/issues/720">720</a>
+      </td>
+      <td style="text-align:left">NA</td>
+      <td style="text-align:left">NA</td>
+      <td style="text-align:left">NA</td>
+      <td style="text-align:left">3.14.1</td>
+      <td style="text-align:left">19.09.6</td>
+    </tr>
+    <tr>
       <td style="text-align:left">24-Sep-2019</td>
       <td style="text-align:left">Major</td>
       <td style="text-align:left">19.09 Data Release</td>
