@@ -157,7 +157,7 @@ This call will give you the same results you get when searching for a term \(e.g
 
 It retrieves [association scores](https://docs.targetvalidation.org/getting-started/scoring) for an association between a target and a disease. The association ID should be in the format of `TARGET_ID-DISEASE_ID`\(Ensembl gene ID - EFO ID\) e.g. `id=ENSG00000073756-EFO_0003767`.
 
-You will get the association object, which contains the data and summary on each evidence type included in the calculation of the score, as well as the score itself.
+In addition to the association score, you will also get the association object, which contains the data and summary on each evidence type included in the calculation of the score.
 
 {% api-method method="get" host="https://platform-api.opentargets.io/v3/platform/public/association?id=ENSG00000073756-EFO\_0003767    " path="" %}
 {% api-method-summary %}
@@ -184,7 +184,61 @@ public/association
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+from: 0,
+took: 2,
+data_version: "19.09",
+query: { },
+total: 1,
+data: [
+{
+target: {},
+association_score: {
+datatypes: {
+literature: 0.15637867953616,
+rna_expression: 0.011508835806466024,
+somatic_mutation: 0,
+genetic_association: 0,
+known_drug: 1,
+animal_model: 0.27356111111111114,
+affected_pathway: 0
+},
+overall: 1,
+datasources: {
+slapenrich: 0,
+sysbio: 0,
+expression_atlas: 0.011508835806466024,
+gene2phenotype: 0,
+progeny: 0,
+chembl: 1,
+uniprot_literature: 0,
+phenodigm: 0.27356111111111114,
+eva: 0,
+europepmc: 0.15637867953616,
+gwas_catalog: 0,
+uniprot_somatic: 0,
+genomics_england: 0,
+postgap: 0,
+uniprot: 0,
+crispr: 0,
+cancer_gene_census: 0,
+reactome: 0,
+intogen: 0,
+eva_somatic: 0,
+phewas_catalog: 0
+}
+},
+max: {},
+sum: {},
+is_direct: true,
+private: {},
+disease: {},
+evidence_count: {},
+id: "ENSG00000073756-EFO_0003767"
+}
+],
+size: 1
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
