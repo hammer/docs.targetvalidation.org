@@ -38,13 +38,13 @@ We can break down a typical Open Targets Platform REST API call as follows:
 Head to the [Swagger](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui) interface for a list of all available endpoints and parameters. You will also be able to test your queries in an interactive and easy manner before running your application/workflow.
 {% endhint %}
 
-Let's have a look at a few examples below `public/evidence/filter` and `public/search`. 
+Let's have a look at a few examples, such as`public/search`, `public/association` and `public/evidence/filter`
 
-### public/search
+### The search endpoint
 
 It looks up for the Ensembl gene ID or the disease ID \(EFO, HP, Orphanet, MONDO\), so that you can use the remaining endpoints available.
 
-For example, searching for DMD will return its Ensembl gene ID, ENSG00000198947, in addition to other data, such as orthologue names and IDs, association counts, approved name and much more.
+For example, searching for DMD will return its Ensembl gene ID, ENSG00000198947, in addition to other data, such as names and IDs of orthologues, association counts, approved name and much more. 
 
 {% api-method method="get" host="https://platform-api.opentargets.io/v3/platform/public/search?q=dmd" path=" " %}
 {% api-method-summary %}
@@ -153,7 +153,45 @@ size: 10
 
 This call will give you the same results you get when searching for a term \(e.g. DMD\) using the graphical user interface of the Open Targets Platform.
 
-### public/evidence/filter
+### The association by ID endpoint
+
+It retrieves the association scores for an association between a target and a disease. The association ID should be in the format of `TARGET_ID-DISEASE_ID`\(Ensembl gene ID - EFO ID\).
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+public/association
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+
+
+### The evidence endpoint, with filters for specific data
 
 {% api-method method="get" host="https://platform-api.opentargets.io/v3/platform/public/evidence/filter?target=ENSG00000088832&datasource=chembl&size=15" path="" %}
 {% api-method-summary %}
@@ -161,7 +199,11 @@ public/evidence/filter
 {% endapi-method-summary %}
 
 {% api-method-description %}
-It retrieves the evidence used for associations allowing for specific filters that you can, such as target Ensembl gene ID, disease ID, Reactome pathway ID \(e.g. R-HSA-375276\), scorevalue\_min, and plenty more. The full list is available in the Swagger interface.
+It retrieves the evidence used for associations allowing for specific filters that you can add to restrict the results by source and type of data, or limit results to targets which are part of a particular pathway. You can also specify minimum and maximum scores as well as the data type  or data source of evidence linking target and disease.  
+  
+**Note** that multiple genes and diseases can be specified in the same request.  
+  
+The full list is available in the Swagger interface.
 {% endapi-method-description %}
 
 {% api-method-spec %}
