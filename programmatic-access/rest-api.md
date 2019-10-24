@@ -44,7 +44,7 @@ Let's have a look at a few examples, such as`public/search`, `public/association
 
 It looks up for the Ensembl gene ID or the disease ID \(EFO, HP, Orphanet, MONDO\) using a free text search, replicating the functionality of the search box on the Open Targets Platform website. It should be used to identify the best match for a disease or target of interest, rather than gathering a specific set of evidence.
 
-For example, searching for DMD will return its Ensembl gene ID, ENSG00000198947, in addition to other data, such as names and IDs of orthologues, association counts, approved name and much more. 
+Searching for DMD, for example, will return its Ensembl gene ID, ENSG00000198947, in addition to other data, such as names and IDs of orthologues, association counts, approved name and much more. You need these stable IDs to query the REST API using the remaining endpoints.
 
 {% api-method method="get" host="https://platform-api.opentargets.io/v3/platform/public/search?q=dmd" path=" " %}
 {% api-method-summary %}
@@ -52,9 +52,7 @@ public/search
 {% endapi-method-summary %}
 
 {% api-method-description %}
-It looks up for the Ensembl gene ID or the disease ID \(EFO, HP, Orphanet, MONDO\), so that you can use the remaining endpoints available.  
-  
-For example, searching for DMD will return its Ensembl gene ID, ENSG00000198947, in addition to other data, such as orthologue names and IDs, association counts, approved name and much more.
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -151,13 +149,13 @@ size: 10
 {% endapi-method-spec %}
 {% endapi-method %}
 
-This call will give you the same results you get when searching for a term \(e.g. DMD\) using the graphical user interface of the Open Targets Platform.
+### 
 
 ### The association endpoint
 
-It retrieves [association scores](https://docs.targetvalidation.org/getting-started/scoring) for an association between a target and a disease. The association ID should be in the format of `TARGET_ID-DISEASE_ID`\(Ensembl gene ID - EFO ID\) e.g. `id=ENSG00000073756-EFO_0003767`.
+It retrieves [association scores](https://docs.targetvalidation.org/getting-started/scoring) for an association between a target and a disease. The association ID should be in the format of `TARGET_ID-DISEASE_ID`e.g.`ENSG00000073756-EFO_0003767`.
 
-In addition to the association score, you will also get the association object, which contains the data and summary on each evidence type included in the calculation of the score.
+In addition to the association score, you will also get the data and summary on each evidence type included in the calculation of the score.
 
 {% api-method method="get" host="https://platform-api.opentargets.io/v3/platform/public/association?id=ENSG00000073756-EFO\_0003767    " path="" %}
 {% api-method-summary %}
@@ -171,8 +169,8 @@ public/association
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="" type="string" required=true %}
+id
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
@@ -256,19 +254,17 @@ public/evidence/filter
 It retrieves the evidence used for associations allowing for specific filters that you can add to restrict the results by source and type of data, or limit results to targets which are part of a particular pathway. You can also specify minimum and maximum scores as well as the data type  or data source of evidence linking target and disease.  
   
 **Note** that multiple genes and diseases can be specified in the same request.  
-  
-The full list is available in the Swagger interface.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="" type="string" required=false %}
-datasource
+datatype such as genetic\_association, somatic\_mutation, known\_drug
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="" type="string" required=false %}
-target
+target ID as Ensembl gene ID
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="" type="integer" required=false %}
