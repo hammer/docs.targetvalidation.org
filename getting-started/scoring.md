@@ -17,7 +17,7 @@ Our scoring framework is a four-tier process: we first score the individual evid
 `Pathways & systems biology` is the new name for what we used to call`Affected pathways`in the user interface of Open Targets Platform. 
 {% endhint %}
 
-At each aggregation step, denoted by sum symbol above, we apply the [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_%28mathematics%29) using the following formula as follows:
+At each aggregation step, denoted by the `sum` symbol above, we apply the [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_%28mathematics%29) using the following formula as follows:
 
 ```text
 S1 + S2/22 + S3/32 + S4/42 + Si/i2
