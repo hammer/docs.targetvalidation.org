@@ -38,11 +38,11 @@ We can break down a typical Open Targets Platform REST API call as follows:
 Head to the [Swagger](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui) interface for a list of all available endpoints and parameters. You will also be able to test your queries in an interactive and easy manner before running your application/workflow.
 {% endhint %}
 
-Let's have a look at a few examples, such as`public/search`, `public/association` and `public/evidence/filter`
+Let's have a look at a few examples of endpoints, such as`public/search`, `public/association` and `public/evidence/filter`:
 
-### The search endpoint
+## The search endpoint
 
-It looks up for the Ensembl gene ID or the disease ID \(EFO, HP, Orphanet, MONDO\) using a free text search, replicating the functionality of the search box on the Open Targets Platform website. It should be used to identify the best match for a disease or target of interest, rather than gathering a specific set of evidence.
+It looks up for the Ensembl gene ID or the disease ID \(EFO, HP, Orphanet, MONDO\) using a free text search. It should be used to identify the best match for a disease or target of interest, rather than gathering a specific set of evidence.
 
 Searching for DMD, for example, will return its Ensembl gene ID, ENSG00000198947, in addition to other data, such as names and IDs of orthologues, association counts, approved name and much more. You need these stable IDs to query the REST API using the remaining endpoints.
 
@@ -142,20 +142,20 @@ highlight: {}
 {}
 ],
 size: 10
-}
+}- -- 
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### 
+{% hint style="info" %}
+Note the `search` endpoint replicates the functionality of the search box on the Open Targets Platform website.
+{% endhint %}
 
-### The association endpoint
+## The association endpoint
 
-It retrieves [association scores](https://docs.targetvalidation.org/getting-started/scoring) for an association between a target and a disease. The association ID should be in the format of `TARGET_ID-DISEASE_ID`e.g.`ENSG00000073756-EFO_0003767`.
-
-In addition to the association score, you will also get the data and summary on each evidence type included in the calculation of the score.
+It retrieves [association scores](https://docs.targetvalidation.org/getting-started/scoring) for an association between a target and a disease. The association ID should be in the format of `TARGET_ID-DISEASE_ID`. In addition to the association score, you will also get the data and summary on each evidence type included in the calculation of the score.
 
 {% api-method method="get" host="https://platform-api.opentargets.io/v3/platform/public/association?id=ENSG00000073756-EFO\_0003767    " path="" %}
 {% api-method-summary %}
@@ -243,7 +243,13 @@ size: 1
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### The evidence endpoint, with filters for specific data
+{% hint style="info" %}
+Check the scores at the data type and data source levels for the association between PTGS2 and inflammatory bowel disease. The parameter you will use is  [`?id=ENSG00000073756-EFO_0003767`](https://platform-api.opentargets.io/v3/platform/public/association?id=ENSG00000073756-EFO_0003767).
+{% endhint %}
+
+## The evidence endpoint, with filters for specific data
+
+It retrieves the evidence used for an association and allow for specific filters to be added, so that you can restrict the results by data type, data source, or limit the results to targets that are part of a given pathway. You can also specify minimum and maximum scores, as well as the format of the results \(e.g. `csv` or `xml`\).
 
 {% api-method method="get" host="https://platform-api.opentargets.io/v3/platform/public/evidence/filter?target=ENSG00000088832&datasource=chembl&size=15" path="" %}
 {% api-method-summary %}
@@ -251,9 +257,7 @@ public/evidence/filter
 {% endapi-method-summary %}
 
 {% api-method-description %}
-It retrieves the evidence used for associations allowing for specific filters that you can add to restrict the results by source and type of data, or limit results to targets which are part of a particular pathway. You can also specify minimum and maximum scores as well as the data type  or data source of evidence linking target and disease.  
-  
-**Note** that multiple genes and diseases can be specified in the same request.  
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -303,9 +307,13 @@ size: 15
 Alternative output formats, such `xml`, `csv` and `tab`, may be also  available for some of the methods e.g. [/association/filter](https://api.opentargets.io/v3/platform/docs/swagger-ui#/filter/getAssociationFilter) and [/search](https://api.opentargets.io/v3/platform/docs/swagger-ui#/search/getSearch).
 {% endhint %}
 
+{% hint style="success" %}
+Note that multiple genes and diseases can be specified in the same request.
+{% endhint %}
+
 For complex queries with large numbers of parameters, use  a `POST` request instead of `GET`. `POST` methods require a body \(or payload\) encoded as `json`.
 
-You can use the following tools with the Open Targets Platform REST API endpoints:
+You can also output these results with the following tools:
 
 * Command line \(e.g. CURL, WGET or HTTPie\)
 * Your own application and/or workflow
