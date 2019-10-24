@@ -38,7 +38,122 @@ We can break down a typical Open Targets Platform REST API call as follows:
 Head to the [Swagger](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui) interface for a list of all available endpoints and parameters. You will also be able to test your queries in an interactive and easy manner before running your application/workflow.
 {% endhint %}
 
-Let's have a look at two examples below: `public/evidence/filter` and `public/search`. 
+Let's have a look at a few examples below `public/evidence/filter` and `public/search`. 
+
+### public/search
+
+It looks up for the Ensembl gene ID or the disease ID \(EFO, HP, Orphanet, MONDO\), so that you can use the remaining endpoints available.
+
+For example, searching for DMD will return its Ensembl gene ID, ENSG00000198947, in addition to other data, such as orthologue names and IDs, association counts, approved name and much more.
+
+{% api-method method="get" host="https://platform-api.opentargets.io/v3/platform/public/search?q=dmd" path=" " %}
+{% api-method-summary %}
+public/search
+{% endapi-method-summary %}
+
+{% api-method-description %}
+It looks up for the Ensembl gene ID or the disease ID \(EFO, HP, Orphanet, MONDO\), so that you can use the remaining endpoints available.  
+  
+For example, searching for DMD will return its Ensembl gene ID, ENSG00000198947, in addition to other data, such as orthologue names and IDs, association counts, approved name and much more.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+size
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="" type="string" required=true %}
+q
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+from: 0,
+took: 103,
+data_version: "19.09",
+query: {
+highlight: true,
+fields: null,
+datastructure: "default",
+format: "json",
+size: 10
+},
+total: 23,
+data: [
+{
+data: {
+ortholog: {},
+top_associations: {},
+approved_symbol: "DMD",
+description: "Anchors the extracellular matrix to the cytoskeleton via F-actin. Ligand for dystroglycan. Component of the dystrophin-associated glycoprotein complex which accumulates at the neuromuscular junction (NMJ) and at a variety of synapses in the peripheral and central nervous systems and has a structural function in stabilizing the sarcolemma. Also implicated in signaling events and synaptic transmission.",
+uniprot_accessions: [],
+drugs: {},
+gene_family_description: "",
+name_synonyms: [
+"muscular dystrophy, Duchenne and Becker types",
+"Dystrophin"
+],
+approved_name: "dystrophin",
+hgnc_id: "HGNC:2928",
+association_counts: {
+total: 1281,
+direct: 635
+},
+ensembl_gene_id: "ENSG00000198947",
+symbol_synonyms: [
+"BMD",
+"DXS142",
+"DXS164",
+"DXS206",
+"DXS230",
+"DXS239",
+"DXS268",
+"DXS269",
+"DXS270",
+"DXS272"
+],
+biotype: "protein_coding",
+full_name: "dystrophin",
+type: "target",
+id: "ENSG00000198947",
+name: "DMD"
+},
+score: 2752.9067,
+type: "search-object-target",
+id: "ENSG00000198947",
+highlight: {}
+},
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+size: 10
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+This call will give you the same results you get when searching for a term \(e.g. DMD\) using the graphical user interface of the Open Targets Platform.
+
+### public/evidence/filter
 
 {% api-method method="get" host="https://platform-api.opentargets.io/v3/platform/public/evidence/filter?target=ENSG00000088832&datasource=chembl&size=15" path="" %}
 {% api-method-summary %}
@@ -46,7 +161,7 @@ public/evidence/filter
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve the evidence used for a set of target-disease associations filtered by specific \(optional\) parameters.
+It retrieves the evidence used for associations allowing for specific filters that you can, such as target Ensembl gene ID, disease ID, Reactome pathway ID \(e.g. R-HSA-375276\), scorevalue\_min, and plenty more. The full list is available in the Swagger interface.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -92,95 +207,17 @@ size: 15
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://platform-api.opentargets.io/v3/platform/public/search?q=dmd&size=23" path="" %}
-{% api-method-summary %}
-public/search
-{% endapi-method-summary %}
-
-{% api-method-description %}
-Look up for a gene or disease identifier. This will replicate the search on the Open Targets Platform website.
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-size
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="" type="string" required=true %}
-q
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-{
-from: 0,
-took: 126,
-data_version: "19.04",
-query: {
-highlight: true,
-fields: null,
-datastructure: "default",
-format: "json",
-size: 23
-},
-total: 23,
-data: [
-{
-data: {
-ortholog: {},
-top_associations: {},
-approved_symbol: "DMD",
-description: "Anchors the extracellular matrix to the cytoskeleton via F-actin. Ligand for dystroglycan. Component of the dystrophin-associated glycoprotein complex which accumulates at the neuromuscular junction (NMJ) and at a variety of synapses in the peripheral and central nervous systems and has a structural function in stabilizing the sarcolemma. Also implicated in signaling events and synaptic transmission.",
-uniprot_accessions: [],
-drugs: {},
-gene_family_description: "",
-name_synonyms: [],
-approved_name: "dystrophin",
-hgnc_id: "HGNC:2928",
-association_counts: {
-total: 1251,
-direct: 615
-},
-ensembl_gene_id: "ENSG00000198947",
-symbol_synonyms: [],
-biotype: "protein_coding",
-full_name: "dystrophin",
-type: "target",
-id: "ENSG00000198947",
-name: "DMD"
-},
-score: 2895.4158,
-type: "search-object-target",
-id: "ENSG00000198947",
-highlight: {}
-},
-{},
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
 {% hint style="info" %}
 Alternative output formats, such `xml`, `csv` and `tab`, may be also  available for some of the methods e.g. [/association/filter](https://api.opentargets.io/v3/platform/docs/swagger-ui#/filter/getAssociationFilter) and [/search](https://api.opentargets.io/v3/platform/docs/swagger-ui#/search/getSearch).
 {% endhint %}
 
-For complex queries with large numbers of parameters, use  a `POST` request instead of `GET`. `POST` methods require a body encoded as `json`.
+For complex queries with large numbers of parameters, use  a `POST` request instead of `GET`. `POST` methods require a body \(or payload\) encoded as `json`.
 
 You can use the following tools with the Open Targets Platform REST API endpoints:
 
-* Command line \(e.g. CURL or HTTPie\)
+* Command line \(e.g. CURL, WGET or HTTPie\)
 * Your own application and/or workflow
-* Open Targets Python client
+* Open Targets [Python client](https://docs.targetvalidation.org/programmatic-access/python-client)
 
 {% hint style="success" %}
 You can also access the Open Targets Platform REST-API with scripts in R. 
@@ -196,13 +233,5 @@ Please note that at the time of the recording \(Dec 5th 2017\), the Open Targets
 You should use:**`https://platform-api.opentargets.io/v3/platform`**
 {% endhint %}
 
-Check the [API tutorials](https://docs.targetvalidation.org/programmatic-access/api-tutorials) page for the most up-to-date use case examples or head to the Open Targets Blog for [Open Targets API Tutorial: Getting Started](http://blog.opentargets.org/2016/09/13/get-an-association-table-for-your-list-of-genes/) and [Get an association table for your list of genes](http://blog.opentargets.org/2016/09/13/get-an-association-table-for-your-list-of-genes/).
-
-{% hint style="warning" %}
-Please note if you want to try out the tutorials available in the blog, you should amend the URL listed in there to the following:
-
-**`https://platform-api.opentargets.io/v3/platform/`**
-{% endhint %}
-
-If you have questions on the Open Targets Platform REST API or need further help, please [email us](mailto:support@targetvalidation.org).
+Head to the [API tutorials](https://docs.targetvalidation.org/programmatic-access/api-tutorials) page a few use case examples on using the Open Targets Platform REST API and [email us](mailto:support@targetvalidation.org) if you have questions or want to discuss other use cases.
 
