@@ -42,7 +42,7 @@ Let's have a look at a few examples, such as`public/search`, `public/association
 
 ### The search endpoint
 
-It looks up for the Ensembl gene ID or the disease ID \(EFO, HP, Orphanet, MONDO\), so that you can use the remaining endpoints available.
+It looks up for the Ensembl gene ID or the disease ID \(EFO, HP, Orphanet, MONDO\) using a free text search, replicating the functionality of the search box on the Open Targets Platform website. It should be used to identify the best match for a disease or target of interest, rather than gathering a specific set of evidence.
 
 For example, searching for DMD will return its Ensembl gene ID, ENSG00000198947, in addition to other data, such as names and IDs of orthologues, association counts, approved name and much more. 
 
@@ -153,11 +153,13 @@ size: 10
 
 This call will give you the same results you get when searching for a term \(e.g. DMD\) using the graphical user interface of the Open Targets Platform.
 
-### The association by ID endpoint
+### The association endpoint
 
-It retrieves the association scores for an association between a target and a disease. The association ID should be in the format of `TARGET_ID-DISEASE_ID`\(Ensembl gene ID - EFO ID\).
+It retrieves [association scores](https://docs.targetvalidation.org/getting-started/scoring) for an association between a target and a disease. The association ID should be in the format of `TARGET_ID-DISEASE_ID`\(Ensembl gene ID - EFO ID\) e.g. `id=ENSG00000073756-EFO_0003767`.
 
-{% api-method method="get" host="" path="" %}
+You will get the association object, which contains the data and summary on each evidence type included in the calculation of the score, as well as the score itself.
+
+{% api-method method="get" host="https://platform-api.opentargets.io/v3/platform/public/association?id=ENSG00000073756-EFO\_0003767    " path="" %}
 {% api-method-summary %}
 public/association
 {% endapi-method-summary %}
@@ -188,8 +190,6 @@ public/association
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-
 
 ### The evidence endpoint, with filters for specific data
 
