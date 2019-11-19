@@ -2,7 +2,7 @@
 
 New treatments are tested in clinical trials but some of the side effects are only identified when prescribed to larger cohorts of patients, with one or multiple conditions, for a sustained period of time or in combination with other treatments. For this reason, regulatory agencies \(e.g. FDA\) provide pharmacovigilance programs to monitor and survey Adverse Drug Reactions \(ADRs\). For example, the [FDA Adverse Event Reporting System \(FAERS\)](https://open.fda.gov/data/faers/) currently contains 10.4 million public reports characterising any undesirable experience associated with the use of a medicinal product in a patient.
 
-Open Targets Platform aims to provide a list of significant ADRs linked to the Open Targets available drugs. While recurrence of a given adverse event is relevant, it's the specificity of the event to the drug what might flag concerns. In order to get a list of significant drug-ADRs associations, we have implemented an analysis similar to the one described by [Maciejewski et al. \(2017\)](https://europepmc.org/abstract/MED/28786378).
+Open Targets aims to provide a list of significant ADRs linked to the drugs available in the Open Targets Platform. While recurrence of a given adverse event is relevant, it's the specificity of the event to the drug what might flag concerns. In order to get a list of significant drug-ADRs associations, we have implemented an analysis similar to the one described by [Maciejewski et al. \(2017\)](https://europepmc.org/abstract/MED/28786378).
 
 First we apply a set of filters to the reports as described below:
 
@@ -26,17 +26,11 @@ The significant drug-ADR pairs were then evaluated using the Likelihood Ratio Te
 The code to reproduce the Open Targets Platform approach to ADRs is available on [GitHub](https://github.com/opentargets/platform-etl-openfda-faers).
 {% endhint %}
 
-![Adverse events reported for sildenafil \(ChEMBL192\) in the drug summary page. ](../.gitbook/assets/screen-shot-2019-11-19-at-10.12.54.png)
+![Adverse events reported for sildenafil \(ChEMBL192\) in the drug summary page. ](../../../.gitbook/assets/screen-shot-2019-11-19-at-10.12.54.png)
 
+Due to the nature of the surveillance reports, it's relatively common for the indication for which a drug was prescribed to appear in the list of significant ADRs. From the current analysis, it's not trivial to distinguish whether it's a problem with the dosage the drug was prescribed or an excessive phenotypic characterisation of the patient in the report.
 
-
-{% hint style="warning" %}
-Due to the nature of the surveillance reports, it's relatively common for the indication for which a drug was prescribed to appear in the list of significant ADRs. 
-
-From the current analysis, it's not trivial to distinguish whether it's a problem with the dosage the drug was prescribed or an excessive phenotypic characterisation of the patient in the report.
-{% endhint %}
-
-{% hint style="warning" %}
 It's also recurrent to find events related to drug misuse in all drugs frequently prescribed over the counter. While the exclusion of reports associated with death alleviates the problem, still a significant number of drug abuses can be found linked to very common drugs.
-{% endhint %}
+
+If you want to discuss any of these shortcomings, please contact the [support](mailto:support@targetvalidation.org) team.
 
