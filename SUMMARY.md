@@ -15,6 +15,7 @@
 * [Evidence](getting-started/evidence.md)
 * [Association score](getting-started/scoring.md)
 * [Target tractability](getting-started/target-tractability.md)
+* [Pharmacovigilance](getting-started/pharmacovigilance.md)
 * [Batch search](getting-started/batch-search.md)
 * [Data download](getting-started/data-download.md)
 * [Cite us](getting-started/citation.md)

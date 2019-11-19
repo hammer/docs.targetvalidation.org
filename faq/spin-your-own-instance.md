@@ -43,7 +43,7 @@ docker network create otnet
 2\) Whitelist the URL of our repo when you \`docker run\` by passing an environment variable:
 
 ```bash
-docker run -d --name elastic --network otnet -p 9200:9200 -v otdata:/usr/share/elasticsearch/data -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' -e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:7.2.0
+docker run -d --name elastic --network otnet -p 9200:9200 -v otdata:/usr/share/elasticsearch/data -e 'discovery.type=single-node' -e 'xpack.security.enabled=false' -e 'repositories.url.allowed_urls=https://storage.googleapis.com/*' docker.elastic.co/elasticsearch/elasticsearch:7.4.0
 ```
 
 If you get a "invalid reference format" error, double check that the container tag has not changed. You can do so by visiting the elasticsearch [docker container listings](https://www.docker.elastic.co/). It can also happen as a result of copying/pasting the command from this documentation page. Try to re-type it in your own shell.
@@ -56,7 +56,7 @@ You can check that the docker container is running by typing `docker ps` . Make 
   "cluster_name" : "docker-cluster",
   "cluster_uuid" : "nPv5F8rdQZGN2DkeBQap3w",
   "version" : {
-    "number" : "7.2.0",
+    "number" : "7.4.0",
     "build_flavor" : "default",
     "build_type" : "docker",
     "build_hash" : "508c38a",
@@ -114,8 +114,7 @@ Make a note of the name above, which is the first field on the left, as we will 
 
 5\) Once the last step completes successfully, you will [trigger the snapshot restore:](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/modules-snapshots.html#_restore)
 
-{% code-tabs %}
-{% code-tabs-item title="start\_restore" %}
+{% code title="start\_restore" %}
 ```bash
 curl -XPOST 'localhost:9200/_snapshot/ot_repo/19.09/_restore?pretty' -H 'Content-Type: application/json' -d'
 {
@@ -126,8 +125,7 @@ curl -XPOST 'localhost:9200/_snapshot/ot_repo/19.09/_restore?pretty' -H 'Content
 '
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 by using the `snapshot name` from the step above
 
