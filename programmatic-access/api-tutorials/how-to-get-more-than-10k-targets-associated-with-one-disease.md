@@ -4,6 +4,10 @@ The maximum amount of results that the [Open Targets Platform REST API ](https:/
 
 How can you retrieve all the associations for a disease that contains more than 10,000 targets? Use `next`, a root-level field that contains a vector of elements to act as a token. If you add `next` when calling our API endpoints, such as the [`association/filter`](https://platform-api.opentargets.io/v3/platform/docs/swagger-ui#/filter/getAssociationFilter),  you will implement pagination and retrieve the next chunk of results.
 
+{% hint style="info" %}
+Head to our blog, for more details on [pagination](http://blog.opentargets.org/2017/11/06/discovering-drug-targets-gets-faster-our-api-upgrades-to-v3/#pagination) of larger set of results returned by the Open Targets Platform REST API.
+{% endhint %}
+
 You can use `next` in either **GET** or **POST** methods:
 
 * **GET** - you will need to append the elements from the previous array to the next one

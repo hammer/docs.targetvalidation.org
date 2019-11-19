@@ -11,6 +11,7 @@
   * [Associated targets](getting-started/getting-started/associated-targets.md)
   * [Target profile](getting-started/getting-started/target-profile.md)
   * [Disease profile](getting-started/getting-started/disease-profile.md)
+  * [Drug summary](getting-started/getting-started/drug-summary.md)
   * [Filtering associations](getting-started/getting-started/filtering-associations.md)
 * [Evidence](getting-started/evidence.md)
 * [Association score](getting-started/scoring.md)
