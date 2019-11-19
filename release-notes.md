@@ -1,5 +1,41 @@
 # Release notes
 
+## Release 3.15 \(2019-11-08\)
+
+### Status
+
+In the last release of 2019, we integrate 6,337,432 target-disease associations covering 13,544 diseases and 27,069 targets from the following public resources:
+
+* 31,522 genetic evidence from [UniProt](http://www.uniprot.org/)
+* 103,019 genetic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
+* 186,237 genetic evidence from [GWAS Catalog](https://www.ebi.ac.uk/gwas/)
+* 1,586 genetic evidence from [Gene2Phenotype](https://www.ebi.ac.uk/gene2phenotype)
+* 10,550 genetic evidence from the [Genomics England PanelApp](https://bioinfo.extge.co.uk/crowdsourcing/PanelApp/)
+* 56,255 genetic evidence from the [PheWAS catalog](https://phewascatalog.org/)
+* 7,879 somatic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
+* 2,375 somatic evidence from [intOGen](https://www.intogen.org/)
+* 96,274 somatic evidence from the [Cancer Gene Census](http://cancer.sanger.ac.uk/census/)
+* 263 somatic evidence from [UniProt](http://www.uniprot.org/)
+* 384,754 drug evidence from [ChEMBL](https://www.ebi.ac.uk/chembl/)
+* 202,512 expression evidence from [Expression Atlas](https://www.ebi.ac.uk/gxa/home)
+* 10,989 affected pathway evidence from [Reactome](https://reactome.org/)
+* 74,570 affected pathway evidence from [SLAPenrich](https://saezlab.github.io/SLAPenrich/)
+* 308 affected pathway evidence from [PROGENy](https://saezlab.github.io/progeny/)
+* 408 systems biology evidence from [SysBio](https://saezlab.github.io/progeny/)
+* 1,844 CRISPR-Cas9 \(Cancer Cell Lines\) evidence from [Behan et al. 2019](https://europepmc.org/abstract/MED/30971826)
+* 501,788 mouse model evidence from [PhenoDigm](https://www.sanger.ac.uk/resources/databases/phenodigm)
+* 6,857,916 scientific literature evidence from co-occurence mining in [EuropePMC](https://europepmc.org/)
+
+New features include:
+
+* More diseases and revised ontology with EFO3
+* New drug's pharmacovigilance \(adverse events\) visualisation
+* DrugBank ID on drug summary page 
+* More Target Enabling Packages \(TEPs\)
+* Minor bug fixes throughout the platform
+
+For more details, check our [blog](http://blog.opentargets.org/2019/02/20/open-targets-platform-release-19-02-is-out/).
+
 ## Release 3.14 \(2019-09-24\)
 
 ### Status
