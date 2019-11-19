@@ -1,10 +1,10 @@
 # Release notes
 
-## Release 3.15 \(2019-11-08\)
+## Release 3.15 \(TBA)
 
 ### Status
 
-In the last release of 2019, we integrate 6,337,432 target-disease associations covering 13,544 diseases and 27,069 targets from the following public resources:
+In the last release of 2019, we will integrate 6,337,432 target-disease associations covering 13,544 diseases and 27,069 targets from the following public resources:
 
 * 31,522 genetic evidence from [UniProt](http://www.uniprot.org/)
 * 103,019 genetic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
@@ -26,13 +26,13 @@ In the last release of 2019, we integrate 6,337,432 target-disease associations 
 * 501,788 mouse model evidence from [PhenoDigm](https://www.sanger.ac.uk/resources/databases/phenodigm)
 * 6,857,916 scientific literature evidence from co-occurence mining in [EuropePMC](https://europepmc.org/)
 
-New features include:
+New features will include:
 
 * More diseases and revised ontology with EFO3
 * New drug's pharmacovigilance \(adverse events\) visualisation
 * DrugBank ID on drug summary page 
 * More Target Enabling Packages \(TEPs\)
-* Minor bug fixes throughout the platform
+* Minor bug fixes throughout the user interface
 
 For more details, check our [blog](http://blog.opentargets.org/2019/02/20/open-targets-platform-release-19-02-is-out/).
 
