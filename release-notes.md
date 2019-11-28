@@ -1,10 +1,10 @@
 # Release notes
 
-## Release 3.15 \(TBA)
+## Release 3.15 \(2019-11-28\)
 
 ### Status
 
-In the last release of 2019, we will integrate 6,337,432 target-disease associations covering 13,544 diseases and 27,069 targets from the following public resources:
+In the last release of 2019, we integrate 6,336,307 target-disease associations covering 13,579 diseases and 27,069 targets from the following public resources:
 
 * 31,522 genetic evidence from [UniProt](http://www.uniprot.org/)
 * 103,019 genetic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
@@ -15,23 +15,23 @@ In the last release of 2019, we will integrate 6,337,432 target-disease associat
 * 7,879 somatic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
 * 2,375 somatic evidence from [intOGen](https://www.intogen.org/)
 * 96,274 somatic evidence from the [Cancer Gene Census](http://cancer.sanger.ac.uk/census/)
-* 263 somatic evidence from [UniProt](http://www.uniprot.org/)
+* 284 somatic evidence from [UniProt](http://www.uniprot.org/)
 * 384,754 drug evidence from [ChEMBL](https://www.ebi.ac.uk/chembl/)
 * 202,512 expression evidence from [Expression Atlas](https://www.ebi.ac.uk/gxa/home)
-* 10,989 affected pathway evidence from [Reactome](https://reactome.org/)
+* 10,977 affected pathway evidence from [Reactome](https://reactome.org/)
 * 74,570 affected pathway evidence from [SLAPenrich](https://saezlab.github.io/SLAPenrich/)
 * 308 affected pathway evidence from [PROGENy](https://saezlab.github.io/progeny/)
 * 408 systems biology evidence from [SysBio](https://saezlab.github.io/progeny/)
 * 1,844 CRISPR-Cas9 \(Cancer Cell Lines\) evidence from [Behan et al. 2019](https://europepmc.org/abstract/MED/30971826)
 * 501,788 mouse model evidence from [PhenoDigm](https://www.sanger.ac.uk/resources/databases/phenodigm)
-* 6,857,916 scientific literature evidence from co-occurence mining in [EuropePMC](https://europepmc.org/)
+* 6,856,487 scientific literature evidence from co-occurence mining in [Europe PMC](https://europepmc.org/)
 
 New features will include:
 
 * More diseases and revised ontology with EFO3
-* New drug's pharmacovigilance \(adverse events\) visualisation
+* New pharmacovigilance data and visualisation
 * DrugBank ID on drug summary page 
-* More Target Enabling Packages \(TEPs\)
+* More chemical probes
 * Minor bug fixes throughout the user interface
 
 For more details, check our [blog](http://blog.opentargets.org/2019/02/20/open-targets-platform-release-19-02-is-out/).
@@ -60,7 +60,7 @@ In this release, we integrate 3,336,588 target-disease associations covering 10,
 * 408 systems biology evidence from [SysBio](https://saezlab.github.io/progeny/)
 * 1,659 CRISPR-Cas9 \(Cancer Cell Lines\) evidence from [Behan et al. 2019](https://europepmc.org/abstract/MED/30971826)
 * 500,683 mouse model evidence from [PhenoDigm](https://www.sanger.ac.uk/resources/databases/phenodigm)
-* 5,772,706 scientific literature evidence from co-occurence mining in [EuropePMC](https://europepmc.org/)
+* 5,772,706 scientific literature evidence from co-occurence mining in [Europe PMC](https://europepmc.org/)
 
 New features include:
 
@@ -68,7 +68,7 @@ New features include:
 * More data download options
 * Minor bug fixes throughout the platform
 
-For more details, check our [blog](http://blog.opentargets.org/2019/02/20/open-targets-platform-release-19-02-is-out/).
+For more details, check our [blog](https://blog.opentargets.org/2019/11/28/open-targets-platform-release-19-11-is-out).
 
 ## Release 3.13 \(2019-06-27\)
 
@@ -94,7 +94,7 @@ In this release, we integrate 3,306,780 target-disease associations covering 10,
 * 408 systems biology evidence from [SysBio](https://saezlab.github.io/progeny/)
 * 1,641 CRISPR-Cas9 \(Cancer Cell Lines\) evidence from [Behan et al. 2019](https://europepmc.org/abstract/MED/30971826)
 * 500,011 mouse model evidence from [PhenoDigm](https://www.sanger.ac.uk/resources/databases/phenodigm)
-* 5,641,475 scientific literature evidence from co-occurence mining in [EuropePMC](https://europepmc.org/)
+* 5,641,475 scientific literature evidence from co-occurence mining in [Europe PMC](https://europepmc.org/)
 
 New features include:
 
