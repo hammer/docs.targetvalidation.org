@@ -34,7 +34,7 @@ New features will include:
 * More chemical probes
 * Minor bug fixes throughout the user interface
 
-For more details, check our [blog](http://blog.opentargets.org/2019/02/20/open-targets-platform-release-19-02-is-out/).
+For more details, check our blog.
 
 ## Release 3.14 \(2019-09-24\)
 
