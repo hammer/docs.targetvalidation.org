@@ -25,11 +25,11 @@ description: >-
       <td style="text-align:left">XX-Nov-2019</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">19.11 Data Release</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">19.11</td>
+      <td style="text-align:left">19.11.4</td>
+      <td style="text-align:left">19.11.4</td>
+      <td style="text-align:left">3.15.0</td>
+      <td style="text-align:left">19.11.4</td>
     </tr>
     <tr>
       <td style="text-align:left">27-Sep-2019</td>
