@@ -7,6 +7,60 @@ description: >-
 
 # Technical notes
 
+## 19.11
+
+19.11 was released on Thursday 28 November 2019
+
+### Release synchronised with:
+
+* EFO 3.11 \(September 2019\)
+* Ensembl 98 \(September 2019\)
+
+### Updated docker images:
+
+* [quay.io/opentargets/mrtarget:19.11.4](https://quay.io/repository/opentargets/mrtarget?tag=19.11.4&tab=tags)
+* [quay.io/opentargets/rest\_api:19.11.4](https://quay.io/repository/opentargets/rest_api?tag=19.11.4&tab=tags)
+* [quay.io/opentargets/webapp:19.11.4](https://quay.io/repository/opentargets/webapp?tag=19.11.4&tab=tags)
+
+### Pipeline configuration file:
+
+* [https://storage.googleapis.com/open-targets-data-releases/19.11/input/mrtarget.data.19.11.yml](https://storage.googleapis.com/open-targets-data-releases/19.11/input/mrtarget.data.19.11.yml)
+
+### Release highlights:
+
+* Blog: [https://blog.opentargets.org/2019/11/28/open-targets-platform-release-19-11-is-out/](https://blog.opentargets.org/2019/11/28/open-targets-platform-release-19-11-is-out/)
+* Release notes: [https://docs.targetvalidation.org/release-notes](https://docs.targetvalidation.org/release-notes)
+* Data submission details: [https://github.com/opentargets/data\_release/wiki/OT006-Data-Submission](https://github.com/opentargets/data_release/wiki/OT006-Data-Submission) 
+
+### Technical release information:
+
+* Infrastructure:
+  * Python 3 migration
+    * Now running in Python 3: `data-pipeline` **\(Note: we expect the pipeline to continue to run with Python 2 but we will no longer support the pipeline in Python 2 as it has** [**reached its end-of-life**](https://www.python.org/doc/sunset-python-2/)**\)**
+    * Running a mix of Python 2 and 3: `client`, `validator` and `ontologyutils` 
+    * Still running in Python 2 only: Open Targets REST API and Open Targets LIterature coNcept Knowledgebase \(LINK\)
+* Pipeline:
+  * Migration to EFO3 **\(Note: the version of EFO3 present in the platform is a modified version of the ontology - otar\_slim - which is** [**available as part of EFO's official releases**](https://github.com/EBISPOT/efo/releases)**\)**
+  * HPA step unicode error - [\#749](https://github.com/opentargets/platform/issues/749)
+* REST API:
+  * Add DrugBank ID - [\#612](https://github.com/opentargets/platform/issues/612)
+  * Return clinical trial IDs in array - [\#686](https://github.com/opentargets/platform/issues/686)
+  * Add canonical SMILES for a drug - [\#704](https://github.com/opentargets/platform/issues/704)
+  * Add URLs to mechanism\_of\_action data - [\#687](https://github.com/opentargets/platform/issues/687) 
+  * Add adverse events data - [\#739](https://github.com/opentargets/platform/issues/739)
+  * Change to how EFO3 descriptions appear in API response - [\#756](https://github.com/opentargets/platform/issues/756)
+* Front-end webapp:
+  * Include new visualisation for adverse events data - [\#741](https://github.com/opentargets/platform/issues/741)
+  * Display more details in drugs data tables - [\#730](https://github.com/opentargets/platform/issues/730) 
+  * Fix bubbles and tree visualisations \(EFO3\) - [\#183](https://github.com/opentargets/platform/issues/183)
+  * Fix disease classification visualisation \(EFO3\) - [\#457](https://github.com/opentargets/platform/issues/457)
+  * Show DrugBank ID and link on drug profile page - [\#703](https://github.com/opentargets/platform/issues/703)
+  * Bug fixes: [\#782](https://github.com/opentargets/platform/issues/782), [\#781](https://github.com/opentargets/platform/issues/781), [\#780](https://github.com/opentargets/platform/issues/780), [\#734](https://github.com/opentargets/platform/issues/734), [\#766](https://github.com/opentargets/platform/issues/766), [\#783](https://github.com/opentargets/platform/issues/783)
+* Other:
+  * LINK: review Python dependencies - [\#769](https://github.com/opentargets/platform/issues/769)
+  * LINK: update dictionaries - [\#770](https://github.com/opentargets/platform/issues/770)
+  * LINK: rerun pipeline with EFO3 - [\#750](https://github.com/opentargets/platform/issues/750)
+
 ## 19.09
 
 ### Release synchronised with:
