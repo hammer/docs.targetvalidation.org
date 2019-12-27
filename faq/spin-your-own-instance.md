@@ -74,7 +74,7 @@ More details on why you have to specify `repositories.url.allowed_urls` can be f
 
 3\) You now have to register the Open Targets public snapshot as a repo.
 
-The URL for the latest ES snapshot \(i.e. September 2019\) is https://storage.googleapis.com/open-targets-data-releases/19.11/output/es\_snapshot/ 
+The URL for the latest ES snapshot \(i.e. November 2019\) is [https://storage.googleapis.com/open-targets-data-releases/19.11/output/es\_snapshot/](https://storage.googleapis.com/open-targets-data-releases/19.11/output/es_snapshot/)
 
 {% hint style="danger" %}
 Please be aware of the size of the ES snapshot, which is roughly 100GB\)!
@@ -123,7 +123,6 @@ curl -XPOST 'localhost:9200/_snapshot/ot_repo/19.11/_restore?pretty' -H 'Content
   "include_global_state": false
 }
 '
-
 ```
 {% endcode %}
 
@@ -136,7 +135,7 @@ curl 'localhost:9200/_cat/recovery?v&h=index,time,type,stage,files_percent'
 ```
 
 {% hint style="info" %}
-If your restore operation fails for any reason halfway through, you can launch another restore operation after closing all indices with 
+If your restore operation fails for any reason halfway through, you can launch another restore operation after closing all indices with
 
 `curl -X POST "localhost:9200/_all/_close"`
 
@@ -149,13 +148,13 @@ If you are spinning versions of the Open Targets Platform snapshots from any rel
 
 ### REST API
 
-To spin up a docker container running the Open Targets API, follow the instruction on our README.
+To spin up a docker container running the Open Targets Platform API, follow the instruction on our README.
 
 ```text
 docker run -d -p 8080:80 --network otnet --name rest_api -e "ELASTICSEARCH_URL=http://elastic:9200" -e "OPENTARGETS_DATA_VERSION=19.11" --privileged quay.io/opentargets/rest_api:19.11.4
 ```
 
-**Check if the container is running:** 
+**Check if the container is running:**
 
 If the container runs in`localhost`and expose port`8080`, you should get a 200 response from:
 
