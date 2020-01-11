@@ -10,6 +10,8 @@ Head to our [target tractability](https://docs.targetvalidation.org/getting-star
 
 Our method to assess target tractability is based on a modified version of [Approaches to target tractability assessment – a practical perspective](https://pubs.rsc.org/en/content/articlelanding/2018/md/c7md00633k#!divAbstract).
 
+Target tractability, druggability, ligandability and target quality can sometimes be used interchangeably as some researchers may give similar definition to these terms. 
+
 
 
 ### 
