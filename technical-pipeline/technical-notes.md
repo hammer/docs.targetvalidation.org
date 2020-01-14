@@ -13,7 +13,7 @@ description: >-
 
 ### Release synchronised with:
 
-* EFO 3.11 \(September 2019\)
+* EFO 3.11 \(October 2019\)
 * Ensembl 98 \(September 2019\)
 
 ### Updated docker images:
