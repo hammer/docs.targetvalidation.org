@@ -28,7 +28,7 @@ In the last release of 2019, we integrate 6,336,307 target-disease associations 
 
 New features will include:
 
-* More diseases and revised ontology with EFO3
+* More diseases and revised ontology \(EFO3.11\)
 * New pharmacovigilance data and visualisation
 * DrugBank ID on drug summary page 
 * More chemical probes
