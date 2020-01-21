@@ -19,7 +19,7 @@ Our scoring framework is a four-tier process: we first score the individual evid
 
 At each aggregation step, denoted by the `sum` symbol above, we apply the [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_%28mathematics%29) using the following formula as follows:
 
-{% file src="../.gitbook/assets/screen-shot-2020-01-21-at-14.08.16.png" %}
+![The harmonic sum is used when aggregating scores, sorted by descending score i.e. from higher to lower values.](../.gitbook/assets/screen-shot-2020-01-21-at-14.08.16%20%281%29.png)
 
 ## Computing the Association Score  <a id="computing-the-association-score"></a>
 
