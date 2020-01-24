@@ -2,15 +2,13 @@
 
 These are the training materials from the two last hands-on Open Targets workshops
 
-* CRUK-AZ Antibody Alliance, on the 14th January 2020 at Granta Park \(UK\):
+#### CRUK-AZ Antibody Alliance \(14th Jan 2020\) at Granta Park:
 
 {% file src="../.gitbook/assets/open\_targets\_platform\_presentation.pptx" caption="Presentation slides" %}
 
 {% file src="../.gitbook/assets/open\_targets\_platform\_coursebook \(1\).docx" caption="Exercise coursebook" %}
 
-* Introduction to RNA-Seq and Functional Interpretation course, on 23rd January 2020 at 
-
-  EMBL-EBI:
+#### Introduction to RNA-Seq and Functional Interpretation course \(23rd Jan 2020\) at EMBL-EBI:
 
 {% file src="../.gitbook/assets/open\_targets\_platform\_presentation \(1\).pptx" caption="Presentation slides" %}
 
