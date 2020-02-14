@@ -4,9 +4,12 @@ Genetic associations are available for both common and rare \(Mendelian\) diseas
 
 ## Common diseases
 
-### GWAS catalog
+### Open Targets Genetics portal
 
-The NHGRI-EBI [GWAS catalog](https://www.ebi.ac.uk/gwas/docs/about) provides evidence on the association of genes \(targets\) and common diseases. This data comes from the manual curation of published Genome Wide Association Studies \(GWAS\). The catalog gives a list of the genetic variants \(e.g. SNPs\) that are most associated with a disease, by genomic region. We include all associations with p-values ≤ 10-5, so that we broaden the coverage of diseases. We assess the link between variant and gene using the Open Targets custom annotation pipeline to find the association between a disease and its most likely target. Variants are assigned to a gene by first considering any deleterious consequence within the coding region of that gene, followed by whether the variant is located within introns or regulatory regions. If the variant is intergenic, it will be assigned to the promoter region of the nearest gene. The consequences of these [variants](http://targetvalidation.org/variants) are annotated using the [Variant Effect Predictor](http://www.ensembl.org/info/docs/tools/vep/index.html).
+From February 2020 genome-wide association based evidences are sourced from the [Open Targets Genetics portal](https://genetics.opentargets.org/). Genome Wide Association Studies (GWAS) provide a link between common diseases and genomic loci, where each association is represented by a lead variant where the evidence for the association is the strongest. As the lead variant is not necessarely causal (or the only causal) variant of the associated locus, and the causal gene(s) are not neccesarely the closest to the lead variant, it is challenging to identify target/disease associations based on GWAS data. The genetics portal provides pipelines to identify tagging variants for the lead variant through LD expansion or credible set analysis, and a machine learning based method to link the associated locus to causal genes based on the summarized effect of the tagging variants. For more information on the applied method, see Genetics portal [documentation](https://genetics-docs.opentargets.org/our-approach/pipeline-overview). The weight of an evidence is given by the locus to gene score describing the likelihood of the gene being causal for the associated locus.
+
+The genetics portal import summary statistics and manually curated lead variants from the NHGRI-EBI [GWAS Catalog](https://www.ebi.ac.uk/gwas) and UK Biobank summary statistics from the [Neale lab](http://www.nealelab.is/uk-biobank). For the target/disease evidence, GWAS associations with p-value below the genome-wide significant threshold (5\*10^-8) are considered.
+
 
 ### PheWAS catalog
 
