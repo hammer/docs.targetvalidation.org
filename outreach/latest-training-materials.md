@@ -1,6 +1,6 @@
 # Latest training materials
 
-These are the training materials from the two last hands-on Open Targets workshops
+These are the training materials from the two last hands-on Open Targets workshops:
 
 #### CRUK-AZ Antibody Alliance \(14th Jan 2020\) at Granta Park:
 
