@@ -1,4 +1,4 @@
-# Do I need a license to use third-party data available in the Open Targets Platform
+# Do I need a license to use third-party data available in the Open Targets Platform?
 
 The Open Targets Platform is open access and open source, but some of its underlying data \(or methods\) may need a license for commercial use. More details on our [terms of use](https://www.targetvalidation.org/terms-of-use).  
 
