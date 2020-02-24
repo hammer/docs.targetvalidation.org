@@ -67,6 +67,7 @@
 * [How can I spin my own instance of the Platform?](faq/spin-your-own-instance.md)
 * [Can I add private data?](faq/add-your-own-data.md)
 * [What is your policy on privacy and tracking?](faq/privacy-and-tracking.md)
+* [Do I need a license to use third-party data available in the Open Targets Platform](faq/do-i-need-a-license-to-use-third-party-data-available-in-the-open-targets-platform.md)
 
 ## Technical pipeline
 
