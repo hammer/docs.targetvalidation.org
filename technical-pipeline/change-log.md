@@ -22,8 +22,18 @@ description: >-
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">XX-Nov-2019</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">TBC - w/c 24 February 2020</td>
+      <td style="text-align:left">Major</td>
+      <td style="text-align:left">20.02 Data Release</td>
+      <td style="text-align:left">TBC</td>
+      <td style="text-align:left">TBC</td>
+      <td style="text-align:left">TBC</td>
+      <td style="text-align:left">TBC</td>
+      <td style="text-align:left">TBC</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">28-Nov-2019</td>
+      <td style="text-align:left">Major</td>
       <td style="text-align:left">19.11 Data Release</td>
       <td style="text-align:left">19.11</td>
       <td style="text-align:left">19.11.4</td>
