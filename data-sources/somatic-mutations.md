@@ -16,5 +16,5 @@ The EMBL-EBI [European Variation Archive](http://www.ebi.ac.uk/eva/?Home) \(EVA\
 
 ## IntOGen
 
-[IntOGen](http://www.intogen.org/search) integrates seven methods to identify driver genes based on mutational data from sequenced tumor samples from patients. We have imported the 2020.02.01 update that includes data from 28,076 samples across 67 cancer types, including tumours of the ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium. 
+[IntOGen](http://www.intogen.org/search) integrates seven methods to identify driver genes based on mutational data from sequenced tumor samples from patients. We have imported the 2020.02.01 update that includes data from 28,076 samples across 67 cancer types, including tumours of the ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium.
 

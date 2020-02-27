@@ -6,22 +6,21 @@ Genetic associations are available for both common and rare \(Mendelian\) diseas
 
 ### Open Targets Genetics portal
 
-Genome wide association studies (GWAS) provide a link between common diseases and genomic loci, where each association is represented by a lead variant where the evidence for the association is the strongest, based on the reported p-value. The lead variant is not necessarily the causal (or the only causal) variant for the association. Moreover, the causal gene(s) is not necessarily the closest to the lead variant. Due to these reasons, identifying target-disease associations based on GWAS data is extremely challenging. Open Targets Genetics has been developed to address these challenges. Firstly, the Open Targets Genetics pipeline identifies tag variants from the lead (reported) variant through LD expansion or fine mapping, the latter for when summary statistics are available (e.g. UK Biobank and some GWAS curated by NHGRI-EBI GWAS Catalog). Once the set of tag variants are identified, Open Targets Genetics then uses a machine learning method to link the associated locus to the most likely causal gene(s) by integrating and summarising the effect of tag variants based on  genetic and functional genomic data namely:
+Genome wide association studies \(GWAS\) provide a link between common diseases and genomic loci, where each association is represented by a lead variant where the evidence for the association is the strongest, based on the reported p-value. The lead variant is not necessarily the causal \(or the only causal\) variant for the association. Moreover, the causal gene\(s\) is not necessarily the closest to the lead variant. Due to these reasons, identifying target-disease associations based on GWAS data is extremely challenging. Open Targets Genetics has been developed to address these challenges. Firstly, the Open Targets Genetics pipeline identifies tag variants from the lead \(reported\) variant through LD expansion or fine mapping, the latter for when summary statistics are available \(e.g. UK Biobank and some GWAS curated by NHGRI-EBI GWAS Catalog\). Once the set of tag variants are identified, Open Targets Genetics then uses a machine learning method to link the associated locus to the most likely causal gene\(s\) by integrating and summarising the effect of tag variants based on genetic and functional genomic data namely:
+
 * Expression QTLs
 * Protein abundance QTLs
 * Chromatin interaction 
 * In silico prediction of variant functional consequence
 * Distance of the variant to the transcript start site of the gene 
 
-
 The weight of an evidence is given by the locus to gene score describing the likelihood of the gene being causal for the associated locus.
 
-For more details, check Open Targets Genetics [overview](https://genetics-docs.opentargets.org/our-approach/pipeline-overview). 
+For more details, check Open Targets Genetics [overview](https://genetics-docs.opentargets.org/our-approach/pipeline-overview).
 
-The Genetics portal import summary statistics and manually curated lead variants from the NHGRI-EBI [GWAS Catalog](https://www.ebi.ac.uk/gwas) and UK Biobank summary statistics from the [Neale lab](http://www.nealelab.is/uk-biobank). In order to generate evidence connecting targets with diseases, significant GWAS associations (p-value < 5\*10^-8) are assigned to the most likely causal gene(s) using the L2G machine learning method. The score provided by the method is used for [evidence scoring](https://docs.targetvalidation.org/getting-started/scoring).
+The Genetics portal import summary statistics and manually curated lead variants from the NHGRI-EBI [GWAS Catalog](https://www.ebi.ac.uk/gwas) and UK Biobank summary statistics from the [Neale lab](http://www.nealelab.is/uk-biobank). In order to generate evidence connecting targets with diseases, significant GWAS associations \(p-value &lt; 5\*10^-8\) are assigned to the most likely causal gene\(s\) using the L2G machine learning method. The score provided by the method is used for [evidence scoring](https://docs.targetvalidation.org/getting-started/scoring).
 
 From February 2020 genome-wide association based evidence is sourced from the [Open Targets Genetics portal](https://genetics.opentargets.org/).
-
 
 ### PheWAS catalog
 
