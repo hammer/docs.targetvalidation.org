@@ -1,5 +1,39 @@
 # Release notes
 
+## Release 3.16 \(2020-02-27\)
+
+### Status
+
+In the first release of 2020, we integrate 7,999,050 target-disease associations covering 13,445 diseases and 27,717 targets from the following public resources:
+
+* 32,191 genetic evidence from [UniProt](http://www.uniprot.org/)
+* 108,100 genetic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
+* 1,911,011 genetic evidence from [Open Targets Genetics Portal](https://genetics.opentargets.org/)
+* 1,586 genetic evidence from [Gene2Phenotype](https://www.ebi.ac.uk/gene2phenotype)
+* 10,551 genetic evidence from the [Genomics England PanelApp](https://bioinfo.extge.co.uk/crowdsourcing/PanelApp/)
+* 56,255 genetic evidence from the [PheWAS catalog](https://phewascatalog.org/)
+* 5,011 genetic evidence from [UniProt Literature](https://www.uniprot.org/)
+* 7,837 somatic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
+* 3,324 somatic evidence from [intOGen](https://www.intogen.org/)
+* 96,274 somatic evidence from the [Cancer Gene Census](http://cancer.sanger.ac.uk/census/)
+* 284 somatic evidence from [UniProt](http://www.uniprot.org/)
+* 400,249 drug evidence from [ChEMBL](https://www.ebi.ac.uk/chembl/)
+* 202,512 expression evidence from [Expression Atlas](https://www.ebi.ac.uk/gxa/home)
+* 12,238 affected pathway evidence from [Reactome](https://reactome.org/)
+* 74,570 affected pathway evidence from [SLAPenrich](https://saezlab.github.io/SLAPenrich/)
+* 308 affected pathway evidence from [PROGENy](https://saezlab.github.io/progeny/)
+* 408 systems biology evidence from [SysBio](https://saezlab.github.io/progeny/)
+* 1,844 CRISPR-Cas9 \(Cancer Cell Lines\) evidence from [Behan et al. 2019](https://europepmc.org/abstract/MED/30971826)
+* 501,788 mouse model evidence from [PhenoDigm](https://www.sanger.ac.uk/resources/databases/phenodigm)
+* 7,251,275 scientific literature evidence from co-occurence mining in [Europe PMC](https://europepmc.org/)
+
+New features include:
+
+* Data updates from intOGen and ChEMBL
+* Replacement of GWAS Catalog evidence with Open Targets Genetics Portal L2G score data
+* Minor bug fixes
+* Updated CHEMBL-DrugBank ID mapping and TEPs
+
 ## Release 3.15 \(2019-11-28\)
 
 ### Status

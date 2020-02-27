@@ -22,14 +22,14 @@ description: >-
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">TBC - w/c 24 February 2020</td>
+      <td style="text-align:left">27-Feb-2020</td>
       <td style="text-align:left">Major</td>
       <td style="text-align:left">20.02 Data Release</td>
-      <td style="text-align:left">TBC</td>
-      <td style="text-align:left">TBC</td>
-      <td style="text-align:left">TBC</td>
-      <td style="text-align:left">TBC</td>
-      <td style="text-align:left">TBC</td>
+      <td style="text-align:left">20.02</td>
+      <td style="text-align:left">20.02.1</td>
+      <td style="text-align:left">20.02.1</td>
+      <td style="text-align:left">3.16.0</td>
+      <td style="text-align:left">20.02.1</td>
     </tr>
     <tr>
       <td style="text-align:left">28-Nov-2019</td>
