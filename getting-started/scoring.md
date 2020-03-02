@@ -11,7 +11,7 @@ What are the factors that affect the confidence we have in the evidence used for
 
 Our scoring framework is a four-tier process: we first score the individual evidence, then we aggregate the evidence scores into data sources scores, followed by the aggregation of data source scores to give rise to the data types scores. Our overall association score is the result of the aggregation of all data source scores together.
 
-![Four-tier scoring framework: evidence, data source, data type and overall association scores.](../.gitbook/assets/open-targets-platform-documentation-association-score-image.png)
+![](../.gitbook/assets/ot_docs_association_score_image_20_02.png)
 
 {% hint style="info" %}
 `Pathways & systems biology` is the new name for what we used to call`Affected pathways`in the user interface of Open Targets Platform.
