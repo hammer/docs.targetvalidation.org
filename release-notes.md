@@ -1,6 +1,6 @@
 # Release notes
 
-## Release 3.16 \(to be announced\)
+## Release 3.16 \(2020-03-02\)
 
 ### Status
 
@@ -31,10 +31,10 @@ New features include:
 
 * Data updates from intOGen and ChEMBL
 * Replacement of GWAS Catalog evidence with Open Targets Genetics Portal
-* Updated CHEMBL-DrugBank ID mapping,  TEP and chemical probes
+* Updated CHEMBL-DrugBank ID mapping, TEP and chemical probes
 * Minor bug fixes
 
-For more details, check our blog and the technical notes.
+For more details, check our [blog](https://blog.opentargets.org/2020/03/02/open-targets-platform-release-20-02-is-out/) and the technical notes.
 
 ## Release 3.15 \(2019-11-28\)
 
