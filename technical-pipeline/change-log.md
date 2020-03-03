@@ -22,7 +22,7 @@ description: >-
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">27-Feb-2020</td>
+      <td style="text-align:left">2-Mar-2020</td>
       <td style="text-align:left">Major</td>
       <td style="text-align:left">20.02 Data Release</td>
       <td style="text-align:left">20.02</td>
