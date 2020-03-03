@@ -34,7 +34,7 @@ New features include:
 * Updated CHEMBL-DrugBank ID mapping, TEP and chemical probes
 * Minor bug fixes
 
-For more details, check our [blog](https://blog.opentargets.org/2020/03/02/open-targets-platform-release-20-02-is-out/) and the technical notes.
+For more details, check our [blog](https://blog.opentargets.org/2020/03/02/open-targets-platform-release-20-02-is-out/) and the [technical notes](https://docs.targetvalidation.org/technical-pipeline/technical-notes).
 
 ## Release 3.15 \(2019-11-28\)
 
