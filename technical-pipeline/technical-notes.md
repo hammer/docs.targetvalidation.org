@@ -20,7 +20,7 @@ Open Targets Platform 20.02 was released on Monday 2 March 2020.
 
 * [quay.io/opentargets/mrtarget:20.02.1](https://quay.io/repository/opentargets/mrtarget?tag=20.02.1&tab=tags)
 * [quay.io/opentargets/rest\_api:20.02.1](https://quay.io/repository/opentargets/rest_api?tag=20.02.1&tab=tags)
-* [quay.io/opentargets/webapp:v3.16](https://quay.io/repository/opentargets/webapp?tag=v3.16&tab=tags)
+* [quay.io/opentargets/webapp:3.16.0](https://quay.io/repository/opentargets/webapp?tag=3.16.0&tab=tags)
 
 ### Pipeline configuration file:
 
@@ -42,7 +42,7 @@ Open Targets Platform 20.02 was released on Monday 2 March 2020.
 
 #### **Data / Back-End**
 
-* CHEMBL: updated evidence strings using CHEMBL26 data [\#835](https://github.com/opentargets/platform/issues/835), updated drug index [\#834](https://github.com/opentargets/platform/issues/834); ran adverse events pipeline with new drugs [\#833](https://github.com/opentargets/platform/issues/835)
+* CHEMBL: updated evidence strings using CHEMBL26 data [\#835](https://github.com/opentargets/platform/issues/835), updated drug index [\#834](https://github.com/opentargets/platform/issues/834); ran adverse events pipeline with new drugs [\#833](https://github.com/opentargets/platform/issues/833)
 * intOGen: updated evidence strings using latest intOGen release [\#813](https://github.com/opentargets/platform/issues/813)
 * Changes in somatic mutation evidence normalization [\#811](https://github.com/opentargets/platform/issues/811)
 * Updated CHEMBL-DrugBank ID mapping file [\#802](https://github.com/opentargets/platform/issues/802)
