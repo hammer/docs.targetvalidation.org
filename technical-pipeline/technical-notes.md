@@ -7,6 +7,57 @@ description: >-
 
 # Technical notes
 
+## 20.02
+
+Open Targets Platform 20.02 was released on Monday 2 March 2020.
+
+### Release synchronised with:
+
+* EFO 3.14 \(January 2020\)
+* Ensembl 98 \(September 2019\)
+
+### **‌**Updated docker images:
+
+* [quay.io/opentargets/mrtarget:20.02.1](https://quay.io/repository/opentargets/mrtarget?tag=20.02.1&tab=tags)
+* [quay.io/opentargets/rest\_api:20.02.1](https://quay.io/repository/opentargets/rest_api?tag=20.02.1&tab=tags)
+* [quay.io/opentargets/webapp:v3.16](https://quay.io/repository/opentargets/webapp?tag=v3.16&tab=tags)
+
+### Pipeline configuration file:
+
+* [https://storage.googleapis.com/open-targets-data-releases/20.02/input/mrtarget.data.20.02.yml](https://storage.googleapis.com/open-targets-data-releases/20.02/input/mrtarget.data.20.02.yml)
+
+### **‌**Release **highlights:**
+
+* Blog: [https://blog.opentargets.org/2020/03/02/open-targets-platform-release-20-02-is-out/](https://blog.opentargets.org/2020/03/02/open-targets-platform-release-20-02-is-out/)
+* Release notes, including validated evidence string counts: [https://docs.targetvalidation.org/release-notes](https://docs.targetvalidation.org/release-notes)
+* Release schedule and data submission details: [https://github.com/opentargets/data\_release/wiki/OT006-Data-Submission](https://github.com/opentargets/data_release/wiki/OT006-Data-Submission)
+
+### **‌Technical release information:**
+
+#### Infrastructure
+
+* Update JSON schema to 1.6.4
+* Fixed uploading of normal tissue file for platform-input-support scripts [\#776](https://github.com/opentargets/platform/issues/776)
+* Fixed ES7 Docker image connection issue [\#736](https://github.com/opentargets/platform/issues/736)
+
+#### **Data / Back-End**
+
+* CHEMBL: updated evidence strings using CHEMBL26 data [\#835](https://github.com/opentargets/platform/issues/835), updated drug index [\#834](https://github.com/opentargets/platform/issues/834); ran adverse events pipeline with new drugs [\#833](https://github.com/opentargets/platform/issues/835)
+* intOGen: updated evidence strings using latest intOGen release [\#813](https://github.com/opentargets/platform/issues/813)
+* Changes in somatic mutation evidence normalization [\#811](https://github.com/opentargets/platform/issues/811)
+* Updated CHEMBL-DrugBank ID mapping file [\#802](https://github.com/opentargets/platform/issues/802)
+* Fixed GWAS evidence strings with a score of 0 [\#434](https://github.com/opentargets/platform/issues/434)
+* GWAS evidences are now sourced from Open Targets Genetics portal instead of GWAS Catalog directly [\#815](https://github.com/opentargets/platform/issues/815)
+* Fixed UniProt-Ensembl mapping issue [\#801](https://github.com/opentargets/platform/issues/801)
+
+#### **Front-End**
+
+* Fix to external links in RNA Expression data table on evidence page [\#812](https://github.com/opentargets/platform/issues/812)
+* Added new TEP - MTHFR [\#458](https://github.com/opentargets/platform/issues/458)
+* Updates to Somatic Mutation data table on evidence page [\#840](https://github.com/opentargets/platform/issues/840)
+* Updates to Genetic Association data table on evidence page [\#816](https://github.com/opentargets/platform/issues/816)
+* Association page facets updated to allow users to filter by Open Targets Genetics Portal evidence [\#849](https://github.com/opentargets/platform/issues/849)
+
 ## 19.11
 
 19.11 was released on Thursday 28 November 2019
