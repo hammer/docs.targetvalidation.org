@@ -74,7 +74,13 @@ More details on why you have to specify `repositories.url.allowed_urls` can be f
 
 3\) You now have to register the Open Targets public snapshot as a repo.
 
-The URL for the latest ES snapshot \(i.e. November 2019\) is [https://storage.googleapis.com/open-targets-data-releases/19.11/output/es\_snapshot/](https://storage.googleapis.com/open-targets-data-releases/19.11/output/es_snapshot/)
+The URL for the latest ES snapshot \(i.e. February 2020\) is https://storage.googleapis.com/open-targets-data-releases/20.02/output/es\_snapshot/
+
+{% hint style="info" %}
+Note the URL above should be used inside a command. 
+
+The URL is not supposed to work in any internet browser, where it will return an error instead.
+{% endhint %}
 
 {% hint style="danger" %}
 Please be aware of the size of the ES snapshot, which is roughly 100GB\)!
