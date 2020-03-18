@@ -76,14 +76,12 @@ More details on why you have to specify `repositories.url.allowed_urls` can be f
 
 The URL for the latest ES snapshot \(i.e. February 2020\) is https://storage.googleapis.com/open-targets-data-releases/20.02/output/es\_snapshot/
 
-{% hint style="info" %}
+{% hint style="danger" %}
 Note the URL above should be used inside a command. 
 
 The URL is not supposed to work in any internet browser, where it will return an error instead.
-{% endhint %}
 
-{% hint style="danger" %}
-Please be aware of the size of the ES snapshot, which is roughly 100GB\)!
+Also, please be aware of the size of the ES snapshot, which is roughly 100GB\)!
 {% endhint %}
 
 Register the repo using the URL below:
@@ -96,10 +94,9 @@ curl -XPUT 'localhost:9200/_snapshot/ot_repo?verify=false&pretty' -H 'Content-Ty
 }}'
 ```
 
-This should return:
+This should return: 
 
 ```text
-{
   "acknowledged" : true
 }
 ```
