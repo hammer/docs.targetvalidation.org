@@ -60,7 +60,6 @@
 * [What is target tractability?](faq/what-is-target-tractability.md)
 * [Where does the bibliography come from?](faq/bibliography.md)
 * [How do you distinguish variants from mutations?](faq/variants-or-mutations.md)
-* [How do you compute target and disease similarity?](faq/how-do-you-compute-target-and-disease-similarity.md)
 * [What are clinical trials?](faq/clinical-trials.md)
 * [Do you have data on transgenic mice?](faq/transgenic-animal-models.md)
 * [How can I export the search results?](faq/how-can-i-export-the-search-results-as-a-table.md)

@@ -2,15 +2,15 @@
 
 The `Similar targets (based on diseases in common)` visualisation displays a list of the top 20 targets that share similar target-to-disease connections based on a systematic computation of all target-disease associations and the overall [association score](https://docs.targetvalidation.org/getting-started/scoring).
 
-{% embed url="https://www.youtube.com/watch?v=vQXHNp-QeDw" %}
-
 To compute the similarity between targets, we:
 
 1\) Assess the overall connectivity of a target and apply a weight based on its significance and specificity; and
 
 2\) Calculate the overlap of two targets against the total number of disease associations for each target and correct the calculation by the computed weight.
 
-Our similarity computation pipeline places an emphasis on associations with high scores \(for instance, curated rare disease associations\) and targets that are linked to few diseases \(specific\), rather than targets linked to many diseases. We also only consider target-disease pairs with at least three pieces of evidence that support the connection. 
+The current similarity computation pipeline places an emphasis on associations with high scores \(for instance, curated rare disease associations\) and targets that are linked to few diseases \(specific\), rather than targets linked to many diseases. We also only consider target-disease pairs with at least three pieces of evidence that support the connection. 
+
+{% embed url="https://www.youtube.com/watch?v=vQXHNp-QeDw" %}
 
 After clicking on a bubble with a similar target computed by our pipeline, the visualisation will display a list of up to 15 diseases used to compute the similarity score and the underlying association scores between each target and disease.
 
