@@ -12,5 +12,5 @@ A drug target can be a protein, protein complex or RNA molecule. It is displayed
 Check our [YouTube](https://www.youtube.com/channel/UCLMrondxbT0DIGx5nGOSYOQ/featured) channel for a series of quick demos, webinars, tutorials to get you started with the Open Targets Platform.
 {% endhint %}
 
-The [Open Targets Platform](http://www.targetvalidation.org/) is a comprehensive and robust data integration for access and visualisation of  drug targets associated with diseases. Please cite our latest paper [Open Targets Platform: new developments and updates two years on](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1133/5193331) if you use this resource.
+The Open Targets Platform is a comprehensive and robust data integration for access and visualisation of  drug targets associated with diseases. Please cite our latest paper [Open Targets Platform: new developments and updates two years on](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1133/5193331) if you use this resource.
 

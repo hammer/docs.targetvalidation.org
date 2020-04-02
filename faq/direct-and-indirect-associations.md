@@ -2,9 +2,9 @@
 
 Indirect associations between targets and diseases are computed based on indirect evidence, rather than observed \(direct\) evidence. 
 
-If you search for a **target** using the web interface of the [Open Targets Platform](https://www.targetvalidation.org), you will get associations based on direct evidence only. However, ****if you search for a **disease**, you will get both direct and indirect associations, since we propagate evidence from lower sections of a disease ontology, this evidence is used as indirect evidence for the associations.
+If you search for a **target** using the web interface of the Open Targets Platform, you will get associations based on direct evidence only. However, ****if you search for a **disease**, you will get both direct and indirect associations, since we propagate evidence from lower sections of a disease ontology, this evidence is used as indirect evidence for the associations.
 
-When retrieving our data via the [Open Targets REST-API](https://api.opentargets.io/v3/platform/docs/swagger-ui), you will get two types of association counts:
+When retrieving our data via the [Open Targets REST API](https://docs.targetvalidation.org/programmatic-access/rest-api), you will get two types of association counts:
 
 ![Association counts when searching for Alzheirmer&apos;s using the REST API search endpoint](../.gitbook/assets/screen-shot-2018-10-26-at-10.17.43.png)
 

@@ -1,6 +1,6 @@
 # Can I add private data?
 
-The Open Targets Platform integrates omics and chemical information from publicly available data sources, but you can also add your own private data if [you spin your own instance of the Platform](https://docs.targetvalidation.org/faq/spin-your-own-instance).
+The Open Targets Platform integrates genetics, genomics and chemical information from publicly available data sources, but you can also add your own private data if [you spin your own instance of the Platform](https://docs.targetvalidation.org/faq/spin-your-own-instance).
 
 The  pre-requisites when considering adding your private data are as follows. 
 
