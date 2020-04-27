@@ -1,6 +1,6 @@
 # Target tractability
 
-The assessment of target tractability allows you to exploit target details, such as whether there is a binding site in the protein that can be used for small molecule binding, an accessible epitope for antibody based therapy, or a compound in clinical trials with a modality other than small molecule or antibody. This can assist in target prioritisation, drug target inclusion in discovery pipelines and selection of therapeutic modalities that are most likely to succeed.
+The assessment of target tractability \(also known as druggability\) allows you to exploit target details, such as whether there is a binding site in the protein that can be used for small molecule binding, an accessible epitope for antibody based therapy, or a compound in clinical trials with a modality other than small molecule or antibody. This can assist in target prioritisation, drug target inclusion in discovery pipelines and selection of therapeutic modalities that are most likely to succeed.
 
 Another advantage of tractability data is that it allows you to exploit targets for which there are no ligands or experimental structure, or those targets which are outside a "druggable" target family, but which have strong genetic associations.
 
