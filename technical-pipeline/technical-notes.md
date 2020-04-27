@@ -7,6 +7,94 @@ description: >-
 
 # Technical notes
 
+## 20.04
+
+Open Targets Platform 20.04 was released on Monday 27 April 2020.
+
+### Release synchronised with:
+
+* EFO 3.16 \(March 2020\)
+* Ensembl 99 \(January 2020\)
+
+### Updated docker images:
+
+* [quay.io/opentargets/mrtarget:20.04.3](https://quay.io/repository/opentargets/mrtarget?tag=20.04.3&tab=tags)
+* [quay.io/opentargets/rest\_api:20.04.3](https://quay.io/repository/opentargets/rest_api?tag=20.04.3&tab=tags)
+* [quay.io/opentargets/webapp:3.17.0](https://quay.io/repository/opentargets/webapp?tag=v3.17&tab=tags)
+
+### Pipeline configuration file:
+
+* [https://storage.cloud.google.com/open-targets-data-releases/20.04/input/mrtarget.data.20.04.yml](https://storage.cloud.google.com/open-targets-data-releases/20.04/input/mrtarget.data.20.04.yml)
+
+### **‌**Release **highlights:**
+
+* Blog: [https://blog.opentargets.org/2020/04/27/open-targets-platform-release-20-04-is-out](https://blog.opentargets.org/2020/04/27/open-targets-platform-release-20-04-is-out.)
+* Release notes, including validated evidence string counts: [https://docs.targetvalidation.org/release-notes](https://docs.targetvalidation.org/release-notes)
+* Release schedule and data submission details: [https://github.com/opentargets/data\_release/wiki/OT006-Data-Submission](https://github.com/opentargets/data_release/wiki/OT006-Data-Submission)
+
+### **‌Technical release information:**
+
+#### **Data Team**
+
+Release details:
+
+* JSON schema [v1.6.7](https://raw.githubusercontent.com/opentargets/json_schema/1.6.7/opentargets.json)
+* Validator [v0.6.0](https://pypi.org/project/opentargets-validator/0.6.0/)
+
+New features / updates / bug fixes:
+
+* Review COSMIC evidence and integrate new Hallmarks of Cancer annotation file \(v91\) [\#811](https://github.com/opentargets/platform/issues/811), [\#951](https://github.com/opentargets/platform/issues/951)
+* Fix invalid intOGen evidence strings [\#853](https://github.com/opentargets/platform/issues/853)
+* Update Gene2Phenotype data [\#931](https://github.com/opentargets/platform/issues/931), [\#951](https://github.com/opentargets/platform/issues/951#issuecomment-615122708)
+* Update PheWAS data [\#824](https://github.com/opentargets/platform/issues/824), [\#874](https://github.com/opentargets/platform/issues/874), [\#420](https://github.com/opentargets/platform/issues/420), [\#951](https://github.com/opentargets/platform/issues/951#issuecomment-614735069)
+* Update PhenoDigm [\#951](https://github.com/opentargets/platform/issues/951#issuecomment-615125987)
+* Fixes to Open Targets Genetics Portal evidence strings [\#876](https://github.com/opentargets/platform/issues/876) [\#857](https://github.com/opentargets/platform/issues/857) 
+* Fixes to missing “evidence\_codes\_info” in Genetics Portal and PheWAS evidence [\#873](https://github.com/opentargets/platform/issues/873), [\#856](https://github.com/opentargets/platform/issues/856), [\#874](https://github.com/opentargets/platform/issues/874), [\#757](https://github.com/opentargets/platform/issues/757)
+* Fix EFO mapping in EVA [\#893](https://github.com/opentargets/platform/issues/893), [\#104](https://github.com/opentargets/platform/issues/104), [\#841](https://github.com/opentargets/platform/issues/841), [\#843](https://github.com/opentargets/platform/issues/843)
+* Rescue “cardiovascular disease” therapeutic area in EFO slim [\#892](https://github.com/opentargets/platform/issues/892)
+* Fix to remove duplicates in expression atlas evidence [\#795](https://github.com/opentargets/platform/issues/795), [\#951](https://github.com/opentargets/platform/issues/951#issuecomment-614711220)
+* Updated chemical probes [\#951](https://github.com/opentargets/platform/issues/951#issuecomment-607359639)
+
+**Back-End / Infrastructure**
+
+Configuration notes:
+
+* ElasticSearch 7.6.1
+* Data pipeline image for Python 3.6
+* Google Cloud Platform configuration to run pipeline
+  * CPU = 16
+  * RAM = 480GB
+
+New features / updates:
+
+* Integrate new tractability data [\#880](https://github.com/opentargets/platform/issues/880) and update API gene index response [\#881 ](https://github.com/opentargets/platform/issues/881)
+* Integrate new experimental toxicity safety data [\#904](https://github.com/opentargets/platform/issues/904) and update API gene index response [\#905](https://github.com/opentargets/platform/issues/905)
+* Updates to platform-input-support scripts [\#952](https://github.com/opentargets/platform/issues/952), [\#953](https://github.com/opentargets/platform/issues/953), [\#845](https://github.com/opentargets/platform/issues/845)
+* Make tractability, safety, and baseline expression data files available for download [\#926](https://github.com/opentargets/platform/issues/926)
+
+**Front-End**
+
+New features:
+
+* Display tractability assessment for other clinical modalities and link to /downloads/data page [\#882](https://github.com/opentargets/platform/issues/882)
+* Create data table for experimental toxicity data within the Target Safety tab [\#906](https://github.com/opentargets/platform/issues/906)
+* Add links to tractability, safety, and baseline expression files on downloads/data page [\#942](https://github.com/opentargets/platform/issues/942)
+* Update Somatic Mutations data table based on changes to COSMIC [\#939](https://github.com/opentargets/platform/issues/939)
+
+Bug fixes:
+
+* Hide Cancer Hallmarks data table when no hallmarks data is available [\#947](https://github.com/opentargets/platform/issues/947)
+* Update Platform homepage and footer [\#954](https://github.com/opentargets/platform/issues/954)
+* Fix tooltip overflow issue [\#946](https://github.com/opentargets/platform/issues/946)
+* Round L2G score in Genetic Associations data table [\#965](https://github.com/opentargets/platform/issues/965)
+
+Other / maintenance:
+
+* Generate XML sitemaps [\#978](https://github.com/opentargets/platform/issues/978)
+* Netlify configuration updates [\#984](https://github.com/opentargets/platform/issues/984)
+
+
+
 ## 20.02
 
 Open Targets Platform 20.02 was released on Monday 2 March 2020.

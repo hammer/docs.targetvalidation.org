@@ -22,6 +22,16 @@ description: >-
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">27-Apr-2020</td>
+      <td style="text-align:left">Major</td>
+      <td style="text-align:left">20.04 Data Release</td>
+      <td style="text-align:left">20.04</td>
+      <td style="text-align:left">20.04.3</td>
+      <td style="text-align:left">20.04.3</td>
+      <td style="text-align:left">3.17</td>
+      <td style="text-align:left">20.4.3</td>
+    </tr>
+    <tr>
       <td style="text-align:left">2-Mar-2020</td>
       <td style="text-align:left">Major</td>
       <td style="text-align:left">20.02 Data Release</td>

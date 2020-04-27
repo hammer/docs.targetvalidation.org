@@ -1,5 +1,41 @@
 # Release notes
 
+## Release 3.17 \(2020-04-27\)
+
+### Status
+
+In our second release of 2020, we integrate 8,462,444 target-disease associations covering 13,818 diseases and 27,700 targets from the following public resources:
+
+* 32,213 genetic evidence from [UniProt](http://www.uniprot.org/)
+* 113,661 genetic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
+* 1,915,083 genetic evidence from [Open Targets Genetics Portal](https://genetics.opentargets.org/)
+* 2,375 genetic evidence from [Gene2Phenotype](https://www.ebi.ac.uk/gene2phenotype)
+* 10,554 genetic evidence from the [Genomics England PanelApp](https://bioinfo.extge.co.uk/crowdsourcing/PanelApp/)
+* 163,910 genetic evidence from the [PheWAS catalog](https://phewascatalog.org/)
+* 5,043 genetic evidence from [UniProt Literature](https://www.uniprot.org/)
+* 8,216 somatic evidence from [European Variation Archive \(EVA\)](http://www.ebi.ac.uk/eva/)
+* 3,324 somatic evidence from [intOGen](https://www.intogen.org/)
+* 53,856 somatic evidence from the [Cancer Gene Census](http://cancer.sanger.ac.uk/census/)
+* 284 somatic evidence from [UniProt](http://www.uniprot.org/)
+* 400,829 drug evidence from [ChEMBL](https://www.ebi.ac.uk/chembl/)
+* 204,521 expression evidence from [Expression Atlas](https://www.ebi.ac.uk/gxa/home)
+* 13,527 affected pathway evidence from [Reactome](https://reactome.org/)
+* 74,570 affected pathway evidence from [SLAPenrich](https://saezlab.github.io/SLAPenrich/)
+* 308 affected pathway evidence from [PROGENy](https://saezlab.github.io/progeny/)
+* 408 systems biology evidence from [SysBio](https://saezlab.github.io/progeny/)
+* 1,844 CRISPR-Cas9 \(Cancer Cell Lines\) evidence from [Behan et al. 2019](https://europepmc.org/abstract/MED/30971826)
+* 566,094 mouse model evidence from [PhenoDigm](https://www.sanger.ac.uk/resources/databases/phenodigm)
+* 7,526,568 scientific literature evidence from co-occurence mining in [Europe PMC](https://europepmc.org/)
+
+New features include:
+
+* Data updates from Expression Atlas, Reactome, PheWAS Catalog, Gene2Phenotype, and PhenoDigm
+* Target safety \(non-clinical experimental toxicity\) data
+* Tractability data for modalities other than small molecule and antibody
+* Minor bug fixes
+
+For more details, check [our blog](https://blog.opentargets.org/2020/04/27/open-targets-platform-release-20-04-is-out) and the [technical notes](https://docs.targetvalidation.org/technical-pipeline/technical-notes).
+
 ## Release 3.16 \(2020-03-02\)
 
 ### Status
