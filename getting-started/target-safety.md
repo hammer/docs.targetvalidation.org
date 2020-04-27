@@ -12,13 +12,13 @@ We perform manual curation of experimental data available from the literature an
 
 Known side effects were manually curated from [Bowes et al. \(2012\)](https://europepmc.org/article/MED/23197038), [Urban et al. \(2012\)](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118098141.ch2), [Lamore et al. \(2017\)](https://europepmc.org/article/MED/28453775), [Lynch et al. \(2017\)](https://europepmc.org/article/MED/28216264), and [HeCaToS](https://www.hecatos.eu/).
 
-Affected organs or systems were mapped to the [Uber-anatomy ontology](https://www.ebi.ac.uk/ols/ontologies/uberon).
+Gene names were converted into Ensembl Gene IDs, main organs \(or systems affected\) were mapped to the [Uber-anatomy ontology](https://www.ebi.ac.uk/ols/ontologies/uberon), and source terms \(e.g. atrial fibrillation, cardiomyopathy\) were mapped to the Experimental Factor Ontology.
 
 ### **Safety risk information**
 
-Safety risk information was manually curated from two sources, namely [Force and Kolaja \(2011\)](https://europepmc.org/article/MED/21283106) and [HeCaToS](https://www.hecatos.eu/).
+Safety risk information was manually curated from two sources, namely [Force and Kolaja \(2011\)](https://europepmc.org/article/MED/21283106) and HeCaToS.
 
-Affected organs or systems were mapped to the [Uber-anatomy ontology](https://www.ebi.ac.uk/ols/ontologies/uberon).
+Gene names were converted into Ensembl Gene IDs and main organs \(or systems affected\) were mapped to the [Uber-anatomy ontology](https://www.ebi.ac.uk/ols/ontologies/uberon).
 
 ### **Non-clinical experimental toxicity** 
 
