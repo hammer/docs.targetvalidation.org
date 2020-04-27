@@ -47,7 +47,7 @@ In `Target tractability`, you will see three different categories corresponding 
 * c\) other modalities \(protein, enzyme, oligonucleotide, etc.\)
   * clinical precedence: buckets 1, 2 and 3
 
-If you want to see the underlying data that supports a tractability assessment \(e.g. ChEMBL IDs for buckets 1/2/3\), you can download the tractability data file on [our data downloads page](https://www.targetvalidation.org/downloads/data). 
+If you want to see the underlying data that supports a tractability assessment \(e.g. ChEMBL IDs for buckets 1/2/3\), you can download the tractability data file on [Data download](https://www.targetvalidation.org/downloads/data). 
 
 {% hint style="info" %}
 Want to retrieve target tractability data with the [Open Targets REST API](https://api.opentargets.io/v3/platform/docs/swagger-ui)? 
