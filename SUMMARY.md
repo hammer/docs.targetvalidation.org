@@ -57,7 +57,7 @@
 * [Why can't I find a known association?](faq/missing-association.md)
 * [How do you score the associations?](faq/association-score.md)
 * [What is the tissue specificity in your Platform?](faq/tissue-specificity.md)
-* [What is target tractability?](faq/what-is-target-tractability.md)
+* [What is target tractability or druggability?](faq/what-is-target-tractability.md)
 * [Where does the bibliography come from?](faq/bibliography.md)
 * [How do you distinguish variants from mutations?](faq/variants-or-mutations.md)
 * [What are clinical trials?](faq/clinical-trials.md)
