@@ -9,7 +9,7 @@ In the target profile page, you will see the target official symbol, its descrip
 The target safety data includes both `known safety effects` and `safety risk information` and summarises toxic effects if/when modulating a given target.  
 
 {% hint style="success" %}
-Target safety data includes:
+Target safety data is subdivided into:
 
 * Known safety effects
 * Safety risk information
@@ -17,11 +17,7 @@ Target safety data includes:
 
 This data  summarises toxic effects if/when modulating a given target and affected organs \(or systems\),reported in the sources listed above are mapped to the Uber-anatomy ontology.
 
-This data is currently available for 439 targets, such as PTGS2 and BRAF.
-{% endhint %}
-
-{% hint style="success" %}
-
+This data is currently available for 439 targets, such as [TBXA2R](https://www.targetvalidation.org/target/ENSG00000006638) and [ADORA2A](https://www.targetvalidation.org/target/ENSG00000128271).
 {% endhint %}
 
 This data  and summarises toxic effects if/when modulating a given target.  
