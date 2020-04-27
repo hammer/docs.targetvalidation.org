@@ -5,7 +5,7 @@ The assessment of target tractability \(also known as druggability\) allows you 
 Another advantage of tractability data is that it allows you to exploit targets for which there are no ligands or experimental structure, or those targets which are outside a "druggable" target family, but which have strong genetic associations.
 
 {% hint style="info" %}
-Check our FAQs for our definition of target tractability. Note that druggability, ligandability and target quality can sometimes be used interchangeably as some researchers may give similar definitions to these terms. 
+Check our FAQs for our definition of [target tractability](https://docs.targetvalidation.org/faq/what-is-target-tractability). Note that druggability, ligandability and target quality can sometimes be used interchangeably as some researchers may give similar definitions to these terms. 
 {% endhint %}
 
 Our target tractability is based on a modified version of [Approaches to target tractability assessment – a practical perspective](https://pubs.rsc.org/en/content/articlelanding/2018/md/c7md00633k#!divAbstract). We have been working with our partners to evaluate and validate existing tractability methods. Our colleagues in the ChEMBL team have developed a [tractability pipeline](https://github.com/melschneider/tractability_pipeline_v2) that performs _in silico_ tractability assessments with small molecule, antibody, and other clinical modality workflows. 

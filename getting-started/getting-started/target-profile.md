@@ -4,18 +4,16 @@ When searching for a target, in addition to the list of diseases associated with
 
 In the target profile page, you will see the target official symbol, its description and synonyms, the latter two provided by UniProt. Scroll down to see detailed information on the target \(e.g. Drugs, Protein interactions\) and the original resource of the data \(e.g. ChEMBL, OmniPath DB\):
 
-* Target safety: manual curation of [Bowes et al. \(2012\)](https://europepmc.org/article/MED/23197038), [Urban et al. \(2012\)](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118098141.ch2), [Lamore et al. \(2017\)](https://europepmc.org/article/MED/28453775), [Lynch et al. \(2017\)](https://europepmc.org/article/MED/28216264), [HeCaToS](https://www.hecatos.eu/IManager/Download/687/66208/16240/1534958/EN/16240_1534958_NCDS_D1.5_Package_of_predictive_models_of_target-pathway-ADME_activities__M21.pdf), [eTOX project](http://etoxproject.eu/index.html), and [Tox21 program](https://ntp.niehs.nih.gov/whatwestudy/tox21/index.html) 
-
-The target safety data includes both `known safety effects` and `safety risk information` and summarises toxic effects if/when modulating a given target.  
+* Target safety: manual curation of [Bowes et al. \(2012\)](https://europepmc.org/article/MED/23197038), [Urban et al. \(2012\)](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118098141.ch2), [Lamore et al. \(2017\)](https://europepmc.org/article/MED/28453775), [Lynch et al. \(2017\)](https://europepmc.org/article/MED/28216264),  [Force and Kolaja \(2011\)](https://europepmc.org/article/MED/21283106), [HeCaToS](https://www.hecatos.eu/IManager/Download/687/66208/16240/1534958/EN/16240_1534958_NCDS_D1.5_Package_of_predictive_models_of_target-pathway-ADME_activities__M21.pdf), [eTOX](http://etoxproject.eu/index.html), and [Tox21](https://ntp.niehs.nih.gov/whatwestudy/tox21/index.html) 
 
 {% hint style="success" %}
 Target safety data is subdivided into:
 
 * Known safety effects
 * Safety risk information
-* Experimental toxicology
+* Non-clinical experimental toxicology
 
-This data  summarises toxic effects if/when modulating a given target and affected organs \(or systems\),reported in the sources listed above are mapped to the Uber-anatomy ontology.
+This data summarises toxic effects if/when modulating a given target and affected organs \(or systems\) reported in the sources listed. Organs were mapped to the Uber-anatomy ontology.
 
 This data is currently available for 439 targets, such as [TBXA2R](https://www.targetvalidation.org/target/ENSG00000006638) and [ADORA2A](https://www.targetvalidation.org/target/ENSG00000128271).
 {% endhint %}

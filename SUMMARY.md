@@ -16,6 +16,7 @@
   * [Filtering associations](getting-started/getting-started/filtering-associations.md)
 * [Evidence](getting-started/evidence.md)
 * [Association score](getting-started/scoring.md)
+* [Target safety](getting-started/target-safety.md)
 * [Target tractability](getting-started/target-tractability.md)
 * [Batch search](getting-started/batch-search.md)
 * [Data download](getting-started/data-download.md)
