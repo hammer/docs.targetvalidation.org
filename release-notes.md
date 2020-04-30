@@ -140,7 +140,7 @@ New features include:
 * More data download options
 * Minor bug fixes throughout the platform
 
-For more details, check our [blog](https://blog.opentargets.org/2019/11/28/open-targets-platform-release-19-11-is-out).
+For more details, check our [blog](https://blog.opentargets.org/2019/09/24/open-targets-platform-release-19-09-is-out/).
 
 ## Release 3.13 \(2019-06-27\)
 
